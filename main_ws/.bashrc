@@ -10,7 +10,7 @@ if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]
 then
     PATH="$HOME/.local/bin:$HOME/bin:$PATH"
 fi
-export PATH="$PATH:/opt/ncbi/gbench-3.7.1/bin"
+export PATH
 
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
@@ -24,6 +24,10 @@ if [ -d ~/.bashrc.d ]; then
 	done
 fi
 
-alias htop="toolbox run htop"
 alias clear-swap="$HOME/.sys/clear_swap.sh"
+alias cswap-clear="$HOME/.sys/clear_swap.sh ; clear"
+alias helpme="cat $HOME/.sys/help.txt"
+alias sys-summary="$HOME/.sys/sysinfo.sh"
+alias sys-less="$HOME/.sys/less_sysinfo.sh"
+
 unset rc
