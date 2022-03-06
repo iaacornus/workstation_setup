@@ -1,12 +1,12 @@
 # /bin/bash
 user="iaacornus"
-host="fedora"
+host="sysmain"
 yes="y"
 no="N"
 
 if [[ $USER = $user ]] && [[ $HOSTNAME = $host ]]
 then
-	free -h | grep Swap
+	free -h | grep "Swap"
 	read -p  "Proceed in cleaning swap? [y/N] " ans
 
 	if [[ $ans = $yes ]]
@@ -25,6 +25,7 @@ then
 		sudo swapon -a
 		echo -ne "\n\r"
 		echo -e "\033[0;32m[+] /dev/swap reactivated, successfully\033[0m"
+		free -h | grep "Swap"
 	else
 		echo -e "\033[0;31mProcedure aborted by : \033[0;31m$USER@$HOSTNAME\033[0m"
 	fi
