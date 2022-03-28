@@ -1,4 +1,3 @@
-clear-swap	Clear the swap of system.
-cswap-clear	Clear the swap of system and clear the terminal outputs.
-sys-summary	Show the vital components of system.
-sys-less	Show the basic components of system.
+clear-swap                  Clear the swap of system.
+config-swap [config file]   Swap the SSH config files for the input.
+sys-info [less]             Show the basic components of system.
