@@ -35,9 +35,8 @@ fi
 PROMPT_DIRTRIM=2
 
 alias clear-swap="$HOME/.sys/clear_swap.sh"
-alias cswap-clear="$HOME/.sys/clear_swap.sh ; clear"
-alias helpme="cat $HOME/.sys/help.txt"
-alias sys-summary="$HOME/.sys/sysinfo.sh"
-alias sys-less="$HOME/.sys/less_sysinfo.sh"
+alias help-me="cat $HOME/.sys/help.txt"
+alias sys-info="$HOME/.sys/sys_info.sh"
+alias config-swap="$HOME/.sys/config_swap.sh"
 
 unset rc
