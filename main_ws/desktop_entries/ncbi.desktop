@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=NCBI Genome Workbench
+Exec=toolbox run /opt/ncbi/gbench-3.7.1/bin/gbench
+Icon=/home/iaacornus/.local/share/applications/gbench.png
+Terminal=false
