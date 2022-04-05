@@ -3,6 +3,10 @@
 if [[ ! -n $1 ]]
 then
 	echo -e "\e[1;31m> No input given.\e[0m"
+
+elif [[ $1 == *"check"* ]]
+then
+	cat $HOME/.ssh/config
 else
 	read -p "Swap config for $1 [y/N] ? " ans
 	if [[ $ans == *"N"* ]] || [[ $ans == *"n"* ]]
