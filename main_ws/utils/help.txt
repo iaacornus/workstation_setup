@@ -1,3 +1,4 @@
 clear-swap                  Clear the swap of system.
 config-swap [config file]   Swap the SSH config files for the input.
 sys-info [less]             Show the basic components of system.
+tex-gen [file name]         Generate a LaTeX article from the given template.
