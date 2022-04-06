@@ -37,5 +37,6 @@ alias clear-swap="$HOME/.sys/clear_swap.sh"
 alias help-me="cat $HOME/.sys/help.txt"
 alias sys-info="$HOME/.sys/sys_info.sh"
 alias config="$HOME/.sys/config_swap.sh"
+alias tex-gen="$HOME/.sys/latex_template_gen.sh"
 
 unset rc
