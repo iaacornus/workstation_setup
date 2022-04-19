@@ -38,5 +38,7 @@ alias help-me="bash $HOME/.sys/utils.sh help-me"
 alias sys-info="bash $HOME/.sys/utils.sh sys-info"
 alias config-check="bash $HOME/.sys/utils.sh config-check"
 alias tex-gen="bash $HOME/.sys/utils.sh tex-gen"
+alias clean-up="bash $HOME/.sys/utils.sh clean-up"
+
 
 unset rc
