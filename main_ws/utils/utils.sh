@@ -88,6 +88,17 @@ then
 	echo -e "\e[32msys-info\e[36m [less]\e[0m			Show the basic components of system."
 	echo -e "\e[32mtex-gen\e[36m [file name]\e[0m		Generate a LaTeX article from the given template."
 
+elif [[ $1 == *"clean-up"* ]]
+then
+	echo -e "\e[1;32m> Cleaning up the entire filesystem.\e[0m"
+	echo -e "\e[32m> Removing journal files:\e[0m\n$(journalctl --disk-usage)"
+
+	sudo journalctl --vacuum-time=3d
+	
+	echo -e "\e[32m> Removing $HOME/.cache:\e[0m\n$(du -sh $HOME/.cache)"
+	rm -rf $HOME/.cache/*
+
+	echo -e "\e[1;32m> Cleaning done.\e[0m"
 else
 	echo -e "\e[1;31m> User aborted. Exiting.\e[0m"
 
