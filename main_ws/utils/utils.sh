@@ -1,7 +1,6 @@
 #!/bin/bash
 #* passed
 
-
 if [[ $1 == *"sys-info"* ]]
 then
 	if [[ $2 == *"less"* ]]
@@ -38,7 +37,7 @@ then
 		echo -e "\e[1;32m> Uptime:\e[0m $(uptime)"
 		echo -e "\e[1;32m> System performance time:\e[0m $(systemd-analyze)"
 
-	fi		
+	fi
 
 elif [[ $1 == *"clear-swap"* ]]
 then
@@ -48,13 +47,13 @@ then
 
 	if [[ $ans == *"y"* ]]
 	then
-		echo -e "\e[1;32m> Cleaning swap as issued by: \e[0;36m$USER@$HOSTNAME \e[0m"
+		echo -e "\e[1;32m> Cleaning swap as issued by: \e[0m$USER@$HOSTNAME"
 		sudo swapoff -a
 
 		# sleep for 30s after turning off swap
 		sec=30
 		while [ $sec -ge 0 ]; do
-			echo -ne "\e[1;32m> /dev/swap deactivated, reactivating after:\e[0;36m" $sec"s\e[0m\033[0K\r"
+			echo -ne "\e[1;32m> /dev/swap deactivated, reactivating after:\e[0m" $sec"s\033[0K\r"
 			let "sec=sec-1"
 			sleep 1
 		done
@@ -64,7 +63,7 @@ then
 		echo -e "\e[1;32m> /dev/swap reactivated, successfully\e[0m"
 		free -h | grep "Swap"
 	else
-		echo -e "\e[1;31m> Procedure aborted by: \e[1;31m$USER\e[0m"
+		echo -e "\e[1;31m> Procedure aborted by: \e[31m$USER\e[0m"
 	fi
 
 elif [[ $1 == *"tex-gen"* ]]
@@ -74,12 +73,12 @@ then
 	template_dir="$HOME/Templates/latex_manscrpt_ppr_main_template.tex"
 
 	cp $template_dir $PWD/$2.tex
-	echo -e "\e[1;32m> Template created in: $PWD/$1.tex\e[0m"
+	echo -e "\e[1;32m> Template created in:\e[0m $PWD/$1.tex"
 
 elif [[ $1 == *"config-check"* ]]
 then
 	cat $HOME/.ssh/config
-	
+
 elif [[ $1 == *"help-me"* ]]
 then
 	#* passed
@@ -94,7 +93,7 @@ then
 	echo -e "\e[32m> Removing journal files:\e[0m\n$(journalctl --disk-usage)"
 
 	sudo journalctl --vacuum-time=3d
-	
+
 	echo -e "\e[32m> Removing $HOME/.cache:\e[0m\n$(du -sh $HOME/.cache)"
 	rm -rf $HOME/.cache/*
 
