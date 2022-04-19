@@ -33,10 +33,10 @@ export PS1="╭─╼[\[\e[1;36m\]\w\[\e[0m\]]-(\`if [ \$? = 0 ]; then echo \[\e
 
 PROMPT_DIRTRIM=2
 
-alias clear-swap="$HOME/.sys/clear_swap.sh"
-alias help-me="cat $HOME/.sys/help.txt"
-alias sys-info="$HOME/.sys/sys_info.sh"
-alias config="$HOME/.sys/config_swap.sh"
-alias tex-gen="$HOME/.sys/latex_template_gen.sh"
+alias clear-swap="bash $HOME/.sys/utils.sh clear-swap"
+alias help-me="bash $HOME/.sys/utils.sh help-me"
+alias sys-info="bash $HOME/.sys/utils.sh sys-info"
+alias config-check="bash $HOME/.sys/utils.sh config-check"
+alias tex-gen="bash $HOME/.sys/utils.sh tex-gen"
 
 unset rc
