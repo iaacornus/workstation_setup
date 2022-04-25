@@ -39,12 +39,11 @@ export PS1
 
 PROMPT_DIRTRIM=2
 
-alias clear-swap="bash $HOME/.sys/utils.sh clear-swap"
 alias help-me="bash $HOME/.sys/utils.sh help-me"
 alias sys-info="bash $HOME/.sys/utils.sh sys-info"
 alias config-check="bash $HOME/.sys/utils.sh config-check"
 alias tex-gen="bash $HOME/.sys/utils.sh tex-gen"
 alias clean-up="bash $HOME/.sys/utils.sh clean-up"
-
+alias htop="toolbox run htop"
 
 unset rc
