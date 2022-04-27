@@ -2,7 +2,7 @@
 Type=Application
 Version=1.0
 Name=Visual Studio Code
-Exec=toolbox --container devel run code
+Exec=toolbox run code
 Icon=code.png
 Terminal=false
 Keywords=vscode, code, vs
