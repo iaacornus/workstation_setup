@@ -56,7 +56,6 @@ elif [[ $1 == *"help-me"* ]]
 then
 	#* passed
 	echo -e	"\e[32mclear-swap\e[0m			Clear the swap of system."
-	echo -e "\e[32mconfig-swap\e[36m [config file]\e[0m	Swap the SSH config files for the input."
 	echo -e "\e[32msys-info\e[36m [less]\e[0m			Show the basic components of system."
 	echo -e "\e[32mtex-gen\e[36m [file name]\e[0m		Generate a LaTeX article from the given template."
 
