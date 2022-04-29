@@ -45,5 +45,12 @@ alias config-check="bash $HOME/.sys/utils.sh config-check"
 alias tex-gen="bash $HOME/.sys/utils.sh tex-gen"
 alias clean-up="bash $HOME/.sys/utils.sh clean-up"
 alias htop="toolbox run htop"
+alias status="git status"
+alias add="git add"
+alias commit="git commit"
+alias push="git push"
+alias pull="git pull"
+alias branch="git checkout"
+alias diff="git diff"
 
 unset rc
