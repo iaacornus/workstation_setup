@@ -1,0 +1,42 @@
+Bitwarden	com.bitwarden.desktop	1.32.1	stable	flathub	system
+Brave Browser	com.brave.Browser	1.37.116	stable	flathub	system
+Discord	com.discordapp.Discord	0.0.17	stable	flathub	system
+Fedora Media Writer	org.fedoraproject.MediaWriter	4.2.2	stable	fedora	system
+Fedora Platform	org.fedoraproject.Platform	35	f35	fedora	system
+Freedesktop Platform	org.freedesktop.Platform	21.08.12	21.08	flathub	system
+Mesa	org.freedesktop.Platform.GL.default	21.3.8	21.08	flathub	system
+Intel	org.freedesktop.Platform.VAAPI.Intel		21.08	flathub	system
+openh264	org.freedesktop.Platform.openh264	2.1.0	2.0	flathub	system
+GNU Image Manipulation Program	org.gimp.GIMP	2.10.30	stable	flathub	system
+Boxes	org.gnome.Boxes	42.0	stable	flathub	system
+GNOME Boxes Osinfo DB	org.gnome.Boxes.Extension.OsinfoDb	20220214	stable	flathub	system
+GNOME Calculator	org.gnome.Calculator	41.0	stable	fedora	system
+Calendar	org.gnome.Calendar	41.1	stable	fedora	system
+GNOME Characters	org.gnome.Characters	41.0	stable	fedora	system
+Connections	org.gnome.Connections	41.2	stable	fedora	system
+Contacts	org.gnome.Contacts	41.0	stable	fedora	system
+Evince	org.gnome.Evince	41.3	stable	fedora	system
+Extensions	org.gnome.Extensions	42.0	stable	flathub	system
+File Roller	org.gnome.FileRoller	3.38.0	stable	fedora	system
+GNOME Logs	org.gnome.Logs	3.34.0	stable	fedora	system
+GNOME Maps	org.gnome.Maps	41.4	stable	fedora	system
+Music	org.gnome.Music	42.0	stable	flathub	system
+Sushi	org.gnome.NautilusPreviewer	41.0	stable	fedora	system
+GNOME Application Platform version 42	org.gnome.Platform		42	flathub	system
+Screenshot	org.gnome.Screenshot	41.0	stable	fedora	system
+Weather	org.gnome.Weather	41.0	stable	fedora	system
+Disk Usage Analyzer	org.gnome.baobab	41.0	stable	fedora	system
+GNOME Clocks	org.gnome.clocks	41.0	stable	fedora	system
+Eye of GNOME	org.gnome.eog	41.1	stable	fedora	system
+GNOME Fonts	org.gnome.font-viewer	41.0	stable	fedora	system
+gedit	org.gnome.gedit	41.alpha	stable	fedora	system
+Adwaita theme	org.kde.KStyle.Adwaita		5.15-21.08	flathub	system
+KDE Application Platform	org.kde.Platform		5.15-21.08	flathub	system
+QGnomePlatform	org.kde.PlatformTheme.QGnomePlatform		5.15-21.08	flathub	system
+QtSNI	org.kde.PlatformTheme.QtSNI		5.15-21.08	flathub	system
+QGnomePlatform-decoration	org.kde.WaylandDecoration.QGnomePlatform-decoration		5.15-21.08	flathub	system
+LabPlot	org.kde.labplot2	2.8.2	stable	flathub	system
+LibreOffice	org.libreoffice.LibreOffice	7.3.2.2	stable	flathub	system
+Thunderbird	org.mozilla.Thunderbird	91.8.1	stable	flathub	system
+VLC	org.videolan.VLC	3.0.17.3	stable	flathub	system
+Zotero	org.zotero.Zotero	6.0.5	stable	flathub	system
