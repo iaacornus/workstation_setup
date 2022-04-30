@@ -52,5 +52,6 @@ alias push="git push"
 alias pull="git pull"
 alias branch="git checkout"
 alias diff="git diff"
+alias restore="git restore --staged"
 
 unset rc
