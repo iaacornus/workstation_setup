@@ -50,8 +50,10 @@ alias add="git add"
 alias commit="git commit"
 alias push="git push"
 alias pull="git pull"
-alias branch="git checkout"
+alias checkout="git checkout"
 alias diff="git diff"
 alias restore="git restore --staged"
+alias r-add="git remote add"
+alias branch="git branch"
 
 unset rc
