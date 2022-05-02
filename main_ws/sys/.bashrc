@@ -28,12 +28,7 @@ parse_git_branch() {
     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'
 }
 
-if [ $HOSTNAME = "toolbox" ]
-then
-	PS1="[\[\e[1;36m\]\w\[\e[0m\]]-[\[\e[1;32m\]\h\[\e[0m\]\$(if git rev-parse --git-dir > /dev/null 2>&1; then echo '@git:'; fi)\[\e[1;34m\]\$(parse_git_branch)\[\e[0m\]]\n❯ "
-else
-	PS1="[\[\e[1;36m\]\w\[\e[0m\]]\$(if git rev-parse --git-dir > /dev/null 2>&1; then echo '-[@git:'; fi)\[\e[1;34m\]\$(parse_git_branch)\[\e[0m\]\$(if git rev-parse --git-dir > /dev/null 2>&1; then echo ']'; fi)\n❯ "
-fi
+PS1="\[\e[1;32m\]\h\[\e[0m\]:\[\e[1;36m\]\w\[\e[0m\]\n\u\$(if git rev-parse --git-dir > /dev/null 2>&1; then echo ':'; fi)\[\e[1;34m\]\$(parse_git_branch)\[\e[0m\] ❯ "
 
 export PS1
 
@@ -50,10 +45,10 @@ alias add="git add"
 alias commit="git commit"
 alias push="git push"
 alias pull="git pull"
-alias checkout="git checkout"
+alias switch="git checkout"
+alias rebase="git checkout -b"
 alias diff="git diff"
-alias restore="git restore --staged"
-alias r-add="git remote add"
-alias branch="git branch"
+alias reset="git restore --staged"
+alias remote-add="git remote add"
 
 unset rc
