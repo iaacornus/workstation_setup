@@ -40,15 +40,19 @@ alias config-check="bash $HOME/.sys/utils.sh config-check"
 alias tex-gen="bash $HOME/.sys/utils.sh tex-gen"
 alias clean-up="bash $HOME/.sys/utils.sh clean-up"
 alias htop="toolbox run htop"
+
+# git aliases
 alias status="git status"
 alias add="git add"
 alias commit="git commit -S"
 alias push="git push"
 alias pull="git pull"
-alias switch="git checkout"
-alias rebase="git checkout -b"
+alias rebase="git checkout"
+alias cbranch="git checkout -b"
 alias diff="git diff"
 alias reset="git restore --staged"
-alias remote-add="git remote add"
+alias remote="git remote add"
+alias restore="git restore"
+alias lbranch="git branch"
 
 unset rc
