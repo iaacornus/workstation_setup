@@ -1,20 +1,24 @@
 # Silverblue post install
 
+You can get the silverblue cheatsheet of Fedora's Team Silverblue [here](https://docs.fedoraproject.org/en-US/fedora-silverblue/_attachments/silverblue-cheatsheet.pdf)
+
 ## Update the system
 
-After the system is up, Silverblue, or perhaps by Gnome software, automatically download updates of your system, so running `rpm-ostree update` after boot would only give `stderr`. You can wait and reboot later, usually Gnome would give notifications after the update is done. Although you can recheck it with:
+After the system is up, Silverblue, or perhaps by Gnome software, automatically download updates of your system, so running `rpm-ostree update` after boot would only give `stderr`. You can wait and reboot later, usually Gnome would give notifications after the update is done. Although you can check the packages with:
 
 ```bash
 rpm-ostree upgrade
 ```
 
-Update your preinstalled flatpaks:
+If you just want a summary of update, such as the added, removed and upgraded do: `rpm-ostree upgrade --check`
+
+Update your preinstalled flatpaks, this may also not be necessary, since this is automatically updated by Gnome software center, but if you want to be sure, do:
 
 ```bash
 flatpak update
 ```
 
-And reboot after to apply the updates
+And reboot after to apply the updates (there is also no problem to do this in GUI)
 
 ```bash
 systemctl reboot
@@ -25,8 +29,7 @@ systemctl reboot
 If you have an external drive you can mount it into a folder and add it to `/etc/fstab`. 
 
 ```bash
-mkdir Storage # assuming you are in ~
-sudo mount /dev/sdX Storage
+sudo mount /dev/sdX <dir>
 ```
 
 And you can add it into `/etc/fstab` using `sudo nano /etc/fstab`. List the drives and their `UUID` with `lsblk -f` and add it to `/etc/fstab` with format of:
@@ -61,7 +64,7 @@ This can also be installed in toolbox, create a `toolbox create` and `toolbox en
 ```bash
 toolbox create
 toolbox enter
-sudo dnf update # you can add -y flag
+sudo dnf update # you can add -y (assume yes) flag, although I don't use it since I want to see my update contents
 
 # import the keys
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
@@ -74,7 +77,7 @@ dnf check-update
 sudo dnf install code
 ```
 
-You can also create desktop entry for VSCode in `$HOME/.local/share/applications`. You can replace `Version=1.0`, although it doesn't really matter, if ever you named your toolbox container replace `Exec` with `Exec=toolbox run --container <name of your container> code`.
+You can also create desktop entry for VSCode in `$HOME/.local/share/applications`. You can replace `Version=1.0` (get the Version with `dnf list all | grep "code"`), although it doesn't really matter, if ever you named your toolbox container replace `Exec` with `Exec=toolbox run --container <name of your container> code`, refer to [toolbox manual](https://man.archlinux.org/man/community/toolbox/toolbox.1.en)
 
 ```
 [Desktop Entry]
@@ -97,11 +100,13 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 
 ### RPMfusion and other utilities
 
-Fedora disable the automatic install of `openh264` by default:
+Fedora disable the automatic install of `openh264` by default, for this reason:
 
 > Upstream Firefox versions download and install the OpenH264 plugin by default automatically. Due to it's binary nature, Fedora disables this automatic download. 
 
-You can install it `mozilla-openh264` and `gstreamer1-plugin-openh264` to support codecs in Firefox. ***OMIT PAPIRUS-ICON-THEME or GNOME-TWEAKS if you don't want to install papirus or tweaks. And only install the repository if you plan to install: nvidia drivers and ffmpeg-libs**
+You can install it `mozilla-openh264` and `gstreamer1-plugin-openh264` to support codecs in Firefox. And do `CTRL` + `Shift` + `A` in Firefox to go into the add ons manager > Plugins, and enable the OpenH264* plugins.
+
+**OMIT PAPIRUS-ICON-THEME or GNOME-TWEAKS if you don't want to install papirus or tweaks. And only install the repository if you plan to install: nvidia drivers (non free) and ffmpeg-libs (free)**
 
 ```bash
 rpm-ostree install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm gnome-tweaks papirus-icon-theme mozilla-openh264 gstreamer1-plugin-openh264
@@ -112,7 +117,6 @@ Reboot again `systemctl reboot`.
 ## Install the apps from repo
 
 Every boot, the system automatically runs  `rpm-ostree upgrade --check`, so you don't need to run it again.
-
 
 ### Nvidia install
 
@@ -128,7 +132,7 @@ Otherwise, you don't have nvidia card, and don't proceed here. If you have nvidi
 sudo rpm-ostree install akmod-nvidia
 ```
 
-`sudo` was used since there are scripts needed to be run by the installation, such as kernel recompilation, be sure to wait at least 5 minutes before reboot. And check your nvidia install with `modinfo -F version nvidia`, it should give the version number of your driver such as `510.60.02`, not `stderr`.
+`sudo` was used since there are scripts needed to be run by the installation, such as kernel recompilation, be sure to wait at least 5 minutes before reboot. And after reboot, check your nvidia install with `modinfo -F version nvidia`, it should give the version number of your driver such as `510.60.02`, not `stderr`.
 
 ### Other apps
 
