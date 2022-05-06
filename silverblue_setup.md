@@ -101,7 +101,7 @@ Fedora disable the automatic install of `openh264` by default:
 
 > Upstream Firefox versions download and install the OpenH264 plugin by default automatically. Due to it's binary nature, Fedora disables this automatic download. 
 
-You can install it `mozilla-openh264` and `gstreamer1-plugin-openh264` to support codecs in Firefox. ***OMIT PAPIRUS-ICON-THEME or GNOME-TWEAKS if you don't want to install papirus or tweaks**
+You can install it `mozilla-openh264` and `gstreamer1-plugin-openh264` to support codecs in Firefox. ***OMIT PAPIRUS-ICON-THEME or GNOME-TWEAKS if you don't want to install papirus or tweaks. And only install the repository if you plan to install: nvidia drivers and ffmpeg-libs**
 
 ```bash
 rpm-ostree install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm gnome-tweaks papirus-icon-theme mozilla-openh264 gstreamer1-plugin-openh264
@@ -113,15 +113,22 @@ Reboot again `systemctl reboot`.
 
 Every boot, the system automatically runs  `rpm-ostree upgrade --check`, so you don't need to run it again.
 
+
 ### Nvidia install
 
-`sudo` was used since there are scripts needed to be run by the installation, such as kernel recompilation, be sure to wait at least 5 minutes before reboot.
+Check first if you have nvidia card with `/sbin/lspci | grep -e 3D`, it would show you something like this:
+
+```
+02:00.0 3D controller: NVIDIA Corporation GP108M [GeForce MX230] (rev a1)
+```
+
+Otherwise, you don't have nvidia card, and don't proceed here. If you have nvidia card, install it, assuming you already installed rpmfusion repo nonfree
 
 ```bash
 sudo rpm-ostree install akmod-nvidia
 ```
 
-And check your nvidia install with `modinfo -F version nvidia`, it should give the version number of your driver such as `510.60.02`, not `stderr`.
+`sudo` was used since there are scripts needed to be run by the installation, such as kernel recompilation, be sure to wait at least 5 minutes before reboot. And check your nvidia install with `modinfo -F version nvidia`, it should give the version number of your driver such as `510.60.02`, not `stderr`.
 
 ### Other apps
 
