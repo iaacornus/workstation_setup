@@ -150,7 +150,7 @@ These are the apps that I use, and can recommend:
 2. Zotera for citation manager `flatpak install flathub org.zotero.Zotero`
 3. Libreoffice for office suite `flatpak install flathub org.libreoffice.LibreOffice`
 4. GIMP for photoediting `flatpak install flathub org.gimp.GIMP`
-5. Thunderbird for email client `flatpak install flathub org.gimp.GIMP`
+5. Thunderbird for email client `flatpak install flathub org.mozilla.Thunderbird`
 6. Gnome Music for music player `flatpak install flathub org.gnome.Music`
 7. Gnome boxes for virtualization `flatpak install flathub org.gnome.Boxes`
 8. Get Things Gnome (GTG) for productivity `flatpak install flathub org.gnome.GTG`
