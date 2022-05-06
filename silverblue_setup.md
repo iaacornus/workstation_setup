@@ -2,7 +2,7 @@
 
 ## Update the system
 
-After the system is up, Silverblue, or perhaps Gnome, automatically download updates of your system, so running `rpm-ostree update` after boot would only give `stderr`. You can wait and reboot later, usually Gnome would give notifications after the update is done. Although you can recheck it with:
+After the system is up, Silverblue, or perhaps by Gnome software, automatically download updates of your system, so running `rpm-ostree update` after boot would only give `stderr`. You can wait and reboot later, usually Gnome would give notifications after the update is done. Although you can recheck it with:
 
 ```bash
 rpm-ostree upgrade
@@ -160,11 +160,48 @@ These are the apps that I use, and can recommend:
 16. Bitwarden as password manager `flatpak install flathub com.bitwarden.desktop`
 17. TexStudio for latex `flatpak install flathub org.texstudio.TeXstudio`
 
+### Flatpak modifications
+
+#### Theming
+
+Since flatpaks are sandboxed, you can either install the flatpak version of GTK theme you are using as flatpak as well, thus giving applications the theme, you can search it using `flatpak search .gtk`. Or override the `$HOME/.themes/` dir, with `sudo flatpak override --filesystem=~/.themes`.
+
+#### Permissions
+
+Other reddit users suggested, such as [u/IceOleg](https://www.reddit.com/user/IceOleg/), to override the `home` and `host` dir as well with:
+
+```bash
+flatpak override --user --nofilesystem=home
+flatpak override --user --nofilesystem=host
+```
+
+Which can be given back to some applications that need it later on. [Flatseal](https://github.com/tchx84/flatseal) is also a good utility for managing permissions as [u/GunnarRoxen](https://www.reddit.com/user/GunnarRoxen/) suggested, can be installed with `flatpak install flathub com.github.tchx84.Flatseal`
+
+## System optimization
+
+You can also mask `NetworkManager-wait-online.service`. It is simply a ["service simply waits, doing absolutely nothing, until the network is connected, and when this happens, it changes its state so that other services that depend on the network can be launched to start doing their thing."](https://askubuntu.com/questions/1018576/what-does-networkmanager-wait-online-service-do/1133545#1133545)
+
+> In some multi-user environments part of the boot-up process can come from the network. For this case systemd defaults to waiting for the network to come on-line before certain steps are taken.
+
+Masking it can decrease the boot time of at least 15 - 20s: `sudo systemctl disable NetworkManager-wait-online.service; sudo systemctl mask NetworkManager-wait-online.service`.
+
+There are also some preinstalled flatpak that you can safely remove. You can completely remove the flatpak with `flatpak uninstall --system --delete-data <app>`. Here are some you can remove:
+
+1. Calculator `org.gnome.Calculator`
+2. Calendar `org.gnome.Calendar`
+3. Connections `org.gnome.Connections`
+4. Contacts `org.gnome.Contacts`
+5. PDF reader `org.gnome.Evince` if you plan to install another pdf reader
+6. Logs `org.gnome.Logs`
+7. Maps `org.gnome.Maps`
+8. Weather apps `org.gnome.Weather`
+9. Disk usage analyzer `org.gnome.baobab`
+
 ## My system setup
 
-### Config files
+This is the end of the general post install guide, however if you are somehow interested in my user setup, you can proceed further, this includes my htop, `.bashrc` setup, git, extensions for firefox, vscode, and ssh as well as toolbox setup. There are a lot of user setup I do to my system. You can also get some in this one. Some of the configs come from my [repo](https://github.com/iaacornus/workstation_setup). 
 
-There are a lot of user setup I do to my system. You can also get some in this one. Some of the configs come from my [repo](https://github.com/iaacornus/workstation_setup)
+### Config files
 
 ```bash
 git clone https://github.com/iaacornus/workstation_setup
@@ -236,10 +273,6 @@ Some of the wallpapers are [here](https://github.com/iaacornus/workstation_setup
 
 ![default_fedora_wallpaper](https://user-images.githubusercontent.com/96870156/167064921-101e2af7-1386-464d-b22d-840803a65136.png)
 
-### System optimization
-
-You can also mask `NetworkManager-wait-online.service` to decrease boot time with: `sudo systemctl disable NetworkManager-wait-online.service; sudo systemctl mask NetworkManager-wait-online.service`.
-
 ### VSCode extensions
 
 **Display**: Better Comments, Fluent Icons (product icon theme), Material Icon Theme (for icon theme), One Dark Pro (for colorscheme)
@@ -290,17 +323,3 @@ Host *.trycloudflare.com
 ### Firefox extensions
 
 [HTTPS everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/), [No Script](https://addons.mozilla.org/en-US/firefox/addon/noscript/), [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin), [Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/), [Facebook Container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/), and [AdBlocker Ultimate](https://addons.mozilla.org/en-US/firefox/addon/adblocker-ultimate/).
-
-### Some preinstalled flatpak apps you can remove.
-
-You can completely remove the flatpak with `flatpak uninstall --system --delete-data <app>`. Here are some you can remove:
-
-1. Calculator `org.gnome.Calculator`
-2. Calendar `org.gnome.Calendar`
-3. Connections `org.gnome.Connections`
-4. Contacts `org.gnome.Contacts`
-5. PDF reader `org.gnome.Evince` if you plan to install another pdf reader
-6. Logs `org.gnome.Logs`
-7. Maps `org.gnome.Maps`
-8. Weather apps `org.gnome.Weather`
-9. Disk usage analyzer `org.gnome.baobab`
