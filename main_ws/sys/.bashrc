@@ -54,5 +54,7 @@ alias reset="git restore --staged"
 alias remote="git remote add"
 alias restore="git restore"
 alias lbranch="git branch"
+alias clone="git clone"
+alias log="git log"
 
 unset rc
