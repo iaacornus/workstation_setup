@@ -18,7 +18,7 @@ Update your preinstalled flatpaks, this may also not be necessary, since this is
 flatpak update
 ```
 
-And reboot after to apply the updates (there is also no problem to do this in GUI)
+And reboot after to apply the updates (there is also no problem to do this in GUI)rpm-ostree upgrade --check
 
 ```bash
 systemctl reboot
@@ -26,13 +26,13 @@ systemctl reboot
 
 ## Mount external drives and perhaps add it to `/etc/fstab`
 
-If you have an external drive you can mount it into a folder and add it to `/etc/fstab`. 
+If you have an external drive you can mount it into a folder and add it to `/etc/fstab` for automount in boot.
 
 ```bash
 sudo mount /dev/sdX <dir>
 ```
 
-And you can add it into `/etc/fstab` using `sudo nano /etc/fstab`. List the drives and their `UUID` with `lsblk -f` and add it to `/etc/fstab` with format of:
+And you can add it into `/etc/fstab` using `sudo nano /etc/fstab` or `vi` if you want. List the drives and their `UUID` with `lsblk -f` and add it to `/etc/fstab` with format of:
 
 ```
 # Ignore the comments, this is and example to fstab entry, don't copy and paste this, your system won't boot
@@ -43,7 +43,7 @@ And you can add it into `/etc/fstab` using `sudo nano /etc/fstab`. List the driv
 # UUID=<your device uuid>                   <mount point>               <filesystem format> <options> <dump>  <fsck>
 ```
 
-Here I suggest using `defaults` for options, 0 for `dump` and `fsck` to disable the checking, refer to [archwiki - fstab](https://wiki.archlinux.org/title/fstab). Check `/etc/fstab` with `cat /etc/fstab`. Be sure to input the correct UUID and options, other wise your system won't boot.
+Here I suggest using `defaults` for options, 0 for `dump` and `fsck` to disable the checking (increasing the boot time, and avoiding potential errors, and since you only do checking if the drive is part of the OS filesystem), refer to [archwiki - fstab](https://wiki.archlinux.org/title/fstab). Check `/etc/fstab` with `cat /etc/fstab`. Be sure to input the correct UUID and options, other wise your system won't boot.
 
 ## Install rpm-fusion and other repos you need
 
@@ -55,6 +55,12 @@ VSCode will be installed in the base system since it does not work correctly in 
 
 ```bash
 sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
+```
+
+But you can also do:
+
+```bash
+echo -e [code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" | sudo tee -a /etc/yum.repos.d/vscode.repo
 ```
 
 #### ENCOURAGED METHOD
@@ -87,7 +93,7 @@ Name=Visual Studio Code
 Exec=toolbox run code
 Icon=code.png
 Terminal=false
-Keywords=vscode, code, vs
+Keywords=vscode, code, vs # you can add more if you like
 ```
 
 You can use `echo` for this one `echo -e "[Desktop Entry]\nType=Application\nVersion=1.0\nName=Visual Studio Code\nExec=toolbox run code\nIcon=code.png\nTerminal=false\nKeywords=vscode, code, vs" > $HOME/.local/share/applications/code.desktop`.
@@ -136,7 +142,7 @@ sudo rpm-ostree install akmod-nvidia
 
 ### Other apps
 
-**THIS IS THE APPS THAT I USE, OMIT THE THINGS YOU DON'T NEED** Other utilities.
+**THIS IS THE APPS THAT I USE, OMIT THE THINGS YOU DON'T NEED**
 
 ```bash
 rpm-ostree install ffmpeg-libs code
@@ -206,6 +212,8 @@ There are also some preinstalled flatpak that you can safely remove. You can com
 This is the end of the general post install guide, however if you are somehow interested in my user setup, you can proceed further, this includes my htop, `.bashrc` setup, git, extensions for firefox, vscode, and ssh as well as toolbox setup. There are a lot of user setup I do to my system. You can also get some in this one. Some of the configs come from my [repo](https://github.com/iaacornus/workstation_setup). 
 
 ### Config files
+
+If try to keep my setup away from doing a lot of modifications, so it would be as close as to vanilla Gnome as possible, to avoid potential breaking every update, e.g. From Gnome 3.3* to Gnome 40, broke a lot of extensions as well as theming, so do Gnome 41 -> Gnome 42, although dev teams manage to keep up with the changes, it is still an inconvience for me, so I only modify some apps.
 
 ```bash
 git clone https://github.com/iaacornus/workstation_setup
