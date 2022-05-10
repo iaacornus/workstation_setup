@@ -45,16 +45,38 @@ alias htop="toolbox run htop"
 alias status="git status"
 alias add="git add"
 alias commit="git commit -S"
-alias push="git push"
+alias push="git push origin"
 alias pull="git pull"
-alias rebase="git checkout"
-alias cbranch="git checkout -b"
+alias switch="git checkout"
 alias diff="git diff"
 alias reset="git restore --staged"
 alias remote="git remote add"
 alias restore="git restore"
-alias lbranch="git branch"
+alias reset="git reset"
+alias branch="git branch"
 alias clone="git clone"
 alias log="git log"
+alias ginit="git init"
+alias fetch="git fetch"
+alias grm="git rm"
+alias merge="git merge"
+alias stash="git stash"
+alias revert="git revert"
 
 unset rc
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/var/home/iaacornus/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/var/home/iaacornus/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/var/home/iaacornus/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/var/home/iaacornus/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
