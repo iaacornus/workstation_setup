@@ -316,19 +316,10 @@ git config --global commit.gpgsign true
 
 Install [`cloudflared`](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/installation/) in toolbox:
 
-If you installed VSCode in toolbox, do:
-
 ```bash
 toolbox enter
 wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-x86_64.rpm
 sudo dnf install cloudflared-linux-x86_64.rpm
-```
-
-Else:
-
-```bash
-wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-x86_64.rpm
-rpm-ostree install cloudflared-linux-x86_64.rpm
 ```
 
 And add this to your `.ssh/config`:
