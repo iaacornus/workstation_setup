@@ -314,13 +314,15 @@ git config --global commit.gpgsign true
 
 ### SSH config for google colab
 
-Install [`cloudflared`](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/installation/) in toolbox:
+Installing [`cloudflared`](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/installation/) in to the base system image, or layering it, is not possible due to the permissions on `/usr`, so it could only be installed inside toolbox, and therefore it won't work with VSCode installed in the base image.
 
 ```bash
 toolbox enter
 wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-x86_64.rpm
 sudo dnf install cloudflared-linux-x86_64.rpm
 ```
+
+[Although you can try and do some solutions, such as symlinking different install paths to `/usr/bin`. This might need some work around to work with `cloudflared`, but this gives an idea for solution.](https://github.com/mullvad/mullvadvpn-app/issues/1570#issuecomment-602255731)
 
 And add this to your `.ssh/config`:
 
@@ -329,9 +331,6 @@ Host *.trycloudflare.com
     HostName %h
     User root
     Port 22
-    # for toolbox
-    ProxyCommand toolbox run /usr/local/bin/cloudflared access ssh --hostname %h
-    # for rpm package layer
     ProxyCommand /usr/local/bin/cloudflared access ssh --hostname %h
 ```
 
