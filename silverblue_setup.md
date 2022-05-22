@@ -135,10 +135,10 @@ Check first if you have nvidia card with `/sbin/lspci | grep -e 3D`, it would sh
 Otherwise, you don't have nvidia card, and don't proceed here. If you have nvidia card, install it, assuming you already installed rpmfusion repo nonfree
 
 ```bash
-sudo rpm-ostree install akmod-nvidia
+rpm-ostree install akmod-nvidia
 ```
 
-`sudo` was used since there are scripts needed to be run by the installation, such as kernel recompilation, be sure to wait at least 5 minutes before reboot. And after reboot, check your nvidia install with `modinfo -F version nvidia`, it should give the version number of your driver such as `510.60.02`, not `stderr`.
+And after reboot, check your nvidia install with `modinfo -F version nvidia`, it should give the version number of your driver such as `510.60.02`, not `stderr`.
 
 ### Other apps
 
