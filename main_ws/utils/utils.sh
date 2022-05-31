@@ -14,8 +14,6 @@ then
 		echo -e "\e[1;32m> Number of running services from systemctl:\e[0m $(systemctl list-units --type=service --state=running | grep listed)"
 		echo -e "\e[1;32m> Number of failed services from systemd:\e[0m $(systemctl --failed | grep listed)"
 		echo -e "\e[1;32m> Uptime:\e[0m $(uptime)"
-
-
 	else
 		echo -e "\e[1;32m> Memory and Swap usage:\e[0m"
 		free -h
@@ -47,17 +45,6 @@ then
 
 	cp $template_dir $PWD/$2.tex
 	echo -e "\e[1;32m> Template created in:\e[0m $PWD/$1.tex"
-
-elif [[ $1 == *"config-check"* ]]
-then
-	cat $HOME/.ssh/config
-
-elif [[ $1 == *"help-me"* ]]
-then
-	#* passed
-	echo -e	"\e[32mclear-swap\e[0m			Clear the swap of system."
-	echo -e "\e[32msys-info\e[36m [less]\e[0m			Show the basic components of system."
-	echo -e "\e[32mtex-gen\e[36m [file name]\e[0m		Generate a LaTeX article from the given template."
 
 elif [[ $1 == *"clean-up"* ]]
 then
