@@ -34,9 +34,7 @@ export PS1
 
 PROMPT_DIRTRIM=2
 
-alias help-me="bash $HOME/.sys/utils.sh help-me"
 alias sys-info="bash $HOME/.sys/utils.sh sys-info"
-alias config-check="bash $HOME/.sys/utils.sh config-check"
 alias tex-gen="bash $HOME/.sys/utils.sh tex-gen"
 alias clean-up="bash $HOME/.sys/utils.sh clean-up"
 alias htop="toolbox run htop"
@@ -64,19 +62,3 @@ alias stash="git stash"
 alias revert="git revert"
 
 unset rc
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/var/home/iaacornus/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/var/home/iaacornus/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/var/home/iaacornus/miniconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/var/home/iaacornus/miniconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
