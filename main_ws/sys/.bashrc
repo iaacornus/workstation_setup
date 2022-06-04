@@ -60,5 +60,8 @@ alias grm="git rm"
 alias merge="git merge"
 alias stash="git stash"
 alias revert="git revert"
+alias track="git lfs track"
+
+alias dev-env="toolbox enter fedora-toolbox-35"
 
 unset rc
