@@ -62,6 +62,7 @@ alias stash="git stash"
 alias revert="git revert"
 alias track="git lfs track"
 alias log-graph="git log --all --graph --color --pretty=format:'%<(7,trunc)%h%C(white)%<(15,trunc)- %ar -%C(reset)%s%C(white)%C(reset)'"
+alias repo-clean="toolbox -c fedora-toolbox-35 run java -jar $HOME/.sys/bfg.jar"
 
 alias dev-env="toolbox enter fedora-toolbox-35"
 
