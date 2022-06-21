@@ -1,0 +1,7 @@
+# addition to other entries
+127.0.0.1	dc.services.visualstudio.com
+127.0.0.1	dc.trafficmanager.net
+127.0.0.1	vortex.data.microsoft.com
+127.0.0.1	weu-breeziest-in.cloudapp.net
+127.0.0.1	mobile.events.data.microsoft.com
+# See hosts(5) for proper format and other examples:
