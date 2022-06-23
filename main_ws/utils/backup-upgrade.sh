@@ -13,6 +13,12 @@ if [ ! -d $HOME/Storage/backup_prev ]; then
 	mkdir $HOME/Storage/backup_prev
 fi
 
+if [ ! -d $HOME/Storage/backup/gpg ]; then
+    echo -e "\033[31m!>> Backup location: \033[0m$HOME/Storage/backup/gpg\033[31m does not exists!\033[0m"
+    echo -e ">>> Creating backup location at \033[36m$HOME/Storage/backup/gpg\033[0m"
+    mkdir $HOME/Storage/backup/gpg
+fi
+
 if [ -d $HOME/Storage/backup_prev/Documents ]; then
 	echo -e ">>> Removing the previous backup of \033[36m$HOME/Documents\033[0min \033[36m$HOME/Storage/backup_prev/Documents\033[0m"
 	rm -rf -v $HOME/Storage/backup_prev/Documents
@@ -39,6 +45,22 @@ echo -e ">>> Copying \033[36m$HOME/Documents\033[0m to \033[36m$HOME/Storage/bac
 cp -r -v $HOME/Development $HOME/Storage/backup/Development
 
 echo -e "\033[1;32m[+] Successfully backing up the important files\033[0m"
+
+echo -e "\033[1m[>] Backing up the GPG keys in: \033[36m$HOME/Storage/backup/gpg\033[0m"
+echo -e ">>> Creating tarball of \033[36m$HOME/.gnupg\033[0m in \033[36m$HOME/Storage/backup/gpg\033[0m"
+tar -cvpzf $HOME/Storage/backup/gpg/gnupg.tar.gz $HOME/.gnupg
+
+echo -e ">>> Exporting public keys in \033[36m$HOME/Storage/backup/gpg\033[0m"
+gpg --export --output $HOME/Storage/backup/gpg/public_keys
+
+echo -e ">>> Exporting secret keys in \033[36m$HOME/Storage/backup/gpg\033[0m"
+gpg --export-secret-keys --output $HOME/Storage/backup/gpg/secret_keys
+
+echo -e ">>> Exporting trustdb in \033[36m$HOME/Storage/backup/gpg\033[0m"
+gpg --export-ownertrust > $HOME/Storage/backup/gpg/trustdb
+
+echo -e "\033[1;32m[+] Successfully exported the GPG keys\033[0m"
+
 echo -e "\033[1m[>] Executing full system upgrade\033[0m"
 echo -e ">>> Updating base system image via: \033[36mrpm-ostree upgrade\033[0m"
 rpm-ostree upgrade
