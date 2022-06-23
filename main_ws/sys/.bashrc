@@ -68,3 +68,8 @@ alias dev-env="toolbox enter fedora-toolbox-35"
 
 unset rc
 . "$HOME/.cargo/env"
+
+ls $HOME/.sys/toys |sort -R |tail -$N |while read file; do
+	$HOME/.sys/toys/./$file
+	break
+done
