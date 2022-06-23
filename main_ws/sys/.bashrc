@@ -38,6 +38,7 @@ alias sys-info="bash $HOME/.sys/utils.sh sys-info"
 alias tex-gen="bash $HOME/.sys/utils.sh tex-gen"
 alias clean-up="bash $HOME/.sys/utils.sh clean-up"
 alias htop="toolbox run htop"
+alias upgrade="$HOME/.sys/./backup-upgrade.sh"
 
 # git aliases
 alias status="git status"
