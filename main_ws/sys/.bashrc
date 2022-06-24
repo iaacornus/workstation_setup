@@ -35,9 +35,9 @@ export PS1
 
 PROMPT_DIRTRIM=2
 
-alias sys-info="bash $HOME/.sys/utils.sh sys-info"
-alias tex-gen="bash $HOME/.sys/utils.sh tex-gen"
-alias clean-up="bash $HOME/.sys/utils.sh clean-up"
+alias sys-info="$HOME/.sys/./utils.sh sys-info"
+alias tex-gen="$HOME/.sys/./utils.sh tex-gen"
+alias clean-up="$HOME/.sys/./utils.sh clean-up"
 alias htop="toolbox run htop"
 alias upgrade="$HOME/.sys/./backup-upgrade.sh"
 
@@ -62,11 +62,12 @@ alias grm="git rm"
 alias merge="git merge"
 alias stash="git stash"
 alias revert="git revert"
-alias track="git lfs track"
 alias log-graph="git log --all --graph --color --pretty=format:'%<(7,trunc)%h%C(white)%<(15,trunc)- %ar -%C(reset)%s%C(white)%C(reset)'"
 alias repo-clean="toolbox -c fedora-toolbox-35 run java -jar $HOME/.sys/bfg.jar"
 
 alias dev-env="toolbox enter fedora-toolbox-35"
+
+alias clear="$HOME/.sys/./clear.sh"
 
 unset rc
 . "$HOME/.cargo/env"
