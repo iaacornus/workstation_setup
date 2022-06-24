@@ -28,7 +28,7 @@ parse_git_branch() {
     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'
 }
 
-PS1="\[\e[1;32m\]\h\[\e[0m\]:\[\e[1;36m\]\w\[\e[0m\]\n\u\$(if git rev-parse --git-dir > /dev/null 2>&1; then echo ':'; fi)\[\e[1;34m\]\$(parse_git_branch)\[\e[0m\] ❯ "
+PS1="╭╼ \[\e[1;32m\]\h\[\e[0m\] in [\[\e[1;36m\]\w\[\e[0m\]]\n╰─ \`if [ \$? = 0 ]; then echo \[\e[0m\]; else echo \[\e[31m\]; fi\`\u\[\e[0m\]\$(if git rev-parse --git-dir > /dev/null 2>&1; then echo '@\e[1m\]git:\e[0m\]('; fi)\[\e[1;34m\]\$(parse_git_branch)\[\e[0m\]\$(if git rev-parse --git-dir > /dev/null 2>&1; then echo ')'; fi) ❯ "
 
 export PS1
 
@@ -74,4 +74,3 @@ ls $HOME/.sys/toys | sort -R | tail -$N | while read file; do
 	$HOME/.sys/toys/./$file
 	break
 done
-
