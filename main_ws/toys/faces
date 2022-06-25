@@ -38,11 +38,11 @@ initializeANSI
 
 cat << EOF
 
- ${white}╔══════════════════════════════════════════════════════════════════╗
- ${white}║ ${redf}  ▄█ █▄${reset}    ${greenf}  ▄█ █▄${reset}    ${yellowf}  ▄█ █▄${reset}    ${bluef}  ▄█ █▄${reset}    ${purplef}  ▄█ █▄${reset}    ${cyanf}  ▄█ █▄${reset}   ${white}║
- ${white}║ ${boldon}${redfbright}▄█◄► ◄►█▄${reset}  ${boldon}${greenfbright}▄█◄► ◄►█▄${reset}  ${boldon}${yellowfbright}▄█◄► ◄►█▄${reset}  ${boldon}${bluefbright}▄█◄► ◄►█▄${reset}  ${boldon}${purplefbright}▄█◄► ◄►█▄${reset}  ${boldon}${cyanfbright}▄█◄► ◄►█▄${reset} ${white}║
- ${white}║ ${boldon}${redfbright}▀█    █▀${reset}  ${boldon}${greenfbright}▀█    █▀${reset}  ${boldon}${yellowfbright}▀█    █▀${reset}  ${boldon}${bluefbright}▀█    █▀${reset}  ${boldon}${purplefbright}▀█    █▀${reset}  ${boldon}${cyanfbright}▀█    █▀${reset} ${white}║
- ${white}║ ${redf}  ▀█ █▀${reset}    ${greenf}  ▀█ █▀${reset}    ${yellowf}  ▀█ █▀${reset}    ${bluef}  ▀█ █▀${reset}    ${purplef}  ▀█ █▀${reset}    ${cyanf}  ▀█ █▀${reset}   ${white}║
- ${white}╚══════════════════════════════════════════════════════════════════╝
+  ${white}╔══════════════════════════════════════════════════════════════════╗
+  ${white}║ ${redf}  ▄█ █▄${reset}    ${greenf}  ▄█ █▄${reset}    ${yellowf}  ▄█ █▄${reset}    ${bluef}  ▄█ █▄${reset}    ${purplef}  ▄█ █▄${reset}    ${cyanf}  ▄█ █▄${reset}   ${white}║
+  ${white}║ ${boldon}${redfbright}▄█◄► ◄►█▄${reset}  ${boldon}${greenfbright}▄█◄► ◄►█▄${reset}  ${boldon}${yellowfbright}▄█◄► ◄►█▄${reset}  ${boldon}${bluefbright}▄█◄► ◄►█▄${reset}  ${boldon}${purplefbright}▄█◄► ◄►█▄${reset}  ${boldon}${cyanfbright}▄█◄► ◄►█▄${reset} ${white}║
+  ${white}║ ${boldon}${redfbright}▀█    █▀${reset}  ${boldon}${greenfbright}▀█    █▀${reset}  ${boldon}${yellowfbright}▀█    █▀${reset}  ${boldon}${bluefbright}▀█    █▀${reset}  ${boldon}${purplefbright}▀█    █▀${reset}  ${boldon}${cyanfbright}▀█    █▀${reset} ${white}║
+  ${white}║ ${redf}  ▀█ █▀${reset}    ${greenf}  ▀█ █▀${reset}    ${yellowf}  ▀█ █▀${reset}    ${bluef}  ▀█ █▀${reset}    ${purplef}  ▀█ █▀${reset}    ${cyanf}  ▀█ █▀${reset}   ${white}║
+  ${white}╚══════════════════════════════════════════════════════════════════╝
 
 EOF
