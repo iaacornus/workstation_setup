@@ -40,5 +40,4 @@ cat << EOF
   ${reset}${redf}██████████ ${reset}${greenf} ██████████ ${reset}${yellowf} ██████████ ${bluef} ██████████ ${purplef} ██████████ ${reset}${cyanf} ██████████${reset}
   ${reset}${redf}  ██  ██   ${reset}${greenf}   ██  ██   ${reset}${yellowf}   ██  ██   ${reset}${bluef}   ██  ██   ${reset}${purplef}   ██  ██   ${reset}${cyanf}   ██  ██   ${reset}
   ${reset}
-
 EOF
