@@ -25,15 +25,15 @@ initializeANSI
 
 cat << EOF
 
-    ${boldon}${blackf} ██████${reset}
-   ${boldon}${blackf}██${reset}██${reset}${bluef}██${reset}${boldon}${blackf}██${reset}${bluef}██${reset}
-   ${boldon}${blackf}██${reset}██${bluef}██${reset}${boldon}${blackf}██${reset}${bluef}██${reset}
-   ${boldon}${blackf}██████${reset}${purplef}██████${reset}
-   ${boldon}${blackf}████${reset}████${boldon}${blackf}██${reset}
- ${boldon}${blackf}████${reset}████████${boldon}${blackf}██${reset}
- ${boldon}${blackf}████${reset}████████${boldon}${blackf}██${reset}
- ${boldon}${blackf}████${reset}████████${boldon}${blackf}██${reset}
-   ${boldon}${blackf}████${reset}████${boldon}${blackf}██${reset}
-  ${boldon}${blackf}███${reset}${purplef}███   ████${reset}
+     ${boldon}${blackf} ██████${reset}
+    ${boldon}${blackf}██${reset}██${reset}${bluef}██${reset}${boldon}${blackf}██${reset}${bluef}██${reset}
+    ${boldon}${blackf}██${reset}██${bluef}██${reset}${boldon}${blackf}██${reset}${bluef}██${reset}
+    ${boldon}${blackf}██████${reset}${purplef}██████${reset}
+    ${boldon}${blackf}████${reset}████${boldon}${blackf}██${reset}
+  ${boldon}${blackf}████${reset}████████${boldon}${blackf}██${reset}
+  ${boldon}${blackf}████${reset}████████${boldon}${blackf}██${reset}
+  ${boldon}${blackf}████${reset}████████${boldon}${blackf}██${reset}
+    ${boldon}${blackf}████${reset}████${boldon}${blackf}██${reset}
+   ${boldon}${blackf}███${reset}${purplef}███   ████${reset}
 
 EOF

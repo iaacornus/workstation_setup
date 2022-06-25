@@ -42,6 +42,7 @@ unowns = [[
     '     ▄▀▄     ',
 ]]
 
+print("\033[0m")
 for mode in ['normal', 'bold']:
     random.shuffle(unowns)
     if mode == 'bold':

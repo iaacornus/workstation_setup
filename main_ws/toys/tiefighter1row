@@ -35,12 +35,12 @@ initializeANSI
 
 cat << EOF
 
-${greenf}█         █   ${blackf}█         █   ${bluef}█         █   ${purplef}█         █   ${cyanf}█         █
-${greenf}█   ▄▄▄   █   ${blackf}█   ▄▄▄   █   ${bluef}█   ▄▄▄   █   ${purplef}█   ▄▄▄   █   ${cyanf}█   ▄▄▄   █
-${greenf}█▄▄██▀██▄▄█   ${blackf}█▄▄██▀██▄▄█   ${bluef}█▄▄██▀██▄▄█   ${purplef}█▄▄██▀██▄▄█   ${cyanf}█▄▄██▀██▄▄█
-${greenf}█▀▀█████▀▀█   ${blackf}█▀▀█████▀▀█   ${bluef}█▀▀█████▀▀█   ${purplef}█▀▀█████▀▀█   ${cyanf}█▀▀█████▀▀█
-${greenf}█   ▀▀▀   █   ${blackf}█   ▀▀▀   █   ${bluef}█   ▀▀▀   █   ${purplef}█   ▀▀▀   █   ${cyanf}█   ▀▀▀   █
-${greenf}█         █   ${blackf}█         █   ${bluef}█         █   ${purplef}█         █   ${cyanf}█         █
-${reset}
+  ${greenf}█         █   ${blackf}█         █   ${bluef}█         █   ${purplef}█         █   ${cyanf}█         █
+  ${greenf}█   ▄▄▄   █   ${blackf}█   ▄▄▄   █   ${bluef}█   ▄▄▄   █   ${purplef}█   ▄▄▄   █   ${cyanf}█   ▄▄▄   █
+  ${greenf}█▄▄██▀██▄▄█   ${blackf}█▄▄██▀██▄▄█   ${bluef}█▄▄██▀██▄▄█   ${purplef}█▄▄██▀██▄▄█   ${cyanf}█▄▄██▀██▄▄█
+  ${greenf}█▀▀█████▀▀█   ${blackf}█▀▀█████▀▀█   ${bluef}█▀▀█████▀▀█   ${purplef}█▀▀█████▀▀█   ${cyanf}█▀▀█████▀▀█
+  ${greenf}█   ▀▀▀   █   ${blackf}█   ▀▀▀   █   ${bluef}█   ▀▀▀   █   ${purplef}█   ▀▀▀   █   ${cyanf}█   ▀▀▀   █
+  ${greenf}█         █   ${blackf}█         █   ${bluef}█         █   ${purplef}█         █   ${cyanf}█         █
+  ${reset}
 
 EOF
