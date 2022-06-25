@@ -6,8 +6,3 @@
 [core]
 	editor = nano
 	autocrlf = input
-[color]
-	ui = always
-	branch = always
-	diff = always
-	status = always
