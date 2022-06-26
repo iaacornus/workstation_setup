@@ -52,6 +52,7 @@ alias upgrade="$HOME/.sys/./backup-upgrade.sh"
 alias gcc="$HOME/.sys/./dev-utils.sh gcc "
 alias g++="$HOME/.sys/./dev-utils.sh g++ "
 alias jupyter-pdf="$HOME/.sys/./dev-utils.sh jupyter-latex "
+alias backup-iota="$HOME/.sys/./backup-important.sh"
 
 # git aliases
 alias status="git status"
