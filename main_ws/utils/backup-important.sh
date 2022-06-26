@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 echo -e "\033[1m[>] Creating a backup of \033[36m$HOME/Development/iota-2\033[0m\033[1m in \033[36m$HOME/Storage/backup/iota\033[0m"
 
+# -------------------------------------------------------------------------------------------------
+# create base dir
 if [ ! -d $HOME/Storage/backup ]; then
 	echo -e "\033[31m!>> Backup location: \033[0m$HOME/Storage/backup\033[31m does not exists!\033[0m"
 	echo -e ">>> Creating backup location at \033[36m$HOME/Storage/backup\033[0m"
@@ -13,12 +15,8 @@ if [ ! -d $HOME/Storage/backup_prev ]; then
 	mkdir $HOME/Storage/backup_prev
 fi
 
-if [ ! -d $HOME/Storage/backup/iota ]; then
-    echo -e "\033[31m!>> Backup location: \033[0m$HOME/Storage/backup/iota\033[31m does not exists!\033[0m"
-    echo -e ">>> Creating backup location at \033[36m$HOME/Storage/backup/iota\033[0m"
-    mkdir $HOME/Storage/backup/iota
-fi
-
+# -------------------------------------------------------------------------------------------------
+# backup current backups
 if [ -d $HOME/Storage/backup_prev/iota ]; then
 	echo -e ">>> Removing the previous backup of \033[36m$HOME/Documents\033[0min \033[36m$HOME/Storage/backup_prev/Documents\033[0m"
 	rm -rf -v $HOME/Storage/backup_prev/iota
@@ -29,6 +27,16 @@ if [ -d $HOME/Storage/backup/iota ]; then
 	mv -v $HOME/Storage/backup/iota $HOME/Storage/backup_prev/iota
 fi
 
+# -------------------------------------------------------------------------------------------------
+# create dir for new backups
+if [ ! -d $HOME/Storage/backup/iota ]; then
+    echo -e "\033[31m!>> Backup location: \033[0m$HOME/Storage/backup/iota\033[31m does not exists!\033[0m"
+    echo -e ">>> Creating backup location at \033[36m$HOME/Storage/backup/iota\033[0m"
+    mkdir $HOME/Storage/backup/iota
+fi
+
+# -------------------------------------------------------------------------------------------------
+# backup the files
 echo -e ">>> Copying \033[36m$HOME/Development/iota-2\033[0m to \033[36m$HOME/Storage/backup/iota\033[0m"
 cp -r -v $HOME/Development/iota-2 $HOME/Storage/backup/iota/
 echo -e ">>> Copying \033[36m$HOME/Development/iota-2-database\033[0m to \033[36m$HOME/Storage/backup/iota\033[0m"
