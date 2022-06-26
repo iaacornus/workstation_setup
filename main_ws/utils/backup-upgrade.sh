@@ -31,12 +31,12 @@ fi
 
 if [ -d $HOME/Storage/backup/Documents ]; then
 	echo -e ">>> Creating a copy of the previous backup of \033[36m$HOME/Storage/backup/Documents\033[0m in \033[36m$HOME/Storage/backup_prev/Documents\033[0m"
-	cp -r -v $HOME/Storage/backup/Documents $HOME/Storage/backup_prev/Documents
+	mv -v $HOME/Storage/backup/Documents $HOME/Storage/backup_prev/Documents
 fi
 
 if [ -d $HOME/Storage/backup/Development ]; then
 	echo -e ">>> Creating a copy of the previous backup of \033[36m$HOME/Storage/backup/Development\033[0m in \033[36m$HOME/Storage/backup_prev/Development\033[0m"
-	cp -r -v $HOME/Storage/backup/Development $HOME/Storage/backup_prev/Development
+	mv -v $HOME/Storage/backup/Development $HOME/Storage/backup_prev/Development
 fi
 
 echo -e ">>> Copying \033[36m$HOME/Documents\033[0m to \033[36m$HOME/Storage/backup/Documents\033[0m"
@@ -63,7 +63,7 @@ echo -e "\033[1;32m[+] Successfully exported the GPG keys\033[0m"
 
 echo -e "\033[1m[>] Executing full system upgrade\033[0m"
 echo -e ">>> Updating base system image via: \033[36mrpm-ostree upgrade\033[0m"
-rpm-ostree upgrade
+#rpm-ostree upgrade
 echo -e ">>> Updating user applications via: \033[36mflatpak update\033[0m"
 flatpak update
 
