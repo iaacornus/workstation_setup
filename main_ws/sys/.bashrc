@@ -24,6 +24,11 @@ if [ -d ~/.bashrc.d ]; then
 	done
 fi
 
+unset HISTSIZE
+export HISTSIZE
+unset HISTFILESIZE
+export HISTFILESIZE
+
 parse_git_branch() {
     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'
 }
@@ -86,6 +91,10 @@ alias archive="git archive"
 alias dev-env="toolbox enter fedora-toolbox-35"
 
 alias clear="$HOME/.sys/./clear.sh"
+
+bind '"\e[A": history-search-backward'
+bind '"\e[B": history-search-forward'
+bind Space:magic-space
 
 unset rc
 . "$HOME/.cargo/env"
