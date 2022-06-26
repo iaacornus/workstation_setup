@@ -16,7 +16,7 @@
 
 ## Make 'nextword' (Ctrl+Right) and 'chopwordright' (Ctrl+Delete)
 ## stop at word ends instead of at beginnings.
-# set afterends
+set afterends
 
 ## When soft line wrapping is enabled, make it wrap lines at blanks
 ## (tabs and spaces) instead of always at the edge of the screen.
@@ -28,7 +28,7 @@
 set autoindent
 
 ## Back up files to the current filename plus a tilde.
-# set backup
+set backup
 
 ## The directory to put unique backup files in.
 # set backupdir ""
@@ -97,7 +97,7 @@ set minibar
 ## mouse clicks can be used to place the cursor, set the mark (with a
 ## double click), and execute shortcuts.  The mouse will work in the
 ## X Window System, and on the console when gpm is running.
-set mouse
+# set mouse
 
 ## Switch on multiple file buffers (inserting a file will put it into
 ## a separate buffer).
@@ -180,7 +180,7 @@ set tabsize 4
 set tabstospaces
 
 ## Snip whitespace at the end of lines when justifying or hard-wrapping.
-# set trimblanks
+set trimblanks
 
 ## The two single-column characters used to display the first characters
 ## of tabs and spaces.  187 in ISO 8859-1 (0000BB in Unicode) and 183 in
@@ -206,32 +206,31 @@ set whitespace "»·"
 ## Hide the bars plus help lines and use the whole terminal as edit area.
 # set zero
 
-
 ## Paint the interface elements of nano.  These are examples; there are
 ## no colors by default, except for errorcolor and spotlightcolor.
-set titlecolor bold,white,blue
-set promptcolor lightwhite,grey
+set titlecolor bold,white,magenta
+set promptcolor bold,white,blue
 set statuscolor bold,white,green
 set errorcolor bold,white,red
-set spotlightcolor black,lightyellow
-set selectedcolor lightwhite,magenta
-set stripecolor ,yellow
+set spotlightcolor lightyellow
+set selectedcolor lightwhite
+set stripecolor yellow
 set scrollercolor cyan
 set numbercolor cyan
 set keycolor cyan
-set functioncolor green
+set functioncolor magenta
 
 ## In root's .nanorc you might want to use:
 set titlecolor bold,white,magenta
-set promptcolor black,yellow
-set statuscolor bold,white,magenta
+set promptcolor bold,white,blue
+set statuscolor bold,white,green
 set errorcolor bold,white,red
-set spotlightcolor black,orange
-set selectedcolor lightwhite,cyan
-set stripecolor ,yellow
-set scrollercolor magenta
-set numbercolor magenta
-set keycolor lightmagenta
+set spotlightcolor lightyellow
+set selectedcolor lightwhite
+set stripecolor yellow
+set scrollercolor cyan
+set numbercolor cyan
+set keycolor cyan
 set functioncolor magenta
 
 
