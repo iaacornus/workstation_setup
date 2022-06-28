@@ -60,9 +60,9 @@ fi
 # ------------------------------------------------------------------------------------------------
 # backup current files
 echo -e ">>> Copying \033[36m$HOME/Documents\033[0m to \033[36m$HOME/Storage/backup/Documents\033[0m"
-cp -r -v $HOME/Documents $HOME/Storage/backup/Documents
+cp -r -v $HOME/Documents $HOME/Storage/backup/Documents/
 echo -e ">>> Copying \033[36m$HOME/Documents\033[0m to \033[36m$HOME/Storage/backup/Development\033[0m"
-cp -r -v $HOME/Development $HOME/Storage/backup/Development
+rsync -r -v -h --progress /var/home/iaacornus/Development/ /var/home/iaacornus/Storage/backup/Development/ --exclude="*venv/"
 
 echo -e "\033[1;32m[+] Successfully backing up the important files\033[0m"
 
