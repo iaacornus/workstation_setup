@@ -38,8 +38,8 @@ fi
 # -------------------------------------------------------------------------------------------------
 # backup the files
 echo -e ">>> Copying \033[36m$HOME/Development/iota-2\033[0m to \033[36m$HOME/Storage/backup/iota\033[0m"
-cp -r -v $HOME/Development/iota-2 $HOME/Storage/backup/iota/
+rsync -v -r -L --progress -h /var/home/iaacornus/Development/iota-2 /var/home/iaacornus/Storage/backup/iota/ --exclude venv
 echo -e ">>> Copying \033[36m$HOME/Development/iota-2-database\033[0m to \033[36m$HOME/Storage/backup/iota\033[0m"
-cp -r -v $HOME/Development/iota-2-database $HOME/Storage/backup/iota/
+rsync -v -r -L --progress -h /var/home/iaacornus/Development/iota-2-database /var/home/iaacornus/Storage/backup/iota/
 
 echo -e "\033[1;32m[+] Successfully backing up the important files\033[0m"
