@@ -42,5 +42,4 @@ cat << EOF
   ${boldoff}${redf}▀▀${reset}${boldon}${redb}${whitef}▄${cyanb}▄   ${redb}▄▄▄${reset}${boldoff}${redf}▀██▀${reset}
   ${boldon}${whitef} ██▀▀▀██▀  ${boldoff}${redf}▀${reset}
   ${boldon}${whitef} ▀▀▀▀ ▀▀▀▀${reset}
-
 EOF

@@ -60,4 +60,4 @@ for mode in ['normal', 'bold']:
     )
 
 # reset font:
-print("\033[0m")
+print("\033[0m", end="")
