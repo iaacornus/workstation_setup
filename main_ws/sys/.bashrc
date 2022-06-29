@@ -35,9 +35,9 @@ parse_git_branch() {
 
 # PS1="╭╼ \[\e[1;32m\]\h\[\e[0m\] in [\[\e[1;36m\]\w\[\e[0m\]]\n╰─ \u\$(if git rev-parse --git-dir > /dev/null 2>&1; then echo '@\e[1m\]git:\e[0m\]'; fi)\[\e[1;34m\]\$(parse_git_branch)\[\e[0m\] ❯ "
 if [ $HOSTNAME = "toolbox" ]; then
-    PS1="╭╼ \[\e[1;31m\]\h\[\e[0m\] in [\[\e[1;34m\]\w\[\e[0m\]]\n╰─ \`if [ \$? = 0 ]; then echo \[\e[0m\]; else echo \[\e[31m\]; fi\`\u:\[\e[1;31m\]\$NAME\[\e[0m\]\[\e[0m\]\`if git rev-parse --git-dir > /dev/null 2>&1; then echo '@git:('; fi\`\[\e[1;36m\]\$(parse_git_branch)\[\e[0m\]\`if git rev-parse --git-dir > /dev/null 2>&1; then echo ')'; fi\` ❯❯ "
+    PS1="\n╭╼ \[\e[1;31m\]\h\[\e[0m\] in [\[\e[1;34m\]\w\[\e[0m\]]\n╰─ \`if [ \$? = 0 ]; then echo \[\e[0m\]; else echo \[\e[31m\]; fi\`\u:\[\e[1;31m\]\$NAME\[\e[0m\]\[\e[0m\]\`if git rev-parse --git-dir > /dev/null 2>&1; then echo '@git:('; fi\`\[\e[1;36m\]\$(parse_git_branch)\[\e[0m\]\`if git rev-parse --git-dir > /dev/null 2>&1; then echo ')'; fi\` ❯❯ "
 else
-    PS1="╭╼ \[\e[1;32m\]\h\[\e[0m\] in [\[\e[1;34m\]\w\[\e[0m\]]\n╰─ \`if [ \$? = 0 ]; then echo \[\e[0m\]; else echo \[\e[31m\]; fi\`\u\[\e[0m\]\`if git rev-parse --git-dir > /dev/null 2>&1; then echo '@git:('; fi\`\[\e[1;36m\]\$(parse_git_branch)\[\e[0m\]\`if git rev-parse --git-dir > /dev/null 2>&1; then echo ')'; fi\` ❯❯ "
+    PS1="\n╭╼ \[\e[1;32m\]\h\[\e[0m\] in [\[\e[1;34m\]\w\[\e[0m\]]\n╰─ \`if [ \$? = 0 ]; then echo \[\e[0m\]; else echo \[\e[31m\]; fi\`\u\[\e[0m\]\`if git rev-parse --git-dir > /dev/null 2>&1; then echo '@git:('; fi\`\[\e[1;36m\]\$(parse_git_branch)\[\e[0m\]\`if git rev-parse --git-dir > /dev/null 2>&1; then echo ')'; fi\` ❯❯ "
 fi
 
 export PS1
