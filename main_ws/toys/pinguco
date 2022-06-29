@@ -35,5 +35,4 @@ cat << EOF
   ${boldon}${blackf}████${reset}████████${boldon}${blackf}██${reset}
     ${boldon}${blackf}████${reset}████${boldon}${blackf}██${reset}
    ${boldon}${blackf}███${reset}${purplef}███   ████${reset}
-
 EOF

@@ -31,4 +31,4 @@ do
 	tput setaf sgr0
 done
 
-echo -e "\033[0m\n"
+echo -e "\033[0m\r"
