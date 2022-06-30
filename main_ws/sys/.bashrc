@@ -92,6 +92,7 @@ alias archive="git archive"
 alias dev-env="toolbox enter fedora-toolbox-35"
 
 alias clear="$HOME/.sys/./clear.sh"
+alias tree="tree --gitignore"
 
 bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
