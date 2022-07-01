@@ -49,10 +49,11 @@ alias tex-gen="$HOME/.sys/./utils.sh tex-gen"
 alias clean-up="$HOME/.sys/./utils.sh clean-up"
 alias htop="toolbox run htop"
 alias upgrade="$HOME/.sys/./backup-upgrade.sh"
-alias mygcc="$HOME/.sys/./dev-utils.sh gcc "
-alias myg++="$HOME/.sys/./dev-utils.sh g++ "
-alias jupyter-pdf="$HOME/.sys/./dev-utils.sh jupyter-latex "
+alias mygcc="$HOME/.sys/./dev-utils.sh gcc"
+alias myg++="$HOME/.sys/./dev-utils.sh g++"
+alias jupyter-pdf="$HOME/.sys/./dev-utils.sh jupyter-latex"
 alias backup-iota="$HOME/.sys/./backup-important.sh"
+alias project-init="$HOME/.sys/./utils.sh project-init"
 
 # git aliases
 alias status="git status"
@@ -92,7 +93,7 @@ alias archive="git archive"
 alias dev-env="toolbox enter fedora-toolbox-35"
 
 alias clear="$HOME/.sys/./clear.sh"
-alias tree="tree --gitignore"
+alias gtree="tree --gitignore"
 
 bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
