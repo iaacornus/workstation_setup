@@ -1,3 +1,8 @@
+if [[ $2 == "" ]]; then
+    echo -e "\e[1;31m[!] No file name supplied, aborting ...\e[0m"
+    exit 1
+fi
+
 if [ $1 = "gcc" ]; then
     #echo -e "for c: toolbox --container dev-tools run gcc -Wall -o $3 $2"
     toolbox --container dev-tools run gcc -Wall -o $3 $2

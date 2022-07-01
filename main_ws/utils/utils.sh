@@ -1,5 +1,4 @@
-#!/bin/bash
-#* passed
+#!/usr/bin/env bash
 
 if [[ $1 == *"sys-info"* ]]; then
 	if [[ $2 == *"less"* ]]; then
@@ -24,28 +23,34 @@ if [[ $1 == *"sys-info"* ]]; then
 		echo -e ">>> Number of failed services from systemd: \e[36m$(systemctl --failed | grep 'listed')\e[0m"
 		echo -e ">>> Uptime: \e[36m$(uptime)\e[0m"
 		echo -e ">>> System performance time: \e[36m$(systemd-analyze)\e[0m"
-
 	fi
 elif [[ $1 == *"tex-gen"* ]]; then
 	#* passed
-	name=$2
-	template_dir="$HOME/Templates/latex_manscrpt_ppr_main_template.tex"
+	if [[ $2 == "" ]]; then
+	    echo -e "\e[1;31m[!] No file name supplied, aborting ...\e[0m"
+	    exit 1
+	fi
 
+	template_dir="$HOME/Templates/latex_manscrpt_ppr_main_template.tex"
 	cp $template_dir $PWD/$2.tex
-	echo -e "\e[1;32m[+] Template created in:\e[0m\ $PWD/$1.tex"
+	echo -e "\e[1;32m[+] Template created in:\e[0m\e[1m $PWD/$1.tex\e[0m"
 elif [[ $1 == *"clean-up"* ]]; then
-	echo -e "\e[1m[>] Cleaning up the entire filesystem.\e[0m"
+	echo -e "\e[1m[>] Cleaning up the system.\e[0m"
 	echo -e ">>> Removing journal files with size of:\e[36m$(journalctl --disk-usage)\e[0m"
 
 	sudo journalctl --vacuum-time=3d
 
-	echo -e ">>> Removing \e[36m$HOME/.cache with size of\e[0m:\e[36m $(du -sh $HOME/.cache)\e[0m"
+	echo -e ">>> Removing \e[36m$HOME/.cache\e[0m with size of:\e[36m $(du -sh $HOME/.cache)\e[0m"
 	rm -rf $HOME/.cache/*
 
 	echo -e "\e[1;32m[+] Cleaning done.\e[0m"
-
 elif [[ $1 == *"project-init"* ]]; then
     echo -e "\e[1m[>] Initiating project: \e[1;36m$2\e[0m\e[1m in \e[36m$PWD\e[0m\e[1m ...\e[0m"
+
+    if [[ $2 == "" ]]; then
+        echo -e "\e[1;31m[!] No project name supplied, aborting ...\e[0m"
+        exit 1
+    fi
 
     if [ -d "$PWD/$2" ]; then
         echo -e "\e[1;31m[!] Directory:\e[0m\e[1m $PWD/$2\e[31m already exists, aborting ...\e[0m"
