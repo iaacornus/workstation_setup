@@ -1,10 +1,8 @@
 #!/bin/bash
 #* passed
 
-if [[ $1 == *"sys-info"* ]]
-then
-	if [[ $2 == *"less"* ]]
-	then
+if [[ $1 == *"sys-info"* ]]; then
+	if [[ $2 == *"less"* ]]; then
 		echo -e ">>> Memory and Swap usage:"
 		free -h
 		echo -e ">>> CPU usage:\e[36m $(top -n 1 | grep -E 'Cpu|Tasks')\e[0m"
@@ -28,18 +26,14 @@ then
 		echo -e ">>> System performance time: \e[36m$(systemd-analyze)\e[0m"
 
 	fi
-
-elif [[ $1 == *"tex-gen"* ]]
-then
+elif [[ $1 == *"tex-gen"* ]]; then
 	#* passed
 	name=$2
 	template_dir="$HOME/Templates/latex_manscrpt_ppr_main_template.tex"
 
 	cp $template_dir $PWD/$2.tex
-	echo -e "\e[1;32m[+] Template created in:\e[0m\e[36m $PWD/$1.tex\e[0m"
-
-elif [[ $1 == *"clean-up"* ]]
-then
+	echo -e "\e[1;32m[+] Template created in:\e[0m\ $PWD/$1.tex"
+elif [[ $1 == *"clean-up"* ]]; then
 	echo -e "\e[1m[>] Cleaning up the entire filesystem.\e[0m"
 	echo -e ">>> Removing journal files with size of:\e[36m$(journalctl --disk-usage)\e[0m"
 
@@ -50,4 +44,17 @@ then
 
 	echo -e "\e[1;32m[+] Cleaning done.\e[0m"
 
+elif [[ $1 == *"project-init"* ]]; then
+    echo -e "\e[1m[>] Initiating project: \e[1;36m$2\e[0m\e[1m in \e[36m$PWD\e[0m\e[1m ...\e[0m"
+
+    if [ -d "$PWD/$2" ]; then
+        echo -e "\e[1;31m[!] Directory:\e[0m\e[1m $PWD/$2\e[31m already exists, aborting ...\e[0m"
+        exit 1
+    fi
+
+    mkdir $PWD/$2
+    mkdir $PWD/$2/manscrpt
+    template_dir="$HOME/Templates/latex_manscrpt_ppr_main_template.tex"
+    cp $template_dir $PWD/$2/manscrpt/$2_ppr_main.tex
+    echo -e "\e[1;32m[+] Project initiated in:\e[0m\e[1m$PWD/$2\e[32m and template for manuscrit created in:\e[0m\e[1m $PWD/manscrpt/$2_ppr_main.tex\e[0m"
 fi
