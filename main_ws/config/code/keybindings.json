@@ -6,14 +6,6 @@
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+shift+w",
-        "command": "-workbench.action.closeWindow"
-    },
-    {
-        "key": "alt+f4",
-        "command": "-workbench.action.closeWindow"
-    },
-    {
         "key": "ctrl+down down",
         "command": "editor.action.copyLinesDownAction",
         "when": "editorTextFocus && !editorReadonly"
@@ -32,10 +24,6 @@
         "key": "ctrl+shift+alt+up",
         "command": "-editor.action.copyLinesUpAction",
         "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+shift+f n",
-        "command": "welcome.showNewFileEntries"
     },
     {
         "key": "ctrl+alt+meta+n",
@@ -260,11 +248,6 @@
         "key": "shift+alt+d",
         "command": "-editor.detectLanguage",
         "when": "editorTextFocus && !notebookEditable"
-    },
-    {
-        "key": "shift+alt+right",
-        "command": "-editor.action.smartSelect.expand",
-        "when": "editorTextFocus"
     },
     {
         "key": "ctrl+shift+v e",
@@ -1447,7 +1430,7 @@
         "command": "-workbench.action.tasks.runTask"
     },
     {
-        "key": "ctrl+alt+t",
+        "key": "ctrl+alt+t t",
         "command": "workbench.action.terminal.new",
         "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
     },
@@ -2011,11 +1994,6 @@
         "when": "viewContainer.workbench.view.debug.enabled"
     },
     {
-        "key": "ctrl+shift+v s",
-        "command": "workbench.view.search",
-        "when": "workbench.view.search.active && neverMatch =~ /doesNotMatch/"
-    },
-    {
         "key": "ctrl+shift+f",
         "command": "-workbench.view.search",
         "when": "workbench.view.search.active && neverMatch =~ /doesNotMatch/"
@@ -2498,7 +2476,7 @@
         "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
     },
     {
-        "key": "ctrl+shift+f ctrl+f",
+        "key": "ctrl+shift+f ctrl+shift+f",
         "command": "filesExplorer.findInFolder",
         "when": "explorerResourceIsFolder && explorerViewletVisible && filesExplorerFocus && !inputFocus"
     },
@@ -3063,7 +3041,7 @@
         "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
     },
     {
-        "key": "ctrl+j ctrl+shift+enter",
+        "key": "ctrl+j ctrl+shift+s",
         "command": "jupyter.selectCell",
         "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
     },
@@ -3073,7 +3051,7 @@
         "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
     },
     {
-        "key": "ctrl+j shift+enter",
+        "key": "ctrl+j ctrl+s",
         "command": "jupyter.selectCellContents",
         "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
     },
@@ -3513,7 +3491,7 @@
         "when": "editorTextFocus && foldingEnabled"
     },
     {
-        "key": "ctrl+shift+f ctrl+shift+s",
+        "key": "ctrl+shift+f ctrl+s",
         "command": "workbench.action.files.saveAs"
     },
     {
@@ -3722,5 +3700,130 @@
         "key": "ctrl+shift+s",
         "command": "-workbench.action.files.saveLocalFile",
         "when": "remoteFileDialogVisible"
+    },
+    {
+        "key": "alt+f4",
+        "command": "-workbench.action.closeWindow"
+    },
+    {
+        "key": "ctrl+x ctrl+q",
+        "command": "workbench.action.closeWindow"
+    },
+    {
+        "key": "ctrl+shift+w",
+        "command": "-workbench.action.closeWindow"
+    },
+    {
+        "key": "ctrl+shift+f numpad2",
+        "command": "workbench.files.action.collapseExplorerFolders"
+    },
+    {
+        "key": "ctrl+e l",
+        "command": "workbench.action.decreaseViewWidth"
+    },
+    {
+        "key": "ctrl+e j",
+        "command": "workbench.action.decreaseViewHeight"
+    },
+    {
+        "key": "ctrl+e k",
+        "command": "workbench.action.increaseViewHeight"
+    },
+    {
+        "key": "ctrl+e h",
+        "command": "workbench.action.increaseViewWidth"
+    },
+    {
+        "key": "ctrl+shift+d",
+        "command": "editor.action.duplicateSelection"
+    },
+    {
+        "key": "shift+alt+right",
+        "command": "-editor.action.smartSelect.expand",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+f n",
+        "command": "explorer.newFile"
+    },
+    {
+        "key": "ctrl+shift+f ctrl+f",
+        "command": "explorer.newFolder"
+    },
+    {
+        "key": "ctrl+shift+f ctrl+shift+s",
+        "command": "workbench.action.files.saveFiles"
+    },
+    {
+        "key": "ctrl+shift+f g",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+j ctrl+shift+r",
+        "command": "jupyter.restartkernel"
+    },
+    {
+        "key": "ctrl+j ctrl+shift+enter",
+        "command": "jupyter.runallcells"
+    },
+    {
+        "key": "ctrl+j v",
+        "command": "jupyter.openVariableView"
+    },
+    {
+        "key": "ctrl+n ctrl+shift+-",
+        "command": "notebook.cell.collapseAllCellInputs"
+    },
+    {
+        "key": "ctrl+n shift+-",
+        "command": "notebook.cell.collapseAllCellOutputs"
+    },
+    {
+        "key": "ctrl+n ctrl+shift+=",
+        "command": "notebook.cell.expandAllCellInputs"
+    },
+    {
+        "key": "ctrl+n shift+=",
+        "command": "notebook.cell.expandAllCellOutputs"
+    },
+    {
+        "key": "ctrl+n ctrl+shift+r",
+        "command": "jupyter.notebookeditor.restartkernel"
+    },
+    {
+        "key": "ctrl+shift+p h",
+        "command": "platformio-ide.showHome"
+    },
+    {
+        "key": "ctrl+shift+p t",
+        "command": "platformio-ide.newTerminal"
+    },
+    {
+        "key": "ctrl+alt+t k",
+        "command": "workbench.action.terminal.killAll"
+    },
+    {
+        "key": "ctrl+v",
+        "command": "workbench.action.terminal.paste",
+        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "ctrl+shift+v",
+        "command": "-workbench.action.terminal.paste",
+        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "ctrl+shift+s ctrl+s",
+        "command": "workbench.action.files.saveAll"
+    },
+    {
+        "key": "ctrl+c",
+        "command": "workbench.action.terminal.copySelection",
+        "when": "terminalFocus && terminalHasBeenCreated && terminalTextSelected || terminalFocus && terminalProcessSupported && terminalTextSelected"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "-workbench.action.terminal.copySelection",
+        "when": "terminalFocus && terminalHasBeenCreated && terminalTextSelected || terminalFocus && terminalProcessSupported && terminalTextSelected"
     }
 ]
