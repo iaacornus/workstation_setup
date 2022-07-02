@@ -7,10 +7,10 @@
     "editor.fontLigatures": true,
     "editor.wordWrap": "on",
     "editor.rulers": [
-        72,
-        79,
-        99
-    ],
+            72,
+            79,
+            99
+        ],
     "platformio-ide.disablePIOHomeStartup": true,
     "files.autoSave": "onWindowChange",
     "editor.autoClosingBrackets": "always",
@@ -20,14 +20,13 @@
     "files.trimTrailingWhitespace": true,
     "workbench.enableExperiments": false,
     "workbench.experimental.editor.dropIntoEditor.enabled": false,
-    "workbench.preferredHighContrastColorTheme": "Sublime Material Theme - Dark",
+    "workbench.preferredHighContrastColorTheme": "Andromeda Colorizer",
     "window.confirmBeforeClose": "always",
     "debug.confirmOnExit": "always",
     "notebook.lineNumbers": "on",
     "C_Cpp.autocompleteAddParentheses": true,
     "python.languageServer": "Pylance",
-    "workbench.preferredDarkColorTheme": "Sublime Material Theme - Dark",
-    "workbench.colorTheme": "Sublime Material Theme - Dark",
+    "workbench.preferredDarkColorTheme": "Andromeda Colorizer",
     "editor.fontWeight": "normal",
     "editor.guides.bracketPairs": true,
     "security.workspace.trust.untrustedFiles": "open",
@@ -35,62 +34,61 @@
     "editor.linkedEditing": true,
     "editor.showFoldingControls": "always",
     "editor.smoothScrolling": true,
-    "workbench.preferredHighContrastLightColorTheme": "Sublime Material Theme - Light",
-    "workbench.preferredLightColorTheme": "Sublime Material Theme - Light",
+    "workbench.preferredHighContrastLightColorTheme": "Andromeda Colorizer",
+    "workbench.preferredLightColorTheme": "Andromeda Colorizer",
     "explorer.fileNesting.enabled": true,
     "terminal.integrated.confirmOnExit": "always",
     "terminal.integrated.cursorBlinking": true,
     "update.mode": "none",
     "jupyter.askForKernelRestart": false,
     "better-comments.tags": [
-        {
-            "tag": "!",
-            "color": "#FF2D00",
-            "strikethrough": false,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        },
-        {
-            "tag": "?",
-            "color": "#3498DB",
-            "strikethrough": false,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        },
-        {
-            "tag": "//",
-            "color": "#474747",
-            "strikethrough": true,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        },
-        {
-            "tag": "todo",
-            "color": "#FF8C00",
-            "strikethrough": false,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        },
-        {
-            "tag": "*",
-            "color": "#98C379",
-            "strikethrough": false,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        }
-    ],
+            {
+                "tag": "!",
+                "color": "#FF2D00",
+                "strikethrough": false,
+                "underline": false,
+                "backgroundColor": "transparent",
+                "bold": false,
+                "italic": false
+            },
+            {
+                "tag": "?",
+                "color": "#3498DB",
+                "strikethrough": false,
+                "underline": false,
+                "backgroundColor": "transparent",
+                "bold": false,
+                "italic": false
+            },
+            {
+                "tag": "~~",
+                "color": "#474747",
+                "strikethrough": true,
+                "underline": false,
+                "backgroundColor": "transparent",
+                "bold": false,
+                "italic": false
+            },
+            {
+                "tag": "todo",
+                "color": "#FF8C00",
+                "strikethrough": false,
+                "underline": false,
+                "backgroundColor": "transparent",
+                "bold": false,
+                "italic": false
+            },
+            {
+                "tag": "*",
+                "color": "#98C379",
+                "strikethrough": false,
+                "underline": false,
+                "backgroundColor": "transparent",
+                "bold": false,
+                "italic": false
+            }
+        ],
     "extensions.ignoreRecommendations": true,
-    "githubPullRequests.logLevel": "off",
     "workbench.settings.enableNaturalLanguageSearch": false,
     "update.showReleaseNotes": false,
     "extensions.autoCheckUpdates": false,
@@ -117,20 +115,19 @@
     "workbench.reduceMotion": "on",
     "workbench.startupEditor": "welcomePageInEmptyWorkbench",
     "workbench.editor.autoLockGroups": {
-        "default": true,
-        "terminalEditor": false
-    },
+            "default": true,
+            "terminalEditor": false
+        },
     "workbench.editor.historyBasedLanguageDetection": false,
     "workbench.editor.languageDetection": false,
     "workbench.editor.languageDetectionHints": {
-        "untitledEditors": false,
-        "notebookEditors": false
-    },
+            "untitledEditors": false,
+            "notebookEditors": false
+        },
     "workbench.editor.limit.value": 4,
     "workbench.editor.limit.enabled": true,
     "workbench.editor.restoreViewState": false,
     "window.autoDetectHighContrast": false,
-    "window.menuBarVisibility": "compact",
     "window.title": "${dirty}${activeEditorShort}${separator}${rootName}",
     "terminal.explorerKind": "external",
     "terminal.integrated.enablePersistentSessions": false,
@@ -140,6 +137,9 @@
     "terminal.integrated.fontSize": 16,
     "editor.lineHeight": 1.4,
     "markdown.preview.lineHeight": 1.4,
-    "editor.fontSize": 16
+    "editor.fontSize": 16,
+    "window.menuBarVisibility": "toggle",
+    "workbench.colorTheme": "Andromeda Colorizer",
+    "gtkTitleBar.mode": "dark",
 
 }
