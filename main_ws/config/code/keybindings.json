@@ -267,7 +267,7 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+w ctrl+e",
+        "key": "ctrl+w e",
         "command": "workbench.files.action.focusOpenEditorsView",
         "when": "workbench.explorer.openEditorsView.active"
     },
@@ -951,16 +951,6 @@
         "when": "notebookEditorFocused && !inputFocus"
     },
     {
-        "key": "shift+enter",
-        "command": "notebook.cell.execute",
-        "when": "notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
-    },
-    {
-        "key": "meta+enter",
-        "command": "-notebook.cell.execute",
-        "when": "notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
-    },
-    {
         "key": "ctrl+enter",
         "command": "notebook.cell.executeAndFocusContainer",
         "when": "notebookCellListFocused || editorTextFocus && inputFocus && notebookEditorFocused"
@@ -969,16 +959,6 @@
         "key": "ctrl+enter",
         "command": "-notebook.cell.executeAndFocusContainer",
         "when": "notebookCellListFocused || editorTextFocus && inputFocus && notebookEditorFocused"
-    },
-    {
-        "key": "shift+enter",
-        "command": "notebook.cell.executeAndInsertBelow",
-        "when": "notebookCellListFocused && notebookCellType == 'markup' || notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
-    },
-    {
-        "key": "alt+enter",
-        "command": "-notebook.cell.executeAndInsertBelow",
-        "when": "notebookCellListFocused && notebookCellType == 'markup' || notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
     },
     {
         "key": "ctrl+n ctrl+=",
@@ -3479,5 +3459,67 @@
         "key": "ctrl+delete left",
         "command": "deleteAllLeft",
         "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+enter",
+        "command": "notebook.cell.execute",
+        "when": "notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
+    },
+    {
+        "key": "meta+enter",
+        "command": "-notebook.cell.execute",
+        "when": "notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
+    },
+    {
+        "key": "ctrl+shift+e ctrl+down",
+        "command": "workbench.action.duplicateActiveEditorGroupDown"
+    },
+    {
+        "key": "ctrl+shift+e ctrl+left",
+        "command": "workbench.action.duplicateActiveEditorGroupLeft"
+    },
+    {
+        "key": "ctrl+shift+e ctrl+right",
+        "command": "workbench.action.duplicateActiveEditorGroupRight"
+    },
+    {
+        "key": "ctrl+shift+e ctrl+up",
+        "command": "workbench.action.duplicateActiveEditorGroupUp"
+    },
+    {
+        "key": "ctrl+shift+e up",
+        "command": "workbench.action.moveEditorToAboveGroup"
+    },
+    {
+        "key": "ctrl+shift+e down",
+        "command": "workbench.action.moveEditorToBelowGroup"
+    },
+    {
+        "key": "ctrl+shift+e left",
+        "command": "workbench.action.moveEditorToLeftGroup"
+    },
+    {
+        "key": "ctrl+shift+e right",
+        "command": "workbench.action.moveEditorToRightGroup"
+    },
+    {
+        "key": "ctrl+shift+e ctrl+shift+x",
+        "command": "workbench.action.closeAllGroups"
+    },
+    {
+        "key": "ctrl+shift+e x",
+        "command": "workbench.action.closeEditorsAndGroup"
+    },
+    {
+        "key": "ctrl+e ctrl+shift+x",
+        "command": "workbench.action.closeEditorsInGroup"
+    },
+    {
+        "key": "ctrl+shift+backspace",
+        "command": "notebook.cell.cancelExecution"
+    },
+    {
+        "key": "ctrl+shift+backspace",
+        "command": "notebook.cancelExecution"
     }
 ]
