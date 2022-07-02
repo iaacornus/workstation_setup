@@ -3706,7 +3706,7 @@
         "command": "-workbench.action.closeWindow"
     },
     {
-        "key": "ctrl+x ctrl+q",
+        "key": "ctrl+q shift+x",
         "command": "workbench.action.closeWindow"
     },
     {
