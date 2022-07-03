@@ -37,7 +37,7 @@ parse_git_branch() {
 if [ $HOSTNAME = "toolbox" ]; then
     PS1="\n\[\e[1;31m\]\h\[\e[0m\]\`if [ \$? = 0 ]; then echo \[\e[0m\]; else echo \[\e[31m\]; fi\`@\u\[\e[0m\] in [\[\e[1;34m\]\w\[\e[0m\]] \`if git rev-parse --git-dir > /dev/null 2>&1; then echo '[ '; fi\`\[\e[1;36m\]\$(parse_git_branch)\[\e[0m\]\`if git rev-parse --git-dir > /dev/null 2>&1; then echo ']'; fi\`\[\e[0m\]\n❯ "
 else
-    PS1="\n\[\e[1;32m\]\h\[\e[0m\]\`if [ \$? = 0 ]; then echo \[\e[0m\]; else echo \[\e[31m\]; fi\`@\u\[\e[0m\] in [\[\e[1;34m\]\w\[\e[0m\]] \`if git rev-parse --git-dir > /dev/null 2>&1; then echo '[ '; fi\`\[\e[1;36m\]\$(parse_git_branch)\[\e[0m\]\`if git rev-parse --git-dir > /dev/null 2>&1; then echo ']'; fi\`\[\e[0m\]\n❯ "
+    PS1="\n\[\e[1;32m\]\h\[\e[0m\]\`if [ \$? = 0 ]; then echo \[\e[0m\]; else echo \[\e[31m\]; fi\`@\u\[\e[0m\] in [\[\e[1;34m\]\w\[\e[0m\]] \`if git rev-parse --git-dir > /dev/null 2>&1; then echo '[ '; fi\`\[\e[1;36m\]\$(parse_git_branch)\[\e[0m\]\`if git rev-parse --git-dir > /dev/null 2>&1; then echo ']'; fi\`\[\e[1m\]\n❯\[\e[0m\] "
 fi
 
 export PS1
@@ -49,8 +49,8 @@ alias tex-gen="$HOME/.sys/./utils.sh tex-gen"
 alias clean-up="$HOME/.sys/./utils.sh clean-up"
 alias htop="toolbox run htop"
 alias upgrade="$HOME/.sys/./backup-upgrade.sh"
-alias mygcc="$HOME/.sys/./dev-utils.sh gcc"
-alias myg++="$HOME/.sys/./dev-utils.sh g++"
+alias gcc="$HOME/.sys/./dev-utils.sh gcc"
+alias g++="$HOME/.sys/./dev-utils.sh g++"
 alias jupyter-pdf="$HOME/.sys/./dev-utils.sh jupyter-latex"
 alias backup-iota="$HOME/.sys/./backup-important.sh"
 alias project-init="$HOME/.sys/./utils.sh project-init"
