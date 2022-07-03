@@ -102,7 +102,10 @@ bind Space:magic-space
 unset rc
 . "$HOME/.cargo/env"
 
-ls $HOME/.sys/toys | sort -R | tail -$N | while read file; do
-	$HOME/.sys/toys/./$file
-	break
-done
+
+if [ $HOSTNAME != "toolbox" ]; then
+    ls $HOME/.sys/toys | sort -R | tail -$N | while read file; do
+	    $HOME/.sys/toys/./$file
+	    break
+    done
+fi
