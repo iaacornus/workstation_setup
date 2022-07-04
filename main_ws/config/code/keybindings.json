@@ -1,11 +1,6 @@
 // Place your key bindings in this file to override the defaults
 [
     {
-        "key": "ctrl+k ctrl+c",
-        "command": "-editor.action.addCommentLine",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
         "key": "ctrl+down ctrl+down",
         "command": "editor.action.copyLinesDownAction",
         "when": "editorTextFocus && !editorReadonly"
@@ -349,11 +344,6 @@
         "key": "ctrl+shift+f3",
         "command": "-editor.action.previousSelectionMatchFindAction",
         "when": "editorFocus"
-    },
-    {
-        "key": "ctrl+k ctrl+/",
-        "command": "-editor.foldAllBlockComments",
-        "when": "editorTextFocus && foldingEnabled"
     },
     {
         "key": "ctrl+k ctrl+8",
@@ -1191,11 +1181,6 @@
         "when": "editorHasReferenceProvider"
     },
     {
-        "key": "ctrl+k ctrl+u",
-        "command": "-editor.action.removeCommentLine",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
         "key": "enter",
         "command": "-repl.action.acceptInput",
         "when": "inDebugRepl && textInputFocus"
@@ -1392,14 +1377,6 @@
         "key": "ctrl+shift+f2",
         "command": "-editor.action.linkedEditing",
         "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+e r",
-        "command": "workbench.action.reopenClosedEditor"
-    },
-    {
-        "key": "ctrl+shift+t",
-        "command": "-workbench.action.reopenClosedEditor"
     },
     {
         "key": "ctrl+shift+t t",
@@ -1672,11 +1649,6 @@
         "when": "testing.isPeekVisible"
     },
     {
-        "key": "ctrl+shift+a",
-        "command": "-editor.action.blockComment",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
         "key": "ctrl+numpad_subtract numpad_subtract",
         "command": "editor.toggleFold",
         "when": "editorTextFocus && foldingEnabled"
@@ -1687,21 +1659,8 @@
         "when": "editorTextFocus && foldingEnabled"
     },
     {
-        "key": "ctrl+/",
-        "command": "-editor.action.commentLine",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
         "key": "ctrl+m",
         "command": "-editor.action.toggleTabFocusMode"
-    },
-    {
-        "key": "ctrl+shift+l",
-        "command": "workbench.action.toggleEditorGroupLayout"
-    },
-    {
-        "key": "shift+alt+0",
-        "command": "-workbench.action.toggleEditorGroupLayout"
     },
     {
         "key": "ctrl+space",
@@ -3205,14 +3164,6 @@
         "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
     },
     {
-        "key": "ctrl+shift+y",
-        "command": "cursorRedo"
-    },
-    {
-        "key": "ctrl+k",
-        "command": "workbench.action.openGlobalKeybindings"
-    },
-    {
         "key": "ctrl+shift+right",
         "command": "cursorWordRightSelect",
         "when": "textInputFocus"
@@ -3295,11 +3246,11 @@
         "command": "workbench.action.moveEditorToRightGroup"
     },
     {
-        "key": "ctrl+shift+e shift+x",
+        "key": "ctrl+shift+e ctrl+x",
         "command": "workbench.action.closeEditorsAndGroup"
     },
     {
-        "key": "ctrl+shift+e ctrl+x",
+        "key": "ctrl+e ctrl+shift+x",
         "command": "workbench.action.closeEditorsInGroup"
     },
     {
@@ -3616,28 +3567,8 @@
         "when": "remoteFileDialogVisible"
     },
     {
-        "key": "alt+f4",
-        "command": "-workbench.action.closeWindow"
-    },
-    {
-        "key": "ctrl+w ctrl+x",
-        "command": "workbench.action.closeWindow"
-    },
-    {
-        "key": "ctrl+shift+w",
-        "command": "-workbench.action.closeWindow"
-    },
-    {
-        "key": "ctrl+shift+f -",
-        "command": "workbench.files.action.collapseExplorerFolders"
-    },
-    {
         "key": "ctrl+e l",
         "command": "workbench.action.decreaseViewWidth"
-    },
-    {
-        "key": "ctrl+e j",
-        "command": "workbench.action.decreaseViewHeight"
     },
     {
         "key": "ctrl+e k",
@@ -3653,10 +3584,6 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+shift+f n",
-        "command": "explorer.newFile"
-    },
-    {
         "key": "ctrl+shift+f f",
         "command": "explorer.newFolder"
     },
@@ -3669,16 +3596,8 @@
         "command": "workbench.action.quickOpen"
     },
     {
-        "key": "ctrl+j ctrl+shift+r",
-        "command": "jupyter.restartkernel"
-    },
-    {
         "key": "ctrl+j ctrl+shift+enter",
         "command": "jupyter.runallcells"
-    },
-    {
-        "key": "ctrl+j v",
-        "command": "jupyter.openVariableView"
     },
     {
         "key": "ctrl+n shift+-",
@@ -3826,10 +3745,6 @@
         "when": "editorTextFocus && foldingEnabled"
     },
     {
-        "key": "ctrl+shift+space",
-        "command": "editor.action.duplicateSelection"
-    },
-    {
         "key": "ctrl+home",
         "command": "cursorHome",
         "when": "textInputFocus"
@@ -3916,26 +3831,6 @@
         "command": "workbench.action.focusEighthEditorGroup"
     },
     {
-        "key": "ctrl+l c",
-        "command": "editor.action.commentLine"
-    },
-    {
-        "key": "ctrl+l ctrl+c",
-        "command": "editor.action.addCommentLine"
-    },
-    {
-        "key": "ctrl+numpad_subtract ctrl+c",
-        "command": "editor.foldAllBlockComments"
-    },
-    {
-        "key": "ctrl+l ctrl+shift+c",
-        "command": "editor.action.blockComment"
-    },
-    {
-        "key": "ctrl+d c",
-        "command": "editor.action.removeCommentLine"
-    },
-    {
         "key": "ctrl+pageup",
         "command": "cursorPageUp",
         "when": "textInputFocus"
@@ -3944,5 +3839,101 @@
         "key": "pageup",
         "command": "-cursorPageUp",
         "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+u",
+        "command": "-editor.action.removeCommentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+l c",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+/",
+        "command": "-editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+l ctrl+c",
+        "command": "editor.action.blockComment",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+a",
+        "command": "-editor.action.blockComment",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+k ctrl+c",
+        "command": "-editor.action.addCommentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+e j",
+        "command": "workbench.action.decreaseViewHeight"
+    },
+    {
+        "key": "ctrl+shift+space",
+        "command": "editor.action.duplicateSelection"
+    },
+    {
+        "key": "ctrl+shift+w",
+        "command": "-workbench.action.closeWindow"
+    },
+    {
+        "key": "ctrl+w ctrl+x",
+        "command": "workbench.action.closeWindow"
+    },
+    {
+        "key": "alt+f4",
+        "command": "-workbench.action.closeWindow"
+    },
+    {
+        "key": "ctrl+shift+f numpad_subtract",
+        "command": "workbench.files.action.collapseExplorerFolders"
+    },
+    {
+        "key": "ctrl+shift+y",
+        "command": "cursorRedo"
+    },
+    {
+        "key": "ctrl+shift+f n",
+        "command": "explorer.newFile"
+    },
+    {
+        "key": "ctrl+numpad_subtract c",
+        "command": "editor.foldAllBlockComments",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+k ctrl+/",
+        "command": "-editor.foldAllBlockComments",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+j v",
+        "command": "jupyter.openVariableView"
+    },
+    {
+        "key": "ctrl+j ctrl+shift+r",
+        "command": "jupyter.restartkernel"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "workbench.action.toggleEditorGroupLayout"
+    },
+    {
+        "key": "shift+alt+0",
+        "command": "-workbench.action.toggleEditorGroupLayout"
+    },
+    {
+        "key": "ctrl+e r",
+        "command": "workbench.action.reopenClosedEditor"
+    },
+    {
+        "key": "ctrl+shift+t",
+        "command": "-workbench.action.reopenClosedEditor"
     }
 ]
