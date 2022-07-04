@@ -18,13 +18,13 @@
     "files.trimTrailingWhitespace": true,
     "workbench.enableExperiments": false,
     "workbench.experimental.editor.dropIntoEditor.enabled": false,
-    "workbench.preferredHighContrastColorTheme": "GitHub Dark",
+    "workbench.preferredHighContrastColorTheme": "Sublime Material Theme - Dark",
     "window.confirmBeforeClose": "always",
     "debug.confirmOnExit": "always",
     "notebook.lineNumbers": "on",
     "C_Cpp.autocompleteAddParentheses": true,
     "python.languageServer": "Pylance",
-    "workbench.preferredDarkColorTheme": "GitHub Dark",
+    "workbench.preferredDarkColorTheme": "Sublime Material Theme - Dark",
     "editor.fontWeight": "normal",
     "editor.guides.bracketPairs": true,
     "security.workspace.trust.untrustedFiles": "open",
@@ -32,8 +32,8 @@
     "editor.linkedEditing": true,
     "editor.showFoldingControls": "always",
     "editor.smoothScrolling": true,
-    "workbench.preferredHighContrastLightColorTheme": "GitHub Light Default",
-    "workbench.preferredLightColorTheme": "GitHub Light Default",
+    "workbench.preferredHighContrastLightColorTheme": "Sublime Material Theme - Light",
+    "workbench.preferredLightColorTheme": "Sublime Material Theme - Light",
     "explorer.fileNesting.enabled": true,
     "terminal.integrated.confirmOnExit": "always",
     "terminal.integrated.cursorBlinking": true,
@@ -142,7 +142,6 @@
     "terminal.integrated.fontFamily": "'CaskaydiaCove Nerd Font'",
     "scm.alwaysShowRepositories": true,
     "workbench.productIconTheme": "material-product-icons",
-    "workbench.colorTheme": "Sublime Material Theme - Dark",
     "editor.accessibilitySupport": "off",
     "editor.codeActionsOnSave": {
 
@@ -172,5 +171,6 @@
     "editor.lineHeight": 1.4,
     "editor.fontSize": 16,
     "window.zoomLevel": 0.25,
+    "workbench.colorTheme": "Sublime Material Theme - Dark",
 
 }

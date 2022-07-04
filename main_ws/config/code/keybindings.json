@@ -3085,7 +3085,7 @@
         "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
     },
     {
-        "key": "pagedown pagedown",
+        "key": "pagedown",
         "command": "scrollLineDown",
         "when": "textInputFocus"
     },
@@ -3095,7 +3095,7 @@
         "when": "textInputFocus"
     },
     {
-        "key": "pageup pageup",
+        "key": "pageup",
         "command": "scrollLineUp",
         "when": "textInputFocus"
     },
@@ -3934,5 +3934,15 @@
     {
         "key": "ctrl+d c",
         "command": "editor.action.removeCommentLine"
+    },
+    {
+        "key": "ctrl+pageup",
+        "command": "cursorPageUp",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "pageup",
+        "command": "-cursorPageUp",
+        "when": "textInputFocus"
     }
 ]
