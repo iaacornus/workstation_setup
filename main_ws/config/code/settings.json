@@ -178,8 +178,6 @@
     "editor.scrollbar.vertical": "visible",
     "editor.showUnused": false,
     "editor.unfoldOnClickAfterEndOfLine": true,
-    "editor.tabCompletion": "on",
-    "editor.suggest.preview": true,
     "files.trimTrailingWhitespace": true,
     "workbench.list.automaticKeyboardNavigation": false,
     "workbench.localHistory.enabled": false,
