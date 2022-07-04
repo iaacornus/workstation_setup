@@ -3914,5 +3914,25 @@
     {
         "key": "ctrl+shift+e 8",
         "command": "workbench.action.focusEighthEditorGroup"
+    },
+    {
+        "key": "ctrl+l c",
+        "command": "editor.action.commentLine"
+    },
+    {
+        "key": "ctrl+l ctrl+c",
+        "command": "editor.action.addCommentLine"
+    },
+    {
+        "key": "ctrl+numpad_subtract ctrl+c",
+        "command": "editor.foldAllBlockComments"
+    },
+    {
+        "key": "ctrl+l ctrl+shift+c",
+        "command": "editor.action.blockComment"
+    },
+    {
+        "key": "ctrl+d c",
+        "command": "editor.action.removeCommentLine"
     }
 ]
