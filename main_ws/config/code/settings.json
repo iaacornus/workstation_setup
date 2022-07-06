@@ -22,7 +22,6 @@
     "debug.confirmOnExit": "always",
     "notebook.lineNumbers": "on",
     "C_Cpp.autocompleteAddParentheses": true,
-    "python.languageServer": "Jedi",
     "workbench.preferredDarkColorTheme": "Sublime Material Theme - Dark",
     "editor.fontWeight": "normal",
     "editor.guides.bracketPairs": true,
@@ -202,5 +201,6 @@
     "rust-analyzer.joinLines.joinAssignments": false,
     "rust-analyzer.inlayHints.typeHints.enable": false,
     "editor.inlayHints.enabled": "off",
+    "python.languageServer": "Pylance",
 
 }
