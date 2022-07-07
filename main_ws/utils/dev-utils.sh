@@ -11,4 +11,6 @@ elif [ $1 = "g++" ]; then
     toolbox --container dev-tools run c++ -Wall -o $3 $2
 elif [ $1 = "jupyter-latex" ]; then
     toolbox --container dev-tools run $HOME/.local/bin/jupyter nbconvert $2 --to latex
+elif [ $1 = "pyc" ]; then
+    toolbox --container dev-tools run gcc -shared -Wl,-soname,adder -o $3 -fPIC $2
 fi
