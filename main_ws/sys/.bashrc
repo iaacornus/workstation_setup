@@ -56,6 +56,7 @@ alias g++="toolbox --container dev-tools run g++"
 alias jupyter-pdf="$HOME/.sys/./dev-utils.sh jupyter-latex"
 alias backup-iota="$HOME/.sys/./backup-important.sh"
 alias project-init="$HOME/.sys/./utils.sh project-init"
+alias pyc="$HOME/.sys/./dev-utils.sh pyc"
 
 # git aliases
 alias status="git status"
