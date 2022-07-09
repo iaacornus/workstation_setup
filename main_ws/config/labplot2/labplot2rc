@@ -1,0 +1,97 @@
+State=AAAA/wAAAAD9AAAAAgAAAAAAAAEIAAADl/wCAAAAAfsAAAAeAHAAcgBvAGoAZQBjAHQAZQB4AHAAbABvAHIAZQByAQAAAEUAAAOXAAAAkAEAAAcAAAABAAABtgAAA5f8AgAAAAH7AAAALABhAHMAcABlAGMAdABfAHAAcgBvAHAAZQByAHQAaQBlAHMAXwBkAG8AYwBrAQAAAEUAAAOXAAAAbAEAAAcAAATAAAADlwAAAAQAAAAEAAAACAAAAAj8AAAAAgAAAAAAAAABAAAALABjAGEAcgB0AGUAcwBpAGEAbgBfAHAAbABvAHQAXwB0AG8AbwBsAGIAYQByAgAAAAD/////AAAAAAAAAAAAAAACAAAABgAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAAAAAAYAG0AYQBpAG4AXwB0AG8AbwBsAGIAYQByAQAAARL/////AAAAAAAAAAAAAAAiAHcAbwByAGsAcwBoAGUAZQB0AF8AdABvAG8AbABiAGEAcgAAAAKI/////wAAAAAAAAAAAAAAJABkAGEAdABhAHAAaQBjAGsAZQByAF8AdABvAG8AbABiAGEAcgAAAAKW/////wAAAAAAAAAAAAAAJgBzAHAAcgBlAGEAZABzAGgAZQBlAHQAXwB0AG8AbwBsAGIAYQByAAAAAqT/////AAAAAAAAAAAAAAAgAG4AbwB0AGUAYgBvAG8AawBfAHQAbwBvAGwAYgBhAHIBAAACiP////8AAAAAAAAAAA==
+eDP-1 Window-Maximized 1920x1080=true
+
+[MainWin]
+ShowMemoryInfo=true
+WindowState=\x00\x00\x00\xff\x00\x00\x00\x00\xfd\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x01\x08\x00\x00\x03\x97\xfc\x02\x00\x00\x00\x01\xfb\x00\x00\x00\x1e\x00p\x00r\x00o\x00j\x00e\x00c\x00t\x00e\x00x\x00p\x00l\x00o\x00r\x00e\x00r\x01\x00\x00\x00E\x00\x00\x03\x97\x00\x00\x00\x90\x01\x00\x00\x07\x00\x00\x00\x01\x00\x00\x01\xb6\x00\x00\x03\x97\xfc\x02\x00\x00\x00\x01\xfb\x00\x00\x00,\x00a\x00s\x00p\x00e\x00c\x00t\x00_\x00p\x00r\x00o\x00p\x00e\x00r\x00t\x00i\x00e\x00s\x00_\x00d\x00o\x00c\x00k\x01\x00\x00\x00E\x00\x00\x03\x97\x00\x00\x00l\x01\x00\x00\x07\x00\x00\x04\xc0\x00\x00\x03\x97\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x08\x00\x00\x00\x08\xfc\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00,\x00c\x00a\x00r\x00t\x00e\x00s\x00i\x00a\x00n\x00_\x00p\x00l\x00o\x00t\x00_\x00t\x00o\x00o\x00l\x00b\x00a\x00r\x02\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x06\x00\x00\x00\x16\x00m\x00a\x00i\x00n\x00T\x00o\x00o\x00l\x00B\x00a\x00r\x01\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x18\x00m\x00a\x00i\x00n\x00_\x00t\x00o\x00o\x00l\x00b\x00a\x00r\x01\x00\x00\x01\x12\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"\x00w\x00o\x00r\x00k\x00s\x00h\x00e\x00e\x00t\x00_\x00t\x00o\x00o\x00l\x00b\x00a\x00r\x00\x00\x00\x02\x88\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00d\x00a\x00t\x00a\x00p\x00i\x00c\x00k\x00e\x00r\x00_\x00t\x00o\x00o\x00l\x00b\x00a\x00r\x00\x00\x00\x02\x96\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00&\x00s\x00p\x00r\x00e\x00a\x00d\x00s\x00h\x00e\x00e\x00t\x00_\x00t\x00o\x00o\x00l\x00b\x00a\x00r\x00\x00\x00\x02\xa4\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00 \x00n\x00o\x00t\x00e\x00b\x00o\x00o\x00k\x00_\x00t\x00o\x00o\x00l\x00b\x00a\x00r\x01\x00\x00\x02\x88\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00
+geometry=\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\xff\xff\xff\xef\x00\x00\x07\x7f\x00\x00\x04\x06\x00\x00\x00\x00\x00\x00\x00\x14\x00\x00\x07\xbf\x00\x00\x03?\x00\x00\x00\x00\x02\x00\x00\x00\x07\x80\x00\x00\x00\x00\x00\x00\x00\x14\x00\x00\x07\x7f\x00\x00\x04\x06
+lastOpenFileFilter=
+
+[MainWindow]
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAgAAAAAAAAEIAAADl/wCAAAAAfsAAAAeAHAAcgBvAGoAZQBjAHQAZQB4AHAAbABvAHIAZQByAQAAAEUAAAOXAAAAkAEAAAcAAAABAAABtgAAA5f8AgAAAAH7AAAALABhAHMAcABlAGMAdABfAHAAcgBvAHAAZQByAHQAaQBlAHMAXwBkAG8AYwBrAQAAAEUAAAOXAAAAbAEAAAcAAATAAAADlwAAAAQAAAAEAAAACAAAAAj8AAAAAgAAAAAAAAABAAAALABjAGEAcgB0AGUAcwBpAGEAbgBfAHAAbABvAHQAXwB0AG8AbwBsAGIAYQByAgAAAAD/////AAAAAAAAAAAAAAACAAAABgAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAAAAAAYAG0AYQBpAG4AXwB0AG8AbwBsAGIAYQByAQAAARL/////AAAAAAAAAAAAAAAiAHcAbwByAGsAcwBoAGUAZQB0AF8AdABvAG8AbABiAGEAcgAAAAKI/////wAAAAAAAAAAAAAAJABkAGEAdABhAHAAaQBjAGsAZQByAF8AdABvAG8AbABiAGEAcgAAAAKW/////wAAAAAAAAAAAAAAJgBzAHAAcgBlAGEAZABzAGgAZQBlAHQAXwB0AG8AbwBsAGIAYQByAAAAAqT/////AAAAAAAAAAAAAAAgAG4AbwB0AGUAYgBvAG8AawBfAHQAbwBvAGwAYgBhAHIBAAACiP////8AAAAAAAAAAA==
+eDP-1 Window-Maximized 1920x1080=true
+
+[MainWindow][Toolbar cartesian_plot_toolbar]
+ToolButtonStyle=IconOnly
+
+[MainWindow][Toolbar datapicker_toolbar]
+ToolButtonStyle=IconOnly
+
+[MainWindow][Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[MainWindow][Toolbar main_toolbar]
+ToolButtonStyle=IconOnly
+
+[MainWindow][Toolbar notebook_toolbar]
+ToolButtonStyle=IconOnly
+
+[MainWindow][Toolbar spreadsheet_toolbar]
+ToolButtonStyle=IconOnly
+
+[MainWindow][Toolbar worksheet_toolbar]
+ToolButtonStyle=IconOnly
+
+[ProjectExplorer]
+VisibleColumns=0 1 2 3
+
+[SettingsDialog]
+eDP-1 Height 1920x1080=511
+eDP-1 Width 1920x1080=825
+
+[Settings_General]
+AutoSave=false
+AutoSaveInterval=1
+CompatibleSave=false
+DecimalSeparatorLocale=1
+LoadOnStart=1
+MdiWindowVisibility=0
+NumberOptions=0
+TabPosition=0
+TitleBar=0
+Units=0
+ViewMode=0
+
+[Settings_Notebook]
+Animations=true
+AskConfirmation=true
+LatexTypesetting=true
+LineNumbers=true
+ReevaluateEntries=true
+SyntaxCompletion=true
+SyntaxHighlighting=true
+
+[Settings_Spreadsheet]
+ShowColumnType=true
+ShowPlotDesignation=true
+
+[Settings_Worksheet]
+DoubleBuffering=true
+LaTeXEngine=
+PresenterModeInteractive=true
+Theme=Bright
+
+[Toolbar cartesian_plot_toolbar]
+ToolButtonStyle=IconOnly
+
+[Toolbar datapicker_toolbar]
+ToolButtonStyle=IconOnly
+
+[Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[Toolbar main_toolbar]
+ToolButtonStyle=IconOnly
+
+[Toolbar notebook_toolbar]
+ToolButtonStyle=IconOnly
+
+[Toolbar spreadsheet_toolbar]
+ToolButtonStyle=IconOnly
+
+[Toolbar worksheet_toolbar]
+ToolButtonStyle=IconOnly
+
+[UiSettings]
+ColorScheme=
