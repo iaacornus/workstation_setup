@@ -1,0 +1,7 @@
+[org/gnome/TextEditor]
+style-variant='dark'
+use-system-font=false
+custom-font='CodeNewRoman Nerd Font Mono 14'
+highlight-current-line=true
+show-map=true
+right-margin-position=79
