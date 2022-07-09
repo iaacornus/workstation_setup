@@ -3935,5 +3935,15 @@
     {
         "key": "ctrl+shift+t",
         "command": "-workbench.action.reopenClosedEditor"
+    },
+    {
+        "key": "shift+alt+e",
+        "command": "excel.preview",
+        "when": "editorLangId == 'excel'"
+    },
+    {
+        "key": "ctrl+shift+v",
+        "command": "-excel.preview",
+        "when": "editorLangId == 'excel'"
     }
 ]
