@@ -1,0 +1,16 @@
+State: idle
+Deployments:
+● fedora:fedora/36/x86_64/silverblue
+                   Version: 36.20220708.0 (2022-07-08T00:45:25Z)
+                BaseCommit: 3f2664fee034117e18adf17c61f18497169b5545469b3f48c1fc29d26e27568f
+              GPGSignature: Valid signature by 53DED2CB922D8B8D9E63FD18999F7CBF38AB71F4
+           LayeredPackages: code gcc gnome-tweaks gstreamer1-plugin-openh264
+                            mozilla-openh264 papirus-icon-theme
+
+  fedora:fedora/36/x86_64/silverblue
+                   Version: 36.20220703.0 (2022-07-03T00:41:13Z)
+                BaseCommit: 48cc35cbf01e890bbaa1fe0589a8115781d2595b842f2632dc61db27572ef855
+              GPGSignature: Valid signature by 53DED2CB922D8B8D9E63FD18999F7CBF38AB71F4
+           LayeredPackages: code gcc gnome-tweaks gstreamer1-plugin-openh264
+                            mozilla-openh264 papirus-icon-theme
+                    Pinned: yes
