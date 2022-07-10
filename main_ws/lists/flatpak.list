@@ -1,24 +1,14 @@
-Bitwarden	com.bitwarden.desktop	2022.5.0	stable	flathub	system
-Brave Browser	com.brave.Browser	1.40.105	stable	flathub	system
-Discord	com.discordapp.Discord	0.0.18	stable	flathub	system
 draw.io	com.jgraph.drawio.desktop	19.0.2	stable	flathub	system
-Steam	com.valvesoftware.Steam	1.0.0.74	stable	flathub	system
-Element	im.riot.Riot	1.10.15	stable	flathub	system
 Fedora Media Writer	org.fedoraproject.MediaWriter	5.0.1	stable	fedora	system
 Fedora Platform	org.fedoraproject.Platform	35	f35	fedora	system
 Fedora Platform	org.fedoraproject.Platform	36	f36	fedora	system
 Freedesktop Platform	org.freedesktop.Platform	21.08.14	21.08	flathub	system
-i386	org.freedesktop.Platform.Compat.i386		21.08	flathub	system
 Mesa	org.freedesktop.Platform.GL.default	21.3.8	21.08	flathub	system
-default	org.freedesktop.Platform.GL32.default		21.08	flathub	system
 Intel	org.freedesktop.Platform.VAAPI.Intel		21.08	flathub	system
-i386	org.freedesktop.Platform.VAAPI.Intel.i386		21.08	flathub	system
-ffmpeg-full	org.freedesktop.Platform.ffmpeg-full		21.08	flathub	system
 openh264	org.freedesktop.Platform.openh264	2.1.0	2.0	flathub	system
-Freedesktop SDK	org.freedesktop.Sdk	21.08.14	21.08	flathub	system
 TeX Live Sdk extension	org.freedesktop.Sdk.Extension.texlive	20210325	21.08	flathub	system
 GNU Image Manipulation Program	org.gimp.GIMP	2.10.32	stable	flathub	system
-Boxes	org.gnome.Boxes	42.1	stable	flathub	system
+Boxes	org.gnome.Boxes	42.3	stable	flathub	system
 GNOME Boxes Osinfo DB	org.gnome.Boxes.Extension.OsinfoDb	20220516	stable	flathub	system
 Calculator	org.gnome.Calculator	42.0	stable	fedora	system
 Calendar	org.gnome.Calendar	42.0	stable	fedora	system
@@ -27,12 +17,10 @@ Connections	org.gnome.Connections	42.1	stable	fedora	system
 Contacts	org.gnome.Contacts	42.0	stable	fedora	system
 Document Viewer	org.gnome.Evince	42.2	stable	fedora	system
 Extensions	org.gnome.Extensions	42.0	stable	fedora	system
-Getting Things GNOME!	org.gnome.GTG	0.6	stable	flathub	system
 Logs	org.gnome.Logs	3.34.0	stable	fedora	system
 Maps	org.gnome.Maps	42.1	stable	fedora	system
 Music	org.gnome.Music	42.1	stable	flathub	system
 Sushi	org.gnome.NautilusPreviewer	41.2	stable	fedora	system
-GNOME Application Platform version 41	org.gnome.Platform		41	flathub	system
 GNOME Application Platform version 42	org.gnome.Platform		42	flathub	system
 Text Editor	org.gnome.TextEditor	42.1	stable	fedora	system
 Weather	org.gnome.Weather	42.0	stable	fedora	system
@@ -53,8 +41,8 @@ QGnomePlatform-decoration	org.kde.WaylandDecoration.QGnomePlatform-decoration		5
 QGnomePlatform-decoration	org.kde.WaylandDecoration.QGnomePlatform-decoration		6.2	flathub	system
 LabPlot	org.kde.labplot2	2.9.0	stable	flathub	system
 LibreOffice	org.libreoffice.LibreOffice	7.3.4.2	stable	flathub	system
-Thunderbird	org.mozilla.Thunderbird	91.10.0	stable	flathub	system
+Thunderbird	org.mozilla.Thunderbird	91.11.0	stable	flathub	system
 GNU Octave	org.octave.Octave	7.1.0	stable	flathub	system
 TeXstudio	org.texstudio.TeXstudio	4.2.3	stable	flathub	system
 VLC	org.videolan.VLC	3.0.17.4	stable	flathub	system
-Zotero	org.zotero.Zotero	6.0.8	stable	flathub	system
+Zotero	org.zotero.Zotero	6.0.9	stable	flathub	system
