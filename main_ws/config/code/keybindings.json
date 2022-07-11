@@ -2889,7 +2889,7 @@
         "when": "statusBarFocused"
     },
     {
-        "key": "ctrl+p x",
+        "key": "ctrl+shift+v x",
         "command": "workbench.action.closePanel"
     },
     {
@@ -3952,11 +3952,11 @@
         "when": "editorTextFocus && !findInputFocussed && !jupyter.ownsSelection && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
     },
     {
-        "key": "shift+enter",
+        "key": "ctrl+p shift+enter",
         "command": "python.execInTerminal-icon"
     },
     {
-        "key": "ctrl+enter",
+        "key": "ctrl+p ctrl+enter",
         "command": "python.execInTerminal"
     }
 ]
