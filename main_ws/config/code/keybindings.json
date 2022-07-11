@@ -3945,5 +3945,18 @@
         "key": "ctrl+shift+v",
         "command": "-excel.preview",
         "when": "editorLangId == 'excel'"
+    },
+    {
+        "key": "shift+enter",
+        "command": "-python.execSelectionInTerminal",
+        "when": "editorTextFocus && !findInputFocussed && !jupyter.ownsSelection && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
+    },
+    {
+        "key": "shift+enter",
+        "command": "python.execInTerminal-icon"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "python.execInTerminal"
     }
 ]
