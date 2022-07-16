@@ -10,3 +10,4 @@ elif [[ "$current_time" > "22:00" ]]; then
 fi
 
 gsettings set org.gnome.desktop.background picture-uri file:///$HOME/Pictures/wallpaper/$wallpaper
+gsettings set org.gnome.desktop.screensaver picture-uri file:///$HOME/Pictures/wallpaper/$wallpaper
