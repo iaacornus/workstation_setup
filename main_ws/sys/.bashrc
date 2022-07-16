@@ -61,6 +61,7 @@ alias asciiquarium="toolbox run asciiquarium"
 alias backup-important="$HOME/.sys/./backup-important.sh"
 alias pipes="$HOME/.sys/./pipes"
 alias pipes3d="$HOME/.sys/./pipes3d"
+alias toolbox-upgrade="sudo dnf update -y; sudo dnf autoremove; sudo dnf clean all"
 
 # git aliases
 alias status="git status"
