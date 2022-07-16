@@ -3,7 +3,8 @@ Description=Change the wallpaper based on the current time.
 Wants=change-wallpaper.timer
 
 [Service]
-Type=simple
+Type=oneshot
+Restart=on-failure
 ExecStart=%h/.sys/change-wallpaper.sh
 
 [Install]
