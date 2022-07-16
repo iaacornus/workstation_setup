@@ -59,8 +59,8 @@ alias project-init="$HOME/.sys/./utils.sh project-init"
 alias pyc="$HOME/.sys/./dev-utils.sh pyc"
 alias asciiquarium="toolbox run asciiquarium"
 alias backup-important="$HOME/.sys/./backup-important.sh"
-alias pipes="$HOME/.sys/toys/./pipes"
-alias pipes3d="$HOME/.sys/toys/./pipes3d"
+alias pipes="$HOME/.sys/./pipes"
+alias pipes3d="$HOME/.sys/./pipes3d"
 
 # git aliases
 alias status="git status"
