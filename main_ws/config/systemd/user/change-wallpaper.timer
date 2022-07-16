@@ -1,0 +1,10 @@
+[Unit]
+Description=Changes the wallpaper based on the current time.
+
+[Timer]
+Persistent=true
+OnCalendar=*-*-* 06,14,22:15:00
+Unit=change-wallpaper.service
+
+[Install]
+WantedBy=timers.target

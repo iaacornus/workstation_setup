@@ -1,0 +1,9 @@
+[Unit]
+Description=Change the wallpaper based on the current time.
+Wants=change-wallpaper.timer
+
+[Service]
+ExecStart=%h/.sys/change-wallpaper.sh
+
+[Install]
+WantedBy=default.target
