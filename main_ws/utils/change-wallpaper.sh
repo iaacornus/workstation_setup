@@ -6,7 +6,7 @@ if [[ "$current_time" > "06:00" || "$current_time" == "06:00"  ]] && [[ "$curren
     wallpaper="am_$(shuf -i1-3 -n1).jpg"
 elif [[ "$current_time" > "14:00" || "$current_time" == "14:00" ]] && [[ "$current_time" < "22:00" ]]; then
     wallpaper="nn_$(shuf -i1-2 -n1).jpg"
-elif [[ "$current_time" > "22:00" || "$current_time" == "22:00" ]] && [[ "$current_time" < "06:00" ]]; then
+elif [[ "$current_time" > "22:00" || "$current_time" == "22:00" ]] || [[ "$current_time" < "06:00" ]]; then
     wallpaper="pm_$(shuf -i1-2 -n1).jpg"
 fi
 
