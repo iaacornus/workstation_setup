@@ -5,3 +5,5 @@ custom-font='CodeNewRoman Nerd Font Mono 14'
 highlight-current-line=true
 show-map=true
 right-margin-position=79
+style-scheme='Adwaita-dark'
+restore-session=false
