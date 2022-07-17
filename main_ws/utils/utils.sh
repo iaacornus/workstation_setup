@@ -33,7 +33,7 @@ elif [[ $1 == *"tex-gen"* ]]; then
 
 	template_dir="$HOME/Templates/latex_manscrpt_ppr_main_template.tex"
 	cp $template_dir $PWD/$2.tex
-	echo -e "\e[1;32m[+] Template created in:\e[0m\e[1m $PWD/$1.tex\e[0m"
+	echo -e "\e[1;32m[+] Template created in:\e[0m\e[1m $PWD/$2.tex\e[0m"
 elif [[ $1 == *"clean-up"* ]]; then
 	echo -e "\e[1m[>] Cleaning up the system.\e[0m"
 	echo -e ">>> Removing journal files with size of:\e[36m$(journalctl --disk-usage)\e[0m"
