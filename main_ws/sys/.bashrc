@@ -62,6 +62,8 @@ alias backup-important="$HOME/.sys/./backup-important.sh"
 alias pipes="$HOME/.sys/./pipes"
 alias pipes3d="$HOME/.sys/./pipes3d"
 alias toolbox-upgrade="sudo dnf update -y; sudo dnf autoremove; sudo dnf clean all"
+alias vs-dark="rm $HOME/.config/Code/User/settings.json; cp $HOME/.sys/dark/settings.json $HOME/.config/Code/User/settings.json"
+alias vs-light="rm $HOME/.config/Code/User/settings.json; cp $HOME/.sys/light/settings.json $HOME/.config/Code/User/settings.json"
 
 # git aliases
 alias status="git status"
