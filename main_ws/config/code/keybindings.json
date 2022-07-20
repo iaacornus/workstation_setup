@@ -2471,7 +2471,7 @@
         "when": "editorTextFocus && inSnippetMode"
     },
     {
-        "key": "ctrl+f",
+        "key": "ctrl+f f",
         "command": "notebook.find",
         "when": "notebookEditorFocused && !inputFocus"
     },
@@ -3958,5 +3958,87 @@
     {
         "key": "ctrl+p ctrl+enter",
         "command": "python.execInTerminal"
+    },
+    {
+        "key": "ctrl+shift+r s",
+        "command": "python.sortImports"
+    },
+    {
+        "key": "ctrl+shift+r r",
+        "command": "editor.action.refactor"
+    },
+    {
+        "key": "ctrl+shift+r ctrl+p",
+        "command": "editor.action.refactor.preview"
+    },
+    {
+        "key": "ctrl+shift+r p",
+        "command": "refactorPreview.focus"
+    },
+    {
+        "key": "ctrl+f f",
+        "command": "actions.find",
+        "when": "editorFocus || editorIsOpen"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-actions.find",
+        "when": "editorFocus || editorIsOpen"
+    },
+    {
+        "key": "ctrl+f f",
+        "command": "editor.action.extensioneditor.showfind",
+        "when": "!editorFocus && activeEditor == 'workbench.editor.extension'"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-editor.action.extensioneditor.showfind",
+        "when": "!editorFocus && activeEditor == 'workbench.editor.extension'"
+    },
+    {
+        "key": "ctrl+f f",
+        "command": "keybindings.editor.searchKeybindings",
+        "when": "inKeybindings"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-keybindings.editor.searchKeybindings",
+        "when": "inKeybindings"
+    },
+    {
+        "key": "ctrl+f f",
+        "command": "notebook.find",
+        "when": "notebookEditorFocused && !editorFocus && activeEditor == 'workbench.editor.notebook'"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-notebook.find",
+        "when": "notebookEditorFocused && !editorFocus && activeEditor == 'workbench.editor.notebook'"
+    },
+    {
+        "key": "ctrl+f f",
+        "command": "problems.action.focusFilter",
+        "when": "focusedView == 'workbench.panel.markers.view'"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-problems.action.focusFilter",
+        "when": "focusedView == 'workbench.panel.markers.view'"
+    },
+    {
+        "key": "ctrl+f r",
+        "command": "markdown.findAllFileReferences"
+    },
+    {
+        "key": "ctrl+f r",
+        "command": "references-view.findReferences"
+    },
+    {
+        "key": "ctrl+f r",
+        "command": "typescript.findAllFileReferences"
+    },
+    {
+        "key": "ctrl+f i",
+        "command": "references-view.findImplementations"
     }
 ]
