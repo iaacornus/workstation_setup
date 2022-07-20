@@ -62,8 +62,6 @@ alias backup-important="$HOME/.sys/./backup-important.sh"
 alias pipes="$HOME/.sys/./pipes"
 alias pipes3d="$HOME/.sys/./pipes3d"
 alias toolbox-upgrade="sudo dnf update -y; sudo dnf autoremove; sudo dnf clean all"
-alias vs-dark="rm $HOME/.config/Code/User/settings.json; cp $HOME/.sys/dark/settings.json $HOME/.config/Code/User/settings.json"
-alias vs-light="rm $HOME/.config/Code/User/settings.json; cp $HOME/.sys/light/settings.json $HOME/.config/Code/User/settings.json"
 alias sign="gpg --sign"
 alias encrypt="gpg --encrypt"
 alias decrypt="gpg --decrypt"
@@ -117,7 +115,7 @@ unset rc
 . "$HOME/.cargo/env"
 
 
-if [[ $HOSTNAME != "toolbox" && $(tput cols) -gt 79 && $(tput lines) -gt 29 ]]; then
+if [[ $HOSTNAME != "toolbox" && $(tput cols) -gt 79 && $(tput lines) -gt 23 ]]; then
     ls $HOME/.sys/toys | sort -R | tail -$N | while read file; do
 	    $HOME/.sys/toys/./$file
 	    break
