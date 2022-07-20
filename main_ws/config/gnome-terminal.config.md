@@ -1,3 +1,3 @@
-mononoki 14pt
+jetbrainsmono 13pt
 
 gnome color scheme
