@@ -3459,3 +3459,571 @@ commit -am "fixed variable"
 flatpak install flathub io.bassi.Amberol
 flatpak list
 flatpak uninstall --delete-data --system io.bassi.Amberol
+toolbox-upgrade 
+exit
+toolbox-upgrade 
+exit
+nano .bashrc
+cp ~/.bashrc ~/Development/workstation_setup/main_ws/sys/
+dev-env 
+sudo dnf remove bat
+toolbox-upgrade 
+exit
+flatpak install flathub org.gnome.Lollypop
+flatpak uninstall --system --delete-data org.gnome.Lollypop
+flatpak uninstall --unused
+flatpak repair
+flatpak update
+rpm-ostree upgrade
+cd Development/workstation_setup/
+status
+add .
+commit -m "bash history for completion"
+status
+commit -am "text editor setting update"
+sudo nano /etc/gitconfig
+sudo nano /etc/nanorc 
+sudo cp /etc/nanorc ~/Development/workstation_setup/main_ws/config/
+status
+commit -am "turned off backups"
+source ~/.bashrc
+gdiff
+commit -am "used git diff instead"
+cd
+toolbox enter 
+toolbox-upgrade 
+exit
+toolbox enter fedora-toolbox-35
+toolbox enter dev-tools 
+poweroff
+cd Development/workstation_setup/
+status
+cd main_ws/
+ls
+cd config/systemd/user/
+ls
+cp change-wallpaper.* ~/Development/lazy-switcher/config/
+ls
+cd .local/
+ls
+cd Development/
+ls
+mkdir lazy-switcher
+cd lazy-switcher/
+ginit
+ls
+cd ..
+cp ai/LICENSE lazy-switcher/
+ls
+cd lazy-switcher/
+ls
+status
+add .
+status
+branch -M main
+commit -m "licensed to GPL 3"
+touch .gitignore
+echo -e "venv\n*__pycache__*" >> .gitignore 
+cat .gitignore 
+ls
+status
+add .
+commit -m "gitignore"
+echo "*__init__.py
+echo "*__init__.py" > .gitignore 
+status
+commit -am "init files"
+status
+branch devel
+checkout devel
+clear
+status
+mkdir config
+cd config/
+ls
+touch lazy-switcher.service
+touch lazy-switcher.timer
+ls
+status
+ls
+rm lazy*
+ls
+mv change-wallpaper.service lazy-switcher.service
+mv change-wallpaper.timer lazy-switcher.timer
+ls
+clear
+nano lazy-switcher.timer 
+ls
+nano lazy-switcher.service 
+ls
+nano lazy-switcher.timer 
+cat lazy-switcher.service 
+cat lazy-switcher.timer 
+clear
+status
+add .
+status
+unstage *
+status
+add *.timer
+status
+commit -m "systemd timer for systemd service"
+add .
+commit -m "one shot systemd service"
+cd ..
+mkdir src
+ls
+mkdir scripts
+cd scripts/
+ls
+nano change-wallpaper.sh 
+cp ~/.sys/change-wallpaper.sh ~/Development/lazy-switcher/scripts/
+cd Development/python/
+ls
+nano classes_.py
+python classes_.py 
+cat classes_.py 
+cd Development/python/
+ls
+nano classes_.py 
+python classes_.py 
+nano classes_.py 
+python classes_.py 
+nano classes_.py 
+python classes_.py 
+nano classes_.py 
+python classes_.py 
+cd Documents/
+s
+ls
+less passwords.gpg 
+clear
+ls
+gpg --sign digital_signature.png 
+ls
+python
+cd Development/
+ls
+clone https://gitlab.com/iaacornus/myuzi
+status
+cd myuzi/
+ls
+status
+commit -am "removed shebang"
+status
+commit -am "fixed import statements"
+status
+commit -am "improve type hints and limit lines to 79 char"
+commit --ammend
+ls
+status
+commit -am "specified imports as much as possible"
+status
+diff
+gdiff
+commit -am "specify encoding and improve type hints of some function parameters"
+status
+commit -am
+commit -a
+gdiff
+commit -a
+status
+commit -am "specify more imports"
+commit -a
+clear
+push
+/bin/python /var/home/iaacornus/Development/myuzi/myuzi/test.py
+/bin/python /var/home/iaacornus/Development/myuzi/myuzi/TEST.PY
+htop
+cd FiraCode
+cd ..
+cd "FiraCode (2)"
+ls
+rm *Fura*
+ls
+rm *Windows*
+ls
+rm *otf
+cd Downloads/CodeNewRoman/
+ls
+rm *Windows*
+rm *Mono.tff
+rm *Mono.ttf
+htop
+cd Development/
+ls
+cd iota-2
+cd deprecated/
+cd form/
+ls
+nano clean.
+nano clean.c
+htop
+rm *Windows
+rm *Windows*
+cd Development/iota-2
+clear
+rm Fan*
+cp ~/.config/Code/User/settings.json ~/Development/workstation_setup/main_ws/config/code/
+cp ~/.config/Code/User/keybindings.json ~/Development/workstation_setup/main_ws/config/code/
+cd Development/workstation_setup/
+status
+diff
+gdiff
+commit -am "fixed sequence"
+rm *Windows*
+rm *Complete.tff
+rm *Complete.ttf
+htop
+clear
+cd Development/iota-2
+cd
+backup-important 
+clear
+htop
+cd Development/iota-2
+clear
+htop
+clear
+cd
+cp ~/.config/Code/User/keybindings.json ~/Development/workstation_setup/main_ws/config/code/
+cp ~/.config/Code/User/settings.json ~/Development/workstation_setup/main_ws/config/code/
+cd Development/iota-2
+cd ..
+cd workstation_setup/
+status
+gdiff
+clear
+commit -am "switched to mononoki"
+status
+add .
+commit -am "mononoki nerd font"
+clear
+status
+commit -am "updated config to use mononoki nerd font mono"
+clear
+cd
+status
+cd Development/iota-2
+cd ..
+cd workstation_setup/
+status
+push
+ls
+cd main_ws/
+ls
+cd lists/
+ls
+rpm-ostree status > rpm-ostree.info
+rpm-ostree status
+clear
+ls
+flatpak list > flatpak.list
+ls ~/Music > music.list 
+gdiff
+status
+commit -am "updated lists"
+cd
+htop
+cd Development/
+ls
+cp ~/.config/Code/User/settings.json ~/Development/workstation_setup/main_ws/config/code/
+cd Development/workstation_setup/
+status
+commit -am "turned off some unused settings"
+clear
+push
+cd
+nano .bashrc 
+source ~/.bashrc
+clear
+cd .config/Code/
+ls
+cd User/
+ls
+nano test.sh
+bash test.sh 
+rm test.sh 
+vs-light 
+vs-dark 
+cp ~/.config/Code/User/settings.json ~/Development/workstation_setup/main_ws/config/code/light/
+mkdir ~/Development/workstation_setup/main_ws/config/code/light
+cp ~/.config/Code/User/settings.json ~/Development/workstation_setup/main_ws/config/code/light/
+mkdir ~/Development/workstation_setup/main_ws/config/code/dark
+cp ~/.config/Code/User/settings.json ~/Development/workstation_setup/main_ws/config/code/dark/
+cp ~/.bashrc ~/Development/workstation_setup/main_ws/sys/
+cd Development/workstation_setup/
+status
+add .
+commit -am "dark and light config for vscode, for use in vs-dark and vs-alias"
+push
+source /var/home/iaacornus/Development/iota-2/venv/bin/activate
+./blocks1 
+./colorblocks 
+./colorsquares 
+./crunch
+./crunchbang-mini 
+./dino 
+./dna 
+nano dna 
+./dna 
+nano dino 
+nano elfman 
+./elfman 
+./duc 
+./ghosts 
+nano ghosts 
+./ghosts 
+./jangofett 
+nano jangofett 
+./jangofett 
+./liz 
+./panes 
+./peacock 
+./pinguco 
+nano pinguco 
+./rails 
+./rally-x 
+./space-invaders 
+./squ
+./square 
+./tanks 
+./tiefighter1row 
+./tvs 
+./unowns.py 
+./zwaves 
+clear
+cd Development/workstation_setup/
+push
+cd ~/.sys/toys/
+ls
+./bonsai 
+nano bonsai 
+./bonsai 
+clear
+ls
+nano blocks1 
+nano colorsquares 
+nano crunchbang-mini 
+nano crunch
+cd Development/workstation_setup/
+status
+commit -am "fixed spacing"
+cd Development/workstation_setup/
+push
+cd Development/workstation_setup/
+cd main_ws/config/
+ls
+nano gnome-terminal.config.md 
+status
+commit -am "revert to use default size"
+clear
+cd
+flatpak search papirus
+flatpak search theme | grep -i papirus
+flatpak search theme
+flatpak search theme | grep papirus
+sign --help
+encrypt --help
+decrypt --help
+verify --help
+gpg --help
+cd Documents/
+ls
+gpg --verify passwords.gpg 
+gpg --decrypt passwords.gpg 
+nano passwords.gpg 
+less passwords.gpg 
+nano .bashrc 
+cp ~/.bashrc ~/Development/workstation_setup/main_ws/sys/
+cd Development/workstation_setup/
+status
+commit -am "some gpg alias"
+push
+poweroff
+cp ~/Development/workstation_setup/main_ws/config/code/dark/settings.json ~/.config/Code/User/settings.json
+poweroff
+cd Development/iota-2
+cd deprecated/form/
+nano clean.c 
+cd Downloads/UbuntuMono/
+ls
+rm *Windows*
+cd Downloads/CodeNewRoman/
+ls
+rm *Windows*
+cd ..
+cd FiraCode
+ls
+cd ..
+cd FantasqueSansMono/
+ls
+rm *Windows*
+cd ..
+cd FiraMono/
+ls
+rm Fura*
+ls
+rm *Windows*
+vs-dark 
+rm *Windows*
+cd ..
+cd JetBrainsMono/
+rm *Windows*
+vs-light 
+vs-dark 
+htop
+clear
+rpm-ostree status
+cd
+clear
+nano .bashrc
+clear
+nano .sys/clear.sh 
+clear
+cd .local/share/fonts/
+ls
+rm *Nerd*
+ls
+rm *Mono*
+rm *Windows*
+rm *Mono.tff
+rm *Mono.ttf
+source /var/home/iaacornus/Development/iota-2/venv/bin/activate
+ /usr/bin/env /var/home/iaacornus/Development/iota-2/venv/bin/python /var/home/iaacornus/.vscode/extensions/ms-python.python-2022.8.1/pythonFiles/lib/python/debugpy/launcher 35705 -- /var/home/iaacornus/Development/iota-2/src/scraper/img_scraper/clean.py 
+ cd /var/home/iaacornus/Development/iota-2 ; /usr/bin/env /var/home/iaacornus/Development/iota-2/venv/bin/python /var/home/iaacornus/.vscode/extensions/ms-python.python-2022.8.1/pythonFiles/lib/python/debugpy/launcher 33297 -- /var/home/iaacornus/Development/iota-2/src/scraper/img_scraper/clean.py 
+ cd /var/home/iaacornus/Development/iota-2 ; /usr/bin/env /var/home/iaacornus/Development/iota-2/venv/bin/python /var/home/iaacornus/.vscode/extensions/ms-python.python-2022.8.1/pythonFiles/lib/python/debugpy/launcher 40697 -- /var/home/iaacornus/Development/iota-2/src/scraper/img_scraper/clean.py 
+ cd /var/home/iaacornus/Development/iota-2 ; /usr/bin/env /var/home/iaacornus/Development/iota-2/venv/bin/python /var/home/iaacornus/.vscode/extensions/ms-python.python-2022.8.1/pythonFiles/lib/python/debugpy/launcher 46055 -- /var/home/iaacornus/Development/iota-2/src/scraper/img_scraper/test.py 
+ cd /var/home/iaacornus/Development/iota-2 ; /usr/bin/env /var/home/iaacornus/Development/iota-2/venv/bin/python /var/home/iaacornus/.vscode/extensions/ms-python.python-2022.8.1/pythonFiles/lib/python/debugpy/launcher 34109 -- /var/home/iaacornus/Development/iota-2/src/scraper/img_scraper/test.py 
+ cd /var/home/iaacornus/Development/iota-2 ; /usr/bin/env /var/home/iaacornus/Development/iota-2/venv/bin/python /var/home/iaacornus/.vscode/extensions/ms-python.python-2022.8.1/pythonFiles/lib/python/debugpy/launcher 33121 -- /var/home/iaacornus/Development/iota-2/src/scraper/img_scraper/test.py 
+cd Development/workstation_setup/
+status
+add main_ws/fonts/
+status
+commit -m "switched to jetbrains mono"
+status
+add .
+status
+commit -am "updated vscode code settings"
+status
+commit -am "remove vs-dark and vs-light alias"
+nano .bashrc
+cp ~/.bashrc ~/Development/workstation_setup/main_ws/sys/
+cp ~/.config/Code/User/settings.json ~/Development/workstation_setup/main_ws/config/code/dark/
+cp ~/.config/Code/User/settings.json ~/Development/workstation_setup/main_ws/config/code/
+status
+cp ~/Development/workstation_setup/main_ws/config/code/dark/settings.json ~/.config/Code/User/settings.json
+clear
+cp ~/.config/Code/User/keybindings.json ~/Development/workstation_setup/main_ws/config/code/
+cp ~/.config/Code/User/settings.json ~/Development/workstation_setup/main_ws/config/code/dark/
+cd Development/workstation_setup/
+status
+commit -am "update config file for flatpak"
+clear
+source /var/home/iaacornus/Development/iota-2/venv/bin/activate
+clear
+deactivate 
+clear
+htop
+cp ~/.config/Code/User/settings.json ~/Development/workstation_setup/main_ws/config/code/
+cd Development/workstation_setup/
+status
+commit -am 
+commit -am "update font size"
+cd main_ws/config/
+ls
+nano gnome-terminal.config.md 
+clear
+htop
+cp ~/.config/Code/User/settings.json ~/Development/workstation_setup/main_ws/config/code/
+status
+nano gnome-terminal.config.md 
+commit -am "font update"
+cd Development/workstation_setup/
+push
+cd .sys/
+ls
+rm -r light/ dark/
+ls
+nano change-wallpaper.sh 
+cd ..
+cd .config/systemd/user/
+ls
+nano change-wallpaper.service 
+nano change-wallpaper.timer 
+cat change-wallpaper.timer 
+cp change-wallpaper.* ~/Development/workstation_setup/main_ws/sys/
+ls
+cd .sys/
+ls
+cat change-wallpaper.sh 
+cp change-wallpaper.sh ~/Development/workstation_setup/main_ws/utils/
+cd Development/workstation_setup/
+status
+commit -am "update wallpaper change time"
+cd 
+cd Development/workstation_setup/
+status
+commit -am "forgot to udpate gnome text editor config"
+push
+cd Development/workstation_setup/
+push
+clear
+poweroff
+cd Development/workstation_setup/
+push
+dev-env 
+ed --help
+exit
+killall toolbox
+dev-env 
+htop
+top
+toolbox-upgrade 
+exit
+toolbox-upgrade 
+exit
+dev-env 
+toolbox enter 
+toolbox-upgrade 
+exit
+flatpak update
+toolbox enter dev-tools 
+rpm-ostree upgrade
+poweroff
+lsblk
+python
+rm *Windows*
+cd ..
+cd CodeNewRoman/
+ls
+rm *Windows*
+cd Downloads/Hack/
+ls
+rm *Windows*
+source /var/home/iaacornus/Development/python/venv/bin/activate
+clear
+htop
+cd Downloads/Mononoki
+ls
+rm *Windows*
+clear
+cd ..
+cd "Mononoki (1)"/
+ls
+rm *Windows*
+rm *Mono.ttf
+htop
+cd Downloads/UbuntuMono/
+ls
+rm *Windows*
+cd ..
+cd Ubuntu
+rm *Windows*
+htop
+cd Downloads/JetBrainsMono/
+rm *Windows*
+cd Downloads/JetBrainsMono/
+rm *Mono.tff
+rm *Mono.ttf
+htop
