@@ -1,5 +1,6 @@
 {
     "telemetry.telemetryLevel": "off",
+    "redhat.telemetry.enabled": false,
     "workbench.enableExperiments": false,
     "editor.inlayHints.enabled": "off",
     "workbench.startupEditor": "none",
