@@ -1,8 +1,6 @@
 {
     "telemetry.telemetryLevel": "off",
     "redhat.telemetry.enabled": false,
-    "julia.enableCrashReporter": false,
-    "julia.enableTelemetry": false,
     "window.titleBarStyle": "custom",
     "workbench.enableExperiments": false,
     "editor.inlayHints.enabled": "off",
@@ -144,7 +142,6 @@
     "zenMode.hideStatusBar": false,
     "zenMode.hideTabs": false,
     "zenMode.restore": false,
-    "julia.deleteJuliaCovFiles": false,
 
     "scm.alwaysShowRepositories": true,
     "scm.defaultViewMode": "tree",
@@ -236,8 +233,4 @@
     "fortran.formatting.formatter": "Disabled",
     "fortran.fortls.disableAutoupdate": true,
     "go.autocompleteUnimportedPackages": true,
-    "terminal.integrated.commandsToSkipShell": [
-        "language-julia.interrupt"
-    ],
-    "julia.symbolCacheDownload": true,
 }
