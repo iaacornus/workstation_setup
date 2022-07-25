@@ -236,4 +236,8 @@
     "fortran.formatting.formatter": "Disabled",
     "fortran.fortls.disableAutoupdate": true,
     "go.autocompleteUnimportedPackages": true,
+    "terminal.integrated.commandsToSkipShell": [
+        "language-julia.interrupt"
+    ],
+    "julia.symbolCacheDownload": true,
 }
