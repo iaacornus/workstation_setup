@@ -2,7 +2,6 @@ better c++ syntax
 better comments
 c/c++
 excel viewer
-gtk dark title bar
 jupyter
 jupyter keymap
 jupyter notebook renderers
@@ -15,3 +14,6 @@ python
 rust-analyzer
 sublime material theme
 yaml
+julia
+modern fortran
+
