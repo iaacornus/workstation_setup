@@ -1,6 +1,8 @@
 {
     "telemetry.telemetryLevel": "off",
     "redhat.telemetry.enabled": false,
+    "julia.enableCrashReporter": false,
+    "julia.enableTelemetry": false,
     "window.titleBarStyle": "custom",
     "workbench.enableExperiments": false,
     "editor.inlayHints.enabled": "off",
@@ -34,6 +36,8 @@
             79,
             99
         ],
+    "fortran.fortls.maxLineLength": 79,
+    "fortran.fortls.maxCommentLineLength": 79,
     "editor.semanticHighlighting.enabled": true,
     "editor.unicodeHighlight.includeComments": false,
     "editor.unicodeHighlight.nonBasicASCII": true,
@@ -55,6 +59,7 @@
     "files.insertFinalNewline": true,
     "files.autoSave": "onWindowChange",
     "files.trimTrailingWhitespace": true,
+
     "workbench.editor.historyBasedLanguageDetection": false,
     "workbench.editor.languageDetection": false,
     "workbench.editor.autoLockGroups": {
@@ -139,8 +144,35 @@
     "zenMode.hideStatusBar": false,
     "zenMode.hideTabs": false,
     "zenMode.restore": false,
+    "julia.deleteJuliaCovFiles": false,
+
     "scm.alwaysShowRepositories": true,
     "scm.defaultViewMode": "tree",
+    "go.buildOnSave": "off",
+    "go.editorContextMenuCommands": {
+        "toggleTestFile": false,
+        "addTags": false,
+        "testAtCursor": false,
+        "generateTestForFunction": false,
+        "addImport": false,
+        "testCoverage": false,
+        "playground": false,
+        "debugTestAtCursor": false
+    },
+    "go.enableCodeLens": {
+        "runtest": false
+    },
+    "go.languageServerExperimentalFeatures": {
+        "diagnostics": false
+    },
+    "go.lintOnSave": "off",
+    "go.playground": {
+        "openbrowser": false,
+        "share": false,
+        "run": false
+    },
+    "go.survey.prompt": false,
+    "go.terminal.activateEnvironment": false,
     "better-comments.tags": [
         {
             "tag": "!",
@@ -200,4 +232,8 @@
     "rust-analyzer.inlayHints.typeHints.enable": false,
     "python.languageServer": "Pylance",
     "platformio-ide.disablePIOHomeStartup": true,
+    "fortran.preferredCase": "uppercase",
+    "fortran.formatting.formatter": "Disabled",
+    "fortran.fortls.disableAutoupdate": true,
+    "go.autocompleteUnimportedPackages": true,
 }
