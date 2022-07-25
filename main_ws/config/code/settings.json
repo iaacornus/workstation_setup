@@ -1,8 +1,8 @@
 {
     "telemetry.telemetryLevel": "off",
     "redhat.telemetry.enabled": false,
-    "workbench.enableExperiments": false,
     "window.titleBarStyle": "custom",
+    "workbench.enableExperiments": false,
     "editor.inlayHints.enabled": "off",
     "workbench.startupEditor": "none",
     "window.title": "${dirty}${activeEditorShort}${separator}${rootName}",
