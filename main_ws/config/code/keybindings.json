@@ -4096,5 +4096,13 @@
     {
         "key": "ctrl+s up",
         "command": "workbench.action.splitEditorUp"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "workbench.action.openGlobalKeybindings"
+    },
+    {
+        "key": "ctrl+shift+f ctrl+n",
+        "command": "welcome.showNewFileEntries"
     }
 ]
