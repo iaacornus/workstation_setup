@@ -104,6 +104,12 @@ alias show="git show"
 alias prune="git prune"
 alias gfsck="git fsck"
 alias archive="git archive"
+alias blame="git blame"
+alias pick="git cherry-pick"
+alias gclean="git clean"
+alias shortlog="git shortlog"
+alias switch="git switch"
+
 
 alias dev-env="toolbox enter fedora-toolbox-35"
 
