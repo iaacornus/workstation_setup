@@ -1935,7 +1935,7 @@
         "when": "workbench.scm.active"
     },
     {
-        "key": "ctrl+e s",
+        "key": "ctrl+s e",
         "command": "workbench.action.splitEditor"
     },
     {
@@ -4080,5 +4080,21 @@
     {
         "key": "alt+up alt+up",
         "command": "editor.action.addCursorsToTop"
+    },
+    {
+        "key": "ctrl+s down",
+        "command": "workbench.action.splitEditorDown"
+    },
+    {
+        "key": "ctrl+s left",
+        "command": "workbench.action.splitEditorLeft"
+    },
+    {
+        "key": "ctrl+s right",
+        "command": "workbench.action.splitEditorRight"
+    },
+    {
+        "key": "ctrl+s up",
+        "command": "workbench.action.splitEditorUp"
     }
 ]
