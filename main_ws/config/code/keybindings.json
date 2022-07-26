@@ -1832,10 +1832,6 @@
         "command": "-workbench.action.moveActiveEditorGroupUp"
     },
     {
-        "key": "shift+alt+1",
-        "command": "-workbench.action.moveEditorToFirstGroup"
-    },
-    {
         "key": "shift+alt+9",
         "command": "-workbench.action.moveEditorToLastGroup"
     },
@@ -3780,11 +3776,11 @@
         "when": "terminalProcessSupported && terminalTabsFocus"
     },
     {
-        "key": "ctrl+shift+e 3",
+        "key": "ctrl+e 3",
         "command": "workbench.action.focusThirdEditorGroup"
     },
     {
-        "key": "ctrl+shift+e 1",
+        "key": "ctrl+e 1",
         "command": "workbench.action.focusFirstEditorGroup"
     },
     {
@@ -3803,31 +3799,27 @@
         "when": "editorColumnSelection && textInputFocus"
     },
     {
-        "key": "ctrl+shift+e 2",
-        "command": "workbench.action.focusSecondSideEditor"
-    },
-    {
-        "key": "ctrl+shift+e 2",
+        "key": "ctrl+e 2",
         "command": "workbench.action.focusSecondEditorGroup"
     },
     {
-        "key": "ctrl+shift+e 4",
+        "key": "ctrl+e 4",
         "command": "workbench.action.focusFourthEditorGroup"
     },
     {
-        "key": "ctrl+shift+e 5",
+        "key": "ctrl+e 5",
         "command": "workbench.action.focusFifthEditorGroup"
     },
     {
-        "key": "ctrl+shift+e 6",
+        "key": "ctrl+e 6",
         "command": "workbench.action.focusSixthEditorGroup"
     },
     {
-        "key": "ctrl+shift+e 7",
+        "key": "ctrl+e 7",
         "command": "workbench.action.focusSeventhEditorGroup"
     },
     {
-        "key": "ctrl+shift+e 8",
+        "key": "ctrl+e 8",
         "command": "workbench.action.focusEighthEditorGroup"
     },
     {
@@ -4040,5 +4032,9 @@
     {
         "key": "ctrl+f i",
         "command": "references-view.findImplementations"
+    },
+    {
+        "key": "shift+alt+1",
+        "command": "-workbench.action.moveEditorToFirstGroup"
     }
 ]
