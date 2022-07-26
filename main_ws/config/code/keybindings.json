@@ -4064,5 +4064,21 @@
     {
         "key": "ctrl+numpad_subtract 7",
         "command": "editor.foldLevel7"
+    },
+    {
+        "key": "alt+up up",
+        "command": "editor.action.insertCursorAbove"
+    },
+    {
+        "key": "alt+down down",
+        "command": "editor.action.insertCursorBelow"
+    },
+    {
+        "key": "alt+down alt+down",
+        "command": "editor.action.addCursorsToBottom"
+    },
+    {
+        "key": "alt+up alt+up",
+        "command": "editor.action.addCursorsToTop"
     }
 ]
