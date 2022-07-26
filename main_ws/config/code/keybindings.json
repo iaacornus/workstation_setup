@@ -4036,5 +4036,33 @@
     {
         "key": "shift+alt+1",
         "command": "-workbench.action.moveEditorToFirstGroup"
+    },
+    {
+        "key": "ctrl+numpad_subtract 1",
+        "command": "editor.foldLevel1"
+    },
+    {
+        "key": "ctrl+numpad_subtract 2",
+        "command": "editor.foldLevel2"
+    },
+    {
+        "key": "ctrl+numpad_subtract 3",
+        "command": "editor.foldLevel3"
+    },
+    {
+        "key": "ctrl+numpad_subtract 4",
+        "command": "editor.foldLevel4"
+    },
+    {
+        "key": "ctrl+numpad_subtract 5",
+        "command": "editor.foldLevel5"
+    },
+    {
+        "key": "ctrl+numpad_subtract 6",
+        "command": "editor.foldLevel6"
+    },
+    {
+        "key": "ctrl+numpad_subtract 7",
+        "command": "editor.foldLevel7"
     }
 ]
