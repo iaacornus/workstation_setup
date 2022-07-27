@@ -18,6 +18,8 @@
     df = "diff"
     ft = "fetch"
     me = "merge"
+    ph = "push"
+    po = "push origin"
     rt = "restore"
     rm = "remote"
     rs = "reset"
