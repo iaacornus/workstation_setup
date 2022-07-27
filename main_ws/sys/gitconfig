@@ -8,8 +8,7 @@
     interactive = auto
     status = auto
 [alias]
-    ac = "commit -Sa"
-    ca = "commit --amend"
+    ac = "commit --amend"
     bl = "blame"
     bh = "branch"
     ce = "clone"
