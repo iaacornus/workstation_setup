@@ -14,5 +14,3 @@ python
 rust-analyzer
 sublime material theme
 yaml
-modern fortran
-go
