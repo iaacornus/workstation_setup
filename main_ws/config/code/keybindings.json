@@ -25,16 +25,6 @@
         "command": "-welcome.showNewFileEntries"
     },
     {
-        "key": "shift+alt+up",
-        "command": "-editor.action.insertCursorAbove",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "shift+alt+down",
-        "command": "-editor.action.insertCursorBelow",
-        "when": "editorTextFocus"
-    },
-    {
         "key": "ctrl+shift+right",
         "command": "-workbench.action.terminal.resizePaneRight",
         "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
@@ -2889,16 +2879,6 @@
         "command": "workbench.action.closePanel"
     },
     {
-        "key": "ctrl+shift+up",
-        "command": "-editor.action.insertCursorAbove",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+shift+down",
-        "command": "-editor.action.insertCursorBelow",
-        "when": "editorTextFocus"
-    },
-    {
         "key": "ctrl+l l",
         "command": "expandLineSelection",
         "when": "textInputFocus"
@@ -4066,22 +4046,6 @@
         "command": "editor.foldLevel7"
     },
     {
-        "key": "alt+up up",
-        "command": "editor.action.insertCursorAbove"
-    },
-    {
-        "key": "alt+down down",
-        "command": "editor.action.insertCursorBelow"
-    },
-    {
-        "key": "alt+down alt+down",
-        "command": "editor.action.addCursorsToBottom"
-    },
-    {
-        "key": "alt+up alt+up",
-        "command": "editor.action.addCursorsToTop"
-    },
-    {
         "key": "ctrl+s down",
         "command": "workbench.action.splitEditorDown"
     },
@@ -4108,5 +4072,35 @@
     {
         "key": "ctrl+shift+enter",
         "command": "notebook.execute"
+    },
+    {
+        "key": "ctrl+shift+down",
+        "command": "-editor.action.insertCursorBelow",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+up",
+        "command": "-editor.action.insertCursorAbove",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+up up",
+        "command": "editor.action.insertCursorAbove",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+up",
+        "command": "-editor.action.insertCursorAbove",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+down down",
+        "command": "editor.action.insertCursorBelow",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+down",
+        "command": "-editor.action.insertCursorBelow",
+        "when": "editorTextFocus"
     }
 ]
