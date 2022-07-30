@@ -711,7 +711,7 @@
         "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
     },
     {
-        "key": "ctrl+j ctrl+enter",
+        "key": "alt+enter",
         "command": "jupyter.runByLine",
         "when": "!jupyter.notebookeditor.debuggingInProgress && !jupyter.notebookeditor.runByLineInProgress && notebookKernelCount > 0"
     },
@@ -1379,7 +1379,7 @@
         "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+shift+t t",
+        "key": "ctrl+shift+t ctrl+enter",
         "command": "workbench.action.tasks.runTask"
     },
     {
@@ -3200,7 +3200,7 @@
         "when": "textInputFocus"
     },
     {
-        "key": "ctrl+shift+enter",
+        "key": "ctrl+enter",
         "command": "notebook.cell.execute",
         "when": "notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
     },
@@ -3592,7 +3592,7 @@
         "command": "workbench.action.quickOpen"
     },
     {
-        "key": "ctrl+j ctrl+shift+enter",
+        "key": "ctrl+shift+enter",
         "command": "jupyter.runallcells"
     },
     {
@@ -3944,11 +3944,11 @@
         "when": "editorTextFocus && !findInputFocussed && !jupyter.ownsSelection && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
     },
     {
-        "key": "ctrl+p shift+enter",
+        "key": "ctrl+enter",
         "command": "python.execInTerminal-icon"
     },
     {
-        "key": "ctrl+p ctrl+enter",
+        "key": "shift+enter",
         "command": "python.execInTerminal"
     },
     {
@@ -4104,5 +4104,9 @@
     {
         "key": "ctrl+shift+f ctrl+n",
         "command": "welcome.showNewFileEntries"
+    },
+    {
+        "key": "ctrl+shift+enter",
+        "command": "notebook.execute"
     }
 ]
