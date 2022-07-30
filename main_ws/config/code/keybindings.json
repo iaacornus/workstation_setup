@@ -4102,5 +4102,45 @@
         "key": "shift+alt+down",
         "command": "-editor.action.insertCursorBelow",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+v c",
+        "command": "csv.preview",
+        "when": "editorLangId == 'csv'"
+    },
+    {
+        "key": "ctrl+shift+v",
+        "command": "-csv.preview",
+        "when": "editorLangId == 'csv'"
+    },
+    {
+        "key": "ctrl+shift+v c",
+        "command": "csv.preview",
+        "when": "editorLangId == 'tsv'"
+    },
+    {
+        "key": "ctrl+shift+v",
+        "command": "-csv.preview",
+        "when": "editorLangId == 'tsv'"
+    },
+    {
+        "key": "ctrl+shift+v c",
+        "command": "csv.preview",
+        "when": "editorLangId == 'csv (semicolon)'"
+    },
+    {
+        "key": "ctrl+shift+v",
+        "command": "-csv.preview",
+        "when": "editorLangId == 'csv (semicolon)'"
+    },
+    {
+        "key": "ctrl+shift+v c",
+        "command": "csv.preview",
+        "when": "editorLangId == 'csv (pipe)'"
+    },
+    {
+        "key": "ctrl+shift+v",
+        "command": "-csv.preview",
+        "when": "editorLangId == 'csv (pipe)'"
     }
 ]
