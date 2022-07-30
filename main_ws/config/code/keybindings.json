@@ -1321,7 +1321,7 @@
         "command": "-workbench.action.showCommands"
     },
     {
-        "key": "ctrl+8 ctrl+8",
+        "key": "ctrl+p",
         "command": "workbench.action.showCommands"
     },
     {
