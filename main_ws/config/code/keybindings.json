@@ -2957,7 +2957,7 @@
         "when": "notebookEditable && notebookEditorFocused && !inputFocus"
     },
     {
-        "key": "ctrl+d l",
+        "key": "ctrl+d ctrl+right",
         "command": "deleteAllRight",
         "when": "textInputFocus"
     },
@@ -3175,7 +3175,7 @@
         "when": "editorFocus"
     },
     {
-        "key": "ctrl+d h",
+        "key": "ctrl+d ctrl+left",
         "command": "deleteAllLeft",
         "when": "textInputFocus"
     },
