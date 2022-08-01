@@ -1,3 +1,4 @@
+Google Chrome	com.google.Chrome	103.0.5060.134-1	stable	flathub	system
 draw.io	com.jgraph.drawio.desktop	19.0.2	stable	flathub	system
 Fedora Media Writer	org.fedoraproject.MediaWriter	5.0.1	stable	fedora	system
 Fedora Platform	org.fedoraproject.Platform	35	f35	fedora	system
@@ -40,7 +41,7 @@ KDE Software Development Kit	org.kde.Sdk		5.15-21.08	flathub	system
 QGnomePlatform-decoration	org.kde.WaylandDecoration.QGnomePlatform-decoration		5.15-21.08	flathub	system
 QGnomePlatform-decoration	org.kde.WaylandDecoration.QGnomePlatform-decoration		6.2	flathub	system
 LabPlot	org.kde.labplot2	2.9.0	stable	flathub	system
-LibreOffice	org.libreoffice.LibreOffice	7.3.4.2	stable	flathub	system
+LibreOffice	org.libreoffice.LibreOffice	7.3.5.2	stable	flathub	system
 Thunderbird	org.mozilla.Thunderbird	91.11.0	stable	flathub	system
 GNU Octave	org.octave.Octave	7.1.0	stable	flathub	system
 TeXstudio	org.texstudio.TeXstudio	4.2.3	stable	flathub	system
