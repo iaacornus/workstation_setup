@@ -200,7 +200,4 @@
     "rust-analyzer.inlayHints.typeHints.enable": false,
     "python.languageServer": "Pylance",
     "platformio-ide.disablePIOHomeStartup": true,
-    "makefile.buildBeforeLaunch": false,
-    "makefile.clearOutputBeforeBuild": false,
-    "makefile.extensionOutputFolder": "./bin",
 }

@@ -14,4 +14,3 @@ python
 rust-analyzer
 sublime material theme
 yaml
-make (microsoft)
