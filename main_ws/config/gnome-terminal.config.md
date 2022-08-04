@@ -1,3 +1,3 @@
-jetbrainsmono 13pt
+rec linear mono 13pt
 
 gnome color scheme
