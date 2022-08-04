@@ -1,7 +1,7 @@
 [org/gnome/TextEditor]
 style-variant='dark'
 use-system-font=false
-custom-font='Rec Mono Linear 14'
+custom-font='Rec Mono Linear weight=425 14'
 highlight-current-line=true
 show-map=true
 right-margin-position=79
