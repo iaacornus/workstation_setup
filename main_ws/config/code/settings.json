@@ -200,4 +200,5 @@
     "rust-analyzer.inlayHints.typeHints.enable": false,
     "python.languageServer": "Pylance",
     "platformio-ide.disablePIOHomeStartup": true,
+    "markdown.preview.fontSize": 17,
 }
