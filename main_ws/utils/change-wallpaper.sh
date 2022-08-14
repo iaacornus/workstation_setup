@@ -2,11 +2,11 @@
 
 current_time=$(date +%H:%M)
 
-if [[ "$current_time" > "06:00" || "$current_time" == "06:00"  ]] && [[ "$current_time" < "14:00" ]]; then
+if [[ "$current_time" > "06:00" || "$current_time" == "06:00"  ]] && [[ "$current_time" < "12:00" ]]; then
     wallpaper="am_$(shuf -i1-8 -n1).jpg"
-elif [[ "$current_time" > "14:00" || "$current_time" == "14:00" ]] && [[ "$current_time" < "20:00" ]]; then
+elif [[ "$current_time" > "12:00" || "$current_time" == "12:00" ]] && [[ "$current_time" < "19:00" ]]; then
     wallpaper="pm_$(shuf -i1-16 -n1).jpg"
-elif [[ "$current_time" > "20:00" || "$current_time" == "20:00" ]] || [[ "$current_time" < "06:00" ]]; then
+elif [[ "$current_time" > "19:00" || "$current_time" == "19:00" ]] || [[ "$current_time" < "06:00" ]]; then
     wallpaper="gn_$(shuf -i1-15 -n1).jpg"
 fi
 
