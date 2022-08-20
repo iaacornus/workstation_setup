@@ -65,8 +65,6 @@
             "untitledEditors": false,
             "notebookEditors": false
         },
-    "workbench.editor.limit.value": 4,
-    "workbench.editor.limit.enabled": true,
     "workbench.preferredHighContrastColorTheme": "Sublime Material Theme - Dark",
     "workbench.preferredHighContrastLightColorTheme": "Sublime Material Theme - Light",
     "workbench.preferredLightColorTheme": "Sublime Material Theme - Light",
@@ -201,4 +199,5 @@
     "python.languageServer": "Pylance",
     "platformio-ide.disablePIOHomeStartup": true,
     "markdown.preview.fontSize": 17,
+    "diffEditor.ignoreTrimWhitespace": false,
 }
