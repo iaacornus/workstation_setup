@@ -215,7 +215,7 @@
         "when": "debuggersAvailable && editorTextFocus"
     },
     {
-        "key": "ctrl+d d",
+        "key": "ctrl+shift+backspace",
         "command": "editor.action.deleteLines",
         "when": "textInputFocus && !editorReadonly"
     },
@@ -2957,7 +2957,7 @@
         "when": "notebookEditable && notebookEditorFocused && !inputFocus"
     },
     {
-        "key": "ctrl+d ctrl+right",
+        "key": "shift+delete",
         "command": "deleteAllRight",
         "when": "textInputFocus"
     },
@@ -3175,7 +3175,7 @@
         "when": "editorFocus"
     },
     {
-        "key": "ctrl+d ctrl+left",
+        "key": "shift+backspace",
         "command": "deleteAllLeft",
         "when": "textInputFocus"
     },
@@ -3260,7 +3260,7 @@
         "command": "-workbench.action.tasks.build"
     },
     {
-        "key": "ctrl+d left",
+        "key": "ctrl+backspace",
         "command": "deleteWordLeft",
         "when": "textInputFocus && !editorReadonly"
     },
@@ -3270,7 +3270,7 @@
         "when": "textInputFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+d right",
+        "key": "ctrl+delete",
         "command": "deleteWordRight",
         "when": "textInputFocus && !editorReadonly"
     },
@@ -4169,9 +4169,5 @@
     {
         "key": "ctrl+r",
         "command": "csv.refresh"
-    },
-    {
-        "key": "ctrl+d w",
-        "command": "deleteInsideWord"
     }
 ]
