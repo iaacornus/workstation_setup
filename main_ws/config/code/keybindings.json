@@ -3230,7 +3230,7 @@
         "command": "workbench.action.closeEditorsInGroup"
     },
     {
-        "key": "ctrl+shift+f s",
+        "key": "ctrl+s s",
         "command": "workbench.action.files.save"
     },
     {
@@ -3340,7 +3340,7 @@
         "when": "editorTextFocus && foldingEnabled"
     },
     {
-        "key": "ctrl+shift+f ctrl+shift+s",
+        "key": "ctrl+shift+s",
         "command": "workbench.action.files.saveAs"
     },
     {
@@ -3564,7 +3564,7 @@
         "command": "explorer.newFolder"
     },
     {
-        "key": "ctrl+shift+f ctrl+s",
+        "key": "ctrl+s a",
         "command": "workbench.action.files.saveFiles"
     },
     {
