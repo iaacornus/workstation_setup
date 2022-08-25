@@ -3994,10 +3994,6 @@
         "command": "references-view.findReferences"
     },
     {
-        "key": "ctrl+f r",
-        "command": "typescript.findAllFileReferences"
-    },
-    {
         "key": "ctrl+f i",
         "command": "references-view.findImplementations"
     },
@@ -4169,5 +4165,15 @@
     {
         "key": "ctrl+r",
         "command": "csv.refresh"
+    },
+    {
+        "key": "ctrl+f f",
+        "command": "list.find",
+        "when": "listFocus && listSupportsFind"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-list.find",
+        "when": "listFocus && listSupportsFind"
     }
 ]
