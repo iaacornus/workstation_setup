@@ -3912,11 +3912,11 @@
         "when": "editorTextFocus && !findInputFocussed && !jupyter.ownsSelection && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
     },
     {
-        "key": "ctrl+enter",
+        "key": "alt+p alt+enter",
         "command": "python.execInTerminal-icon"
     },
     {
-        "key": "shift+enter",
+        "key": "shift+alt+p alt+enter",
         "command": "python.execInTerminal"
     },
     {
