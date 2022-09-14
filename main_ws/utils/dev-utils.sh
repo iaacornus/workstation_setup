@@ -1,5 +1,5 @@
 if [[ $2 == "" ]]; then
-    echo -e "\e[1;31m[!] No file name supplied, aborting ...\e[0m"
+    echo -e "\033[1;31mERROR\033[0m\t No file name supplied, aborting ..."
     exit 1
 fi
 
