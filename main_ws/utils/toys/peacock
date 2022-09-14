@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+
+# ANSI COLOUR CODES
+RD='\x1B[0;31m'
+GR='\x1B[0;32m'
+YL='\x1B[1;33m'
+OR='\x1B[0;33m'
+BL='\x1B[0;34m'
+LBL='\x1B[1;34m'
+CY='\x1B[1;36m'
+NC='\x1B[0m' # No Color
+
+echo ""
+
+# PEACOCK #################################################################
+# Adapted from: http://www.chris.com/ascii/joan/www.geocities.com/SoHo/7373/birds.html#peacockk
+pea1="                ${CY}_   _          ${NC}\n"
+pea2="             ${GR}__${CY}/o'V'o\\\\${GR}__       ${NC}\n"
+pea3="          ${CY}__${GR}/o ${CY}\\  :  / ${GR}o\\\\${CY}__    ${NC}\n"
+pea4="         ${CY}/o ${GR}\`.  ${CY}\ : /  ${GR}.' ${CY}o\\   ${NC}\n"
+pea5="        ${GR}_${CY}\\    ${GR}'. ${NC}/\"\\ ${GR}.'    ${CY}/${GR}_  ${NC}\n"
+pea6="       ${GR}/o${CY} \`-._  ${GR}'${NC}\\\v/${GR}'  ${CY}_.-\` ${GR}o\\\ ${NC}\n"
+pea7="       ${GR}\\_${CY}     \`-.${NC}/ \\\\${CY}.-\`     ${GR}_/ ${NC}\n"
+pea8="      ${CY}/o${NC} ${GR}\`\`---._${NC}/   \\\\${GR}_.---'' ${CY}o\\\\${NC}\n"
+pea9="      ${CY}\_________${NC}\   /${CY}_________/${NC}\n"
+pea10="                '\_/'          \n"
+pea11="                ${OR}_|_|_${NC}          "
+pea="$pea1$pea2$pea3$pea4$pea5$pea6$pea7$pea8$pea9$pea10$pea11"
+
+echo -e "$pea$NC"
