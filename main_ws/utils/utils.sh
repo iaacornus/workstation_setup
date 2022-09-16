@@ -45,7 +45,9 @@ elif [[ $1 == *"project-init"* ]]; then
 
     mkdir $PWD/$2
     mkdir $PWD/$2/manscrpt
-    template_dir="$HOME/Templates/latex_manscrpt_ppr_main_template.tex"
-    cp $template_dir $PWD/$2/manscrpt/$2_ppr_main.tex
-    echo -e "\033[1;32mPASS\033[0m\t Project initiated in:\033[36mPWD/$2\033[0m and template for manuscrit created in:\033[36m$PWD/manscrpt/$2_ppr_main.tex\033[0m."
+    mkdir $PWD/$2/presentation
+    template_dir="$HOME/Templates/"
+    cp $template_dir/latex_manscrpt_ppr_main_template.tex $PWD/$2/manscrpt/$2_ppr_main.tex
+    cp $template_dir/latex_presentation_main_template.tex $PWD/$2/presentation/$2_presentation_main.tex
+    echo -e "\033[1;32mPASS\033[0m\t Project initiated in: \033[36mPWD/$2\033[0m."
 fi
