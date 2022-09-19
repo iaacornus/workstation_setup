@@ -1,17 +1,14 @@
+from sys import argv
 from string import ascii_lowercase
-from subprocess import run
-from os import walk, mkdir
-from os.path import dirname, exists
+from os import walk, mkdir, system
+from os.path import exists
 
 
-def main() -> None:
-    BASE_PATH: str = "/".join(dirname(__file__).split("/")[:])
-    file: str; let: str
+def main(PATH: str) -> None:
+    if not exists(f"out"):
+        mkdir(f"out")
 
-    if not exists("./out"):
-        mkdir("./out")
-
-    for file in next(walk(BASE_PATH))[2]:
+    for file in next(walk(PATH))[2]:
         if not file.endswith(".HEIC"):
             continue
 
@@ -22,15 +19,14 @@ def main() -> None:
                 if not exists (f"{filename}-{let}.jpg"):
                     break
 
-        run(
-            [
+        cmd: list[str] = [
                 "heif-convert",
                 "-q", "100",
                 f"'{file}'",
-                f"'{filename}.jpg'"
+                f"'out/{filename}.jpg'"
             ]
-        )
+        system(" ".join(cmd))
 
 
 if __name__ == "__main__":
-    main()
+    main(argv[1])
