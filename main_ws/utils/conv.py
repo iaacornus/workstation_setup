@@ -1,6 +1,6 @@
 from sys import argv
 from string import ascii_lowercase
-from os import walk, mkdir, system
+from os import walk, mkdir, remove, system
 from os.path import exists
 
 
@@ -26,6 +26,11 @@ def main(PATH: str) -> None:
                 f"'out/{filename}.jpg'"
             ]
         system(" ".join(cmd))
+
+    for file in next(walk(f"{PATH}/out"))[2]:
+        if file.endswith(":aux:hdrgainmap.jpg"):
+            print(f"{PATH}/out/{file}")
+            remove(f"{PATH}/out/{file}")
 
 
 if __name__ == "__main__":
