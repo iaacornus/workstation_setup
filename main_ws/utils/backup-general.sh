@@ -29,11 +29,11 @@ fi
 # ------------------------------------------------------------------------------------------------
 # back up current backups
 if [ -d $HOME/Storage/backup/Documents ]; then
-	mv -v $HOME/Storage/backup/Documents $HOME/Storage/backup_prev/Documents
+	rsync -v -r -h $HOME/Storage/backup/Documents $HOME/Storage/backup_prev/Documents --exclude="*.fit*" --exclude="*.mp4"
 fi
 
 if [ -d $HOME/Storage/backup/Development ]; then
-	mv -v $HOME/Storage/backup/Development $HOME/Storage/backup_prev/Development
+	mv -v $HOME/Storage/backup/Development $HOME/Storage/backup_prev/Development --exclude="*venv/"
 fi
 
 if [ -d $HOME/Storage/backup/gpg ]; then
@@ -48,7 +48,7 @@ fi
 
 # ------------------------------------------------------------------------------------------------
 # backup current files
-cp -r -v $HOME/Documents $HOME/Storage/backup/Documents/
+rsync -r -v -h --progress $HOME/Documents $HOME/Storage/backup/Documents/ --exclude="*.mp4"
 rsync -r -v -h --progress /var/home/iaacornus/Development/ /var/home/iaacornus/Storage/backup/Development/ --exclude="*venv/"
 tar -cvpzf $HOME/Storage/backup/gpg/gnupg.tar.gz $HOME/.gnupg
 gpg --export --output $HOME/Storage/backup/gpg/public_keys
