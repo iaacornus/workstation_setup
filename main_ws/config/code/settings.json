@@ -1,7 +1,6 @@
 {
     "telemetry.telemetryLevel": "off",
     "redhat.telemetry.enabled": false,
-    "window.titleBarStyle": "custom",
     "workbench.enableExperiments": false,
     "workbench.startupEditor": "none",
     "window.title": "${dirty}${activeEditorShort}${separator}${rootName}",
@@ -207,4 +206,5 @@
     "window.titleSeparator": " || ",
     "search.showLineNumbers": true,
     "search.smartCase": true,
+    "window.titleBarStyle": "custom",
 }
