@@ -4,6 +4,9 @@
 \usepackage{fontspec}
 \usepackage{DejaVuSansMono}
 \usepackage{orcidlink}
+\usepackage{ragged2e}
+\usepackage{gensymb}
+\usepackage{graphicx}
 
 % include the additional imports here:
 % \usepackage{package}
@@ -14,9 +17,13 @@
 
 % configs
 \setlength\parindent{24pt}
+\addtobeamertemplate{block begin}{}{\justifying}
+\sloppy
+\graphicspath{ {./fig/} }
 
 % include additional commands here
 % \newcommand{cmd}{def}
+\newcommand{\etl}{\textit{et al.}}
 
 % if there are other configs, etc: tikz predefined lines, molecules for chemfig, put it here:
 
