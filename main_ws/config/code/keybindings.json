@@ -1639,7 +1639,7 @@
         "when": "testing.isPeekVisible"
     },
     {
-        "key": "ctrl+numpad_subtract numpad_subtract",
+        "key": "alt+- -",
         "command": "editor.toggleFold",
         "when": "editorTextFocus && foldingEnabled"
     },
@@ -1683,7 +1683,7 @@
         "when": "notebookEditorFocused && !inputFocus"
     },
     {
-        "key": "ctrl+numpad_add numpad_add",
+        "key": "alt+= =",
         "command": "editor.unfold",
         "when": "editorTextFocus && foldingEnabled"
     },
@@ -1693,7 +1693,7 @@
         "when": "editorTextFocus && foldingEnabled"
     },
     {
-        "key": "ctrl+numpad_add ctrl+numpad_add",
+        "key": "alt+= alt+=",
         "command": "editor.unfoldAll",
         "when": "editorTextFocus && foldingEnabled"
     },
@@ -3020,18 +3020,8 @@
         "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
     },
     {
-        "key": "pagedown",
-        "command": "scrollLineDown",
-        "when": "textInputFocus"
-    },
-    {
         "key": "ctrl+down",
         "command": "-scrollLineDown",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "pageup",
-        "command": "scrollLineUp",
         "when": "textInputFocus"
     },
     {
@@ -3040,18 +3030,8 @@
         "when": "textInputFocus"
     },
     {
-        "key": "ctrl+shift+pagedown",
-        "command": "scrollPageDown",
-        "when": "textInputFocus"
-    },
-    {
         "key": "alt+pagedown",
         "command": "-scrollPageDown",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "ctrl+shift+pageup",
-        "command": "scrollPageUp",
         "when": "textInputFocus"
     },
     {
@@ -3320,7 +3300,7 @@
         "when": "explorerViewletCompressedFocus && explorerViewletVisible && filesExplorerFocus && !explorerViewletCompressedFirstFocus && !inputFocus"
     },
     {
-        "key": "ctrl+numpad_subtract numpad_subtract",
+        "key": "alt+- -",
         "command": "editor.fold",
         "when": "editorTextFocus && foldingEnabled"
     },
@@ -3330,7 +3310,7 @@
         "when": "editorTextFocus && foldingEnabled"
     },
     {
-        "key": "ctrl+numpad_subtract ctrl+numpad_subtract",
+        "key": "alt+- alt+-",
         "command": "editor.foldAll",
         "when": "editorTextFocus && foldingEnabled"
     },
@@ -3478,18 +3458,8 @@
         "when": "notebookEditorFocused && !inputFocus"
     },
     {
-        "key": "pagedown",
-        "command": "list.scrollDown",
-        "when": "listFocus && !inputFocus"
-    },
-    {
         "key": "ctrl+down",
         "command": "-list.scrollDown",
-        "when": "listFocus && !inputFocus"
-    },
-    {
-        "key": "pageup",
-        "command": "list.scrollUp",
         "when": "listFocus && !inputFocus"
     },
     {
@@ -3693,7 +3663,7 @@
         "command": "notebook.cell.collapseAllCellInputs"
     },
     {
-        "key": "ctrl+numpad_add r",
+        "key": "alt+= r",
         "command": "editor.unfoldRecursively",
         "when": "editorTextFocus && foldingEnabled"
     },
@@ -3711,7 +3681,7 @@
         "command": "-workbench.action.closeAllGroups"
     },
     {
-        "key": "ctrl+numpad_subtract r",
+        "key": "alt+- r",
         "command": "editor.foldRecursively",
         "when": "editorTextFocus && foldingEnabled"
     },
@@ -3738,11 +3708,6 @@
     {
         "key": "shift+home",
         "command": "-cursorHomeSelect",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "ctrl+pagedown",
-        "command": "cursorPageDown",
         "when": "textInputFocus"
     },
     {
@@ -3803,11 +3768,6 @@
         "command": "workbench.action.focusEighthEditorGroup"
     },
     {
-        "key": "ctrl+pageup",
-        "command": "cursorPageUp",
-        "when": "textInputFocus"
-    },
-    {
         "key": "pageup",
         "command": "-cursorPageUp",
         "when": "textInputFocus"
@@ -3851,7 +3811,7 @@
         "command": "editor.action.duplicateSelection"
     },
     {
-        "key": "ctrl+shift+f numpad_subtract",
+        "key": "ctrl+shift+f -",
         "command": "workbench.files.action.collapseExplorerFolders"
     },
     {
@@ -3863,7 +3823,7 @@
         "command": "explorer.newFile"
     },
     {
-        "key": "ctrl+numpad_subtract c",
+        "key": "alt+- c",
         "command": "editor.foldAllBlockComments",
         "when": "editorTextFocus && foldingEnabled"
     },
@@ -4002,31 +3962,31 @@
         "command": "-workbench.action.moveEditorToFirstGroup"
     },
     {
-        "key": "ctrl+numpad_subtract 1",
+        "key": "alt+- 1",
         "command": "editor.foldLevel1"
     },
     {
-        "key": "ctrl+numpad_subtract 2",
+        "key": "alt+- 2",
         "command": "editor.foldLevel2"
     },
     {
-        "key": "ctrl+numpad_subtract 3",
+        "key": "alt+- 3",
         "command": "editor.foldLevel3"
     },
     {
-        "key": "ctrl+numpad_subtract 4",
+        "key": "alt+- 4",
         "command": "editor.foldLevel4"
     },
     {
-        "key": "ctrl+numpad_subtract 5",
+        "key": "alt+- 5",
         "command": "editor.foldLevel5"
     },
     {
-        "key": "ctrl+numpad_subtract 6",
+        "key": "alt+- 6",
         "command": "editor.foldLevel6"
     },
     {
-        "key": "ctrl+numpad_subtract 7",
+        "key": "alt+- 7",
         "command": "editor.foldLevel7"
     },
     {
@@ -4175,5 +4135,30 @@
         "key": "ctrl+f",
         "command": "-list.find",
         "when": "listFocus && listSupportsFind"
+    },
+    {
+        "key": "shift+pagedown",
+        "command": "-cursorColumnSelectPageDown",
+        "when": "editorColumnSelection && textInputFocus"
+    },
+    {
+        "key": "shift+pagedown",
+        "command": "-cursorPageDownSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+pageup",
+        "command": "-cursorPageUpSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "pagedown",
+        "command": "-workbench.action.terminal.navigationModeFocusNextPage",
+        "when": "accessibilityModeEnabled && terminalA11yTreeFocus && terminalNavigationModeActive && terminalProcessSupported || accessibilityModeEnabled && terminalFocus && terminalNavigationModeActive && terminalProcessSupported"
+    },
+    {
+        "key": "pageup",
+        "command": "-workbench.action.terminal.navigationModeFocusPreviousPage",
+        "when": "accessibilityModeEnabled && terminalA11yTreeFocus && terminalNavigationModeActive && terminalProcessSupported || accessibilityModeEnabled && terminalFocus && terminalNavigationModeActive && terminalProcessSupported"
     }
 ]
