@@ -44,38 +44,15 @@ export PS1
 
 PROMPT_DIRTRIM=2
 
-alias sys-info="$HOME/.sys/./utils.sh sys-info"
 alias tex-gen="$HOME/.sys/./utils.sh tex-gen"
 alias ptex-gen="$HOME/.sys/./utils.sh ptex-gen"
 alias clean-up="$HOME/.sys/./utils.sh clean-up"
-alias htop="toolbox run htop"
-alias heic-conv="python $HOME/.sys/conv.py"
-alias upgrade="$HOME/.sys/./upgrade.sh"
-alias mygcc="$HOME/.sys/./dev-utils.sh gcc"
-alias myg++="$HOME/.sys/./dev-utils.sh g++"
-alias gcc="toolbox --container dev-tools run gcc"
-alias g++="toolbox --container dev-tools run g++"
-alias bat="toolbox run bat"
-alias jupyter-pdf="$HOME/.sys/./dev-utils.sh jupyter-latex"
-alias project-init="$HOME/.sys/./utils.sh project-init"
-alias pyc="$HOME/.sys/./dev-utils.sh pyc"
-alias asciiquarium="toolbox run asciiquarium"
-alias backup="$HOME/.sys/./backup-general.sh"
-alias pipes="$HOME/.sys/./pipes"
-alias pipes3d="$HOME/.sys/./pipes3d"
-alias toolbox-upgrade="sudo dnf update -y && sudo dnf autoremove && sudo dnf clean all"
-alias repo-clean="toolbox -c fedora-toolbox-35 run java -jar $HOME/.sys/bfg.jar"
-alias dev-env="toolbox enter fedora-toolbox-35"
 alias clear="$HOME/.sys/./clear.sh"
 alias gtree="tree --gitignore"
 
 bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
 bind Space:magic-space
-
-unset rc
-. "$HOME/.cargo/env"
-
 
 if [[ $HOSTNAME != "toolbox" && $(tput cols) -gt 79 && $(tput lines) -gt 23 ]]; then
     ls $HOME/.sys/toys | sort -R | tail -$N | while read file; do
