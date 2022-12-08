@@ -49,6 +49,7 @@ alias ptex-gen="$HOME/.sys/./utils.sh ptex-gen"
 alias clean-up="$HOME/.sys/./utils.sh clean-up"
 alias clear="$HOME/.sys/./clear.sh"
 alias gtree="tree --gitignore"
+alias project-init="$HOME/.sys/./utils.sh project-init"
 
 bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
