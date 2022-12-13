@@ -45,58 +45,7 @@ And you can add it into `/etc/fstab` using `sudo nano /etc/fstab` or `vi` if you
 
 Here I suggest using `defaults` for options, 0 for `dump` and `fsck` to disable the checking (increasing the boot time, and avoiding potential errors, and since you only do checking if the drive is part of the OS filesystem), refer to [archwiki - fstab](https://wiki.archlinux.org/title/fstab). Check `/etc/fstab` with `cat /etc/fstab`. Be sure to input the correct UUID and options, other wise your system won't boot.
 
-## Install rpm-fusion and other repos you need
-
-###   VSCode repo (ONLY IF YOU PLAN TO INSTALL VSCODE)
-
-#### MY NOT ENCOURAGED METHOD:
-
-VSCode will be installed in the base system since it does not work correctly in flatpak environment. Also, as opposed to [VSCode's official documentation](https://code.visualstudio.com/docs/setup/linux), the key was not imported `sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc`, since the root filesystem in Silverblue is immutable, hence would only give `stderr`.
-
-```bash
-sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
-```
-
-But you can also do:
-
-```bash
-echo -e [code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" | sudo tee -a /etc/yum.repos.d/vscode.repo
-```
-
-#### ENCOURAGED METHOD
-
-This can also be installed in toolbox, create a `toolbox create` (you can also do `toolbox create <name>` to give it a designation) and `toolbox enter` (do `toolbox enter <name>` if you gave it a name), start by updating the system with `sudo dnf update` and follow [VSCode's official documentation](https://code.visualstudio.com/docs/setup/linux). This is the practice I recommend, unless you also have a good reason to layer it into the base system.
-
-```bash
-toolbox create
-toolbox enter
-sudo dnf update # you can add -y (assume yes) flag, although I don't use it since I want to see my update contents
-
-# import the keys
-sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
-
-# add the repos to /yum.repos.d
-sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
-
-# install code
-dnf check-update
-sudo dnf install code
-```
-
-You can also create desktop entry for VSCode in `$HOME/.local/share/applications`. You can replace `Version=1.0` (get the Version with `dnf list all | grep "code"`), although it doesn't really matter, if ever you named your toolbox container replace `Exec` with `Exec=toolbox run --container <name of your container> code`, refer to [toolbox manual](https://man.archlinux.org/man/community/toolbox/toolbox.1.en)
-
-```
-[Desktop Entry]
-Type=Application
-Version=1.0
-Name=Visual Studio Code
-Exec=toolbox run code
-Icon=code.png
-Terminal=false
-Keywords=vscode, code, vs # you can add more if you like
-```
-
-You can use `echo` for this one `echo -e "[Desktop Entry]\nType=Application\nVersion=1.0\nName=Visual Studio Code\nExec=toolbox run code\nIcon=code.png\nTerminal=false\nKeywords=vscode, code, vs" > $HOME/.local/share/applications/code.desktop`.
+## Install rpm-fusion and other repos you need, codecs and applications
 
 ### Setup flatpak
 
@@ -104,7 +53,15 @@ You can use `echo` for this one `echo -e "[Desktop Entry]\nType=Application\nVer
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
 
-### RPMfusion and other utilities
+### RPMfusion
+
+Nonfree: `rpm-ostree install https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm`
+
+Free: `rpm-ostree install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm`
+
+For both: `rpm-ostree install https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm`
+
+### `Openh264`
 
 Fedora disable the automatic install of `openh264` by default, for this reason:
 
@@ -112,11 +69,21 @@ Fedora disable the automatic install of `openh264` by default, for this reason:
 
 You can install it `mozilla-openh264` and `gstreamer1-plugin-openh264` to support codecs in Firefox. And do `CTRL` + `Shift` + `A` in Firefox to go into the add ons manager > Plugins, and enable the OpenH264* plugins.
 
-**OMIT PAPIRUS-ICON-THEME or GNOME-TWEAKS if you don't want to install papirus or tweaks. And only install the repository if you plan to install: nvidia drivers (non free) and ffmpeg-libs (free)**
-
-```bash
-rpm-ostree install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm gnome-tweaks papirus-icon-theme mozilla-openh264 gstreamer1-plugin-openh264
 ```
+rpm-ostree install mozilla-openh264 gstreamer1-plugin-openh264
+```
+
+### Codecs
+
+**For older version of intel use (replace `intel-media-driver` with `libva-intel-driver`)**
+
+For intel (`intel-media-driver`) and then the codecs:
+
+```
+rpm-ostree install ffmpeg gstreamer1-plugin-libav gstreamer1-plugins-bad-free-extras gstreamer1-plugins-bad-freeworld gstreamer1-plugins-ugly gstreamer1-vaapi intel-media-driver
+```
+
+For AMD users, refer [here](https://rpmfusion.org/Howto/OSTree)
 
 Reboot again.
 
@@ -176,12 +143,14 @@ The flatpak modifcations made can be reset by `sudo flatpak override --system --
 In some cases, where themes do not apply, especially in GTK-4, it can be forced by including it in `$HOME/.profile`, as well as the settings of gtk 4.0:
 
 ```
-echo "export GTK_THEME=Yaru-purple" >> $HOME/.profile; if [ ! -d $HOME/.config/environment.d/ ]; then mkdir -p $HOME/.config/environment.d/; fi; echo "GTK_THEME=Yaru-purple" >> $HOME/.config/environment.d/gtk_theme.conf; echo "GTK_THEME=Yaru-purple" >> $HOME/.config/gtk-4.0/settings.ini
+echo "export GTK_THEME=<theme-name>" >> $HOME/.profile; if [ ! -d $HOME/.config/environment.d/ ]; then mkdir -p $HOME/.config/environment.d/; fi; echo "GTK_THEME=<theme-name>" >> $HOME/.config/environment.d/gtk_theme.conf; echo "GTK_THEME=<theme-name>" >> $HOME/.config/gtk-4.0/settings.ini
 ```
 
-Which does:
+**Replace `<theme-name>` with the name of the theme**
 
-1. `echo "export GTK_THEME=Yaru-purple" >> $HOME/.profile`, append `export GTK_THEME=Yaru-purple` to `$HOME/.profile`
+Which does (explanation):
+
+1. `echo "export GTK_THEME=<theme-name>" >> $HOME/.profile`, append `export GTK_THEME=<theme-name>` to `$HOME/.profile`
 2. Create `$HOME/.config/environment.d/gtk_theme.conf` file:
 
 ```bash
@@ -189,22 +158,26 @@ if [ ! -d $HOME/.config/environment.d/ ]; then
     mkdir -p $HOME/.config/environment.d/
 fi
 
-echo "GTK_THEME=Yaru-purple" >> $HOME/.config/environment.d/gtk_theme.conf
+echo "GTK_THEME=<theme-name>" >> $HOME/.config/environment.d/gtk_theme.conf
 ```
 
-And append `GTK_THEME=Yaru-purple` at the end of the `gtk_theme.conf`
+And append `GTK_THEME=<theme-name>` at the end of the `gtk_theme.conf`
 
-3. And finally append `GTK_THEME=Yaru-purple` to `settings.ini` config.
+3. And finally append `GTK_THEME=<theme-name>` to `settings.ini` config.
 
-If this didn't sufficed, then, you can try `sudo flatpak override --system --env=GTK_THEME='Yaru-purple'`
+If this didn't sufficed, then, you can try `sudo flatpak override --system --env=GTK_THEME='<theme-name>'`
 
 ## System optimizations
+
+### Mask `NetworkManager-wait-online.service`
 
 You can also mask `NetworkManager-wait-online.service`. It is simply a ["service simply waits, doing absolutely nothing, until the network is connected, and when this happens, it changes its state so that other services that depend on the network can be launched to start doing their thing."](https://askubuntu.com/questions/1018576/what-does-networkmanager-wait-online-service-do/1133545#1133545)
 
 > In some multi-user environments part of the boot-up process can come from the network. For this case `systemd` defaults to waiting for the network to come on-line before certain steps are taken.
 
 Masking it can decrease the boot time of at least ~15s-20s: `sudo systemctl disable NetworkManager-wait-online.service && sudo systemctl mask NetworkManager-wait-online.service`.
+
+### Remove unnecessary gnome flatpaks
 
 There are also some preinstalled flatpak that you can safely remove. You can completely remove the flatpak with `flatpak uninstall --system --delete-data <app>`. Here are some you can remove:
 
@@ -217,3 +190,32 @@ There are also some preinstalled flatpak that you can safely remove. You can com
 7. Maps `org.gnome.Maps`
 8. Weather apps `org.gnome.Weather`
 9. Disk usage analyzer `org.gnome.baobab`
+
+### Disable Gnome Software
+
+You can remove from from the autostart in `/etc/xdg/autostart/org.gnome.Software.desktop`, by:
+
+```
+sudo rm /etc/xdg/autostart/org.gnome.Software.desktop
+```
+
+This will save at least 100mb of RAM.
+
+### Set battery threshold for laptop users
+
+I recommend setting battery threshold of at least 80% to decrease wear on the battery. This can be done by echoing the threshold to `/sys/class/power_supply/BAT0/charge_control_end_threshold`. However, this resets every reboot, so it is good idea to make a systemd service for it:
+
+```
+[Unit]
+Description=Set the battery charge threshold
+After=multi-user.target
+StartLimitBurst=0
+
+[Service]
+Type=oneshot
+Restart=on-failure
+ExecStart=/bin/bash -c 'echo 80 > /sys/class/power_supply/BAT0/charge_control_end_threshold'
+
+[Install]
+WantedBy=multi-user.target
+```
