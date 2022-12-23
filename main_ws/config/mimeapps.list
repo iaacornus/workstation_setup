@@ -1,5 +1,0 @@
-[Default Applications]
-application/pdf=org.kde.okular.desktop
-
-[Added Associations]
-application/pdf=org.kde.okular.desktop;

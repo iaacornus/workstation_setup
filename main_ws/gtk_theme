@@ -1,7 +1,0 @@
-app theme: catppuccin latte blue
-shell theme: catppuccin mocha blue
-
-themes apps:
-gnome-terminal
-mailspring
-
