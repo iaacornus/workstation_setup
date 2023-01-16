@@ -1,5 +1,6 @@
 [ActivityManager][Global Shortcuts]
 switch-to-activity-9a732fdf-0cf2-483e-9b5e-04d1873ea927=
+switch-to-activity-9d4afd4c-4291-4c98-95bc-561f04bd1519=
 switch-to-activity-e65e95cc-8766-4afb-85d1-2aed74e628ee=
 
 [KDE Keyboard Layout Switcher][Global Shortcuts]
@@ -41,7 +42,7 @@ FitToPage=
 FitToWidth=
 Forward=Forward
 ForwardWord=Ctrl+Right
-FullScreen=Ctrl+Shift+F
+FullScreen=
 Goto=
 GotoLine=
 GotoPage=
@@ -76,7 +77,7 @@ SaveAs=Ctrl+Shift+S
 SaveOptions=
 SelectAll=Ctrl+A
 ShowHideHiddenFiles=Ctrl+H
-ShowMenubar=Ctrl+M
+ShowMenubar=
 ShowStatusbar=
 ShowToolbar=
 Spelling=
@@ -121,7 +122,7 @@ decrease_microphone_volume=Microphone Volume Down
 decrease_volume=Volume Down
 increase_microphone_volume=Microphone Volume Up
 increase_volume=Volume Up
-mic_mute=Meta+Volume Mute; Microphone Mute
+mic_mute=Microphone Mute; Meta+Volume Mute
 mute=Volume Mute
 
 [ksmserver][Global Shortcuts]
@@ -140,7 +141,7 @@ ExposeClass=
 ExposeClassCurrentDesktop=
 Increase Opacity=
 Invert Screen Colors=
-Kill Window=
+Kill Window=Meta+Shift+X
 MoveMouseToCenter=
 MoveMouseToFocus=
 MoveZoomDown=
@@ -218,7 +219,7 @@ Window Maximize Horizontal=
 Window Maximize Vertical=
 Window Minimize=Meta+H
 Window Move=
-Window Move Center=Meta+C
+Window Move Center=
 Window No Border=
 Window On All Desktops=
 Window One Desktop Down=
@@ -336,7 +337,7 @@ stopmedia=Media Stop
 _launch=Alt+F
 
 [org.kde.kcalc.desktop][Global Shortcuts]
-_launch=
+_launch=Launch (1)
 
 [org.kde.konsole.desktop][Global Shortcuts]
 NewTab=
@@ -383,6 +384,7 @@ activate task manager entry 7=
 activate task manager entry 8=
 activate task manager entry 9=
 activate widget 24=
+activate widget 3=
 clear-history=
 clipboard_action=
 cycle-panels=
