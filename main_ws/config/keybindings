@@ -107,7 +107,7 @@ Toggle Screen Reader On and Off=
 [kcm_touchpad][Global Shortcuts]
 Disable Touchpad=Touchpad Off
 Enable Touchpad=Touchpad On
-Toggle Touchpad=Touchpad Toggle; Meta+Ctrl+Zenkaku Hankaku
+Toggle Touchpad=Meta+Ctrl+Zenkaku Hankaku; Touchpad Toggle
 
 [kded5][Global Shortcuts]
 Show System Activity=
@@ -121,7 +121,7 @@ decrease_microphone_volume=Microphone Volume Down
 decrease_volume=Volume Down
 increase_microphone_volume=Microphone Volume Up
 increase_volume=Volume Up
-mic_mute=Microphone Mute; Meta+Volume Mute
+mic_mute=Meta+Volume Mute; Microphone Mute
 mute=Volume Mute
 
 [ksmserver][Global Shortcuts]
