@@ -1,9 +1,6 @@
 [ActivityManager][Global Shortcuts]
-<<<<<<< HEAD
 switch-to-activity-9a732fdf-0cf2-483e-9b5e-04d1873ea927=
-=======
 switch-to-activity-e65e95cc-8766-4afb-85d1-2aed74e628ee=
->>>>>>> b64af32f8208a029eee8dd2a5ba9649310119d54
 
 [KDE Keyboard Layout Switcher][Global Shortcuts]
 Switch to Next Keyboard Layout=
@@ -94,6 +91,10 @@ Zoom=
 ZoomIn=Ctrl++
 ZoomOut=Ctrl+-
 
+[com.getmailspring.Mailspring.desktop][Global Shortcuts]
+NewMessage=
+_launch=Alt+E
+
 [firefox.desktop][Global Shortcuts]
 _launch=Alt+B
 new-private-window=
@@ -120,7 +121,7 @@ decrease_microphone_volume=Microphone Volume Down
 decrease_volume=Volume Down
 increase_microphone_volume=Microphone Volume Up
 increase_volume=Volume Up
-mic_mute=Meta+Volume Mute; Microphone Mute
+mic_mute=Microphone Mute; Meta+Volume Mute
 mute=Volume Mute
 
 [ksmserver][Global Shortcuts]
@@ -139,11 +140,7 @@ ExposeClass=
 ExposeClassCurrentDesktop=
 Increase Opacity=
 Invert Screen Colors=
-<<<<<<< HEAD
-Kill Window=Meta+Ctrl+X
-=======
-Kill Window=Meta+K
->>>>>>> b64af32f8208a029eee8dd2a5ba9649310119d54
+Kill Window=
 MoveMouseToCenter=
 MoveMouseToFocus=
 MoveZoomDown=
@@ -183,15 +180,9 @@ Switch to Desktop 6=Meta+6
 Switch to Desktop 7=Meta+7
 Switch to Desktop 8=Meta+8
 Switch to Desktop 9=
-<<<<<<< HEAD
 Switch to Next Desktop=Meta+Right
 Switch to Next Screen=
 Switch to Previous Desktop=Meta+Left
-=======
-Switch to Next Desktop=Meta+L
-Switch to Next Screen=
-Switch to Previous Desktop=Meta+J
->>>>>>> b64af32f8208a029eee8dd2a5ba9649310119d54
 Switch to Previous Screen=
 Switch to Screen 0=
 Switch to Screen 1=
@@ -239,7 +230,6 @@ Window Pack Down=
 Window Pack Left=
 Window Pack Right=
 Window Pack Up=
-<<<<<<< HEAD
 Window Quick Tile Bottom=Meta+K
 Window Quick Tile Bottom Left=Meta+Shift+J
 Window Quick Tile Bottom Right=Meta+Shift+L
@@ -248,16 +238,6 @@ Window Quick Tile Right=Meta+L
 Window Quick Tile Top=Meta+I
 Window Quick Tile Top Left=Meta+Alt+J
 Window Quick Tile Top Right=Meta+Alt+L
-=======
-Window Quick Tile Bottom=Meta+Down
-Window Quick Tile Bottom Left=Meta+Shift+Left
-Window Quick Tile Bottom Right=Meta+Shift+Right
-Window Quick Tile Left=Meta+Left
-Window Quick Tile Right=Meta+Right
-Window Quick Tile Top=Meta+Up
-Window Quick Tile Top Left=Meta+Alt+Left
-Window Quick Tile Top Right=Meta+Alt+Right
->>>>>>> b64af32f8208a029eee8dd2a5ba9649310119d54
 Window Raise=
 Window Resize=
 Window Shade=
@@ -296,25 +276,20 @@ Window to Screen 5=
 Window to Screen 6=
 Window to Screen 7=
 view_actual_size=Meta+0
-<<<<<<< HEAD
-view_zoom_in=Meta+=; Meta++
-view_zoom_out=Meta+-
-
-=======
-view_zoom_in=Meta++; Meta+=
+view_zoom_in=Meta++
 view_zoom_out=Meta+-
 
 [lattedock][Global Shortcuts]
 activate entry 1=
 activate entry 10=
-activate entry 11=Meta+Z
+activate entry 11=
 activate entry 12=
 activate entry 13=
-activate entry 14=Meta+V
-activate entry 15=Meta+B
-activate entry 16=Meta+N
-activate entry 17=Meta+M
-activate entry 18=Meta+,
+activate entry 14=
+activate entry 15=
+activate entry 16=
+activate entry 17=
+activate entry 18=
 activate entry 19=
 activate entry 2=
 activate entry 3=
@@ -323,31 +298,30 @@ activate entry 5=
 activate entry 6=
 activate entry 7=
 activate entry 8=
-activate entry 9=Meta+9
-new instance for entry 1=Meta+Ctrl+1
-new instance for entry 10=Meta+Ctrl+0
-new instance for entry 11=Meta+Ctrl+Z
-new instance for entry 12=Meta+Ctrl+X
-new instance for entry 13=Meta+Ctrl+C
-new instance for entry 14=Meta+Ctrl+V
-new instance for entry 15=Meta+Ctrl+B
-new instance for entry 16=Meta+Ctrl+N
-new instance for entry 17=Meta+Ctrl+M
-new instance for entry 18=Meta+Ctrl+,
-new instance for entry 19=Meta+Ctrl+.
-new instance for entry 2=Meta+Ctrl+2
-new instance for entry 3=Meta+Ctrl+3
-new instance for entry 4=Meta+Ctrl+4
-new instance for entry 5=Meta+Ctrl+5
-new instance for entry 6=Meta+Ctrl+6
-new instance for entry 7=Meta+Ctrl+7
-new instance for entry 8=Meta+Ctrl+8
-new instance for entry 9=Meta+Ctrl+9
-show latte global settings=Meta+W
-show latte view=Meta+`
-show view settings=Meta+A
+activate entry 9=
+new instance for entry 1=
+new instance for entry 10=
+new instance for entry 11=
+new instance for entry 12=
+new instance for entry 13=
+new instance for entry 14=
+new instance for entry 15=
+new instance for entry 16=
+new instance for entry 17=
+new instance for entry 18=
+new instance for entry 19=
+new instance for entry 2=
+new instance for entry 3=
+new instance for entry 4=
+new instance for entry 5=
+new instance for entry 6=
+new instance for entry 7=
+new instance for entry 8=
+new instance for entry 9=
+show latte global settings=
+show latte view=
+show view settings=
 
->>>>>>> b64af32f8208a029eee8dd2a5ba9649310119d54
 [mediacontrol][Global Shortcuts]
 mediavolumedown=
 mediavolumeup=
@@ -362,11 +336,7 @@ stopmedia=Media Stop
 _launch=Alt+F
 
 [org.kde.kcalc.desktop][Global Shortcuts]
-<<<<<<< HEAD
 _launch=
-=======
-_launch=Launch (1)
->>>>>>> b64af32f8208a029eee8dd2a5ba9649310119d54
 
 [org.kde.konsole.desktop][Global Shortcuts]
 NewTab=
@@ -378,20 +348,12 @@ RunClipboard=
 _launch=Meta+Space
 
 [org.kde.plasma.emojier.desktop][Global Shortcuts]
-<<<<<<< HEAD
 _launch=
-=======
-_launch=Meta+.
->>>>>>> b64af32f8208a029eee8dd2a5ba9649310119d54
 
 [org.kde.spectacle.desktop][Global Shortcuts]
 ActiveWindowScreenShot=Meta+Print
 CurrentMonitorScreenShot=
-<<<<<<< HEAD
-FullScreenScreenShot=
-=======
 FullScreenScreenShot=Print
->>>>>>> b64af32f8208a029eee8dd2a5ba9649310119d54
 OpenWithoutScreenshot=
 RectangularRegionScreenShot=Shift+Print
 WindowUnderCursorScreenShot=
@@ -420,10 +382,7 @@ activate task manager entry 6=
 activate task manager entry 7=
 activate task manager entry 8=
 activate task manager entry 9=
-<<<<<<< HEAD
 activate widget 24=
-=======
->>>>>>> b64af32f8208a029eee8dd2a5ba9649310119d54
 clear-history=
 clipboard_action=
 cycle-panels=
