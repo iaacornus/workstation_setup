@@ -1,0 +1,10 @@
+[Unit]
+Description=Run freshclam weekly.
+Requires=int_freshclam.service
+
+[Timer]
+OnCalendar=weekly
+Persistent=true
+
+[Install]
+WantedBy=timers.target
