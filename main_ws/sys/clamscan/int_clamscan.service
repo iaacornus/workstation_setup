@@ -4,7 +4,7 @@ Wants=int_clamscan.timer
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/sudo freshclam
+ExecStart=/usr/bin/freshclam
 ExecStart=/usr/bin/clamscan --infected --quiet --move=/var/home/iaacornus/.quarantine --recursive /var/home/iaacornus 
 Restart=on-failure
 
