@@ -5,7 +5,7 @@ Wants=int_clamscan.service
 [Service]
 Type=oneshot
 ExecStart=/usr/bin/freshclam
-ExecStart=/usr/bin/clamscan --infected --recursive --verbose --disable-cache --max-filesize=5M --max-recursion=6 --move=/var/home/iaacornus/.quarantine /var/home/iaacornus/* --exclude-dir=venv/ --exclude-dir=.var/ --exclude-dir=.platformio/ --exclude-dir=.mozilla/ --exclude-dir=.vscode/ --exclude-dir=.cache/ --exclude-dir=containers/ --exclude-dir=.config/
+ExecStart=/usr/bin/clamscan --infected --recursive --verbose --disable-cache --max-filesize=5M --max-recursion=6 --move=/var/home/iaacornus/.quarantine /var/home/iaacornus --exclude-dir=venv/ --exclude-dir=.var/ --exclude-dir=.platformio/ --exclude-dir=.mozilla/ --exclude-dir=.vscode/ --exclude-dir=.cache/ --exclude-dir=containers/ --exclude-dir=.config/ --exclude-dir=Documents/ --exclude-dir=Zotero/
 Restart=on-failure
 
 [Install]
