@@ -1,5 +1,5 @@
 [Unit]
-Description=Run scan weekly and on boot.
+Description=Run clamscan weekly.
 Requires=int_clamscan.service
 
 [Timer]
