@@ -4,7 +4,7 @@ Wants=int_clamscan.timer
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/clamscan --infected --recursive --verbose --disable-cache --max-filesize=5M --max-recursion=6 --move=%h/.quarantine %h --exclude-dir=venv/ --exclude-dir=.var/ --exclude-dir=.platformio/ --exclude-dir=.mozilla/ --exclude-dir=.vscode/ --exclude-dir=.cache/ --exclude-dir=containers/ --exclude-dir=.config/ --exclude-dir=Documents/ --exclude-dir=Zotero/ --exclude-dir=.git --exclude-dir=Development --exclude-dir=Music
+ExecStart=clamscan --infected --recursive --quiet --disable-cache --max-filesize=5M --max-recursion=6 --move=%h/.quarantine %h --exclude-dir="\.cache/" --exclude-dir="\.git/" --exclude-dir="venv/" --exclude-dir="\.mozilla/" --exclude-dir="\.vscode/" --exclude-dir="containers/"
 Restart=on-failure
 
 [Install]
