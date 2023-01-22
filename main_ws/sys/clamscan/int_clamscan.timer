@@ -1,0 +1,10 @@
+[Unit]
+Description=Run clamscan weekly.
+Requires=int_clamscan.service
+
+[Timer]
+OnCalendar=weekly
+Persistent=true
+
+[Install]
+WantedBy=timers.target

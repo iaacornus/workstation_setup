@@ -1,13 +1,1 @@
-State: idle
-Deployments:
-● fedora:fedora/37/x86_64/silverblue
-                  Version: 37.20221222.0 (2022-12-22T00:56:19Z)
-               BaseCommit: 6c134a2419fc01752ac5d736fd12cd860a98e3c0f959d1d9199ead3042cdcb6f
-             GPGSignature: Valid signature by ACB5EE4E831C74BB7C168D27F55AD3FB5323552A
-          LayeredPackages: code ffmpeg ffmpeg-libs git gnome-tweaks gstreamer1-plugin-libav
-                           gstreamer1-plugin-openh264 gstreamer1-plugins-bad-free-extras
-                           gstreamer1-plugins-bad-freeworld gstreamer1-plugins-ugly
-                           gstreamer1-vaapi intel-media-driver mozilla-openh264
-                           papirus-icon-theme rpmfusion-free-release
-                           rpmfusion-nonfree-release yaru-theme
-                   Pinned: yes
+code fish git gstreamer1-plugin-libav gstreamer1-plugin-openh264 gstreamer1-plugins-bad-free-extras gstreamer1-plugins-bad-freeworld gstreamer1-plugins-ugly gstreamer1-vaapi intel-media-driver latte-dock mozilla-openh264 papirus-icon-theme rpmfusion-free-release rpmfusion-nonfree-release
