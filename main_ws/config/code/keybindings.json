@@ -3517,11 +3517,11 @@
         "command": "workbench.action.decreaseViewWidth"
     },
     {
-        "key": "ctrl+e k",
+        "key": "ctrl+e i",
         "command": "workbench.action.increaseViewHeight"
     },
     {
-        "key": "ctrl+e h",
+        "key": "ctrl+e j",
         "command": "workbench.action.increaseViewWidth"
     },
     {
@@ -3803,7 +3803,7 @@
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+e j",
+        "key": "ctrl+e k",
         "command": "workbench.action.decreaseViewHeight"
     },
     {
@@ -4249,5 +4249,9 @@
     {
         "key": "ctrl+shift+v ctrl+g",
         "command": "workbench.view.extension.github-pull-requests"
+    },
+    {
+        "key": "ctrl+e 0",
+        "command": "workbench.action.evenEditorWidths"
     }
 ]
