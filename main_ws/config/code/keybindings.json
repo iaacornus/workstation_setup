@@ -626,7 +626,7 @@
         "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
     },
     {
-        "key": "ctrl+j shift+k",
+        "key": "ctrl+j shift+i",
         "command": "jupyter.extendSelectionByCellAbove",
         "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
     },
@@ -636,7 +636,7 @@
         "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
     },
     {
-        "key": "ctrl+j shift+j",
+        "key": "ctrl+j shift+k",
         "command": "jupyter.extendSelectionByCellBelow",
         "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
     },
@@ -646,7 +646,7 @@
         "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
     },
     {
-        "key": "ctrl+j k",
+        "key": "ctrl+j i",
         "command": "jupyter.gotoPrevCellInFile",
         "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
     },
@@ -656,7 +656,7 @@
         "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
     },
     {
-        "key": "ctrl+j ctrl+k",
+        "key": "ctrl+j ctrl+i",
         "command": "jupyter.insertCellAbove",
         "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
     },
@@ -666,7 +666,7 @@
         "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
     },
     {
-        "key": "ctrl+j ctrl+j",
+        "key": "ctrl+j ctrl+k",
         "command": "jupyter.insertCellBelow",
         "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
     },
@@ -681,7 +681,7 @@
         "when": "editorTextFocus && isWorkspaceTrusted && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
     },
     {
-        "key": "ctrl+j ctrl+shift+j",
+        "key": "ctrl+j ctrl+shift+k",
         "command": "jupyter.moveCellsDown",
         "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
     },
@@ -691,7 +691,7 @@
         "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
     },
     {
-        "key": "ctrl+j ctrl+shift+k",
+        "key": "ctrl+j ctrl+shift+i",
         "command": "jupyter.moveCellsUp",
         "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
     },
@@ -841,7 +841,7 @@
         "when": "notebookEditorFocused && !inputFocus"
     },
     {
-        "key": "ctrl+n ctrl+shift+j",
+        "key": "ctrl+n ctrl+shift+k",
         "command": "notebook.cell.copyDown",
         "when": "notebookEditorFocused && !inputFocus"
     },
@@ -851,7 +851,7 @@
         "when": "notebookEditorFocused && !inputFocus"
     },
     {
-        "key": "ctrl+n ctrl+shift+k",
+        "key": "ctrl+n ctrl+shift+i",
         "command": "notebook.cell.copyUp",
         "when": "notebookEditorFocused && !inputFocus"
     },
@@ -941,7 +941,7 @@
         "when": "notebookEditorFocused && !inputFocus"
     },
     {
-        "key": "ctrl+n ctrl+k",
+        "key": "ctrl+n ctrl+i",
         "command": "notebook.cell.insertCodeCellAbove",
         "when": "notebookCellListFocused && !inputFocus"
     },
@@ -951,7 +951,7 @@
         "when": "notebookCellListFocused && !inputFocus"
     },
     {
-        "key": "ctrl+n ctrl+j",
+        "key": "ctrl+n ctrl+k",
         "command": "notebook.cell.insertCodeCellBelow",
         "when": "notebookCellListFocused && !inputFocus"
     },
@@ -976,7 +976,7 @@
         "when": "notebookEditorFocused"
     },
     {
-        "key": "ctrl+n j",
+        "key": "ctrl+n k",
         "command": "notebook.cell.moveDown",
         "when": "notebookEditorFocused && !inputFocus"
     },
@@ -986,7 +986,7 @@
         "when": "notebookEditorFocused && !inputFocus"
     },
     {
-        "key": "ctrl+n k",
+        "key": "ctrl+n i",
         "command": "notebook.cell.moveUp",
         "when": "notebookEditorFocused && !inputFocus"
     },
@@ -2897,7 +2897,7 @@
         "command": "workbench.action.files.newUntitledFile"
     },
     {
-        "key": "ctrl+j j",
+        "key": "ctrl+j k",
         "command": "jupyter.gotoNextCellInFile",
         "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
     },
@@ -3340,11 +3340,11 @@
         "command": "notebook.cell.changeLanguage"
     },
     {
-        "key": "ctrl+n shift+k",
+        "key": "ctrl+n shift+i",
         "command": "notebook.cell.insertMarkdownCellAbove"
     },
     {
-        "key": "ctrl+n shift+j",
+        "key": "ctrl+n shift+k",
         "command": "notebook.cell.insertMarkdownCellBelow"
     },
     {
@@ -3513,7 +3513,7 @@
         "when": "remoteFileDialogVisible"
     },
     {
-        "key": "ctrl+e l",
+        "key": "ctrl+e j",
         "command": "workbench.action.decreaseViewWidth"
     },
     {
@@ -3521,7 +3521,7 @@
         "command": "workbench.action.increaseViewHeight"
     },
     {
-        "key": "ctrl+e j",
+        "key": "ctrl+e l",
         "command": "workbench.action.increaseViewWidth"
     },
     {
@@ -4253,5 +4253,15 @@
     {
         "key": "ctrl+e 0",
         "command": "workbench.action.evenEditorWidths"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "-editor.action.triggerSuggest",
+        "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly && !suggestWidgetVisible"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "-focusSuggestion",
+        "when": "suggestWidgetVisible && textInputFocus && !config.editor.suggest.selectQuickSuggestions && !suggestWidgetHasFocusedSuggestion"
     }
 ]
