@@ -4263,5 +4263,9 @@
         "key": "ctrl+i",
         "command": "-focusSuggestion",
         "when": "suggestWidgetVisible && textInputFocus && !config.editor.suggest.selectQuickSuggestions && !suggestWidgetHasFocusedSuggestion"
+    },
+    {
+        "key": "ctrl+l shift+c",
+        "command": "editor.action.removeCommentLine"
     }
 ]
