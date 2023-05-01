@@ -20,6 +20,10 @@
 
 % include the additional imports here:
 % \usepackage{package}
+\usepackage{fancyhdr}
+\usepackage{mhchem}
+\usepackage{relsize}
+\usepackage{cancel}
 
 % configs
 \setlength\parindent{24pt}
@@ -30,6 +34,9 @@
     pdfauthor={James Aaron Erang},
     pdftitle={}
 }
+\pagestyle{fancyplain}
+\rfoot{James Aaron Erang}
+\lhead{ % course num - \textit{ % topic }}
 
 % commands
 \newcommand{\eq}[1]{Eq \ref{eq:#1}} % equation references
@@ -43,32 +50,14 @@
 % if there are other configs, etc: tikz predefined lines, molecules for chemfig, put it here:
 
 % ppr
-\title{ % title here }
+\title{ %title here }
 \author{James Aaron Erang\orcidlink{0000-0002-1959-3796}}
-\date{ % date here }
+\date{}
 
 % manscrpt
 \begin{document}
 	\maketitle
-	% main ppr parts, introduction, methodology, results and discussion, references
-
-	% introduction
-	\section*{Introduction}
-
-	% methodology
-	\section*{Methodology}
-
-	% results and discussion
-	\section*{Results and Discussion}
-
-	% references
-	\newpage
-	\section*{References}
-	% this is a list using enumerate, add label with \label{ref:num} to be able to reference the paper.
-		\begin{enumerate}
-			\item % reference 1 ...
-
-		\end{enumerate}
+    \thispagestyle{empty}
 
 
 \end{document}
