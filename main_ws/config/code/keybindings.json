@@ -3858,11 +3858,11 @@
         "when": "editorTextFocus && !findInputFocussed && !jupyter.ownsSelection && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
     },
     {
-        "key": "alt+p alt+enter",
+        "key": "alt+p shift+enter",
         "command": "python.execInTerminal-icon"
     },
     {
-        "key": "shift+alt+p alt+enter",
+        "key": "alt+p shift+alt+enter",
         "command": "python.execInTerminal"
     },
     {
