@@ -5016,5 +5016,13 @@
     {
         "key": "ctrl+b s",
         "command": "editor.action.selectToBracket"
+    },
+    {
+        "key": "ctrl+z",
+        "command": "default:undo"
+    },
+    {
+        "key": "ctrl+y",
+        "command": "default:redo"
     }
 ]
