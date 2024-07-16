@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Exec=toolbox -c fedora-toolbox-40 run chimerax
+Name=UCSF Chimera X
+Icon=/var/home/iaacornus/.local/share/icons/chimerax.svg
+Name[en_US]=UCSF Chimera X
