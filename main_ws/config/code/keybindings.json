@@ -701,7 +701,7 @@
         "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
     },
     {
-        "key": "alt+enter",
+        "key": "ctrl+j alt+enter",
         "command": "jupyter.runByLine",
         "when": "!jupyter.notebookeditor.debuggingInProgress && !jupyter.notebookeditor.runByLineInProgress && notebookKernelCount > 0"
     },
@@ -3862,7 +3862,7 @@
         "command": "python.execInTerminal-icon"
     },
     {
-        "key": "alt+p shift+alt+enter",
+        "key": "alt+p ctrl+enter",
         "command": "python.execInTerminal"
     },
     {
@@ -5024,5 +5024,110 @@
     {
         "key": "ctrl+y",
         "command": "default:redo"
+    },
+    {
+        "key": "ctrl+shift+d",
+        "command": "-data.preview"
+    },
+    {
+        "key": "ctrl+alt+s d",
+        "command": "-data.preview.on.side"
+    },
+    {
+        "key": "ctrl+shift+r",
+        "command": "-data.preview.remote"
+    },
+    {
+        "key": "ctrl+j ctrl+enter",
+        "command": "jupyter.runByLineStop",
+        "when": "notebookCellResource in 'jupyter.notebookeditor.runByLineCells'"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-jupyter.runByLineStop",
+        "when": "notebookCellResource in 'jupyter.notebookeditor.runByLineCells'"
+    },
+    {
+        "key": "alt+enter",
+        "command": "-jupyter.runcurrentcellandaddbelow",
+        "when": "editorTextFocus && jupyter.hascodecells && !editorHasSelection && !notebookEditorFocused"
+    },
+    {
+        "key": "shift+enter",
+        "command": "-interactive.execute",
+        "when": "!notebookKernel && activeEditor == 'workbench.editor.interactive' || activeEditor == 'workbench.editor.interactive' && notebookKernel =~ /^ms-toolsai.jupyter\\//"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-jupyter.runcurrentcell",
+        "when": "editorTextFocus && isWorkspaceTrusted && jupyter.hascodecells && !editorHasSelection && !jupyter.havenativecells && !notebookEditorFocused"
+    },
+    {
+        "key": "shift+enter",
+        "command": "-jupyter.runcurrentcelladvance",
+        "when": "editorTextFocus && isWorkspaceTrusted && jupyter.hascodecells && !editorHasSelection && !notebookEditorFocused"
+    },
+    {
+        "key": "shift+enter",
+        "command": "-jupyter.execSelectionInteractive",
+        "when": "editorTextFocus && isWorkspaceTrusted && jupyter.ownsSelection && !findInputFocussed && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
+    },
+    {
+        "key": "ctrl+alt+pagedown",
+        "command": "-workbench.action.chat.nextCodeBlock",
+        "when": "hasChatProvider && inChat"
+    },
+    {
+        "key": "ctrl+alt+pageup",
+        "command": "-workbench.action.chat.previousCodeBlock",
+        "when": "hasChatProvider && inChat"
+    },
+    {
+        "key": "escape",
+        "command": "-workbench.action.chat.stopListening",
+        "when": "hasSpeechProvider && voiceChatInProgress"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-workbench.action.chat.insertCodeBlock",
+        "when": "hasChatProvider && inChat && !inChatInput"
+    },
+    {
+        "key": "f3",
+        "command": "-workbench.action.terminal.findNext",
+        "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocusInAny && terminalHasBeenCreated || terminalFocusInAny && terminalProcessSupported"
+    },
+    {
+        "key": "shift+f3",
+        "command": "-workbench.action.terminal.findPrevious",
+        "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocusInAny && terminalHasBeenCreated || terminalFocusInAny && terminalProcessSupported"
+    },
+    {
+        "key": "shift+escape",
+        "command": "-workbench.action.terminal.hideFind",
+        "when": "terminalFindVisible && terminalFocusInAny && terminalHasBeenCreated || terminalFindVisible && terminalFocusInAny && terminalProcessSupported"
+    },
+    {
+        "key": "pagedown",
+        "command": "-workbench.action.terminal.selectNextPageSuggestion",
+        "when": "terminalFocus && terminalHasBeenCreated && terminalIsOpen && terminalSuggestWidgetVisible || terminalFocus && terminalIsOpen && terminalProcessSupported && terminalSuggestWidgetVisible"
+    },
+    {
+        "key": "pageup",
+        "command": "-workbench.action.terminal.selectPrevPageSuggestion",
+        "when": "terminalFocus && terminalHasBeenCreated && terminalIsOpen && terminalSuggestWidgetVisible || terminalFocus && terminalIsOpen && terminalProcessSupported && terminalSuggestWidgetVisible"
+    },
+    {
+        "key": "end",
+        "command": "-lastCompressedFolder",
+        "when": "explorerViewletCompressedFocus && filesExplorerFocus && foldersViewVisible && !explorerViewletCompressedLastFocus && !inputFocus"
+    },
+    {
+        "key": "ctrl+alt+c",
+        "command": "workbench.action.showCommands"
+    },
+    {
+        "key": "alt+p alt+enter",
+        "command": "python.execSelectionInTerminal"
     }
 ]
