@@ -26,7 +26,7 @@
     "font_size_points": 12,
     "pdf_previewer": "system",
     "posix_terminal_shell": "bash",
-    "editor_theme": "Xcode",
+    "editor_theme": "iPlastic",
     "save_files_before_build": true,
     "show_doc_outline_rmd": true,
     "visual_markdown_code_editor_line_numbers": true,
