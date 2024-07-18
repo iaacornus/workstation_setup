@@ -1,0 +1,10 @@
+[Unit]
+Description=Setup RStudio IDE bindings
+
+[Service]
+Type=oneshot
+RemainAfterExit=no
+ExecStart=bash $HOME/.local/bin/rstudio_bindings.sh
+
+[Install]
+WantedBy=default.target
