@@ -186,5 +186,6 @@
     "showManipulator": "Ctrl+P Ctrl+M",
     "updatePackages": "Ctrl+Shift+P U",
     "goToNextChunk": "Alt+End",
-    "goToPrevChunk": "Alt+Home"
+    "goToPrevChunk": "Alt+Home",
+    "codeCompletion": "Tab"
 }
