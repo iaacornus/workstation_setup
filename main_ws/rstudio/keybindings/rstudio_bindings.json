@@ -185,6 +185,6 @@
     "activateBackgroundJobs": "Ctrl+Shift+V B",
     "showManipulator": "Ctrl+P Ctrl+M",
     "updatePackages": "Ctrl+Shift+P U",
-    "goToNextChunk": "Ctrl+Shift+End",
-    "goToPrevChunk": "Ctrl+Shift+Home"
+    "goToNextChunk": "Alt+End",
+    "goToPrevChunk": "Alt+Home"
 }
