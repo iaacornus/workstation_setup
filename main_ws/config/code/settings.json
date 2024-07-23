@@ -207,7 +207,7 @@
         "problem",
         "hack"
     ],
-    "githubPullRequests.createDraft": true,
+    "githubPullRequests.defaultCreateOption": "createDraft",
     "githubIssues.queries": [
         {
             "label": "My Issues",
@@ -241,7 +241,7 @@
     "workbench.productIconTheme": "material-product-icons",
     "workbench.preferredHighContrastColorTheme": "Sublime Material Theme - Dark",
     "workbench.preferredHighContrastLightColorTheme": "Sublime Material Theme - Light",
-    "workbench.colorTheme": "Sublime Material Theme - Dark",
     "workbench.preferredDarkColorTheme": "Sublime Material Theme - Dark",
-    "workbench.preferredLightColorTheme": "Sublime Material Theme - Light"
+    "workbench.preferredLightColorTheme": "Sublime Material Theme - Light",
+    "workbench.colorTheme": "Sublime Material Theme - Dark"
 }
