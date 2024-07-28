@@ -243,5 +243,6 @@
     "workbench.preferredHighContrastLightColorTheme": "Sublime Material Theme - Light",
     "workbench.preferredDarkColorTheme": "Sublime Material Theme - Dark",
     "workbench.preferredLightColorTheme": "Sublime Material Theme - Light",
-    "workbench.colorTheme": "Sublime Material Theme - Dark"
+    "workbench.colorTheme": "Sublime Material Theme - Dark",
+    "better-comments.highlightPlainText": true
 }
