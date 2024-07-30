@@ -5518,5 +5518,195 @@
         "key": "ctrl+shift+alt+i",
         "command": "-workbench.action.quickchat.toggle",
         "when": "chatIsEnabled"
+    },
+    {
+        "key": "ctrl+shift+v q",
+        "command": "quarto-assist.focus",
+        "when": "editorTextFocus && editorLangId == 'quarto'"
+    },
+    {
+        "key": "ctrl+f1",
+        "command": "-quarto-assist.focus",
+        "when": "editorTextFocus && editorLangId == 'quarto'"
+    },
+    {
+        "key": "ctrl+shift+q p",
+        "command": "quarto.previewScript",
+        "when": "quartoRenderScriptActive"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "-quarto.previewScript",
+        "when": "quartoRenderScriptActive"
+    },
+    {
+        "key": "ctrl+shift+q s",
+        "command": "quarto.editInSourceMode",
+        "when": "activeCustomEditorId == 'quarto.visualEditor'"
+    },
+    {
+        "key": "ctrl+shift+f4",
+        "command": "-quarto.editInSourceMode",
+        "when": "activeCustomEditorId == 'quarto.visualEditor'"
+    },
+    {
+        "key": "ctrl+shift+q v",
+        "command": "quarto.editInVisualMode",
+        "when": "editorLangId == 'markdown' && resourceScheme != 'untitled' || editorLangId == 'quarto' && resourceScheme != 'untitled'"
+    },
+    {
+        "key": "ctrl+shift+f4",
+        "command": "-quarto.editInVisualMode",
+        "when": "editorLangId == 'markdown' && resourceScheme != 'untitled' || editorLangId == 'quarto' && resourceScheme != 'untitled'"
+    },
+    {
+        "key": "ctrl+shift+q f",
+        "command": "quarto.formatCell",
+        "when": "editorTextFocus && !editorHasSelection && editorLangId == 'quarto'"
+    },
+    {
+        "key": "ctrl+k ctrl+f",
+        "command": "-quarto.formatCell",
+        "when": "editorTextFocus && !editorHasSelection && editorLangId == 'quarto'"
+    },
+    {
+        "key": "ctrl+shift+q down",
+        "command": "quarto.goToNextCell",
+        "when": "editorTextFocus && editorLangId == 'quarto'"
+    },
+    {
+        "key": "ctrl+pagedown",
+        "command": "-quarto.goToNextCell",
+        "when": "editorTextFocus && editorLangId == 'quarto'"
+    },
+    {
+        "key": "ctrl+shift+q up",
+        "command": "quarto.goToPreviousCell",
+        "when": "editorTextFocus && editorLangId == 'quarto'"
+    },
+    {
+        "key": "ctrl+pageup",
+        "command": "-quarto.goToPreviousCell",
+        "when": "editorTextFocus && editorLangId == 'quarto'"
+    },
+    {
+        "key": "ctrl+shift+q n",
+        "command": "quarto.insertCodeCell",
+        "when": "editorTextFocus && !findInputFocussed && !replaceInputFocussed && editorLangId == 'quarto'"
+    },
+    {
+        "key": "ctrl+shift+i",
+        "command": "-quarto.insertCodeCell",
+        "when": "editorTextFocus && !findInputFocussed && !replaceInputFocussed && editorLangId == 'quarto'"
+    },
+    {
+        "key": "ctrl+shift+q ctrl+enter",
+        "command": "quarto.preview",
+        "when": "!quartoRenderScriptActive"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "-quarto.preview",
+        "when": "!quartoRenderScriptActive"
+    },
+    {
+        "key": "ctrl+shift+q ctrl+p",
+        "command": "quarto.previewContentShortcut",
+        "when": "activeCustomEditorId == 'quarto.visualEditor' || editorLangId == 'dot' || editorLangId == 'mermaid' || editorLangId == 'quarto'"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "-quarto.previewContentShortcut",
+        "when": "activeCustomEditorId == 'quarto.visualEditor' || editorLangId == 'dot' || editorLangId == 'mermaid' || editorLangId == 'quarto'"
+    },
+    {
+        "key": "ctrl+shift+q r",
+        "command": "quarto.runAllCells",
+        "when": "editorTextFocus && !findInputFocussed && !replaceInputFocussed && editorLangId == 'quarto'"
+    },
+    {
+        "key": "ctrl+alt+r",
+        "command": "-quarto.runAllCells",
+        "when": "editorTextFocus && !findInputFocussed && !replaceInputFocussed && editorLangId == 'quarto'"
+    },
+    {
+        "key": "ctrl+shift+q r",
+        "command": "quarto.runAllCells",
+        "when": "activeCustomEditorId == 'quarto.visualEditor'"
+    },
+    {
+        "key": "ctrl+alt+r",
+        "command": "-quarto.runAllCells",
+        "when": "activeCustomEditorId == 'quarto.visualEditor'"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "quarto.runCurrentCell",
+        "when": "editorTextFocus && !findInputFocussed && !replaceInputFocussed && editorLangId == 'quarto'"
+    },
+    {
+        "key": "ctrl+shift+enter",
+        "command": "-quarto.runCurrentCell",
+        "when": "editorTextFocus && !findInputFocussed && !replaceInputFocussed && editorLangId == 'quarto'"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "quarto.runCurrentCell",
+        "when": "activeCustomEditorId == 'quarto.visualEditor'"
+    },
+    {
+        "key": "ctrl+shift+enter",
+        "command": "-quarto.runCurrentCell",
+        "when": "activeCustomEditorId == 'quarto.visualEditor'"
+    },
+    {
+        "key": "ctrl+shift+enter",
+        "command": "quarto.runCurrent",
+        "when": "editorTextFocus && !findInputFocussed && !replaceInputFocussed && editorLangId == 'quarto'"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-quarto.runCurrent",
+        "when": "editorTextFocus && !findInputFocussed && !replaceInputFocussed && editorLangId == 'quarto'"
+    },
+    {
+        "key": "ctrl+shift+enter",
+        "command": "quarto.runCurrent",
+        "when": "activeCustomEditorId == 'quarto.visualEditor'"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-quarto.runCurrent",
+        "when": "activeCustomEditorId == 'quarto.visualEditor'"
+    },
+    {
+        "key": "ctrl+shift+h p",
+        "command": "html.showPreview",
+        "when": "editorLangId == 'html'"
+    },
+    {
+        "key": "ctrl+shift+v",
+        "command": "-html.showPreview",
+        "when": "editorLangId == 'html'"
+    },
+    {
+        "key": "ctrl+shift+h ctrl+right",
+        "command": "html.showPreviewToSide",
+        "when": "editorLangId == 'html'"
+    },
+    {
+        "key": "ctrl+k v",
+        "command": "-html.showPreviewToSide",
+        "when": "editorLangId == 'html'"
+    },
+    {
+        "key": "ctrl+shift+h b",
+        "command": "html.showInBrowser",
+        "when": "editorLangId == 'html'"
+    },
+    {
+        "key": "ctrl+k w",
+        "command": "-html.showInBrowser",
+        "when": "editorLangId == 'html'"
     }
 ]
