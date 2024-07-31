@@ -247,5 +247,6 @@
     "better-comments.highlightPlainText": true,
     "quarto.render.renderOnSave": true,
     "quarto.visualEditor.markdownWrap": "column",
-    "quarto.zotero.dataDir": "~/Zotero"
+    "quarto.zotero.dataDir": "~/Zotero",
+    "quarto.render.previewType": "external"
 }
