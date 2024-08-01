@@ -5901,9 +5901,5 @@
     {
         "key": "ctrl+t ctrl+x",
         "command": "workbench.action.terminal.kill"
-    },
-    {
-        "key": "ctrl+p",
-        "command": "livePreview.start.internalPreview.atFile"
     }
 ]
