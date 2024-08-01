@@ -1,0 +1,10 @@
+[Unit]
+Description=Setup RStudio IDE and VSCode settings and bindings.
+
+[Service]
+Type=oneshot
+RemainAfterExit=no
+ExecStart=bash $HOME/.local/bin/settings.sh
+
+[Install]
+WantedBy=default.target
