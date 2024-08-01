@@ -185,7 +185,7 @@
         "when": "debugState == 'stopped'"
     },
     {
-        "key": "ctrl+shift+escape",
+        "key": "alt+escape",
         "command": "workbench.action.debug.stop",
         "when": "inDebugMode && !focusedSessionIsAttach"
     },
@@ -5901,5 +5901,29 @@
     {
         "key": "ctrl+t ctrl+x",
         "command": "workbench.action.terminal.kill"
+    },
+    {
+        "key": "ctrl+shift+m up",
+        "command": "notebook.cell.insertMarkdownCellAbove"
+    },
+    {
+        "key": "ctrl+shift+m down",
+        "command": "notebook.cell.insertMarkdownCellBelow"
+    },
+    {
+        "key": "ctrl+shift+j down",
+        "command": "notebook.cell.joinBelow"
+    },
+    {
+        "key": "ctrl+shift+j up",
+        "command": "notebook.cell.joinAbove"
+    },
+    {
+        "key": "ctrl+shift+j ctrl+enter",
+        "command": "notebook.cell.joinSelected"
+    },
+    {
+        "key": "alt+escape",
+        "command": "notebook.cell.cancelExecution"
     }
 ]
