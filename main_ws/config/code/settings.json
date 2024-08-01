@@ -59,7 +59,6 @@
         },
     "workbench.localHistory.maxFileEntries": 5,
     "editor.linkedEditing": true,
-    "C_Cpp.autocompleteAddParentheses": true,
     "emmet.showSuggestionsAsSnippets": true,
     "debug.console.collapseIdenticalLines": true,
     "terminal.integrated.cursorBlinking": true,
@@ -115,66 +114,7 @@
     "zenMode.hideStatusBar": false,
     "zenMode.restore": false,
     "scm.alwaysShowRepositories": true,
-    "scm.defaultViewMode": "tree",
-    "better-comments.tags": [
-        {
-            "tag": "!",
-            "color": "#FF2D00",
-            "strikethrough": false,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        },
-        {
-            "tag": "?",
-            "color": "#3498DB",
-            "strikethrough": false,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        },
-        {
-            "tag": "~~",
-            "color": "#474747",
-            "strikethrough": true,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        },
-        {
-            "tag": "todo",
-            "color": "#FF8C00",
-            "strikethrough": false,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        },
-        {
-            "tag": "*",
-            "color": "#98C379",
-            "strikethrough": false,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        }
-    ],
-    "rust-analyzer.imports.granularity.enforce": true,
-    "rust-analyzer.imports.prefix": "crate",
-    "rust-analyzer.lens.debug.enable": false,
-    "rust-analyzer.lens.forceCustomCommands": false,
-    "rust-analyzer.lens.implementations.enable": false,
-    "rust-analyzer.lens.run.enable": false,
-    "rust-analyzer.joinLines.unwrapTrivialBlock": false,
-    "rust-analyzer.joinLines.joinElseIf": false,
-    "rust-analyzer.joinLines.joinAssignments": false,
-    "rust-analyzer.inlayHints.typeHints.enable": false,
     "python.languageServer": "Pylance",
-    "platformio-ide.disablePIOHomeStartup": true,
     "markdown.preview.fontSize": 16,
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.guides.highlightActiveIndentation": "always",
@@ -194,38 +134,8 @@
     "search.smartCase": true,
     "window.titleBarStyle": "custom",
     "workbench.iconTheme": "material-icon-theme",
-    "githubIssues.createIssueTriggers": [
-        "TODO",
-        "todo",
-        "BUG",
-        "FIXME",
-        "ISSUE",
-        "HACK",
-        "bug",
-        "fix",
-        "issue",
-        "problem",
-        "hack"
-    ],
-    "githubPullRequests.defaultCreateOption": "createDraft",
-    "githubIssues.queries": [
-        {
-            "label": "My Issues",
-            "query": "default"
-        },
-        {
-            "label": "Created Issues",
-            "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
-        },
-        {
-            "label": "Recent Issues",
-            "query": "state:open repo:${owner}/${repository} sort:updated-desc"
-        }
-    ],
     "notebook.output.fontFamily": "'Comic Code Ligatures'",
     "window.zoomLevel": 0.5,
-    "C_Cpp.intelliSenseEngine": "disabled",
-    "githubPullRequests.createOnPublishBranch": "never",
     "editor.inlineSuggest.fontFamily": "'Comic Code Ligatures'",
     "chat.editor.fontFamily": "'Comic Code Ligatures'",
     "editor.experimentalInlineEdit.fontFamily": "'Comic Code Ligatures'",
@@ -244,7 +154,6 @@
     "workbench.preferredDarkColorTheme": "Sublime Material Theme - Dark",
     "workbench.preferredLightColorTheme": "Sublime Material Theme - Light",
     "workbench.colorTheme": "Sublime Material Theme - Dark",
-    "better-comments.highlightPlainText": true,
     "quarto.render.renderOnSave": true,
     "quarto.visualEditor.markdownWrap": "column",
     "quarto.zotero.dataDir": "~/Zotero",
