@@ -4908,11 +4908,6 @@
         "when": "editorTextFocus && !findInputFocussed && !replaceInputFocussed && editorLangId == 'quarto'"
     },
     {
-        "key": "ctrl+p",
-        "command": "quarto.preview",
-        "when": "!quartoRenderScriptActive"
-    },
-    {
         "key": "ctrl+shift+k",
         "command": "-quarto.preview",
         "when": "!quartoRenderScriptActive"
