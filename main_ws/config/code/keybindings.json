@@ -3164,7 +3164,7 @@
         "command": "workbench.action.files.saveFiles"
     },
     {
-        "key": "ctrl+shift+g",
+        "key": "ctrl+g",
         "command": "workbench.action.quickOpen"
     },
     {
@@ -5920,5 +5920,13 @@
     {
         "key": "alt+escape",
         "command": "notebook.cell.cancelExecution"
+    },
+    {
+        "key": "ctrl+shift+g s",
+        "command": "git.stageSelectedRanges"
+    },
+    {
+        "key": "ctrl+shift+g ctrl+s",
+        "command": "git.unstageSelectedRanges"
     }
 ]
