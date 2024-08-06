@@ -5916,7 +5916,7 @@
         "command": "git.unstageSelectedRanges"
     },
     {
-        "key": "ctrl+alt+r",
+        "key": "shift+alt+m",
         "command": "quarto.preview",
         "when": "!quartoRenderScriptActive"
     },
