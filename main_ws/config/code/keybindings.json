@@ -4838,11 +4838,6 @@
         "when": "editorTextFocus && editorLangId == 'quarto'"
     },
     {
-        "key": "ctrl+p",
-        "command": "quarto.previewScript",
-        "when": "quartoRenderScriptActive"
-    },
-    {
         "key": "ctrl+shift+k",
         "command": "-quarto.previewScript",
         "when": "quartoRenderScriptActive"
@@ -4906,11 +4901,6 @@
         "key": "ctrl+shift+i",
         "command": "-quarto.insertCodeCell",
         "when": "editorTextFocus && !findInputFocussed && !replaceInputFocussed && editorLangId == 'quarto'"
-    },
-    {
-        "key": "ctrl+shift+k",
-        "command": "-quarto.preview",
-        "when": "!quartoRenderScriptActive"
     },
     {
         "key": "ctrl+shift+enter",
@@ -5870,10 +5860,6 @@
         "command": "jupyter.restartkernel"
     },
     {
-        "key": "ctrl+alt+r",
-        "command": "quarto.renderDocument"
-    },
-    {
         "key": "ctrl+shift+enter",
         "command": "jupyter.runallcells"
     },
@@ -5928,5 +5914,15 @@
     {
         "key": "ctrl+shift+g ctrl+s",
         "command": "git.unstageSelectedRanges"
+    },
+    {
+        "key": "ctrl+alt+r",
+        "command": "quarto.preview",
+        "when": "!quartoRenderScriptActive"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "-quarto.preview",
+        "when": "!quartoRenderScriptActive"
     }
 ]
