@@ -1299,11 +1299,6 @@
         "when": "terminalFindVisible && terminalFocus && terminalHasBeenCreated || terminalFindVisible && terminalFocus && terminalProcessSupported"
     },
     {
-        "key": "ctrl+w",
-        "command": "-workbench.action.terminal.killEditor",
-        "when": "terminalEditorFocus && terminalFocus && terminalHasBeenCreated && resourceScheme == 'vscode-terminal' || terminalEditorFocus && terminalFocus && terminalProcessSupported && resourceScheme == 'vscode-terminal'"
-    },
-    {
         "key": "shift+insert",
         "command": "-workbench.action.terminal.pasteSelection",
         "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
@@ -5173,11 +5168,6 @@
         "when": "config.python.REPL.sendToNativeREPL && editorTextFocus && !accessibilityModeEnabled && !jupyter.ownsSelection && !notebookEditorFocused && editorLangId == 'python' && activeEditor != 'workbench.editor.interactive'"
     },
     {
-        "key": "alt+enter",
-        "command": "python.execSelectionInTerminal",
-        "when": "editorTextFocus && !findInputFocussed && !jupyter.ownsSelection && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python' && activeEditor != 'workbench.editor.interactive'"
-    },
-    {
         "key": "ctrl+alt+right",
         "command": "-quickInput.acceptInBackground",
         "when": "cursorAtEndOfQuickInputBox && inQuickInput && quickInputType == 'quickPick' || inQuickInput && !inputFocus && quickInputType == 'quickPick'"
@@ -5441,16 +5431,6 @@
         "key": "alt+enter",
         "command": "-workbench.action.terminal.chat.insertFirstCommand",
         "when": "terminalChatResponseContainsMultipleCodeBlocks && terminalHasBeenCreated && !terminalChatActiveRequest || terminalChatResponseContainsMultipleCodeBlocks && terminalProcessSupported && !terminalChatActiveRequest"
-    },
-    {
-        "key": "ctrl+t x",
-        "command": "workbench.action.terminal.killEditor",
-        "when": "terminalEditorFocus && terminalFocus && terminalHasBeenCreated || terminalEditorFocus && terminalFocus && terminalProcessSupported"
-    },
-    {
-        "key": "ctrl+w",
-        "command": "-workbench.action.terminal.killEditor",
-        "when": "terminalEditorFocus && terminalFocus && terminalHasBeenCreated || terminalEditorFocus && terminalFocus && terminalProcessSupported"
     },
     {
         "key": "ctrl+space",
@@ -5876,14 +5856,6 @@
         "command": "notebook.execute"
     },
     {
-        "key": "ctrl+t c",
-        "command": "workbench.action.terminal.clear"
-    },
-    {
-        "key": "ctrl+t ctrl+x",
-        "command": "workbench.action.terminal.kill"
-    },
-    {
         "key": "ctrl+shift+m up",
         "command": "notebook.cell.insertMarkdownCellAbove"
     },
@@ -5924,5 +5896,32 @@
         "key": "ctrl+shift+k",
         "command": "-quarto.preview",
         "when": "!quartoRenderScriptActive"
+    },
+    {
+        "key": "shift+enter",
+        "command": "-python.execSelectionInTerminal",
+        "when": "editorTextFocus && !findInputFocussed && !jupyter.ownsSelection && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python' && activeEditor != 'workbench.editor.interactive'"
+    },
+    {
+        "key": "ctrl+t x",
+        "command": "workbench.action.terminal.killEditor",
+        "when": "terminalEditorFocus && terminalFocus && terminalHasBeenCreated || terminalEditorFocus && terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-workbench.action.terminal.killEditor",
+        "when": "terminalEditorFocus && terminalFocus && terminalHasBeenCreated || terminalEditorFocus && terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "ctrl+t ctrl+x",
+        "command": "workbench.action.terminal.killAll"
+    },
+    {
+        "key": "ctrl+t c",
+        "command": "workbench.action.terminal.clear"
+    },
+    {
+        "key": "ctrl+t x",
+        "command": "workbench.action.terminal.kill"
     }
 ]
