@@ -5892,15 +5892,15 @@
         "command": "notebook.cell.insertMarkdownCellBelow"
     },
     {
-        "key": "ctrl+shift+j down",
+        "key": "shift+alt+j",
         "command": "notebook.cell.joinBelow"
     },
     {
-        "key": "ctrl+shift+j up",
+        "key": "ctrl+shift+j",
         "command": "notebook.cell.joinAbove"
     },
     {
-        "key": "ctrl+shift+j ctrl+enter",
+        "key": "ctrl+alt+j",
         "command": "notebook.cell.joinSelected"
     },
     {
@@ -5916,7 +5916,7 @@
         "command": "git.unstageSelectedRanges"
     },
     {
-        "key": "shift+alt+m",
+        "key": "ctrl+alt+q",
         "command": "quarto.preview",
         "when": "!quartoRenderScriptActive"
     },
