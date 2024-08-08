@@ -215,7 +215,7 @@
         "when": "editorTextFocus && !notebookEditable"
     },
     {
-        "key": "ctrl+shift+v e",
+        "key": "shift+alt+e",
         "command": "workbench.files.action.focusOpenEditorsView",
         "when": "workbench.explorer.openEditorsView.active"
     },
@@ -1676,7 +1676,7 @@
         "command": "-workbench.action.showAllEditors"
     },
     {
-        "key": "ctrl+shift+v f",
+        "key": "shift+alt+f",
         "command": "workbench.view.explorer",
         "when": "viewContainer.workbench.view.explorer.enabled"
     },
@@ -1701,7 +1701,7 @@
         "when": "workbench.view.search.active && neverMatch =~ /doesNotMatch/"
     },
     {
-        "key": "ctrl+shift+v g",
+        "key": "shift+alt+g",
         "command": "workbench.view.scm",
         "when": "workbench.scm.active"
     },
@@ -1751,7 +1751,7 @@
         "command": "-workbench.action.toggleSidebarVisibility"
     },
     {
-        "key": "ctrl+shift+v p",
+        "key": "shift+alt+p",
         "command": "workbench.actions.view.problems",
         "when": "workbench.panel.markers.view.active"
     },
@@ -1761,7 +1761,7 @@
         "when": "workbench.panel.markers.view.active"
     },
     {
-        "key": "ctrl+shift+v t",
+        "key": "shift+alt+t",
         "command": "workbench.action.terminal.toggleTerminal",
         "when": "terminal.active"
     },
@@ -1801,7 +1801,7 @@
         "command": "-workbench.action.zoomOut"
     },
     {
-        "key": "ctrl+w ctrl+shift+x",
+        "key": "ctrl+w ctrl+x",
         "command": "workbench.action.closeFolder",
         "when": "emptyWorkspaceSupport && workbenchState != 'empty'"
     },
@@ -2521,7 +2521,7 @@
         "when": "inQuickOpen"
     },
     {
-        "key": "ctrl+q ctrl+q",
+        "key": "ctrl+w ctrl+shift+x",
         "command": "workbench.action.quit"
     },
     {
@@ -3178,7 +3178,7 @@
         "when": "firstMatchFocus && searchViewletVisible"
     },
     {
-        "key": "ctrl+shift+v =",
+        "key": "shift+alt+=",
         "command": "workbench.action.zoomIn"
     },
     {
@@ -3186,7 +3186,7 @@
         "command": "-workbench.action.zoomIn"
     },
     {
-        "key": "ctrl+shift+v -",
+        "key": "shift+alt+-",
         "command": "workbench.action.zoomOut"
     },
     {
@@ -3194,7 +3194,7 @@
         "command": "-workbench.action.zoomOut"
     },
     {
-        "key": "ctrl+shift+v s",
+        "key": "shift+alt+s",
         "command": "workbench.view.search"
     },
     {
@@ -3465,7 +3465,7 @@
         "command": "-workbench.action.closeWindow"
     },
     {
-        "key": "ctrl+w ctrl+x",
+        "key": "ctrl+w x",
         "command": "workbench.action.closeWindow"
     },
     {
@@ -4823,7 +4823,7 @@
         "when": "chatIsEnabled"
     },
     {
-        "key": "ctrl+shift+v q",
+        "key": "shift+alt+q",
         "command": "quarto-assist.focus",
         "when": "editorTextFocus && editorLangId == 'quarto'"
     },
@@ -5666,7 +5666,7 @@
         "command": "-workbench.action.closeActiveEditor"
     },
     {
-        "key": "ctrl+shift+v 0",
+        "key": "shift+alt+0",
         "command": "workbench.action.zoomReset"
     },
     {
@@ -5844,7 +5844,7 @@
         "command": "jupyter.runallcells"
     },
     {
-        "key": "ctrl+shift+v v",
+        "key": "shift+alt+v",
         "command": "jupyter.openVariableView"
     },
     {
@@ -5923,5 +5923,9 @@
     {
         "key": "ctrl+t x",
         "command": "workbench.action.terminal.kill"
+    },
+    {
+        "key": "ctrl+e e",
+        "command": "workbench.action.focusActiveEditorGroup"
     }
 ]
