@@ -5204,16 +5204,6 @@
         "when": "inQuickInput && quickInputType == 'quickPick'"
     },
     {
-        "key": "ctrl+down",
-        "command": "-quickInput.next",
-        "when": "inQuickInput && quickInputType == 'quickPick'"
-    },
-    {
-        "key": "down",
-        "command": "-quickInput.next",
-        "when": "inQuickInput && quickInputType == 'quickPick'"
-    },
-    {
         "key": "ctrl+alt+down",
         "command": "-quickInput.nextSeparator",
         "when": "inQuickInput && quickInputType == 'quickPick'"
@@ -5261,16 +5251,6 @@
     {
         "key": "pageup",
         "command": "-quickInput.pagePrevious",
-        "when": "inQuickInput && quickInputType == 'quickPick'"
-    },
-    {
-        "key": "ctrl+up",
-        "command": "-quickInput.previous",
-        "when": "inQuickInput && quickInputType == 'quickPick'"
-    },
-    {
-        "key": "up",
-        "command": "-quickInput.previous",
         "when": "inQuickInput && quickInputType == 'quickPick'"
     },
     {
@@ -5947,5 +5927,15 @@
         "key": "alt+a",
         "command": "-editor.action.accessibilityHelpConfigureAssignedKeybindings",
         "when": "accessibilityHelpIsShown && accessibleViewHasAssignedKeybindings"
+    },
+    {
+        "key": "ctrl+down",
+        "command": "-quickInput.next",
+        "when": "inQuickInput && quickInputType == 'quickPick'"
+    },
+    {
+        "key": "ctrl+up",
+        "command": "-quickInput.previous",
+        "when": "inQuickInput && quickInputType == 'quickPick'"
     }
 ]
