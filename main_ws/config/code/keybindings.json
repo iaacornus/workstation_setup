@@ -5937,5 +5937,13 @@
         "key": "ctrl+up",
         "command": "-quickInput.previous",
         "when": "inQuickInput && quickInputType == 'quickPick'"
+    },
+    {
+        "key": "shift+alt+g",
+        "command": "workbench.scm.focus"
+    },
+    {
+        "key": "shift+alt+h",
+        "command": "workbench.action.closePanel"
     }
 ]
