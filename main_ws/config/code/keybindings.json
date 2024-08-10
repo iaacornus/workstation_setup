@@ -135,7 +135,7 @@
         "when": "editorTextFocus && inDebugMode"
     },
     {
-        "key": "ctrl+enter",
+        "key": "ctrl+alt+d",
         "command": "workbench.action.debug.start",
         "when": "debuggersAvailable && debugState == 'inactive'"
     },
@@ -160,7 +160,7 @@
         "when": "!inDebugMode && debugConfigurationType == 'node' || !inDebugMode && debugConfigurationType == 'pwa-extensionHost' || !inDebugMode && debugConfigurationType == 'pwa-node'"
     },
     {
-        "key": "ctrl+shift+enter",
+        "key": "shift+alt+d",
         "command": "workbench.action.debug.run",
         "when": "debuggersAvailable && debugState != 'initializing'"
     },
@@ -3765,10 +3765,6 @@
         "when": "inlineChatHasActiveRequest && inlineChatHasProvider && inlineChatVisible && !inlineChatEmpty"
     },
     {
-        "key": "ctrl+k ctrl+alt+c",
-        "command": "-workbench.action.addComment"
-    },
-    {
         "key": "ctrl+alt+enter",
         "command": "-workbench.action.chat.runInTerminal",
         "when": "hasChatProvider && inChat"
@@ -5628,11 +5624,6 @@
         "when": "editorHoverFocused"
     },
     {
-        "key": "ctrl+l ctrl+c",
-        "command": "editor.action.removeCommentLine",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
         "key": "ctrl+k ctrl+u",
         "command": "-editor.action.removeCommentLine",
         "when": "editorTextFocus && !editorReadonly"
@@ -5719,7 +5710,7 @@
         "when": "editorHasDocumentFormattingProvider && editorTextFocus && inCompositeEditor && notebookEditable && !editorReadonly && activeEditor == 'workbench.editor.notebook'"
     },
     {
-        "key": "ctrl+alt+d",
+        "key": "ctrl+alt+l",
         "command": "notebook.cell.detectLanguage",
         "when": "notebookCellEditable && notebookEditable"
     },
@@ -5927,5 +5918,34 @@
     {
         "key": "ctrl+e e",
         "command": "workbench.action.focusActiveEditorGroup"
+    },
+    {
+        "key": "ctrl+l ctrl+c",
+        "command": "notebook.commentSelectedCells",
+        "when": "notebookEditable && notebookEditorFocused && !inputFocus"
+    },
+    {
+        "key": "ctrl+/",
+        "command": "-notebook.commentSelectedCells",
+        "when": "notebookEditable && notebookEditorFocused && !inputFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+alt+c",
+        "command": "-workbench.action.addComment"
+    },
+    {
+        "key": "ctrl+/",
+        "command": "-workbench.action.chat.attachContext",
+        "when": "config.chat.experimental.variables.editor && inChatInput && chatLocation == 'editor' || config.chat.experimental.variables.notebook && inChatInput && chatLocation == 'notebook' || config.chat.experimental.variables.terminal && inChatInput && chatLocation == 'terminal' || inChatInput && !quickChatHasFocus && chatLocation == 'panel'"
+    },
+    {
+        "key": "alt+k",
+        "command": "-editor.action.accessibilityHelpConfigureKeybindings",
+        "when": "accessibilityHelpIsShown && accessibleViewHasUnassignedKeybindings"
+    },
+    {
+        "key": "alt+a",
+        "command": "-editor.action.accessibilityHelpConfigureAssignedKeybindings",
+        "when": "accessibilityHelpIsShown && accessibleViewHasAssignedKeybindings"
     }
 ]
