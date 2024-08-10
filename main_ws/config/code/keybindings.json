@@ -5945,5 +5945,9 @@
     {
         "key": "shift+alt+h",
         "command": "workbench.action.closePanel"
+    },
+    {
+        "key": "ctrl+alt+p",
+        "command": "workbench.profiles.actions.switchProfile"
     }
 ]
