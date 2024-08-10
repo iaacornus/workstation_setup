@@ -23,9 +23,9 @@
     "workbench.panel.defaultLocation": "right",
     "editor.wordWrap": "on",
     "editor.rulers": [
+            58,
             72,
-            79,
-            99
+            79
         ],
     "editor.semanticHighlighting.enabled": true,
     "editor.unicodeHighlight.includeComments": false,
@@ -158,5 +158,9 @@
     "quarto.visualEditor.markdownWrap": "column",
     "quarto.zotero.dataDir": "~/Zotero",
     "quarto.render.previewType": "internal",
-    "editor.lineNumbers": "relative"
+    "editor.lineNumbers": "relative",
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false
+    },
+    "diffEditor.hideUnchangedRegions.enabled": true
 }
