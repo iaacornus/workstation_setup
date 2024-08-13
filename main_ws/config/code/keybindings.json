@@ -5881,7 +5881,7 @@
         "command": "workbench.action.terminal.kill"
     },
     {
-        "key": "ctrl+e e",
+        "key": "ctrl+alt+e",
         "command": "workbench.action.focusActiveEditorGroup"
     },
     {
@@ -5930,10 +5930,6 @@
     {
         "key": "shift+alt+h",
         "command": "workbench.action.closePanel"
-    },
-    {
-        "key": "ctrl+alt+p",
-        "command": "workbench.profiles.actions.switchProfile"
     },
     {
         "key": "ctrl+pageup",
