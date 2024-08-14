@@ -4739,131 +4739,6 @@
         "when": "chatIsEnabled"
     },
     {
-        "key": "shift+alt+q",
-        "command": "quarto-assist.focus",
-        "when": "editorTextFocus && editorLangId == 'quarto'"
-    },
-    {
-        "key": "ctrl+f1",
-        "command": "-quarto-assist.focus",
-        "when": "editorTextFocus && editorLangId == 'quarto'"
-    },
-    {
-        "key": "ctrl+shift+k",
-        "command": "-quarto.previewScript",
-        "when": "quartoRenderScriptActive"
-    },
-    {
-        "key": "ctrl+alt+s",
-        "command": "quarto.editInSourceMode",
-        "when": "activeCustomEditorId == 'quarto.visualEditor'"
-    },
-    {
-        "key": "ctrl+shift+f4",
-        "command": "-quarto.editInSourceMode",
-        "when": "activeCustomEditorId == 'quarto.visualEditor'"
-    },
-    {
-        "key": "ctrl+alt+v",
-        "command": "quarto.editInVisualMode",
-        "when": "editorLangId == 'markdown' && resourceScheme != 'untitled' || editorLangId == 'quarto' && resourceScheme != 'untitled'"
-    },
-    {
-        "key": "ctrl+shift+f4",
-        "command": "-quarto.editInVisualMode",
-        "when": "editorLangId == 'markdown' && resourceScheme != 'untitled' || editorLangId == 'quarto' && resourceScheme != 'untitled'"
-    },
-    {
-        "key": "ctrl+alt+f",
-        "command": "quarto.formatCell",
-        "when": "editorTextFocus && !editorHasSelection && editorLangId == 'quarto'"
-    },
-    {
-        "key": "ctrl+k ctrl+f",
-        "command": "-quarto.formatCell",
-        "when": "editorTextFocus && !editorHasSelection && editorLangId == 'quarto'"
-    },
-    {
-        "key": "alt+right",
-        "command": "quarto.goToNextCell",
-        "when": "editorTextFocus && editorLangId == 'quarto'"
-    },
-    {
-        "key": "ctrl+pagedown",
-        "command": "-quarto.goToNextCell",
-        "when": "editorTextFocus && editorLangId == 'quarto'"
-    },
-    {
-        "key": "alt+left",
-        "command": "quarto.goToPreviousCell",
-        "when": "editorTextFocus && editorLangId == 'quarto'"
-    },
-    {
-        "key": "ctrl+pageup",
-        "command": "-quarto.goToPreviousCell",
-        "when": "editorTextFocus && editorLangId == 'quarto'"
-    },
-    {
-        "key": "ctrl+` n",
-        "command": "quarto.insertCodeCell",
-        "when": "editorTextFocus && !findInputFocussed && !replaceInputFocussed && editorLangId == 'quarto'"
-    },
-    {
-        "key": "ctrl+shift+i",
-        "command": "-quarto.insertCodeCell",
-        "when": "editorTextFocus && !findInputFocussed && !replaceInputFocussed && editorLangId == 'quarto'"
-    },
-    {
-        "key": "ctrl+shift+enter",
-        "command": "quarto.runAllCells",
-        "when": "editorTextFocus && !findInputFocussed && !replaceInputFocussed && editorLangId == 'quarto'"
-    },
-    {
-        "key": "ctrl+alt+r",
-        "command": "-quarto.runAllCells",
-        "when": "editorTextFocus && !findInputFocussed && !replaceInputFocussed && editorLangId == 'quarto'"
-    },
-    {
-        "key": "ctrl+shift+enter",
-        "command": "quarto.runAllCells",
-        "when": "activeCustomEditorId == 'quarto.visualEditor'"
-    },
-    {
-        "key": "ctrl+alt+r",
-        "command": "-quarto.runAllCells",
-        "when": "activeCustomEditorId == 'quarto.visualEditor'"
-    },
-    {
-        "key": "ctrl+enter",
-        "command": "quarto.runCurrentCell",
-        "when": "editorTextFocus && !findInputFocussed && !replaceInputFocussed && editorLangId == 'quarto'"
-    },
-    {
-        "key": "ctrl+shift+enter",
-        "command": "-quarto.runCurrentCell",
-        "when": "editorTextFocus && !findInputFocussed && !replaceInputFocussed && editorLangId == 'quarto'"
-    },
-    {
-        "key": "ctrl+enter",
-        "command": "quarto.runCurrentCell",
-        "when": "activeCustomEditorId == 'quarto.visualEditor'"
-    },
-    {
-        "key": "ctrl+shift+enter",
-        "command": "-quarto.runCurrentCell",
-        "when": "activeCustomEditorId == 'quarto.visualEditor'"
-    },
-    {
-        "key": "ctrl+enter",
-        "command": "-quarto.runCurrent",
-        "when": "editorTextFocus && !findInputFocussed && !replaceInputFocussed && editorLangId == 'quarto'"
-    },
-    {
-        "key": "ctrl+enter",
-        "command": "-quarto.runCurrent",
-        "when": "activeCustomEditorId == 'quarto.visualEditor'"
-    },
-    {
         "key": "ctrl+k w",
         "command": "-html.showInBrowser",
         "when": "editorLangId == 'html'"
@@ -4962,46 +4837,6 @@
         "key": "ctrl+enter",
         "command": "notebook.cell.execute",
         "when": "notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || !notebookCellExecuting && notebookCellType == 'code' && notebookCellListFocused || inlineChatFocused && notebookCellChatFocused && notebookKernelCount > 0 || !notebookCellExecuting && notebookCellType == 'code' && notebookCellListFocused || inlineChatFocused && notebookCellChatFocused && notebookKernelSourceCount > 0 || inlineChatFocused && notebookCellChatFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code'"
-    },
-    {
-        "key": "ctrl+alt+n",
-        "command": "-quarto.runNextCell",
-        "when": "editorTextFocus && !findInputFocussed && !replaceInputFocussed && editorLangId == 'quarto'"
-    },
-    {
-        "key": "ctrl+alt+n",
-        "command": "-quarto.runNextCell",
-        "when": "activeCustomEditorId == 'quarto.visualEditor'"
-    },
-    {
-        "key": "ctrl+alt+p",
-        "command": "-quarto.runPreviousCell",
-        "when": "editorTextFocus && !findInputFocussed && !replaceInputFocussed && editorLangId == 'quarto'"
-    },
-    {
-        "key": "ctrl+alt+p",
-        "command": "-quarto.runPreviousCell",
-        "when": "activeCustomEditorId == 'quarto.visualEditor'"
-    },
-    {
-        "key": "ctrl+shift+alt+p",
-        "command": "-quarto.runCellsAbove",
-        "when": "editorTextFocus && !findInputFocussed && !replaceInputFocussed && editorLangId == 'quarto'"
-    },
-    {
-        "key": "ctrl+shift+alt+p",
-        "command": "-quarto.runCellsAbove",
-        "when": "activeCustomEditorId == 'quarto.visualEditor'"
-    },
-    {
-        "key": "ctrl+shift+alt+n",
-        "command": "-quarto.runCellsBelow",
-        "when": "editorTextFocus && !findInputFocussed && !replaceInputFocussed && editorLangId == 'quarto'"
-    },
-    {
-        "key": "ctrl+shift+alt+n",
-        "command": "-quarto.runCellsBelow",
-        "when": "activeCustomEditorId == 'quarto.visualEditor'"
     },
     {
         "key": "ctrl+p",
@@ -5623,11 +5458,6 @@
         "when": "editorLangId == 'excel'"
     },
     {
-        "key": "ctrl+shift+l",
-        "command": "-quarto.previewContentShortcut",
-        "when": "activeCustomEditorId == 'quarto.visualEditor' || editorLangId == 'dot' || editorLangId == 'mermaid' || editorLangId == 'quarto'"
-    },
-    {
         "key": "ctrl+alt+enter",
         "command": "r.runSelection",
         "when": "editorTextFocus && editorLangId == 'r'"
@@ -5754,16 +5584,6 @@
     {
         "key": "ctrl+shift+g",
         "command": "git.unstageSelectedRanges"
-    },
-    {
-        "key": "ctrl+p",
-        "command": "quarto.preview",
-        "when": "!quartoRenderScriptActive && editorLangId == 'quarto'"
-    },
-    {
-        "key": "ctrl+shift+k",
-        "command": "-quarto.preview",
-        "when": "!quartoRenderScriptActive"
     },
     {
         "key": "shift+enter",
@@ -5906,26 +5726,6 @@
     },
     {
         "key": "ctrl+alt+enter",
-        "command": "quarto.runSelection",
-        "when": "editorTextFocus && !findInputFocussed && !replaceInputFocussed && editorLangId == 'quarto'"
-    },
-    {
-        "key": "alt+enter",
-        "command": "-quarto.runSelection",
-        "when": "editorTextFocus && !findInputFocussed && !replaceInputFocussed && editorLangId == 'quarto'"
-    },
-    {
-        "key": "ctrl+alt+enter",
-        "command": "quarto.runSelection",
-        "when": "activeCustomEditorId == 'quarto.visualEditor'"
-    },
-    {
-        "key": "alt+enter",
-        "command": "-quarto.runSelection",
-        "when": "activeCustomEditorId == 'quarto.visualEditor'"
-    },
-    {
-        "key": "ctrl+alt+enter",
         "command": "notebook.cell.execute",
         "when": "notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || !notebookCellExecuting && notebookCellType == 'code' && notebookCellListFocused || inlineChatFocused && notebookCellChatFocused && notebookKernelCount > 0 || !notebookCellExecuting && notebookCellType == 'code' && notebookCellListFocused || inlineChatFocused && notebookCellChatFocused && notebookKernelSourceCount > 0 || inlineChatFocused && notebookCellChatFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code'"
     },
@@ -5988,9 +5788,5 @@
         "key": "alt+w",
         "command": "-toggleSearchEditorWholeWord",
         "when": "inSearchEditor && searchInputBoxFocus"
-    },
-    {
-        "key": "ctrl+shift+m",
-        "command": "quarto.previewMath"
     }
 ]
