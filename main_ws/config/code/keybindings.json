@@ -522,16 +522,6 @@
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+shift+enter",
-        "command": "-editor.action.insertLineBefore",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+enter",
-        "command": "-editor.action.insertLineAfter",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
         "key": "ctrl+` `",
         "command": "jupyter.changeCellToCode",
         "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
@@ -2291,11 +2281,6 @@
         "when": "tunnelViewFocus && tunnelType == 'Detected' && tunnelViewMultiSelection == 'undefined' || tunnelViewFocus && tunnelType == 'Forwarded' && tunnelViewMultiSelection == 'undefined'"
     },
     {
-        "key": "f2",
-        "command": "-remote.tunnel.label",
-        "when": "tunnelViewFocus && tunnelType == 'Forwarded' && tunnelViewMultiSelection == 'undefined'"
-    },
-    {
         "key": "ctrl+; ctrl+x",
         "command": "-testing.cancelRun"
     },
@@ -3125,7 +3110,7 @@
         "command": "workbench.action.files.saveFiles"
     },
     {
-        "key": "ctrl+]",
+        "key": "ctrl+o",
         "command": "workbench.action.quickOpen"
     },
     {
@@ -5539,7 +5524,7 @@
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+shift+\\",
+        "key": "ctrl+\\",
         "command": "workbench.action.showCommands"
     },
     {
@@ -5992,5 +5977,30 @@
         "key": "left",
         "command": "-list.collapse",
         "when": "listFocus && treeElementCanCollapse && !inputFocus && !treestickyScrollFocused || listFocus && treeElementHasParent && !inputFocus && !treestickyScrollFocused"
+    },
+    {
+        "key": "f2",
+        "command": "-remote.tunnel.label",
+        "when": "tunnelViewFocus && tunnelType == 'Forwarded' && tunnelViewMultiSelection == 'undefined'"
+    },
+    {
+        "key": "ctrl+shift+;",
+        "command": "editor.action.insertLineAfter",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-editor.action.insertLineAfter",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+;",
+        "command": "editor.action.insertLineBefore",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+enter",
+        "command": "-editor.action.insertLineBefore",
+        "when": "editorTextFocus && !editorReadonly"
     }
 ]
