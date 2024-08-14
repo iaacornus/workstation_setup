@@ -1079,16 +1079,6 @@
         "when": "inSearchEditor"
     },
     {
-        "key": "alt+c",
-        "command": "-toggleSearchEditorCaseSensitive",
-        "when": "inSearchEditor && searchInputBoxFocus"
-    },
-    {
-        "key": "alt+w",
-        "command": "-toggleSearchEditorWholeWord",
-        "when": "inSearchEditor && searchInputBoxFocus"
-    },
-    {
         "key": "alt+r",
         "command": "-toggleSearchEditorRegex",
         "when": "inSearchEditor && searchInputBoxFocus"
@@ -5915,20 +5905,6 @@
         "command": "-workbench.action.closeWindow"
     },
     {
-        "key": "ctrl+z",
-        "command": "cursorUndo",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "ctrl+u",
-        "command": "-cursorUndo",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "ctrl+y",
-        "command": "cursorRedo"
-    },
-    {
         "key": "ctrl+alt+enter",
         "command": "quarto.runSelection",
         "when": "editorTextFocus && !findInputFocussed && !replaceInputFocussed && editorLangId == 'quarto'"
@@ -6002,5 +5978,19 @@
         "key": "ctrl+shift+enter",
         "command": "-editor.action.insertLineBefore",
         "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+c",
+        "command": "-toggleSearchEditorCaseSensitive",
+        "when": "inSearchEditor && searchInputBoxFocus"
+    },
+    {
+        "key": "alt+w",
+        "command": "-toggleSearchEditorWholeWord",
+        "when": "inSearchEditor && searchInputBoxFocus"
+    },
+    {
+        "key": "ctrl+shift+m",
+        "command": "quarto.previewMath"
     }
 ]
