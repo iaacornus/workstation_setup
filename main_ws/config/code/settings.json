@@ -135,7 +135,7 @@
     "window.titleBarStyle": "custom",
     "workbench.iconTheme": "material-icon-theme",
     "notebook.output.fontFamily": "'Comic Code Ligatures'",
-    "window.zoomLevel": 0.5,
+    "window.zoomLevel": 0.75,
     "editor.inlineSuggest.fontFamily": "'Comic Code Ligatures'",
     "chat.editor.fontFamily": "'Comic Code Ligatures'",
     "editor.experimentalInlineEdit.fontFamily": "'Comic Code Ligatures'",
