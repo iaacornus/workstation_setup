@@ -153,5 +153,7 @@
     "[python]": {
         "diffEditor.ignoreTrimWhitespace": false
     },
-    "diffEditor.hideUnchangedRegions.enabled": true
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "better-comments.highlightPlainText": true,
+    "C_Cpp.intelliSenseEngine": "disabled"
 }
