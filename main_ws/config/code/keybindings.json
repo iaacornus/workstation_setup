@@ -930,18 +930,6 @@
         "when": "editorHasImplementationProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
     },
     {
-        "key": "ctrl+alt+b",
-        "command": "-platformio-ide.build"
-    },
-    {
-        "key": "ctrl+alt+s",
-        "command": "-platformio-ide.serialMonitor"
-    },
-    {
-        "key": "ctrl+alt+u",
-        "command": "-platformio-ide.upload"
-    },
-    {
         "key": "ctrl+k ctrl+t",
         "command": "-workbench.action.selectTheme"
     },
@@ -5760,7 +5748,7 @@
         "when": "tunnelViewFocus && tunnelType == 'Forwarded' && tunnelViewMultiSelection == 'undefined'"
     },
     {
-        "key": "ctrl+shift+;",
+        "key": "ctrl+;",
         "command": "editor.action.insertLineAfter",
         "when": "editorTextFocus && !editorReadonly"
     },
@@ -5770,7 +5758,7 @@
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+;",
+        "key": "ctrl+shift+;",
         "command": "editor.action.insertLineBefore",
         "when": "editorTextFocus && !editorReadonly"
     },
@@ -5818,5 +5806,9 @@
         "key": "shift+f5",
         "command": "-cmake.launchTarget",
         "when": "cmake:enableFullFeatureSet && !cmake:hideDebugCommand && !inDebugMode"
+    },
+    {
+        "key": "shift+alt+a",
+        "command": "workbench.view.extension.platformio"
     }
 ]

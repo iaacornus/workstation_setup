@@ -155,5 +155,6 @@
     },
     "diffEditor.hideUnchangedRegions.enabled": true,
     "better-comments.highlightPlainText": true,
-    "C_Cpp.intelliSenseEngine": "disabled"
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "dev.containers.dockerPath": "/usr/bin/docker"
 }
