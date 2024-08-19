@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-gsettings set org.gnome.desktop.thumbnailers disable "['application/vnd.oasis.opendocument.text', 'application/vnd.amazon.ebook', 'application/msword', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-fontobject', 'image/vnd.microsoft.icon', 'application/vnd.oasis.opendocument.presentation', 'application/vnd.oasis.opendocument.spreadsheet', 'application/pdf', 'application/vnd.ms-powerpoint', 'application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.visio', 'application/vnd.ms-excel', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet']"
