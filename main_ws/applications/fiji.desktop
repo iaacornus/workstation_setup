@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Exec=/var/home/iaacornus/.local/bin/Fiji.app/ImageJ-linux64
+Name=ImageJ
+Icon=/var/home/iaacornus/.local/bin/Fiji.app/images/icon-flat.png
+Name[en_US]=ImageJ

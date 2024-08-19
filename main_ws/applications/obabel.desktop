@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Exec=toolbox -c fedora-toolbox-40 run obgui
+Name=Open Babel GUI
+Icon=/var/home/iaacornus/.local/share/icons/obabel.png
+Name[en_US]=Open Babel GUI
