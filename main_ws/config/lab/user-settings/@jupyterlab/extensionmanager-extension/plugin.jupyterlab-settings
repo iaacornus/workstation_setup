@@ -1,7 +1,0 @@
-{
-    "enabled": false,
-    "disclaimed": false,
-    "npmRegistry": "https://registry.npmjs.org/-/v1/",
-    "npmCdn": "https://unpkg.com",
-    "enableCdn": false
-}

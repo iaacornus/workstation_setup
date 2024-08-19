@@ -1,4 +1,0 @@
-function update_ck --wraps='cp /var/home/iaacornus/.config/Code/User/keybindings.json /var/home/iaacornus/.config/Code/User/settings.json -t /var/home/iaacornus/.local/share/config/code/ && cp /var/home/iaacornus/.local/share/config/code/* /var/home/iaacornus/Development/workstation_setup/main_ws/config/code/' --description 'alias update_ck=cp /var/home/iaacornus/.config/Code/User/keybindings.json /var/home/iaacornus/.config/Code/User/settings.json -t /var/home/iaacornus/.local/share/config/code/ && cp /var/home/iaacornus/.local/share/config/code/* /var/home/iaacornus/Development/workstation_setup/main_ws/config/code/'
-  cp /var/home/iaacornus/.config/Code/User/keybindings.json /var/home/iaacornus/.config/Code/User/settings.json -t /var/home/iaacornus/.local/share/config/code/ && cp /var/home/iaacornus/.local/share/config/code/* /var/home/iaacornus/Development/workstation_setup/main_ws/config/code/ $argv
-        
-end
