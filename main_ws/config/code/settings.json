@@ -156,5 +156,7 @@
     "diffEditor.hideUnchangedRegions.enabled": true,
     "better-comments.highlightPlainText": true,
     "C_Cpp.intelliSenseEngine": "disabled",
-    "dev.containers.dockerPath": "/usr/bin/docker"
+    "dev.containers.dockerPath": "/usr/bin/docker",
+    "terminal.integrated.inheritEnv": false,
+    "terminal.external.linuxExec": "ptyxis"
 }
