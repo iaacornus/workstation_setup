@@ -546,16 +546,6 @@
         "command": "-jupyter.runAndDebugCell"
     },
     {
-        "key": "delete",
-        "command": "jupyter.deleteCells",
-        "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
-    },
-    {
-        "key": "ctrl+; x",
-        "command": "-jupyter.deleteCells",
-        "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
-    },
-    {
         "key": "shift+up",
         "command": "jupyter.extendSelectionByCellAbove",
         "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
@@ -609,16 +599,6 @@
         "key": "ctrl+; s",
         "command": "-jupyter.insertCellBelowPosition",
         "when": "editorTextFocus && isWorkspaceTrusted && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
-    },
-    {
-        "key": "ctrl+alt+enter",
-        "command": "jupyter.runByLine",
-        "when": "!jupyter.notebookeditor.debuggingInProgress && !jupyter.notebookeditor.runByLineInProgress && notebookKernelCount > 0"
-    },
-    {
-        "key": "f10",
-        "command": "-jupyter.runByLine",
-        "when": "!jupyter.notebookeditor.debuggingInProgress && !jupyter.notebookeditor.runByLineInProgress && notebookKernelCount > 0"
     },
     {
         "key": "f10",
@@ -3502,11 +3482,6 @@
     },
     {
         "key": "f10",
-        "command": "-jupyter.runByLine",
-        "when": "isWorkspaceTrusted && jupyter.ispythonnotebook && !notebookKernel && notebookCellType == 'code' || isWorkspaceTrusted && jupyter.ispythonnotebook && notebookCellType == 'code' && notebookKernel =~ /^ms-toolsai.jupyter\\// && resource not in 'jupyter.notebookeditor.debugDocuments'"
-    },
-    {
-        "key": "f10",
         "command": "-jupyter.runByLineNext",
         "when": "notebookCellResource in 'jupyter.notebookeditor.runByLineCells'"
     },
@@ -4251,16 +4226,6 @@
     {
         "key": "ctrl+shift+r",
         "command": "-data.preview.remote"
-    },
-    {
-        "key": "ctrl+enter",
-        "command": "jupyter.runByLineStop",
-        "when": "notebookCellResource in 'jupyter.notebookeditor.runByLineCells'"
-    },
-    {
-        "key": "ctrl+enter",
-        "command": "-jupyter.runByLineStop",
-        "when": "notebookCellResource in 'jupyter.notebookeditor.runByLineCells'"
     },
     {
         "key": "alt+enter",
@@ -5072,16 +5037,6 @@
         "when": "inputFocus && navigableContainerFocused || navigableContainerFocused && treestickyScrollFocused || navigableContainerFocused && !listFocus || navigableContainerFocused && listScrollAtBoundary == 'both' || navigableContainerFocused && listScrollAtBoundary == 'top'"
     },
     {
-        "key": "ctrl+enter",
-        "command": "notebook.cell.execute",
-        "when": "notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || !notebookCellExecuting && notebookCellType == 'code' && notebookCellListFocused || inlineChatFocused && notebookCellChatFocused && notebookKernelCount > 0 || !notebookCellExecuting && notebookCellType == 'code' && notebookCellListFocused || inlineChatFocused && notebookCellChatFocused && notebookKernelSourceCount > 0 || inlineChatFocused && notebookCellChatFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code'"
-    },
-    {
-        "key": "ctrl+enter",
-        "command": "notebook.cell.execute",
-        "when": "notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || !notebookCellExecuting && notebookCellType == 'code' && notebookCellListFocused || inlineChatFocused && notebookCellChatFocused && notebookKernelCount > 0 || !notebookCellExecuting && notebookCellType == 'code' && notebookCellListFocused || inlineChatFocused && notebookCellChatFocused && notebookKernelSourceCount > 0 || inlineChatFocused && notebookCellChatFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code'"
-    },
-    {
         "key": "ctrl+alt+p",
         "command": "-r.runAboveChunks",
         "when": "editorTextFocus && editorLangId == 'r' || editorTextFocus && editorLangId == 'rmd'"
@@ -5393,7 +5348,7 @@
         "when": "editorHasDocumentFormattingProvider && editorTextFocus && inCompositeEditor && notebookEditable && !editorReadonly && activeEditor == 'workbench.editor.notebook'"
     },
     {
-        "key": "ctrl+l ctrl+l",
+        "key": "ctrl+l",
         "command": "notebook.cell.detectLanguage",
         "when": "notebookCellEditable && notebookEditable"
     },
@@ -5484,11 +5439,6 @@
         "key": "alt+delete",
         "command": "-notebook.cell.clearOutputs",
         "when": "notebookCellEditable && notebookCellHasOutputs && notebookEditable && notebookEditorFocused && !inputFocus"
-    },
-    {
-        "key": "ctrl+enter",
-        "command": "notebook.cell.execute",
-        "when": "notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || !notebookCellExecuting && notebookCellType == 'code' && notebookCellListFocused || inlineChatFocused && notebookCellChatFocused && notebookKernelCount > 0 || !notebookCellExecuting && notebookCellType == 'code' && notebookCellListFocused || inlineChatFocused && notebookCellChatFocused && notebookKernelSourceCount > 0 || inlineChatFocused && notebookCellChatFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code'"
     },
     {
         "key": "ctrl+alt+f",
@@ -5688,16 +5638,6 @@
         "command": "-workbench.action.closeWindow"
     },
     {
-        "key": "ctrl+alt+enter",
-        "command": "notebook.cell.execute",
-        "when": "notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || !notebookCellExecuting && notebookCellType == 'code' && notebookCellListFocused || inlineChatFocused && notebookCellChatFocused && notebookKernelCount > 0 || !notebookCellExecuting && notebookCellType == 'code' && notebookCellListFocused || inlineChatFocused && notebookCellChatFocused && notebookKernelSourceCount > 0 || inlineChatFocused && notebookCellChatFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code'"
-    },
-    {
-        "key": "ctrl+alt+enter",
-        "command": "notebook.cell.execute",
-        "when": "notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || !notebookCellExecuting && notebookCellType == 'code' && notebookCellListFocused || inlineChatFocused && notebookCellChatFocused && notebookKernelCount > 0 || !notebookCellExecuting && notebookCellType == 'code' && notebookCellListFocused || inlineChatFocused && notebookCellChatFocused && notebookKernelSourceCount > 0 || inlineChatFocused && notebookCellChatFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code'"
-    },
-    {
         "key": "ctrl+=",
         "command": "list.expand",
         "when": "listFocus && treeElementCanExpand && !inputFocus && !treestickyScrollFocused || listFocus && treeElementHasChild && !inputFocus && !treestickyScrollFocused"
@@ -5787,11 +5727,35 @@
         "command": "workbench.view.extension.platformio"
     },
     {
-        "key": "ctrl+l l",
+        "key": "ctrl+shift+l",
         "command": "notebook.cell.changeLanguage"
     },
     {
         "key": "shift+enter",
         "command": "notebook.cell.executeAndSelectBelow"
-    }
+    },
+    {
+        "key": "delete",
+        "command": "jupyter.deleteCells",
+        "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+; x",
+        "command": "-jupyter.deleteCells",
+        "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
+    },
+    {
+        "key": "f10",
+        "command": "-jupyter.runByLine",
+        "when": "isWorkspaceTrusted && jupyter.ispythonnotebook && !notebookKernel && notebookCellType == 'code' || isWorkspaceTrusted && jupyter.ispythonnotebook && notebookCellType == 'code' && notebookKernel =~ /^ms-toolsai.jupyter\\// && resource not in 'jupyter.notebookeditor.debugDocuments'"
+    },
+    {
+        "key": "ctrl+alt+enter",
+        "command": "jupyter.restartkernelandrunallcells"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "notebook.cell.execute",
+        "when": "notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || !notebookCellExecuting && notebookCellType == 'code' && notebookCellListFocused || inlineChatFocused && notebookCellChatFocused && notebookKernelCount > 0 || !notebookCellExecuting && notebookCellType == 'code' && notebookCellListFocused || inlineChatFocused && notebookCellChatFocused && notebookKernelSourceCount > 0 || inlineChatFocused && notebookCellChatFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code'"
+    },
 ]
