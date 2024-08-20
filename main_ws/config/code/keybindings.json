@@ -2810,11 +2810,6 @@
         "when": "notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
     },
     {
-        "key": "meta+enter",
-        "command": "-notebook.cell.execute",
-        "when": "notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
-    },
-    {
         "key": "ctrl+e ctrl+up",
         "command": "workbench.action.moveEditorToAboveGroup"
     },
@@ -4802,7 +4797,7 @@
         "when": "listFocus && listSupportsFind"
     },
     {
-        "key": "shift+enter",
+        "key": "alt+enter",
         "command": "notebook.cell.executeAndInsertBelow",
         "when": "notebookCellListFocused && notebookCellType == 'markup' || notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
     },
@@ -4815,16 +4810,6 @@
         "key": "shift+enter",
         "command": "-notebook.cell.executeAndSelectBelow",
         "when": "notebookCellListFocused && !inlineChatFocused && notebookCellType == 'markup' || notebookCellListFocused && notebookMissingKernelExtension && !inlineChatFocused && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !inlineChatFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !inlineChatFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
-    },
-    {
-        "key": "meta+enter",
-        "command": "-notebook.cell.execute",
-        "when": "notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || !notebookCellExecuting && notebookCellType == 'code' && notebookCellListFocused || inlineChatFocused && notebookCellChatFocused && notebookKernelCount > 0 || !notebookCellExecuting && notebookCellType == 'code' && notebookCellListFocused || inlineChatFocused && notebookCellChatFocused && notebookKernelSourceCount > 0 || inlineChatFocused && notebookCellChatFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code'"
-    },
-    {
-        "key": "ctrl+enter",
-        "command": "notebook.cell.execute",
-        "when": "notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || !notebookCellExecuting && notebookCellType == 'code' && notebookCellListFocused || inlineChatFocused && notebookCellChatFocused && notebookKernelCount > 0 || !notebookCellExecuting && notebookCellType == 'code' && notebookCellListFocused || inlineChatFocused && notebookCellChatFocused && notebookKernelSourceCount > 0 || inlineChatFocused && notebookCellChatFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code'"
     },
     {
         "key": "ctrl+p",
@@ -5020,16 +5005,6 @@
         "key": "shift+pageup",
         "command": "-notebook.cell.cursorPageUpSelect",
         "when": "editorTextFocus && inputFocus && notebookEditorFocused && !notebookOutputFocused"
-    },
-    {
-        "key": "ctrl+enter",
-        "command": "notebook.cell.execute",
-        "when": "notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || !notebookCellExecuting && notebookCellType == 'code' && notebookCellListFocused || inlineChatFocused && notebookCellChatFocused && notebookKernelCount > 0 || !notebookCellExecuting && notebookCellType == 'code' && notebookCellListFocused || inlineChatFocused && notebookCellChatFocused && notebookKernelSourceCount > 0 || inlineChatFocused && notebookCellChatFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code'"
-    },
-    {
-        "key": "ctrl+enter",
-        "command": "notebook.cell.execute",
-        "when": "notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || !notebookCellExecuting && notebookCellType == 'code' && notebookCellListFocused || inlineChatFocused && notebookCellChatFocused && notebookKernelCount > 0 || !notebookCellExecuting && notebookCellType == 'code' && notebookCellListFocused || inlineChatFocused && notebookCellChatFocused && notebookKernelSourceCount > 0 || inlineChatFocused && notebookCellChatFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code'"
     },
     {
         "key": "ctrl+.",
@@ -5418,7 +5393,7 @@
         "when": "editorHasDocumentFormattingProvider && editorTextFocus && inCompositeEditor && notebookEditable && !editorReadonly && activeEditor == 'workbench.editor.notebook'"
     },
     {
-        "key": "ctrl+l",
+        "key": "ctrl+l ctrl+l",
         "command": "notebook.cell.detectLanguage",
         "when": "notebookCellEditable && notebookEditable"
     },
@@ -5810,5 +5785,13 @@
     {
         "key": "shift+alt+a",
         "command": "workbench.view.extension.platformio"
+    },
+    {
+        "key": "ctrl+l l",
+        "command": "notebook.cell.changeLanguage"
+    },
+    {
+        "key": "shift+enter",
+        "command": "notebook.cell.executeAndSelectBelow"
     }
 ]
