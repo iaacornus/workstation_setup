@@ -1,0 +1,87 @@
+\documentclass[12pt]{article}
+
+% imports
+\usepackage[margin=1in, a4paper]{geometry}
+\usepackage{mlmodern}
+\usepackage{amsfonts}
+\usepackage[T1]{fontenc}
+\usepackage{DejaVuSansMono}
+\usepackage{amsmath}
+\usepackage{footmisc}
+\usepackage{graphicx}
+\usepackage{gensymb}
+\usepackage{xcolor}
+\usepackage{indentfirst}
+\usepackage{fancyhdr}
+\usepackage{caption}
+\usepackage[colorlinks,allcolors=blue]{hyperref}
+\usepackage{mathtools}
+\usepackage{orcidlink}
+\usepackage[backend=biber]{biblatex}
+
+% include the additional imports here:
+% \usepackage{package}
+\usepackage[affil-it]{authblk}
+
+% configs
+\setlength\parindent{24pt}
+\graphicspath{ {./figs/} }
+\sloppy
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\hypersetup{
+    pdfauthor={James Aaron Erang},
+    pdftitle={}
+}
+\pagestyle{fancyplain}
+\rfoot{James Aaron Erang}
+\lhead{ % paper title }
+\rhead
+
+% commands
+\newcommand{\eq}[1]{Eq \ref{eq:#1}} % equation references
+\newcommand{\etl}{\textit{et al.}} % et al command
+\newcommand{\fig}[1]{Fig \ref{fig:#1}} % figure references
+\newcommand{\keywords}[1]{{\footnotesize \emph{\textbf{Keywords:} #1}}} % keywords for abstract
+
+% include additional commands here
+% \newcommand{cmd}{def}
+
+% if there are other configs, etc: tikz predefined lines, molecules for chemfig, put it here:
+
+%%% bibliography
+\addbibresource{ref.bib}
+\makeatletter
+\DefineBibliographyExtras{spanish}{%
+    \setcounter{smartand}{1}%
+    \let\lbx@finalnamedelim=\lbx@es@smartand
+    \let\lbx@finallistdelim=\lbx@es@smartand
+}
+
+\renewbibmacro*{name:delim:apa:family-given}[1]{%
+    \ifnumgreater{\value{listcount}}{\value{liststart}}
+    {\ifboolexpr{
+            test {\ifnumless{\value{listcount}}{\value{liststop}}}
+            or
+            test \ifmorenames
+        }
+        {\printdelim{multinamedelim}}
+        {\lbx@finalnamedelim{#1}}}
+    {}}
+\makeatother
+
+% ppr
+\title{ % paper title }
+\author[1]{James Aaron Erang\orcidlink{0000-0002-1959-3796}}
+\affil[1]{\small Biotechnology and Analytical Laboratory, Department of Biological Sciences, College of Sciences, Central Luzon State University}
+% \date{ % date here }
+
+% manscrpt
+\begin{document}
+	\maketitle
+	% main ppr parts, introduction, methodology, results and discussion, references
+
+    \nocite{*}
+    \printbibliography[title=References]
+
+
+\end{document}
