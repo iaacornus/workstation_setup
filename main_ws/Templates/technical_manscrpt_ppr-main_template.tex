@@ -12,15 +12,16 @@
 \usepackage{gensymb}
 \usepackage{xcolor}
 \usepackage{indentfirst}
+\usepackage{fancyhdr}
 \usepackage{caption}
 \usepackage[colorlinks,allcolors=blue]{hyperref}
 \usepackage{mathtools}
 \usepackage{orcidlink}
-\usepackage{fancyhdr}
 \usepackage[backend=biber]{biblatex}
 
 % include the additional imports here:
 % \usepackage{package}
+\usepackage[affil-it]{authblk}
 
 % configs
 \setlength\parindent{24pt}
@@ -33,7 +34,7 @@
 }
 \pagestyle{fancyplain}
 \rfoot{James Aaron Erang}
-\lhead{ % course num - \textit{ % topic }}
+\lhead{Fundamentals of Pharmacology}
 \rhead
 
 % commands
@@ -69,16 +70,18 @@
 \makeatother
 
 % ppr
-\title{ %title here }
-\author{James Aaron Erang\orcidlink{0000-0002-1959-3796}}
-\date{}
+\title{test}
+\author[1]{James Aaron Erang\orcidlink{0000-0002-1959-3796}}
+\affil[1]{\small Biotechnology and Analytical Laboratory, Department of Biological Sciences, College of Sciences, Central Luzon State University}
+% \date{ % date here }
 
 % manscrpt
 \begin{document}
 	\maketitle
-    \thispagestyle{empty}
+	% main ppr parts, introduction, methodology, results and discussion, references
 
     \nocite{*}
     \printbibliography[title=References]
+
 
 \end{document}
