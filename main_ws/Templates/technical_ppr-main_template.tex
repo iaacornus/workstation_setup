@@ -19,11 +19,13 @@
 \usepackage{orcidlink}
 \usepackage{setspace}
 \usepackage{subcaption}
-\usepackage[backend=biber]{biblatex}
+\usepackage{physics}
+\usepackage{mhchem}
+\usepackage[affil-it]{authblk}
+\usepackage[backend=bibtex]{biblatex}
 
 % include the additional imports here:
 % \usepackage{package}
-\usepackage[affil-it]{authblk}
 
 % configs
 \setlength\parindent{24pt}
@@ -74,7 +76,7 @@
 % ppr
 \title{ % paper title }
 \author[1]{James Aaron Erang\orcidlink{0000-0002-1959-3796}}
-\affil[1]{\small Biotechnology and Analytical Laboratory, Department of Biological Sciences, College of Sciences, Central Luzon State University}
+\affil[1]{\small % affiliation }
 \date{ % date here }
 
 % manscrpt
@@ -82,6 +84,8 @@
 	\maketitle
 	% main ppr parts, introduction, methodology, results and discussion, references
 
+    % references
+    \newpage
     \nocite{*}
     \printbibliography[title=References]
 

@@ -20,7 +20,9 @@
 \usepackage{mathtools}
 \usepackage{ragged2e}
 \usepackage{subcaption}
-\usepackage[backend=biber]{biblatex}
+\usepackage{physics}
+\usepackage{mhchem}
+\usepackage[backend=bibtex]{biblatex}
 
 % include the additional imports here:
 % \usepackage{package}
@@ -70,9 +72,9 @@
 
 % title page details:
 \title{ % title here }
-\author{James Aaron Erang\orcidlink{0000-0002-1959-3796}}
+\author[1]{James Aaron Erang\orcidlink{0000-0002-1959-3796} \inst{1}}
+\institute[shortinst]{\inst{1} % affiliation }
 \date{ % date here }
-\logo{\large \LaTeX{}}
 
 % presentation
 \begin{document}
@@ -80,9 +82,12 @@
         \titlepage
     \end{frame}
 
-    \begin{frame}
+    % references
+    \begin{frame}[allowframebreaks]
+        \frametitle{References}
         \nocite{*}
-        \printbibliography[title=References]
+        \printbibliography
     \end{frame}
+
 
 \end{document}
