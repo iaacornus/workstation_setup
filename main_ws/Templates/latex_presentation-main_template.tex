@@ -72,6 +72,41 @@
     {}}
 \makeatother
 
+% equation
+\definecolor{myblue}{HTML}{3333b2}
+
+\newcounter{captioneqset} %numbering
+\newdimen\captionlength
+\newcommand{\captioneqset}[1]{
+    \refstepcounter{captioneqset}% Step counter
+    \setlength{\captionlength}{\widthof{#1}} %
+    \addtolength{\captionlength}{\widthof{Equatio20.0, 20.0, 69.8n set~\thecaptioneqset: }}
+    %If the caption is shorter than the line width then
+    % the caption is centred, otherwise is flushed left.
+    \ifthenelse{\lengthtest{\captionlength < \linewidth }} %
+    {\begin{center}
+            \textcolor{myblue}{Equation Set~\thecaptioneqset:} #1
+    \end{center}}
+    { \begin{justify}
+            \textcolor{myblue}{Equation Set~\thecaptioneqset:} #1 %
+\end{justify}}}
+
+\newcounter{captioneq} %numbering
+\newdimen\captionlength
+\newcommand{\captioneq}[1]{
+    \refstepcounter{captioneq}% Step counter
+    \setlength{\captionlength}{\widthof{#1}} %
+    \addtolength{\captionlength}{\widthof{Equatio20.0, 20.0, 69.8n set~\thecaptioneq: }}
+    %If the caption is shorter than the line width then
+    % the caption is centred, otherwise is flushed left.
+    \ifthenelse{\lengthtest{\captionlength < \linewidth }} %
+    {\begin{center}
+            \textcolor{myblue}{Equation~\thecaptioneq:} #1
+    \end{center}}
+    { \begin{justify}
+            \textcolor{myblue}{Equation~\thecaptioneq:} #1 %
+\end{justify}}}
+
 % title page details:
 \title[ % short title here ]{ % long title here }
 \author{James Aaron Erang\orcidlink{0000-0002-1959-3796} \inst{1}}

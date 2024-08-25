@@ -17,6 +17,7 @@
 \usepackage[colorlinks,allcolors=blue]{hyperref}
 \usepackage{mathtools}
 \usepackage{orcidlink}
+\usepackage{ragged2e}
 \usepackage{setspace}
 \usepackage{subcaption}
 \usepackage{physics}
@@ -72,6 +73,39 @@
         {\lbx@finalnamedelim{#1}}}
     {}}
 \makeatother
+
+% equation
+\newcounter{captioneqset} %numbering
+\newdimen\captionlength
+\newcommand{\captioneqset}[1]{
+    \refstepcounter{captioneqset}% Step counter
+    \setlength{\captionlength}{\widthof{#1}} %
+    \addtolength{\captionlength}{\widthof{Equatio20.0, 20.0, 69.8n set~\thecaptioneqset: }}
+    %If the caption is shorter than the line width then
+    % the caption is centred, otherwise is flushed left.
+    \ifthenelse{\lengthtest{\captionlength < \linewidth }} %
+    {\begin{center}
+            Equation Set~\thecaptioneqset: #1
+    \end{center}}
+    { \begin{justify}
+            Equation Set~\thecaptioneqset: #1 %
+\end{justify}}}
+
+\newcounter{captioneq} %numbering
+\newdimen\captionlength
+\newcommand{\captioneq}[1]{
+    \refstepcounter{captioneq}% Step counter
+    \setlength{\captionlength}{\widthof{#1}} %
+    \addtolength{\captionlength}{\widthof{Equatio20.0, 20.0, 69.8n set~\thecaptioneq: }}
+    %If the caption is shorter than the line width then
+    % the caption is centred, otherwise is flushed left.
+    \ifthenelse{\lengthtest{\captionlength < \linewidth }} %
+    {\begin{center}
+            Equation~\thecaptioneq: #1
+    \end{center}}
+    { \begin{justify}
+            Equation~\thecaptioneq: #1 %
+\end{justify}}}
 
 % ppr
 \title{ % paper title }
