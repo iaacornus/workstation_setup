@@ -1,5 +1,5 @@
 [Default Applications]
-application/pdf=org.gnome.Papers.desktop
+application/pdf=org.kde.okular.desktop
 image/jpeg=org.gnome.Loupe.desktop
 image/png=org.gnome.Loupe.desktop
 image/gif=org.gnome.Loupe.desktop
@@ -146,5 +146,5 @@ image/jxl=org.gnome.Loupe.desktop
 text/javascript=code.desktop
 
 [Added Associations]
-application/pdf=org.gnome.Papers.desktop
+application/pdf=org.kde.okular.desktop
 text/javascript=code.desktop;
