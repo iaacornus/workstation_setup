@@ -14,7 +14,6 @@
 \usepackage{gensymb}
 \usepackage{xcolor}
 \usepackage{setspace}
-\usepackage{indentfirst}
 \usepackage{caption}
 \usepackage{mathtools}
 \usepackage{ragged2e}
@@ -32,10 +31,10 @@
 \usefonttheme{serif}
 
 % configs
-\captionsetup[figure]{justification=justified, singlelinecheck=off}
+\captionsetup{justification=justified, singlelinecheck=off}
+\captionsetup[subfigure]{justification=centering}
 \justifying
 \sloppy
-\setlength\parindent{24pt}
 \addtobeamertemplate{block begin}{}{\justifying}
 \sloppy
 \graphicspath{ {./figs/} }
