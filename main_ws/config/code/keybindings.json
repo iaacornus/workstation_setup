@@ -5758,4 +5758,14 @@
         "command": "-notebook.focusNextEditor",
         "when": "accessibilityModeEnabled && notebookCellEditorFocused"
     },
+    {
+        "key": "shift+f5",
+        "command": "-cmake.debugTarget",
+        "when": "cmake:enableFullFeatureSet && inCMakeProject && !cmake:hideDebugCommand && !inDebugMode"
+    },
+    {
+        "key": "ctrl+f5",
+        "command": "-cmake.launchTarget",
+        "when": "cmake:enableFullFeatureSet && !cmake:hideDebugCommand && !inDebugMode"
+    },
 ]
