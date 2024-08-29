@@ -157,5 +157,14 @@
     "C_Cpp.intelliSenseEngine": "disabled",
     "dev.containers.dockerPath": "/usr/bin/docker",
     "terminal.integrated.inheritEnv": false,
-    "terminal.external.linuxExec": "ptyxis"
+    "terminal.external.linuxExec": "ptyxis",
+    "rust-analyzer.debug.openDebugPane": true,
+    "rust-analyzer.typing.autoClosingAngleBrackets.enable": true,
+    "rust-analyzer.diagnostics.previewRustcOutput": true,
+    "rust-analyzer.diagnostics.styleLints.enable": true,
+    "rust-analyzer.diagnostics.useRustcErrorCode": true,
+    "rust-analyzer.semanticHighlighting.punctuation.separate.macro.bang": true,
+    "rust-analyzer.semanticHighlighting.punctuation.specialization.enable": true,
+    "rust-analyzer.semanticHighlighting.punctuation.enable": true,
+    "rust-analyzer.semanticHighlighting.operator.specialization.enable": true
 }
