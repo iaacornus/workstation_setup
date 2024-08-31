@@ -24,6 +24,15 @@
 \usepackage{mhchem}
 \usepackage{booktabs}
 \usepackage{multicol}
+\usepackage{array}
+\usepackage{bigints}
+\usepackage{systeme}
+\usepackage{relsize}
+\usepackage{lscape}
+\usepackage{sectsty}
+\usepackage{textcomp}
+\usepackage{csquotes}
+\usepackage{listings}
 \usepackage[shortlabels]{enumitem}
 \usepackage[affil-it]{authblk}
 \usepackage[backend=bibtex]{biblatex}
@@ -80,7 +89,7 @@
     {}}
 \makeatother
 
-% equation
+%%% equation
 \newcounter{captioneqset} %numbering
 \newdimen\captionlength
 \newcommand{\captioneqset}[1]{
@@ -113,8 +122,31 @@
             Equation~\thecaptioneq: #1 %
 \end{justify}}}
 
+%%% listings
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\lstdefinestyle{mystyle}{
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\scriptsize,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=4
+}
+\lstset{style=mystyle}
+
 % ppr
-\title{ %title here }
+\title{ % title here }
 \author[1]{James Aaron Erang\orcidlink{0000-0002-1959-3796}}
 \affil[1]{\small % affiliation }
 \date{ % date here }

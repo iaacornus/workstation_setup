@@ -21,6 +21,13 @@
 \usepackage{physics}
 \usepackage{mhchem}
 \usepackage{booktabs}
+\usepackage{array}
+\usepackage{bigints}
+\usepackage{systeme}
+\usepackage{relsize}
+\usepackage{textcomp}
+\usepackage{csquotes}
+\usepackage{listings}
 \usepackage[backend=bibtex]{biblatex}
 
 % include the additional imports here:
@@ -72,7 +79,7 @@
     {}}
 \makeatother
 
-% equation
+%%% equation
 \definecolor{myblue}{HTML}{3333b2}
 
 \newcounter{captioneqset} %numbering
@@ -106,6 +113,29 @@
     { \begin{justify}
             \textcolor{myblue}{Equation~\thecaptioneq:} #1 %
 \end{justify}}}
+
+%%% listings
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\lstdefinestyle{mystyle}{
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\scriptsize,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=4
+}
+\lstset{style=mystyle}
 
 % title page details:
 \title[ % short title here ]{ % long title here }
