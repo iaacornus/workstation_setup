@@ -5553,10 +5553,6 @@
         "command": "workbench.scm.focus"
     },
     {
-        "key": "shift+alt+h",
-        "command": "workbench.action.closePanel"
-    },
-    {
         "key": "ctrl+pageup",
         "command": "-workbench.action.terminal.focusPrevious",
         "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
@@ -5772,5 +5768,5 @@
         "key": "ctrl+enter",
         "command": "rust-analyzer.run",
         "when": "editorTextFocus && editorLangId == 'rust'"
-    },
+    }
 ]
