@@ -1665,10 +1665,6 @@
         "command": "-workbench.action.togglePanel"
     },
     {
-        "key": "ctrl+b",
-        "command": "-workbench.action.toggleSidebarVisibility"
-    },
-    {
         "key": "shift+alt+p",
         "command": "workbench.actions.view.problems",
         "when": "workbench.panel.markers.view.active"
@@ -5768,5 +5764,13 @@
         "key": "ctrl+enter",
         "command": "rust-analyzer.run",
         "when": "editorTextFocus && editorLangId == 'rust'"
+    },
+    {
+        "key": "shift+alt+b",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
     }
 ]
