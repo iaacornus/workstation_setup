@@ -51,7 +51,7 @@
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
 \hypersetup{
     pdfauthor={James Aaron Erang},
-    pdftitle={}
+    pdftitle={ % pdf title for metadata }
 }
 \pagestyle{fancyplain}
 \rfoot{JAErang}
@@ -70,7 +70,7 @@
 % if there are other configs, etc: tikz predefined lines, molecules for chemfig, put it here:
 
 %%% bibliography
-\addbibresource{ref.bib}
+\addbibresource{ % reference file here, use bibtex }
 \makeatletter
 \DefineBibliographyExtras{spanish}{%
     \setcounter{smartand}{1}%
@@ -132,7 +132,7 @@
     keywordstyle=\color{magenta},
     numberstyle=\tiny\color{codegray},
     stringstyle=\color{codepurple},
-    basicstyle=\ttfamily\tiny,
+    basicstyle=\fontsize{10}{10}\selectfont\ttfamily,
     breakatwhitespace=false,
     breaklines=true,
     captionpos=b,

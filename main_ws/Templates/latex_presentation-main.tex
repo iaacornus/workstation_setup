@@ -47,7 +47,7 @@
 \graphicspath{ {./figs/} }
 \hypersetup{
     pdfauthor={James Aaron Erang},
-    pdftitle={}
+    pdftitle={ % pdf title for metadata }
 }
 
 % include additional commands here
@@ -59,7 +59,7 @@
 % if there are other configs, etc: tikz predefined lines, molecules for chemfig, put it here:
 
 %%% bibliography
-\addbibresource{ref.bib}
+\addbibresource{ % reference file here, use bibtex }
 \makeatletter
 \DefineBibliographyExtras{spanish}{%
     \setcounter{smartand}{1}%
@@ -123,7 +123,7 @@
     keywordstyle=\color{magenta},
     numberstyle=\tiny\color{codegray},
     stringstyle=\color{codepurple},
-    basicstyle=\fontsize{7}{7}\selectfont\ttfamily,
+    basicstyle=\fontsize{6}{6}\selectfont\ttfamily,
     breakatwhitespace=false,
     breaklines=true,
     captionpos=b,
