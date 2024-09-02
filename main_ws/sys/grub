@@ -1,0 +1,11 @@
+GRUB_TIMEOUT=0
+GRUB_HIDDEN_TIMEOUT_QUIET=true
+GRUB_HIDDEN_TIMEOUT=0
+GRUB_DISTRIBUTOR="$(sed 's, release .*$,,g' /etc/system-release)"
+GRUB_DEFAULT=saved
+GRUB_DISABLE_SUBMENU="true"
+GRUB_TERMINAL_OUTPUT="console"
+GRUB_CMDLINE_LINUX="rd.luks.uuid=luks-33a6b50f-738f-48d0-92dd-c61976165f1d rhgb quiet mem_sleep_default=deep"
+GRUB_DISABLE_RECOVERY="true"
+GRUB_ENABLE_BLSCFG=true
+GRUB_TIMEOUT_STYLE="hidden"
