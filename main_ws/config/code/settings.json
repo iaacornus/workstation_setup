@@ -63,7 +63,7 @@
     "window.openFoldersInNewWindow": "on",
     "terminal.explorerKind": "external",
     "diffEditor.maxFileSize": 0,
-    "files.eol": "\r\n",
+    "files.eol": "\n",
     "files.hotExit": "off",
     "workbench.commandPalette.history": 8,
     "workbench.panel.opensMaximized": "never",
