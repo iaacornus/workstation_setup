@@ -1,7 +1,7 @@
 [Desktop Entry]
 Version=
 Encoding=UTF-8
-Name=Molecular Evolutionary Genetics Analysis
+Name=MEGA
 GenericName=MEGA
 Categories=Application;Utility;
 Exec=toolbox -c fedora-toolbox-40 run mega
