@@ -5,5 +5,6 @@ Type=Application
 Terminal=false
 Exec=toolbox -c fedora-toolbox-40 run chimerax
 Name=UCSF Chimera X
-Icon=/var/home/iaacornus/.local/share/icons/chimerax.svg
+Icon=/var/home/iaacornus/.local/share/icons/UCSF-ChimeraX.svg
 Name[en_US]=UCSF Chimera X
+StartupNotify=true

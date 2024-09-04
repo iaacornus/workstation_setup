@@ -7,3 +7,4 @@ Exec=/var/home/iaacornus/.ugene/ugeneui
 Name=Unipro UGENE
 Icon=/var/home/iaacornus/.ugene/ugene.png
 Name[en_US]=Unipro UGENE
+StartupNotify=true
