@@ -1,3 +1,4 @@
+firefox/*/minidumps*
 *.lz4
 *.bin
 *autofill*
