@@ -169,5 +169,13 @@
     "rust-analyzer.semanticHighlighting.operator.specialization.enable": true,
     "clangd.path": "/var/home/iaacornus/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/18.1.3/clangd_18.1.3/bin/clangd",
     "workbench.editor.editorActionsLocation": "hidden",
-    "makefile.configureOnOpen": false
+    "makefile.configureOnOpen": false,
+    "r.plot.useHttpgd": true,
+    "r.bracketedPaste": true,
+    "r.lsp.debug": true,
+    "r.rterm.linux": "/var/home/iaacornus/.local/bin/radian",
+    "[r]": {
+        "editor.defaultFormatter": "REditorSupport.r"
+    },
+    "r.rpath.linux": "/usr/bin/R"
 }

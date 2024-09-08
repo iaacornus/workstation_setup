@@ -4773,19 +4773,9 @@
         "when": "editorTextFocus && editorLangId == 'rmd'"
     },
     {
-        "key": "ctrl+alt+r",
-        "command": "r.knitRmd",
-        "when": "editorTextFocus && editorLangId == 'rmd'"
-    },
-    {
         "key": "ctrl+shift+k",
         "command": "-r.knitRmd",
         "when": "editorTextFocus && editorLangId == 'rmd'"
-    },
-    {
-        "key": "ctrl+enter",
-        "command": "r.runCurrentChunk",
-        "when": "editorTextFocus && editorLangId == 'r' || editorTextFocus && editorLangId == 'rmd'"
     },
     {
         "key": "ctrl+shift+enter",
@@ -4803,7 +4793,7 @@
         "when": "editorTextFocus && editorLangId == 'r'"
     },
     {
-        "key": "ctrl+shift+enter",
+        "key": "ctrl+enter",
         "command": "r.runSource",
         "when": "editorTextFocus && editorLangId == 'r'"
     },
@@ -5265,16 +5255,6 @@
     },
     {
         "key": "f5",
-        "command": "jupyter.refreshDataViewer",
-        "when": "isWorkspaceTrusted && jupyter.dataViewerActive"
-    },
-    {
-        "key": "ctrl+r",
-        "command": "-jupyter.refreshDataViewer",
-        "when": "isWorkspaceTrusted && jupyter.dataViewerActive"
-    },
-    {
-        "key": "f5",
         "command": "python.refreshTensorBoard",
         "when": "python.hasActiveTensorBoardSession"
     },
@@ -5337,19 +5317,9 @@
         "when": "editorLangId == 'excel'"
     },
     {
-        "key": "ctrl+alt+enter",
-        "command": "r.runSelection",
-        "when": "editorTextFocus && editorLangId == 'r'"
-    },
-    {
         "key": "ctrl+enter",
         "command": "-r.runSelection",
         "when": "editorTextFocus && editorLangId == 'r'"
-    },
-    {
-        "key": "ctrl+alt+enter",
-        "command": "r.runSelection",
-        "when": "editorTextFocus && editorLangId == 'rmd'"
     },
     {
         "key": "ctrl+enter",
@@ -5781,5 +5751,22 @@
     {
         "key": "alt+/",
         "command": "editor.action.addCommentLine"
+    },
+    {
+        "key": "ctrl+shift+e",
+        "command": "r.plot.exportPlot"
+    },
+    {
+        "key": "shift+alt+r",
+        "command": "r.plot.showViewers"
+    },
+    {
+        "key": "f5",
+        "command": "jupyter.refreshDataViewer",
+        "when": "isWorkspaceTrusted && jupyter.dataViewerActive"
+    },
+    {
+        "key": "ctrl+t r",
+        "command": "r.createRTerm"
     }
 ]
