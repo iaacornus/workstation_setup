@@ -3177,11 +3177,6 @@
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+k ctrl+c",
-        "command": "-editor.action.addCommentLine",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
         "key": "ctrl+shift+f n",
         "command": "explorer.newFile"
     },
@@ -5233,11 +5228,6 @@
         "when": "editorHoverFocused"
     },
     {
-        "key": "ctrl+k ctrl+u",
-        "command": "-editor.action.removeCommentLine",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
         "key": "ctrl+\\",
         "command": "workbench.action.showCommands"
     },
@@ -5777,5 +5767,19 @@
         "key": "ctrl+k ctrl+h",
         "command": "-workbench.action.output.toggleOutput",
         "when": "workbench.panel.output.active"
+    },
+    {
+        "key": "ctrl+k ctrl+c",
+        "command": "-editor.action.addCommentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+k ctrl+u",
+        "command": "-editor.action.removeCommentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+/",
+        "command": "editor.action.addCommentLine"
     }
 ]
