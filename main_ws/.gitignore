@@ -1,4 +1,6 @@
 *firefox/*/minidumps*
+firefox/y6r42lsy.default-release/addons.json
+firefox/y6r42lsy.default-release/prefs.json
 */prefs.js
 *.lz4
 *.bin
