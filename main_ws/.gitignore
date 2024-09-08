@@ -1,5 +1,5 @@
 *firefox/*/minidumps*
-firefox/y6r42lsy.default-release/prefs.js
+*firefox/y6r42lsy.default-release/prefs.js
 */prefs.js
 *.lz4
 *.bin
