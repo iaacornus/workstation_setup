@@ -1,4 +1,6 @@
-firefox/*/minidumps*
+*firefox/*/minidumps*
+firefox/y6r42lsy.default-release/prefs.js
+*/prefs.js
 *.lz4
 *.bin
 *autofill*
@@ -49,3 +51,4 @@ firefox/*/times.json
 firefox/*/user.js.bak
 firefox/*/weave/
 firefox/*/xulstore.json
+*/prefs.js
