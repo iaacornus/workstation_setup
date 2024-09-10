@@ -176,5 +176,8 @@
     "[r]": {
         "editor.defaultFormatter": "REditorSupport.r"
     },
-    "r.rpath.linux": "/usr/bin/R"
+    "r.rpath.linux": "/usr/bin/R",
+    "workbench.editorAssociations": {
+        "file:/**/*.csv": "jupyter-data-wrangler"
+    }
 }
