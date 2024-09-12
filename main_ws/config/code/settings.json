@@ -180,5 +180,6 @@
     "workbench.editorAssociations": {
         "file:/**/*.csv": "jupyter-data-wrangler"
     },
-    "cmake.showOptionsMovedNotification": false
+    "cmake.showOptionsMovedNotification": false,
+    "platformio-ide.disablePIOHomeStartup": true
 }
