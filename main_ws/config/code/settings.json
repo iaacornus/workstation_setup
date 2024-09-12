@@ -179,5 +179,6 @@
     "r.rpath.linux": "/usr/bin/R",
     "workbench.editorAssociations": {
         "file:/**/*.csv": "jupyter-data-wrangler"
-    }
+    },
+    "cmake.showOptionsMovedNotification": false
 }
