@@ -167,14 +167,6 @@
     "rust-analyzer.semanticHighlighting.punctuation.enable": true,
     "rust-analyzer.semanticHighlighting.operator.specialization.enable": true,
     "makefile.configureOnOpen": false,
-    "r.plot.useHttpgd": true,
-    "r.bracketedPaste": true,
-    "r.lsp.debug": true,
-    "r.rterm.linux": "/var/home/iaacornus/.local/bin/radian",
-    "[r]": {
-        "editor.defaultFormatter": "REditorSupport.r"
-    },
-    "r.rpath.linux": "/usr/bin/R",
     "workbench.editorAssociations": {
         "file:/**/*.csv": "jupyter-data-wrangler"
     },

@@ -4753,18 +4753,8 @@
         "when": "notebookCellListFocused && !inlineChatFocused && notebookCellType == 'markup' || notebookCellListFocused && notebookMissingKernelExtension && !inlineChatFocused && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !inlineChatFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !inlineChatFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
     },
     {
-        "key": "ctrl+p",
-        "command": "r.rmarkdown.showPreview",
-        "when": "editorTextFocus && editorLangId == 'rmd'"
-    },
-    {
         "key": "ctrl+shift+v",
         "command": "-r.rmarkdown.showPreview",
-        "when": "editorTextFocus && editorLangId == 'rmd'"
-    },
-    {
-        "key": "ctrl+shift+p",
-        "command": "r.rmarkdown.showPreviewToSide",
         "when": "editorTextFocus && editorLangId == 'rmd'"
     },
     {
@@ -4790,11 +4780,6 @@
     {
         "key": "ctrl+alt+e",
         "command": "-r.runFromLineToEnd",
-        "when": "editorTextFocus && editorLangId == 'r'"
-    },
-    {
-        "key": "ctrl+enter",
-        "command": "r.runSource",
         "when": "editorTextFocus && editorLangId == 'r'"
     },
     {
@@ -5753,20 +5738,8 @@
         "command": "editor.action.addCommentLine"
     },
     {
-        "key": "ctrl+shift+e",
-        "command": "r.plot.exportPlot"
-    },
-    {
-        "key": "shift+alt+r",
-        "command": "r.plot.showViewers"
-    },
-    {
         "key": "f5",
         "command": "jupyter.refreshDataViewer",
         "when": "isWorkspaceTrusted && jupyter.dataViewerActive"
-    },
-    {
-        "key": "ctrl+t r",
-        "command": "r.createRTerm"
     }
 ]
