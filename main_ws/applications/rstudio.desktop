@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Exec=toolbox -c fedora-toolbox-40 run rstudio
+Name=RStudio
+Icon=/var/home/iaacornus/.local/share/icons/rstudio.png
+Name[en_US]=RStudio
+StartupNotify=true
