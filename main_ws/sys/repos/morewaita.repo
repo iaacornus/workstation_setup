@@ -1,4 +1,4 @@
-[copr:copr.fedorainfracloud.org:dusansimic:themes]
+[morewaita-icon-theme]
 name=Copr repo for themes owned by dusansimic
 baseurl=https://download.copr.fedorainfracloud.org/results/dusansimic/themes/fedora-$releasever-$basearch/
 type=rpm-md
