@@ -5741,5 +5741,20 @@
         "key": "f5",
         "command": "jupyter.refreshDataViewer",
         "when": "isWorkspaceTrusted && jupyter.dataViewerActive"
+    },
+    {
+        "key": "f3",
+        "command": "-list.find.replInputFocus",
+        "when": "view == 'workbench.panel.repl.view'"
+    },
+    {
+        "key": "ctrl+alt+f",
+        "command": "-list.find.replInputFocus",
+        "when": "view == 'workbench.panel.repl.view'"
+    },
+    {
+        "key": "ctrl+/",
+        "command": "-workbench.action.chat.attachContext",
+        "when": "inChatInput && chatLocation == 'panel' || config.chat.experimental.variables.editor && inChatInput && chatLocation == 'editor' || config.chat.experimental.variables.notebook && inChatInput && chatLocation == 'notebook' || config.chat.experimental.variables.terminal && inChatInput && chatLocation == 'terminal'"
     }
 ]
