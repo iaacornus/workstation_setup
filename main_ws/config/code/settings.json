@@ -154,7 +154,6 @@
     },
     "diffEditor.hideUnchangedRegions.enabled": true,
     "better-comments.highlightPlainText": true,
-    "dev.containers.dockerPath": "/usr/bin/docker",
     "terminal.integrated.inheritEnv": false,
     "terminal.external.linuxExec": "ptyxis",
     "rust-analyzer.debug.openDebugPane": true,
