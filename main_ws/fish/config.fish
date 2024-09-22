@@ -2,7 +2,6 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
-
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 if test -f /var/home/iaacornus/.anaconda3/bin/conda
@@ -16,3 +15,4 @@ else
 end
 # <<< conda initialize <<<
 
+bash $HOME/.colorscripts/./(ls .colorscripts/ | shuf -n 1)
