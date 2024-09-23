@@ -1,0 +1,14 @@
+prefix=/var/home/iaacornus/.var/app/org.jupyter.JupyterLab/config/jupyterlab-desktop/jlab_server
+exec_prefix=/var/home/iaacornus/.var/app/org.jupyter.JupyterLab/config/jupyterlab-desktop/jlab_server
+libdir=/var/home/iaacornus/.var/app/org.jupyter.JupyterLab/config/jupyterlab-desktop/jlab_server/lib
+includedir=/var/home/iaacornus/.var/app/org.jupyter.JupyterLab/config/jupyterlab-desktop/jlab_server/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.3.18
+Requires: 
+Requires.private: zlib, libpng
+Libs: -L/var/home/iaacornus/.var/app/org.jupyter.JupyterLab/config/jupyterlab-desktop/jlab_server/lib -lfreetype
+Libs.private: 
+Cflags: -I${includedir}/freetype2

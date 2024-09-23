@@ -1,0 +1,8 @@
+libdir=/var/home/iaacornus/.var/app/org.jupyter.JupyterLab/config/jupyterlab-desktop/jlab_server/lib
+includedir=/var/home/iaacornus/.var/app/org.jupyter.JupyterLab/config/jupyterlab-desktop/jlab_server/include
+
+Name: libsolv
+Description: Library for solving packages
+Version: 0.7.30
+Libs: -L${libdir} -lsolv
+Cflags: -I${includedir}

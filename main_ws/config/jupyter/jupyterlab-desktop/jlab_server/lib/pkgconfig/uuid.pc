@@ -1,0 +1,11 @@
+prefix=/var/home/iaacornus/.var/app/org.jupyter.JupyterLab/config/jupyterlab-desktop/jlab_server
+exec_prefix=/var/home/iaacornus/.var/app/org.jupyter.JupyterLab/config/jupyterlab-desktop/jlab_server
+libdir=/var/home/iaacornus/.var/app/org.jupyter.JupyterLab/config/jupyterlab-desktop/jlab_server/lib
+includedir=/var/home/iaacornus/.var/app/org.jupyter.JupyterLab/config/jupyterlab-desktop/jlab_server/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.38.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

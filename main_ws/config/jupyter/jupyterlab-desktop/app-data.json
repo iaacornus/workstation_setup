@@ -1,0 +1,79 @@
+{
+  "pythonPath": "/var/home/iaacornus/.var/app/org.jupyter.JupyterLab/config/jupyterlab-desktop/jlab_server/bin/python",
+  "condaPath": "/var/home/iaacornus/.var/app/org.jupyter.JupyterLab/config/jupyterlab-desktop/jlab_server/bin/conda",
+  "systemPythonPath": "/usr/bin/python",
+  "sessions": [],
+  "recentSessions": [
+    {
+      "workingDirectory": "/var/home/iaacornus/Documents/assessment_space_settlement_design-RXIV/sims",
+      "filesToOpen": [
+        "space_settlement_design_main_sims.ipynb"
+      ],
+      "date": "2024-09-23T17:28:20.787Z"
+    }
+  ],
+  "recentRemoteURLs": [],
+  "discoveredPythonEnvs": [],
+  "userSetPythonEnvs": [
+    {
+      "name": "conda: jlab_server",
+      "path": "/var/home/iaacornus/.var/app/org.jupyter.JupyterLab/config/jupyterlab-desktop/jlab_server/bin/python",
+      "type": "conda-root",
+      "versions": {
+        "python": "3.12.5",
+        "jupyterlab": "4.2.4"
+      }
+    },
+    {
+      "name": "conda: bioinformatics",
+      "path": "/var/home/iaacornus/.anaconda3/envs/bioinformatics/bin/python",
+      "type": "conda-env",
+      "versions": {
+        "python": "3.12.3",
+        "jupyterlab": "4.2.4"
+      }
+    }
+  ],
+  "newsList": [
+    {
+      "title": "Exploring a Document’s Timeline in JupyterLab",
+      "link": "https%3A%2F%2Fblog.jupyter.org%2Fexploring-a-documents-timeline-in-jupyterlab-6084f96db263%3Fsource%3Drss----95916e268740---4"
+    },
+    {
+      "title": "Interactive Mapping with ipyopenlayers",
+      "link": "https%3A%2F%2Fblog.jupyter.org%2Finteractive-mapping-with-ipyopenlayers-2b8bc93bb6c4%3Fsource%3Drss----95916e268740---4"
+    },
+    {
+      "title": "Announcing the 2023 Jupyter Distinguished Contributor Award Recipients",
+      "link": "https%3A%2F%2Fblog.jupyter.org%2Fannouncing-the-2023-jupyter-distinguished-contributor-award-recipients-1b2cc4ba203f%3Fsource%3Drss----95916e268740---4"
+    },
+    {
+      "title": "Community Building Report: Project Jupyter",
+      "link": "https%3A%2F%2Fblog.jupyter.org%2Fcommunity-building-report-project-jupyter-5a0fd7c8b08d%3Fsource%3Drss----95916e268740---4"
+    },
+    {
+      "title": "ipydatagrid is now part of Project Jupyter",
+      "link": "https%3A%2F%2Fblog.jupyter.org%2Fipydatagrid-is-now-part-of-project-jupyter-3b3dfb877664%3Fsource%3Drss----95916e268740---4"
+    },
+    {
+      "title": "JupyterGIS",
+      "link": "https%3A%2F%2Fblog.jupyter.org%2Fjupytergis-d63b7adf9d0c%3Fsource%3Drss----95916e268740---4"
+    },
+    {
+      "title": "JupyterLab 4.2 and Notebook 7.2 are available!",
+      "link": "https%3A%2F%2Fblog.jupyter.org%2Fjupyterlab-4-2-and-notebook-7-2-are-available-b5e6b3c753de%3Fsource%3Drss----95916e268740---4"
+    },
+    {
+      "title": "Jupyter recognized as “Champion of Open Science” by U.S. White House",
+      "link": "https%3A%2F%2Fblog.jupyter.org%2Fjupyter-recognized-as-champion-of-open-science-by-u-s-white-house-fcb0018f8efa%3Fsource%3Drss----95916e268740---4"
+    },
+    {
+      "title": "CUDA enabled Jupyter Docker Images",
+      "link": "https%3A%2F%2Fblog.jupyter.org%2Fcuda-enabled-jupyter-docker-images-8a9f8b8f2158%3Fsource%3Drss----95916e268740---4"
+    },
+    {
+      "title": "Make your Pandas or Polars DataFrames Interactive with ITables 2.0",
+      "link": "https%3A%2F%2Fblog.jupyter.org%2Fmake-your-pandas-or-polars-dataframes-interactive-with-itables-2-0-c64e75468fe6%3Fsource%3Drss----95916e268740---4"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+prefix=/var/home/iaacornus/.var/app/org.jupyter.JupyterLab/config/jupyterlab-desktop/jlab_server
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: XCB Shape
+Description: XCB Shape Extension
+Version: 1.16
+Requires.private: xcb
+Libs: -L${libdir} -lxcb-shape
+Cflags: -I${includedir}
