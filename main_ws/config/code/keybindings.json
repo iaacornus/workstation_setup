@@ -5971,5 +5971,9 @@
         "key": "ctrl+right",
         "command": "-gitlens.key.ctrl+right",
         "when": "gitlens:key:ctrl+right"
+    },
+    {
+        "key": "alt+h",
+        "command": "-git.viewFileHistory"
     }
 ]

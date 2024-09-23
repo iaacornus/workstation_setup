@@ -221,5 +221,13 @@
     "gitlens.views.launchpad.avatars": false,
     "gitlens.views.commitDetails.avatars": false,
     "gitlens.views.pullRequest.avatars": false,
-    "gitlens.views.fileHistory.avatars": false
+    "gitlens.views.fileHistory.avatars": false,
+    "gitHistory.includeRemoteBranches": true,
+    "gitHistory.sideBySide": true,
+    "git-graph.keyboardShortcut.find": "UNASSIGNED",
+    "git-graph.keyboardShortcut.refresh": "UNASSIGNED",
+    "git-graph.keyboardShortcut.scrollToHead": "UNASSIGNED",
+    "git-graph.keyboardShortcut.scrollToStash": "UNASSIGNED",
+    "git-graph.repository.commits.showSignatureStatus": true,
+    "gitlens.keymap": "none"
 }
