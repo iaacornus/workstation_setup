@@ -1,2 +1,2 @@
-main_ws/config/code/profiles/*/globalStorage/*.vscdb
-main_ws/config/code/profiles/*/globalStorage/*.vscdb.backup
+*.vscdb
+*.vscdb.backup
