@@ -5975,5 +5975,19 @@
     {
         "key": "alt+h",
         "command": "-git.viewFileHistory"
+    },
+    {
+        "key": "ctrl+alt+p",
+        "command": "workbench.profiles.actions.switchProfile"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "-notebook.addFindMatchToSelection",
+        "when": "config.notebook.multiSelect.enabled && notebookCellEditorFocused && activeEditor == 'workbench.editor.notebook'"
+    },
+    {
+        "key": "ctrl+alt+f",
+        "command": "-repl.action.find",
+        "when": "inDebugRepl || inDebugRepl && focusedView == 'workbench.panel.repl.view'"
     }
 ]
