@@ -229,5 +229,22 @@
     "git-graph.keyboardShortcut.scrollToStash": "UNASSIGNED",
     "git-graph.repository.commits.showSignatureStatus": true,
     "gitlens.keymap": "none",
-    "gitlens.plusFeatures.enabled": false
+    "gitlens.plusFeatures.enabled": false,
+    "presentation-mode.active": {
+        "commands": [
+            "workbench.action.closeSidebar"
+        ],
+        "editor.fontSize": 18,
+        "editor.matchBrackets": "never",
+        "editor.minimap.enabled": false,
+        "editor.scrollbar.verticalScrollbarSize": 0,
+        "workbench.activityBar.visible": false,
+        "workbench.statusBar.visible": false,
+        "window.zoomLevel": 2
+    },
+    "presentation-mode.inactive": {
+        "commands": [
+            "workbench.action.focusSideBar"
+        ]
+    }
 }
