@@ -246,5 +246,6 @@
         "commands": [
             "workbench.action.focusSideBar"
         ]
-    }
+    },
+    "C_Cpp.default.compilerPath": "/usr/bin/gcc"
 }
