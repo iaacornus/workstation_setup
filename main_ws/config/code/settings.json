@@ -256,5 +256,5 @@
         "workbench.statusBar.visible": "undefined",
         "window.zoomLevel": "undefined"
     },
-    "C_Cpp.default.compilerPath": "/usr/bin/gcc"
+    "C_Cpp.default.compilerPath": "/usr/bin/gcc",
 }
