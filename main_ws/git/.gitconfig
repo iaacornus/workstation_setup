@@ -1,0 +1,7 @@
+[commit]
+	gpgsign = true
+[credential]
+	helper = store
+[core]
+	autocrlf = false
+	excludesFile = ~/.gitignore
