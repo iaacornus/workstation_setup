@@ -257,4 +257,16 @@
         "window.zoomLevel": "undefined"
     },
     "C_Cpp.default.compilerPath": "/usr/bin/gcc",
+    "C_Cpp.autocompleteAddParentheses": true,
+    "C_Cpp.default.intelliSenseMode": "linux-gcc-x86",
+    "C_Cpp.inlayHints.autoDeclarationTypes.enabled": true,
+    "C_Cpp.inlayHints.parameterNames.enabled": true,
+    "C_Cpp.inlayHints.referenceOperator.enabled": true,
+    "C_Cpp.inlayHints.referenceOperator.showSpace": true,
+    "C_Cpp.vcFormat.indent.braces": true,
+    "C_Cpp.vcFormat.space.betweenEmptyBraces": true,
+    "C_Cpp.vcFormat.space.beforeLambdaOpenParenthesis": true,
+    "C_Cpp.vcFormat.space.beforeInitializerListOpenBrace": true,
+    "C_Cpp.vcFormat.space.beforeOpenSquareBracket": true,
+    "C_Cpp.vcFormat.space.insertAfterSemicolon": true,
 }
