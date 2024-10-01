@@ -1,0 +1,8 @@
+auto_activate_base: false
+report_errors: false
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+channel_priority: flexible
+solver: libmamba

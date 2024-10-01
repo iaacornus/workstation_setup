@@ -1,0 +1,3 @@
+/var/home/iaacornus/.anaconda3
+/var/home/iaacornus/.anaconda3/envs/binfor_basic
+/var/home/iaacornus/.anaconda3/envs/binfor_full
