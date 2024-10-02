@@ -14,5 +14,3 @@ else
     end
 end
 # <<< conda initialize <<<
-
-bash $HOME/.colorscripts/./(ls $HOME/.colorscripts/ | shuf -n 1)
