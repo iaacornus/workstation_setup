@@ -1,0 +1,2 @@
+reinitialize
+os.chdir("/var/home/iaacornus/Documents/PyMol")
