@@ -1,2 +1,4 @@
+*.db
+__pycache__
 *.vscdb
 *.vscdb.backup
