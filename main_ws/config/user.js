@@ -35,6 +35,8 @@ user_pref("browser.urlbar.placeholderName.private", "Google");
 user_pref("browser.urlbar.quicksuggest.migrationVersion", 2);
 user_pref("browser.urlbar.quicksuggest.scenario", "history");
 user_pref("devtools.everOpened", true);
+user_pref("devtools.inspector.enabled", false);
+user_pref("devtools.scratchpad.enabled", false);
 user_pref("devtools.responsive.reloadNotification.enabled", false);
 user_pref("devtools.toolbox.host", "left");
 user_pref("devtools.toolbox.previousHost", "bottom");
