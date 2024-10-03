@@ -11,7 +11,7 @@
 // Disable private window dark theme
 
 // Enable rounded bottom window corners
-
+user_pref("apz.overscroll.enabled", false);
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 user_pref("browser.uidensity", 0);
 user_pref("svg.context-properties.content.enabled", true);
