@@ -6009,5 +6009,15 @@
     {
         "key": "ctrl+alt+t",
         "command": "-themeswitch.toggle"
+    },
+    {
+        "key": "shift+alt+r",
+        "command": "-remote-wsl.revealInExplorer",
+        "when": "editorFocus && remoteName == 'wsl'"
+    },
+    {
+        "key": "ctrl+shift+2",
+        "command": "-autoDocstring.generateDocstring",
+        "when": "editorTextFocus"
     }
 ]
