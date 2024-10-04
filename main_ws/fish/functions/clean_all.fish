@@ -1,4 +1,4 @@
-function clean_all --wraps='clean_sys && clean_utils && trim' --description 'alias clean_all=clean_sys && clean_utils && trim'
-  clean_sys && clean_utils && trim $argv
+function clean_all --wraps='sudo tuned-adm profile throughput-performance && clean_sys && clean_utils && trim && sudo tuned-adm profile powersave' --description 'alias clean_all=sudo tuned-adm profile throughput-performance && clean_sys && clean_utils && trim && sudo tuned-adm profile powersave'
+  sudo tuned-adm profile throughput-performance && clean_sys && clean_utils && trim && sudo tuned-adm profile powersave $argv
         
 end
