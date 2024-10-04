@@ -1,4 +1,4 @@
-function update_all --wraps='hwup && sysup && utilsup' --description 'alias update_all=hwup && sysup && utilsup'
-  hwup && sysup && utilsup $argv
+function update_all --wraps='hwup && sysup && utilsup && systemctl reboot' --description 'alias update_all=hwup && sysup && utilsup && systemctl reboot'
+  hwup && sysup && utilsup && systemctl reboot $argv
         
 end
