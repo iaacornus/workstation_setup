@@ -126,7 +126,7 @@ user_pref("extensions.ui.extension.hidden", false);
 user_pref("extensions.ui.locale.hidden", false);
 user_pref("extensions.ui.plugin.hidden", false);
 user_pref("extensions.ui.sitepermission.hidden", true);
-user_pref("extensions.update.autoUpdateDefault", false);
+user_pref("extensions.update.autoUpdateDefault", true);
 user_pref("extensions.webcompat.enable_shims", true);
 user_pref("extensions.webcompat.perform_injections", true);
 user_pref("extensions.webcompat.perform_ua_overrides", true);
