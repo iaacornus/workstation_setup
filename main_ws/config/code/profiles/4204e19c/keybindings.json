@@ -6005,5 +6005,9 @@
     {
         "key": "ctrl+alt+r",
         "command": "-presentation-mode.reset"
+    },
+    {
+        "key": "ctrl+alt+t",
+        "command": "-themeswitch.toggle"
     }
 ]
