@@ -12,8 +12,6 @@ user_pref("browser.bookmarks.showMobileBookmarks", false);
 user_pref("browser.cache.disk_cache_ssl", true);
 user_pref("browser.cache.disk.enable", true);
 user_pref("browser.cache.disk.smart_size.enabled", true);
-user_pref("browser.cache.memory.capacity", -1);
-user_pref("browser.cache.memory.enable", true);
 user_pref("browser.cache.offline.enable", false);
 user_pref("browser.contentblocking.category", "custom");
 user_pref("browser.discovery.enabled", false);
