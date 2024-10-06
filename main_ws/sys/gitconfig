@@ -33,3 +33,5 @@
     log-sum = "log --stat --pretty=format:'%h - %s'"
     log-ol = "log --oneline --decorate"
     log-graph = "log --all --graph --color --pretty=format:'%<(7,trunc)%h%C(white)%<(15,trunc)- %ar -%C(reset)%s%C(white)%C(reset)'"
+[pack]
+    threads = 4
