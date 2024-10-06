@@ -7,3 +7,4 @@ end
 . "/var/home/iaacornus/.anaconda3/etc/fish/conf.d/conda.fish"
 set -x PATH "/var/home/iaacornus/.anaconda3/bin" $PATH
 # <<< conda initialize <<<
+starship init fish | source
