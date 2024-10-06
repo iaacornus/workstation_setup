@@ -11,5 +11,7 @@ cp -r $HOME/.config/Code/User/profiles/ $HOME/Code/workstation_setup/main_ws/con
 cp $HOME/.config/rstudio/rstudio-prefs.json $HOME/.local/share/config/rstudio/rstudio-prefs.json &&\
 cp -r $HOME/.config/rstudio/keybindings/* $HOME/.local/share/config/rstudio/keybindings/ &&\
 cp -r $HOME/.local/share/config/* $HOME/Code/workstation_setup/main_ws/lconfig/ &&\
-cp -r $HOME/.mozilla/firefox/y6r42lsy.default-release/user.js* $HOME/Code/workstation_setup/main_ws/config/firefox
-
+cp -r $HOME/.mozilla/firefox/y6r42lsy.default-release/user.js* $HOME/Code/workstation_setup/main_ws/config/firefox &&\
+cp $HOME/.config/starship.toml $HOME/Code/workstation_setup/main_ws/config/starship.toml &&\
+cp $HOME/.var/app/org.texstudio.TeXstudio/config/texstudio/texstudio.ini $HOME/Code/workstation_setup/main_ws/config/
+cp $HOME/.local/bin/*.sh $HOME/Code/workstation_setup/main_ws/sys/
