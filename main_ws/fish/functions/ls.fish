@@ -1,4 +1,4 @@
-function ls --wraps='eza --icons' --description 'alias ls=eza --icons'
-  eza --icons $argv
+function ls --wraps='eza --icons' --wraps='eza --icons -l' --description 'alias ls=eza --icons -l'
+  eza --icons -l $argv
         
 end
