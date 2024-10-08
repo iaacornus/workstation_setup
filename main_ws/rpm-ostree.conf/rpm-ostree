@@ -1,0 +1,17 @@
+State: idle
+Deployments:
+● fedora:fedora/40/x86_64/silverblue
+                  Version: 40.20241006.0 (2024-10-06T01:04:27Z)
+               BaseCommit: a56ffc29182a60ffac7ff0a5732f3e4e96b0b4156d99dd1dadcd6a6daa01d210
+             GPGSignature: Valid signature by 115DF9AEF857853EE8445D0A0727707EA15B79CC
+      RemovedBasePackages: firefox firefox-langpacks 131.0-2.fc40
+                           gnome-system-monitor 46.0-1.fc40
+                           gnome-terminal-nautilus gnome-terminal 3.50.1-8.fc40
+                           gnome-tour 46.0-2.fc40 noopenh264 0.1.0~openh264_2.4.0-1.fc40
+                           power-profiles-daemon 0.21-3.fc40 yelp 2:42.2-5.fc40
+          LayeredPackages: 'gcc-c++' bat btrfsmaintenance code epson-inkjet-printer-escpr
+                           epson-inkjet-printer-escpr2 eza fish gcc git gnome-tweaks ptyxis
+                           rpmfusion-free-release rpmfusion-nonfree-release starship tmux
+                           tuned-ppd
+            LocalPackages: epson-inkjet-printer-201401w-1.0.1-1.x86_64
+                   Pinned: yes
