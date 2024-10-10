@@ -6,7 +6,7 @@
   <property name="pressureMultiplier" value="1.25"/>
   <property name="zoomGesturesEnabled" value="true"/>
   <property name="selectedToolbar" value="Portrait"/>
-  <property name="lastSavePath" value="/var/home/iaacornus/Downloads"/>
+  <property name="lastSavePath" value="/var/home/iaacornus/Documents/bio/books&amp;ref/annotated"/>
   <property name="lastOpenPath" value=""/>
   <property name="lastImagePath" value=""/>
   <property name="edgePanSpeed" value="20"/>
@@ -87,9 +87,9 @@
   <property name="pageRerenderThreshold" value="5"/>
   <!--The count of rendered PDF pages which will be cached.-->
   <property name="pdfPageCacheSize" value="10"/>
-  <property name="preloadPagesBefore" value="10"/>
-  <property name="preloadPagesAfter" value="10"/>
-  <property name="eagerPageCleanup" value="true"/>
+  <property name="preloadPagesBefore" value="20"/>
+  <property name="preloadPagesAfter" value="20"/>
+  <property name="eagerPageCleanup" value="false"/>
   <!--Config for new pages-->
   <property name="pageTemplate" value="xoj/template&#10;copyLastPageSize=false&#10;copyLastPageSettings=true&#10;size=595.275591x841.889764&#10;backgroundType=graph&#10;backgroundTypeConfig=m1=40,rm=1&#10;backgroundColor=#ffffff&#10;"/>
   <property name="sizeUnit" value=""/>
@@ -156,10 +156,7 @@
       <attribute name="tool" type="string" value="eraser"/>
     </data>
     <data name="stylus2">
-      <attribute name="color" type="hex" value="ff000000"/>
-      <attribute name="drawingType" type="string" value="default"/>
-      <attribute name="size" type="string" value="none"/>
-      <attribute name="tool" type="string" value="highlighter"/>
+      <attribute name="tool" type="string" value="selectRect"/>
     </data>
     <data name="touch">
       <attribute name="device" type="string" value=""/>
@@ -190,7 +187,7 @@
     </data>
   </data>
   <data name="tools">
-    <attribute name="current" type="string" value="pen"/>
+    <attribute name="current" type="string" value="highlighter"/>
     <data name="drawArrow">
       <attribute name="drawingType" type="string" value="default"/>
     </data>
@@ -218,7 +215,7 @@
       <attribute name="drawingType" type="string" value="default"/>
     </data>
     <data name="highlighter">
-      <attribute name="color" type="hex" value="ff8000"/>
+      <attribute name="color" type="hex" value="00c0ff"/>
       <attribute name="drawingType" type="string" value="strokeRecognizer"/>
       <attribute name="fill" type="int" value="0"/>
       <attribute name="fillAlpha" type="int" value="128"/>
