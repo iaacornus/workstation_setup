@@ -1,0 +1,73 @@
+{
+    "full_project_path_in_window_title": true,
+    "initial_working_directory": "~/Documents",
+    "default_open_project_location": "~/Documents",
+    "auto_detect_indentation": true,
+    "insert_native_pipe_operator": true,
+    "soft_wrap_r_files": true,
+    "continue_comments_on_newline": true,
+    "focus_console_after_exec": true,
+    "highlight_selected_line": true,
+    "scroll_past_end_of_document": true,
+    "highlight_r_function_calls": true,
+    "rainbow_parentheses": true,
+    "auto_append_newline": true,
+    "strip_trailing_whitespace": true,
+    "auto_save_on_blur": true,
+    "tab_multiline_completion": true,
+    "check_arguments_to_r_function_calls": true,
+    "check_unexpected_assignment_in_function_call": true,
+    "warn_if_no_such_variable_in_scope": true,
+    "warn_variable_defined_but_not_used": true,
+    "style_diagnostics": true,
+    "default_encoding": "UTF-8",
+    "syntax_color_console": true,
+    "help_font_size_points": 12,
+    "font_size_points": 12,
+    "pdf_previewer": "system",
+    "posix_terminal_shell": "bash",
+    "editor_theme": "Xcode",
+    "save_files_before_build": true,
+    "show_doc_outline_rmd": true,
+    "visual_markdown_code_editor_line_numbers": true,
+    "latex_shell_escape": true,
+    "panes": {
+        "quadrants": [
+            "Console",
+            "Source",
+            "TabSet1",
+            "TabSet2"
+        ],
+        "tabSet1": [
+            "Plots",
+            "Presentation"
+        ],
+        "tabSet2": [
+            "Environment",
+            "History",
+            "Files",
+            "Packages",
+            "Build",
+            "Viewer",
+            "Presentations"
+        ],
+        "hiddenTabSet": [
+            "Connections",
+            "Help",
+            "VCS",
+            "Tutorial"
+        ],
+        "console_left_on_top": true,
+        "console_right_on_top": true,
+        "additional_source_columns": 0
+    },
+    "jobs_tab_visibility": "shown",
+    "num_spaces_for_tab": 4,
+    "visual_markdown_editing_is_default": true,
+    "visual_markdown_editing_show_margin": true,
+    "relative_line_numbers": true,
+    "show_rmd_render_command": true,
+    "custom_shell_command": "/usr/bin/fish",
+    "terminal_initial_directory": "current",
+    "show_panel_focus_rectangle": true
+}
