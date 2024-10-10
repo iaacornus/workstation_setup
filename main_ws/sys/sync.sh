@@ -18,7 +18,6 @@ cp $HOME/.config/starship.toml $HOME/Code/workstation_setup/main_ws/config/stars
 cp $HOME/.var/app/org.texstudio.TeXstudio/config/texstudio/texstudio.ini $HOME/Code/workstation_setup/main_ws/config/
 cp $HOME/.local/bin/*.sh $HOME/Code/workstation_setup/main_ws/sys/ &&\
 cp -r .var/app/com.github.xournalpp.xournalpp/config/xournalpp/* Code/workstation_setup/main_ws/config/xournalpp/ &&\
-cp -r .var/app/org.jaspstats.JASP/config/JASP/JASP.conf Code/workstation_setup/main_ws/config/ &&\
 cp -r .local/share/applications/* Code/workstation_setup/main_ws/applications/ &&\
 cp -r .local/share/icons/* Code/workstation_setup/main_ws/icons/ &&\
 cp .var/app/org.texstudio.TeXstudio/config/texstudio/texstudio.ini Code/workstation_setup/main_ws/config/
