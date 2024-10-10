@@ -172,3 +172,6 @@ symbol = " "
 style = 'bold red'
 format = '[$symbol \[container:$name\]]($style) '
 
+[character]
+success_symbol = '[➜](bold green) '
+error_symbol = '[✗](bold red) '
