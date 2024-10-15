@@ -69,7 +69,6 @@
     "editor.find.addExtraSpaceOnTop": false,
     "editor.suggest.showCustomcolors": false,
     "editor.suggest.showIssues": false,
-    "editor.copyWithSyntaxHighlighting": false,
     "editor.comments.ignoreEmptyLines": false,
     "editor.detectIndentation": false,
     "editor.dragAndDrop": false,
@@ -179,4 +178,7 @@
     "C_Cpp.vcFormat.space.beforeInitializerListOpenBrace": true,
     "C_Cpp.vcFormat.space.beforeOpenSquareBracket": true,
     "C_Cpp.vcFormat.space.insertAfterSemicolon": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.experimental.asyncTokenization": false,
 }

@@ -242,4 +242,7 @@
     "C_Cpp.vcFormat.space.beforeInitializerListOpenBrace": true,
     "C_Cpp.vcFormat.space.beforeOpenSquareBracket": true,
     "C_Cpp.vcFormat.space.insertAfterSemicolon": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.experimental.asyncTokenization": false,
 }
