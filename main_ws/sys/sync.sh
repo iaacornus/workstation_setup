@@ -15,11 +15,7 @@ cp -r $HOME/.config/rstudio/keybindings/* $HOME/Code/workstation_setup/main_ws/c
 cp -r $HOME/.local/share/config/* $HOME/Code/workstation_setup/main_ws/lconfig/ &&\
 cp -r $HOME/.mozilla/firefox/y6r42lsy.default-release/user.js* $HOME/Code/workstation_setup/main_ws/config/firefox &&\
 cp $HOME/.config/starship.toml $HOME/Code/workstation_setup/main_ws/config/starship.toml &&\
-cp $HOME/.var/app/org.texstudio.TeXstudio/config/texstudio/texstudio.ini $HOME/Code/workstation_setup/main_ws/config/
 cp $HOME/.local/bin/*.sh $HOME/Code/workstation_setup/main_ws/sys/ &&\
-cp $HOME/.var/app/com.github.xournalpp.xournalpp/config/xournalpp/settings.xml $HOME/Code/workstation_setup/main_ws/config/xournalpp/settings.xml &&\
-cp $HOME/.var/app/com.github.xournalpp.xournalpp/config/xournalpp/palette.gpl $HOME/Code/workstation_setup/main_ws/config/xournalpp/palette.gpl &&\
 cp -r $HOME/.local/share/applications/* $HOME/Code/workstation_setup/main_ws/applications/ &&\
-cp -r $HOME/.local/share/icons/* $HOME/Code/workstation_setup/main_ws/icons/ &&\
-cp $HOME/.var/app/org.texstudio.TeXstudio/config/texstudio/texstudio.ini $HOME/Code/workstation_setup/main_ws/config/
+cp -r $HOME/.local/share/icons/* $HOME/Code/workstation_setup/main_ws/icons/ 
 
