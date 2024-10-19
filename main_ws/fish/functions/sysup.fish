@@ -1,4 +1,4 @@
-function sysup --wraps='rpm-ostree upgrade && echo 7thupholder | sudo -S flatpak update --system -y; systemctl reboot' --description 'alias sysup=rpm-ostree upgrade && echo 7thupholder | sudo -S flatpak update --system -y; systemctl reboot'
-  rpm-ostree upgrade && echo 7thupholder | sudo -S flatpak update --system -y; systemctl reboot $argv
+function sysup --wraps='rpm-ostree upgrade && echo 7thupholder | sudo -S flatpak update --system -y' --description 'alias sysup=rpm-ostree upgrade && echo 7thupholder | sudo -S flatpak update --system -y'
+  rpm-ostree upgrade && echo 7thupholder | sudo -S flatpak update --system -y $argv
         
 end
