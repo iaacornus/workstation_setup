@@ -13,7 +13,7 @@ cp $HOME/.config/rstudio/rstudio-prefs.json $HOME/Code/workstation_setup/main_ws
 cp -r $HOME/.config/rstudio/keybindings/* $HOME/.local/share/config/rstudio/keybindings/ &&\
 cp -r $HOME/.config/rstudio/keybindings/* $HOME/Code/workstation_setup/main_ws/config/rstudio/keybindings/ &&\
 cp -r $HOME/.local/share/config/* $HOME/Code/workstation_setup/main_ws/lconfig/ &&\
-cp -r $HOME/.mozilla/firefox/y6r42lsy.default-release/user.js* $HOME/Code/workstation_setup/main_ws/config/firefox &&\
+cp -r $HOME/.mozilla/firefox/3uvsc697.default-release/user.js* $HOME/Code/workstation_setup/main_ws/config/firefox &&\
 cp $HOME/.config/starship.toml $HOME/Code/workstation_setup/main_ws/config/starship.toml &&\
 cp $HOME/.local/bin/*.sh $HOME/Code/workstation_setup/main_ws/sys/ &&\
 cp -r $HOME/.local/share/applications/* $HOME/Code/workstation_setup/main_ws/applications/ &&\
