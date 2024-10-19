@@ -69,5 +69,6 @@
     "show_rmd_render_command": true,
     "custom_shell_command": "/usr/bin/fish",
     "terminal_initial_directory": "current",
-    "show_panel_focus_rectangle": true
+    "show_panel_focus_rectangle": true,
+    "text_rendering": "geometricPrecision"
 }
