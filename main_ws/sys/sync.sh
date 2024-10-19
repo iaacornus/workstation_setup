@@ -4,7 +4,7 @@ cp $HOME/.config/mimeapps.list $HOME/Code/workstation_setup/main_ws/config/ # mi
 cp -r $HOME/Templates/* $HOME/Code/workstation_setup/main_ws/Templates/ # templates
 cp -r $HOME/.config/fish/* $HOME/Code/workstation_setup/main_ws/fish/ # fish config
 cp $HOME/.config/Code/User/keybindings.json $HOME/.config/Code/User/settings.json -t $HOME/.local/share/config/code/ # code prefs -> .local/share/code
-cp -r $HOME/.config/Code/User/profiles/* $HOME/Code/workstation_setup/main_ws/config/code/ # code profiles -> .local/share/config
+cp -r $HOME/.config/Code/User/profiles $HOME/.local/share/config/code/ # code profiles -> .local/share/config
 cp -r $HOME/.config/rstudio/* $HOME/.local/share/config/rstudio/ # rstudio pref -> .local/share/config
 cp -r $HOME/.local/share/config/* $HOME/Code/workstation_setup/main_ws/lconfig/ # .local/share/config -> workstation_setup
 cp -r $HOME/.local/share/icons/* $HOME/Code/workstation_setup/main_ws/icons/ # icons
