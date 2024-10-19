@@ -1,17 +1,30 @@
 State: idle
 Deployments:
 ● fedora:fedora/40/x86_64/silverblue
-                  Version: 40.20241006.0 (2024-10-06T01:04:27Z)
-               BaseCommit: a56ffc29182a60ffac7ff0a5732f3e4e96b0b4156d99dd1dadcd6a6daa01d210
+                  Version: 40.20241018.0 (2024-10-18T02:17:42Z)
+               BaseCommit: a407c88b8bd0fc547ec49cf2fce2fa481626572a63b30836ab62d3c732408a2d
              GPGSignature: Valid signature by 115DF9AEF857853EE8445D0A0727707EA15B79CC
-      RemovedBasePackages: firefox firefox-langpacks 131.0-2.fc40
-                           gnome-system-monitor 46.0-1.fc40
+      RemovedBasePackages: firefox firefox-langpacks 131.0.3-1.fc40
                            gnome-terminal-nautilus gnome-terminal 3.50.1-8.fc40
-                           gnome-tour 46.0-2.fc40 noopenh264 0.1.0~openh264_2.4.0-1.fc40
-                           power-profiles-daemon 0.21-3.fc40 yelp 2:42.2-5.fc40
+                           libavfilter-free libavformat-free ffmpeg-free libpostproc-free libavutil-free libavdevice-free libavcodec-free libswscale-free libswresample-free 6.1.2-1.fc40
+                           power-profiles-daemon 0.21-3.fc40
           LayeredPackages: 'gcc-c++' bat btrfsmaintenance code epson-inkjet-printer-escpr
-                           epson-inkjet-printer-escpr2 eza fish gcc git gnome-tweaks ptyxis
-                           rpmfusion-free-release rpmfusion-nonfree-release starship tmux
+                           epson-inkjet-printer-escpr2 eza ffmpeg ffmpegthumbnailer fish
+                           gcc git gnome-tweaks intel-media-driver ptyxis
+                           rpmfusion-free-release rpmfusion-nonfree-release starship
                            tuned-ppd
             LocalPackages: epson-inkjet-printer-201401w-1.0.1-1.x86_64
-                   Pinned: yes
+
+  fedora:fedora/40/x86_64/silverblue
+                  Version: 40.20241018.0 (2024-10-18T02:17:42Z)
+               BaseCommit: a407c88b8bd0fc547ec49cf2fce2fa481626572a63b30836ab62d3c732408a2d
+             GPGSignature: Valid signature by 115DF9AEF857853EE8445D0A0727707EA15B79CC
+      RemovedBasePackages: firefox firefox-langpacks 131.0.3-1.fc40
+                           gnome-terminal-nautilus gnome-terminal 3.50.1-8.fc40
+                           power-profiles-daemon 0.21-3.fc40
+          LayeredPackages: 'gcc-c++' bat btrfsmaintenance code epson-inkjet-printer-escpr
+                           epson-inkjet-printer-escpr2 eza ffmpegthumbnailer fish gcc git
+                           gnome-tweaks intel-media-driver libavcodec-freeworld ptyxis
+                           rpmfusion-free-release rpmfusion-nonfree-release starship
+                           tuned-ppd
+            LocalPackages: epson-inkjet-printer-201401w-1.0.1-1.x86_64
