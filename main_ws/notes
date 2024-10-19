@@ -5,13 +5,15 @@ sudo flatpak override --env MOZ_ENABLE_WAYLAND=1 org.mozilla.firefox
 
 KERNEL ARGS
 
-rpm-ostree kargs --append="mem_sleep_default=deep"
-rpm-ostree kargs --append=rd.luks.options=UID=discard
+rpm-ostree kargs --append="mem_sleep_default=deep" # deep sleep
+rpm-ostree kargs --append=rd.luks.options=UID=discard # trim support
 
 AUTOMAX FALSE
+
 gsettings set org.gnome.mutter auto-maximize false
 
 CONDA MODS
+
 conda config --add channels defaults
 conda update conda
 conda update conda-build
