@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Cytoscape
+Exec=toolbox -c fedora-toolbox-40 run "/var/home/iaacornus/.Cytoscape_v3.10.2/Cytoscape" %U
+Icon=/var/home/iaacornus/.local/share/icons/Cytoscape.png
+Categories=Application;
