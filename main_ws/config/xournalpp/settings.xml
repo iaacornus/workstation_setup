@@ -6,7 +6,7 @@
   <property name="pressureMultiplier" value="1.35"/>
   <property name="zoomGesturesEnabled" value="true"/>
   <property name="selectedToolbar" value="Portrait"/>
-  <property name="lastSavePath" value="/var/home/iaacornus/Downloads"/>
+  <property name="lastSavePath" value="/var/home/iaacornus/Documents/bio/books&amp;ref/annotated"/>
   <property name="lastOpenPath" value=""/>
   <property name="lastImagePath" value=""/>
   <property name="edgePanSpeed" value="20"/>
@@ -19,7 +19,7 @@
   <property name="maximized" value="true"/>
   <property name="showToolbar" value="true"/>
   <property name="showSidebar" value="true"/>
-  <property name="sidebarWidth" value="150"/>
+  <property name="sidebarWidth" value="280"/>
   <property name="sidebarNumberingStyle" value="1"/>
   <property name="sidebarOnRight" value="false"/>
   <property name="scrollbarOnLeft" value="false"/>
@@ -174,6 +174,10 @@
     <data name="Wacom One by Wacom S Pen (Eraser)">
       <attribute name="deviceClass" type="int" value="3"/>
       <attribute name="deviceSource" type="int" value="2"/>
+    </data>
+    <data name="Wayland Finger Scrolling">
+      <attribute name="deviceClass" type="int" value="1"/>
+      <attribute name="deviceSource" type="int" value="6"/>
     </data>
     <data name="Wayland Pointer">
       <attribute name="deviceClass" type="int" value="1"/>
