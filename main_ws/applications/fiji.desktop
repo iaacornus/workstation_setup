@@ -5,6 +5,6 @@ Type=Application
 Terminal=false
 Exec=/var/home/iaacornus/.local/bin/Fiji.app/ImageJ-linux64
 Name=ImageJ
-Icon=/var/home/iaacornus/.local/bin/Fiji.app/images/icon-flat.png
+Icon=/var/home/iaacornus/.local/share/icons/fiji.png
 Name[en_US]=ImageJ
 StartupNotify=true
