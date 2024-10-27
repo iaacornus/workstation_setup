@@ -1,9 +1,7 @@
-#!/usr/bin/env xdg-open
 [Desktop Entry]
 Type=Application
 Name=Geneious Prime
 Exec="/var/home/iaacornus/.Geneious_Prime/Geneious Prime" %U
 Icon=/var/home/iaacornus/.Geneious_Prime/.install4j/Geneious Prime.png
 Categories=Application;
-StartupWMClass=install4j-com-biomatters-iseek-application-launcherwrapper-LaunchISeekMainWithEnvironment
 StartupNotify=true
