@@ -4,7 +4,7 @@ scan_timeout = 30
 command_timeout = 3600000
 
 [aws]
-symbol = "  "
+symbol = " "
 
 [buf]
 symbol = " "
@@ -13,8 +13,8 @@ symbol = " "
 symbol = " "
 
 [conda]
-symbol = " "
-format = '[$symbol \[conda:$environment\]](bold green) '
+symbol = ""
+format = '[$symbol:$environment](bold green) '
 
 [crystal]
 symbol = " "
@@ -171,8 +171,7 @@ symbol = " "
 symbol = " "
 
 [container]
-style = 'bold red'
-format = '[$symbol \[container:$name\]]($style) '
+format = '[$symbol:$name](bold red) '
 
 [character]
 success_symbol = '[➜](bold green) '
