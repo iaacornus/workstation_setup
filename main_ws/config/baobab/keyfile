@@ -1,0 +1,6 @@
+[org/gnome/baobab/ui]
+is-maximized=false
+window-size=(960, 600)
+
+[org/gnome/baobab/preferences]
+excluded-uris=['file:///var/home/iaacornus/.anaconda3', 'file:///var/home/iaacornus/.local/share/containers', 'file:///var/home/iaacornus/.conda', 'file:///var/home/iaacornus/.imagej', 'file:///var/home/iaacornus/.cache', 'file:///var/home/iaacornus/.cargo', 'file:///var/home/iaacornus/.config', 'file:///var/home/iaacornus/.cups', 'file:///var/home/iaacornus/.geneious_plugins', 'file:///var/home/iaacornus/.Geneious_Prime', 'file:///var/home/iaacornus/.Geneious', 'file:///var/home/iaacornus/.ipython', 'file:///var/home/iaacornus/.java', 'file:///var/home/iaacornus/.jupyter', 'file:///var/home/iaacornus/.mgltools2', 'file:///var/home/iaacornus/.mozilla', 'file:///var/home/iaacornus/.rustup', 'file:///var/home/iaacornus/.vscode', 'file:///var/home/iaacornus/.zotero', 'file:///var/home/iaacornus/.trackmate']
