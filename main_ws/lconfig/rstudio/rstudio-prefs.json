@@ -45,17 +45,18 @@
         "tabSet2": [
             "Environment",
             "History",
-            "Files",
-            "Packages",
-            "Build",
-            "Viewer",
             "Presentations"
         ],
         "hiddenTabSet": [
+            "Files",
             "Connections",
+            "Packages",
             "Help",
+            "Build",
             "VCS",
-            "Tutorial"
+            "Tutorial",
+            "Viewer",
+            "Presentations"
         ],
         "console_left_on_top": true,
         "console_right_on_top": true,
@@ -70,5 +71,11 @@
     "custom_shell_command": "/usr/bin/fish",
     "terminal_initial_directory": "current",
     "show_panel_focus_rectangle": true,
-    "text_rendering": "geometricPrecision"
+    "text_rendering": "geometricPrecision",
+    "save_workspace": "never",
+    "remove_history_duplicates": true,
+    "indent_guides": "rainbowlines",
+    "python_type": "system",
+    "python_version": "3.12.7",
+    "python_path": "/usr/bin/python3.12"
 }
