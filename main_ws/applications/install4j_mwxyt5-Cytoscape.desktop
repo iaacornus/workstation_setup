@@ -1,8 +1,0 @@
-#!/usr/bin/env xdg-open
-[Desktop Entry]
-Type=Application
-Name=Cytoscape
-Exec="/var/home/iaacornus/.Cytoscape_v3.10.2/Cytoscape" %U
-Icon=/var/home/iaacornus/.Cytoscape_v3.10.2/.install4j/Cytoscape.png
-Categories=Application;
-StartupWMClass=install4j-org-cytoscape-launcher-internal-Launcher
