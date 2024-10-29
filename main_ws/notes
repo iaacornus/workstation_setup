@@ -21,3 +21,5 @@ conda install -n base conda-libmamba-solver
 conda config --set solver libmamba
 
 
+rpm-ostree kargs --append=i915.enable_guc=3
+rpm-ostree kargs --append=i915.enable_fbc=1
