@@ -85,7 +85,7 @@ try:
  'uniprot_features': True,
  'viol_noes': True,
  'wfmesh': True}
-  pymol.plugins.preferences = {'instantsave': True, 'verbose': False}
+  pymol.plugins.preferences = {'instantsave': True, 'verbose': True}
   pymol.plugins.set_startup_path( [] , False)
 except:
   import os
