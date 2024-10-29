@@ -1,14 +1,10 @@
 firefox 
 firefox-langpacks 
-gnome-terminal-nautilus 
-gnome-terminal
 libavfilter-free 
 libavformat-free 
 ffmpeg-free 
 libpostproc-free 
 libavutil-free 
 libavdevice-free 
-libavcodec-free 
 libswscale-free 
 libswresample-free
-power-profiles-daemon

@@ -1,6 +1,28 @@
 State: idle
 Deployments:
-● fedora:fedora/40/x86_64/silverblue
+● fedora:fedora/41/x86_64/silverblue
+                  Version: 41.20241029.0 (2024-10-29T03:01:35Z)
+               BaseCommit: 7786884063816ddb06ebc964c4c2695a6d3308a9b763f4e0815583605e8a48c8
+             GPGSignature: Valid signature by 466CF2D8B60BC3057AA9453ED0622462E99D6AD1
+      RemovedBasePackages: firefox firefox-langpacks 131.0.3-3.fc41
+                           libavfilter-free libavformat-free ffmpeg-free libpostproc-free libswresample-free libavutil-free libavdevice-free libavcodec-free libswscale-free 7.0.2-7.fc41
+          LayeredPackages: 'gcc-c++' bat btrfsmaintenance code epson-inkjet-printer-escpr
+                           epson-inkjet-printer-escpr2 eza ffmpeg ffmpegthumbnailer fish
+                           gcc git gnome-tweaks intel-media-driver rpmfusion-free-release
+                           rpmfusion-nonfree-release starship
+            LocalPackages: epson-inkjet-printer-201401w-1.0.1-1.x86_64
+
+  fedora:fedora/41/x86_64/silverblue
+                  Version: 41.20241029.0 (2024-10-29T03:01:35Z)
+               BaseCommit: 7786884063816ddb06ebc964c4c2695a6d3308a9b763f4e0815583605e8a48c8
+             GPGSignature: Valid signature by 466CF2D8B60BC3057AA9453ED0622462E99D6AD1
+          LayeredPackages: 'gcc-c++' bat btrfsmaintenance code epson-inkjet-printer-escpr
+                           epson-inkjet-printer-escpr2 eza ffmpegthumbnailer fish gcc git
+                           gnome-tweaks intel-media-driver rpmfusion-free-release
+                           rpmfusion-nonfree-release starship
+            LocalPackages: epson-inkjet-printer-201401w-1.0.1-1.x86_64
+
+  fedora:fedora/40/x86_64/silverblue
                   Version: 40.20241026.0 (2024-10-26T00:44:57Z)
                BaseCommit: f8a21c1db7f261e66276404a12d6c4399f12f471f2d82323ee6c43583f3de89b
              GPGSignature: Valid signature by 115DF9AEF857853EE8445D0A0727707EA15B79CC
