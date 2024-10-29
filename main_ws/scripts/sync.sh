@@ -11,7 +11,7 @@ cp -r $HOME/.local/share/icons/* $HOME/Code/workstation_setup/main_ws/icons/ # i
 cp -r $HOME/.local/share/applications/* $HOME/Code/workstation_setup/main_ws/applications/ # .desktop
 cp -r $HOME/.mozilla/firefox/3uvsc697.default-release/user.js* $HOME/Code/workstation_setup/main_ws/config/firefox  # user.js
 cp $HOME/.config/starship.toml $HOME/Code/workstation_setup/main_ws/config/starship.toml # starship
-cp $HOME/.local/bin/*.sh $HOME/Code/workstation_setup/main_ws/sys/ # scripts
+cp $HOME/.local/bin/*.sh $HOME/Code/workstation_setup/main_ws/scripts/ # scripts
 cp $HOME/.var/app/org.texstudio.TeXstudio/config/texstudio/texstudio.ini $HOME/Code/workstation_setup/main_ws/config/ # texstudio
 cp $HOME/.var/app/com.github.xournalpp.xournalpp/config/xournalpp/settings.xml $HOME/Code/workstation_setup/main_ws/config/xournalpp/settings.xml # xournal settings.xml
 cp $HOME/.var/app/com.github.xournalpp.xournalpp/config/xournalpp/palette.gpl $HOME/Code/workstation_setup/main_ws/config/xournalpp/palette.gpl # xournal palette.gpl
