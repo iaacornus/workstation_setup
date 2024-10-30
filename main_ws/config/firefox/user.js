@@ -244,3 +244,4 @@ user_pref("ui.textScaleFactor", 100);
 user_pref("wayland", true);
 user_pref("webgl.force-enabled", true);
 user_pref("widget.gtk.rounded-bottom-corners.enabled", true);
+user_pref("widget.use-xdg-desktop-portal.file-picker", 1);
