@@ -6104,5 +6104,10 @@
         "key": "ctrl+down",
         "command": "-chat.action.focus",
         "when": "inChat && inChatInput && quickChatHasFocus"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "-dataWrangler.revealNL2CodeWidget",
+        "when": "dataWrangler.canRevealNL2CodeWidget && dataWrangler.dataWranglerActive && dataWrangler.focusedElementAllowsShortcuts && isWorkspaceTrusted && !inputFocus"
     }
 ]

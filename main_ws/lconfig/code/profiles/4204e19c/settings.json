@@ -127,10 +127,10 @@
     "python.analysis.typeCheckingMode": "standard",
     "workbench.productIconTheme": "material-product-icons",
     "workbench.preferredHighContrastColorTheme": "Sublime Material Theme - Dark",
-    "workbench.preferredHighContrastLightColorTheme": "Julia Light",
+    "workbench.preferredHighContrastLightColorTheme": "Atom One Light",
     "workbench.preferredDarkColorTheme": "Sublime Material Theme - Dark",
-    "workbench.preferredLightColorTheme": "Julia Light",
-    "workbench.colorTheme": "Sublime Material Theme - Dark",
+    "workbench.preferredLightColorTheme": "Atom One Light",
+    "workbench.colorTheme": "Atom One Light",
     "editor.lineNumbers": "relative",
     "[python]": {
         "diffEditor.ignoreTrimWhitespace": false
@@ -180,4 +180,13 @@
     "workbench.editor.highlightModifiedTabs": true,
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
     "editor.experimental.asyncTokenization": false,
+    "rust-analyzer.debug.openDebugPane": true,
+    "rust-analyzer.typing.autoClosingAngleBrackets.enable": true,
+    "rust-analyzer.diagnostics.previewRustcOutput": true,
+    "rust-analyzer.diagnostics.styleLints.enable": true,
+    "rust-analyzer.diagnostics.useRustcErrorCode": true,
+    "rust-analyzer.semanticHighlighting.punctuation.separate.macro.bang": true,
+    "rust-analyzer.semanticHighlighting.punctuation.specialization.enable": true,
+    "rust-analyzer.semanticHighlighting.punctuation.enable": true,
+    "rust-analyzer.semanticHighlighting.operator.specialization.enable": true
 }
