@@ -9,7 +9,7 @@ cp -r $HOME/.config/rstudio/* $HOME/.local/share/config/rstudio/ # rstudio pref 
 cp -r $HOME/.local/share/config/* $HOME/Code/workstation_setup/main_ws/lconfig/ # .local/share/config -> workstation_setup
 cp -r $HOME/.local/share/icons/* $HOME/Code/workstation_setup/main_ws/icons/ # icons
 cp -r $HOME/.local/share/applications/* $HOME/Code/workstation_setup/main_ws/applications/ # .desktop
-cp -r $HOME/.mozilla/firefox/3uvsc697.default-release/user.js* $HOME/Code/workstation_setup/main_ws/config/firefox  # user.js
+cp -r $HOME/.mozilla/firefox/37v99699.default-release/user.js* $HOME/Code/workstation_setup/main_ws/config/firefox  # user.js
 cp $HOME/.config/starship.toml $HOME/Code/workstation_setup/main_ws/config/starship.toml # starship
 cp $HOME/.local/bin/*.sh $HOME/Code/workstation_setup/main_ws/scripts/ # scripts
 cp $HOME/.var/app/org.texstudio.TeXstudio/config/texstudio/texstudio.ini $HOME/Code/workstation_setup/main_ws/config/ # texstudio
