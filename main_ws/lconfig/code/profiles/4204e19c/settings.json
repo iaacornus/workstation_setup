@@ -130,7 +130,7 @@
     "workbench.preferredHighContrastLightColorTheme": "Atom One Light",
     "workbench.preferredDarkColorTheme": "Sublime Material Theme - Dark",
     "workbench.preferredLightColorTheme": "Atom One Light",
-    "workbench.colorTheme": "Atom One Light",
+    "workbench.colorTheme": "Sublime Material Theme - Dark",
     "editor.lineNumbers": "relative",
     "[python]": {
         "diffEditor.ignoreTrimWhitespace": false
