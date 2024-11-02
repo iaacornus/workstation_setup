@@ -1,0 +1,124 @@
+{
+  "main": {
+    "id": "29cbe0b6986f76a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "f2c19b7253266bde",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b685b85807d873f4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "51fd752180442f22",
+    "type": "split",
+    "children": [
+      {
+        "id": "d4af3f1b2cad54a9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "85864ecc319c8714",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a997d96835af8ce6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "19c07355511303a7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 233.5
+  },
+  "right": {
+    "id": "305aeefe32148188",
+    "type": "split",
+    "children": [
+      {
+        "id": "32d9ca0f2c7d6a06",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1b7c28e4bcb38f17",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "9ed316e8bd86336d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {}
+  },
+  "active": "b685b85807d873f4",
+  "lastOpenFiles": [
+    "Note.md",
+    "Books.md"
+  ]
+}
