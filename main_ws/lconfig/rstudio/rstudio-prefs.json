@@ -40,6 +40,7 @@
         ],
         "tabSet1": [
             "Plots",
+            "Viewer",
             "Presentation"
         ],
         "tabSet2": [
@@ -55,7 +56,6 @@
             "Build",
             "VCS",
             "Tutorial",
-            "Viewer",
             "Presentations"
         ],
         "console_left_on_top": true,
