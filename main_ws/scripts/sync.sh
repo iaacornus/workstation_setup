@@ -16,3 +16,4 @@ cp $HOME/.local/bin/*.sh $HOME/Code/workstation_setup/main_ws/scripts/ # scripts
 cp $HOME/.var/app/org.texstudio.TeXstudio/config/texstudio/texstudio.ini $HOME/Code/workstation_setup/main_ws/config/ # texstudio
 cp $HOME/.var/app/com.github.xournalpp.xournalpp/config/xournalpp/settings.xml $HOME/Code/workstation_setup/main_ws/config/xournalpp/settings.xml # xournal settings.xml
 cp $HOME/.var/app/com.github.xournalpp.xournalpp/config/xournalpp/palette.gpl $HOME/Code/workstation_setup/main_ws/config/xournalpp/palette.gpl # xournal palette.gpl
+cp $HOME/.mozilla/firefox/37v99699.default-release/user.js $HOME/.var/app/org.mozilla.firefox/.mozilla/firefox/37v99699.default-release/user.js # sync firefox flatpak to firefox local
