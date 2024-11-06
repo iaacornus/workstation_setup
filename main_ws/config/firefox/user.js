@@ -103,7 +103,6 @@ user_pref("devtools.toolbox.previousHost", "bottom");
 user_pref("devtools.toolbox.splitconsole.open", true);
 user_pref("dom.battery.enabled", false);
 user_pref("dom.disable_open_during_load", false);
-user_pref("dom.event.contextmenu.enabled", false);
 user_pref("dom.ipc.plugins.reportCrashURL", false);
 user_pref("dom.security.https_only_mode_ever_enabled", true);
 user_pref("dom.security.https_only_mode", true);
