@@ -57,7 +57,7 @@
   <property name="cursorHighlightBorderWidth" value="0"/>
   <property name="useStockIcons" value="false"/>
   <property name="disableScrollbarFadeout" value="false"/>
-  <property name="disableAudio" value="false"/>
+  <property name="disableAudio" value="true"/>
   <!--Hides scroolbars in the main window, allowed values: "none", "horizontal", "vertical", "both"-->
   <property name="scrollbarHideType" value="none"/>
   <property name="autoloadMostRecent" value="false"/>
@@ -77,7 +77,7 @@
   <property name="snapGrid" value="true"/>
   <property name="snapGridTolerance" value="0.5"/>
   <property name="snapGridSize" value="14.17"/>
-  <property name="strokeRecognizerMinSize" value="40"/>
+  <property name="strokeRecognizerMinSize" value="15"/>
   <property name="touchDrawing" value="false"/>
   <property name="gtkTouchInertialScrolling" value="true"/>
   <property name="pressureGuessing" value="false"/>
@@ -128,8 +128,8 @@
   <property name="latexSettings.globalTemplatePath" value="/app/share/xournalpp/resources/default_template.tex"/>
   <property name="latexSettings.genCmd" value="pdflatex -halt-on-error -interaction=nonstopmode '{}'"/>
   <property name="latexSettings.sourceViewThemeId" value="classic"/>
-  <property name="latexSettings.editorFont" value="Monospace 12"/>
-  <property name="latexSettings.useCustomEditorFont" value="false"/>
+  <property name="latexSettings.editorFont" value="Cascadia Mono NF 14"/>
+  <property name="latexSettings.useCustomEditorFont" value="true"/>
   <property name="latexSettings.editorWordWrap" value="true"/>
   <property name="latexSettings.sourceViewAutoIndent" value="true"/>
   <property name="latexSettings.sourceViewSyntaxHighlight" value="true"/>
@@ -137,10 +137,7 @@
   <property name="font" font="Sans" size="12"/>
   <data name="buttonConfig">
     <data name="default">
-      <attribute name="color" type="hex" value="ff000000"/>
-      <attribute name="drawingType" type="string" value="default"/>
-      <attribute name="size" type="string" value="thin"/>
-      <attribute name="tool" type="string" value="pen"/>
+      <attribute name="tool" type="string" value="none"/>
     </data>
     <data name="eraser">
       <attribute name="eraserMode" type="string" value="none"/>
@@ -190,7 +187,7 @@
     </data>
   </data>
   <data name="tools">
-    <attribute name="current" type="string" value="pen"/>
+    <attribute name="current" type="string" value="highlighter"/>
     <data name="drawArrow">
       <attribute name="drawingType" type="string" value="default"/>
     </data>
@@ -228,7 +225,7 @@
       <attribute name="drawingType" type="string" value="default"/>
     </data>
     <data name="pen">
-      <attribute name="color" type="hex" value="000000"/>
+      <attribute name="color" type="hex" value="008000"/>
       <attribute name="drawingType" type="string" value="default"/>
       <attribute name="fill" type="int" value="0"/>
       <attribute name="fillAlpha" type="int" value="128"/>
