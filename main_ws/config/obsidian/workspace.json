@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4cc46c21f0203cb1",
+        "id": "a3a39461caa56959",
         "type": "tabs",
         "children": [
           {
-            "id": "43ee87f6bfe12601",
+            "id": "2c5d78a92cc1cb72",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -116,8 +116,9 @@
   "left-ribbon": {
     "hiddenItems": {}
   },
-  "active": "43ee87f6bfe12601",
+  "active": "2c5d78a92cc1cb72",
   "lastOpenFiles": [
+    "Truth.md",
     "Books.md",
     "Note.md"
   ]
