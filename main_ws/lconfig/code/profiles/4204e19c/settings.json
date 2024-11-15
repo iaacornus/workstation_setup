@@ -127,10 +127,9 @@
     "python.analysis.typeCheckingMode": "standard",
     "workbench.productIconTheme": "material-product-icons",
     "workbench.preferredHighContrastColorTheme": "Sublime Material Theme - Dark",
-    "workbench.preferredHighContrastLightColorTheme": "Atom One Light",
+    "workbench.preferredHighContrastLightColorTheme": "NetBeans Light Theme",
     "workbench.preferredDarkColorTheme": "Sublime Material Theme - Dark",
-    "workbench.preferredLightColorTheme": "Atom One Light",
-    "workbench.colorTheme": "Sublime Material Theme - Dark",
+    "workbench.preferredLightColorTheme": "NetBeans Light Theme",
     "editor.lineNumbers": "relative",
     "[python]": {
         "diffEditor.ignoreTrimWhitespace": false
@@ -139,32 +138,6 @@
     "better-comments.highlightPlainText": true,
     "workbench.editorAssociations": {
         "file:/**/*.csv": "jupyter-data-wrangler"
-    },
-    "presentation-mode.active": {
-        "commands": [
-            "workbench.action.closeSidebar"
-        ],
-        "editor.fontSize": 18,
-        "editor.matchBrackets": "never",
-        "editor.minimap.enabled": false,
-        "editor.scrollbar.verticalScrollbarSize": 0,
-        "workbench.activityBar.visible": false,
-        "workbench.statusBar.visible": false,
-        "window.zoomLevel": 2
-    },
-    "presentation-mode.inactive": {
-        "commands": [
-            "workbench.action.focusSideBar"
-        ]
-    },
-    "presentation-mode.configBackup": {
-        "editor.fontSize": "undefined",
-        "editor.matchBrackets": "undefined",
-        "editor.minimap.enabled": "undefined",
-        "editor.scrollbar.verticalScrollbarSize": "undefined",
-        "workbench.activityBar.visible": "undefined",
-        "workbench.statusBar.visible": "undefined",
-        "window.zoomLevel": "undefined"
     },
     "C_Cpp.autocompleteAddParentheses": true,
     "C_Cpp.inlayHints.autoDeclarationTypes.enabled": true,
@@ -188,5 +161,6 @@
     "rust-analyzer.semanticHighlighting.punctuation.separate.macro.bang": true,
     "rust-analyzer.semanticHighlighting.punctuation.specialization.enable": true,
     "rust-analyzer.semanticHighlighting.punctuation.enable": true,
-    "rust-analyzer.semanticHighlighting.operator.specialization.enable": true
+    "rust-analyzer.semanticHighlighting.operator.specialization.enable": true,
+    "workbench.colorTheme": "NetBeans Light Theme"
 }

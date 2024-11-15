@@ -5991,16 +5991,8 @@
         "when": "inDebugRepl || inDebugRepl && focusedView == 'workbench.panel.repl.view'"
     },
     {
-        "key": "shift+alt+f3",
-        "command": "presentation-mode.toggle"
-    },
-    {
         "key": "ctrl+alt+p",
         "command": "-presentation-mode.toggle"
-    },
-    {
-        "key": "shift+alt+f4",
-        "command": "presentation-mode.reset"
     },
     {
         "key": "ctrl+alt+r",
