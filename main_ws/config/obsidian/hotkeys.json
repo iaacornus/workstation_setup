@@ -88,15 +88,6 @@
       "key": "ArrowDown"
     }
   ],
-  "editor:attach-file": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "I"
-    }
-  ],
   "editor:insert-horizontal-rule": [
     {
       "modifiers": [
@@ -121,14 +112,6 @@
         "Shift"
       ],
       "key": "T"
-    }
-  ],
-  "open-with-default-app:show": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "O"
     }
   ],
   "workspace:toggle-pin": [

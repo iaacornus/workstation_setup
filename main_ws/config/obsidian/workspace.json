@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "a3a39461caa56959",
+        "id": "5ce043e3dc450147",
         "type": "tabs",
         "children": [
           {
-            "id": "2c5d78a92cc1cb72",
+            "id": "5bc57794a42e2836",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Technical Documents.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Technical Documents"
             }
           }
         ]
@@ -116,10 +121,14 @@
   "left-ribbon": {
     "hiddenItems": {}
   },
-  "active": "2c5d78a92cc1cb72",
+  "active": "5bc57794a42e2836",
   "lastOpenFiles": [
-    "Truth.md",
-    "Books.md",
+    "Casual Reading Books.md",
+    "Technical Documents.md",
+    "Technical Books.md",
+    "Databases.md",
+    "Poems",
+    "Poems/Truth.md",
     "Note.md"
   ]
 }
