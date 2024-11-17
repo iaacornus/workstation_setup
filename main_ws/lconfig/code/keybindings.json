@@ -6159,5 +6159,9 @@
         "key": "shift+alt+enter",
         "command": "-workbench.action.chat.submitWithoutDispatching",
         "when": "chatInputHasText && inChatInput && !chatSessionRequestInProgress && chatLocation == 'panel'"
+    },
+    {
+        "key": "ctrl+alt+t",
+        "command": "-themeswitch.toggle"
     }
 ]
