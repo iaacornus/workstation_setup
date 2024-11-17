@@ -144,9 +144,9 @@
     "python.analysis.typeCheckingMode": "standard",
     "workbench.productIconTheme": "material-product-icons",
     "workbench.preferredHighContrastColorTheme": "Sublime Material Theme - Dark",
-    "workbench.preferredHighContrastLightColorTheme": "Sublime Material Theme - Light",
+    "workbench.preferredHighContrastLightColorTheme": "NetBeans Light Theme",
     "workbench.preferredDarkColorTheme": "Sublime Material Theme - Dark",
-    "workbench.preferredLightColorTheme": "Sublime Material Theme - Light",
+    "workbench.preferredLightColorTheme": "NetBeans Light Theme",
     "workbench.colorTheme": "Sublime Material Theme - Dark",
     "editor.lineNumbers": "relative",
     "[python]": {
