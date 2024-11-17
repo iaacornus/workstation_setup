@@ -144,7 +144,7 @@
     "workbench.preferredHighContrastLightColorTheme": "NetBeans Light Theme",
     "workbench.preferredDarkColorTheme": "Sublime Material Theme - Dark",
     "workbench.preferredLightColorTheme": "NetBeans Light Theme",
-    "workbench.colorTheme": "Sublime Material Theme - Dark",
+    "workbench.colorTheme": "NetBeans Light Theme",
     "editor.lineNumbers": "relative",
     "[python]": {
         "diffEditor.ignoreTrimWhitespace": false

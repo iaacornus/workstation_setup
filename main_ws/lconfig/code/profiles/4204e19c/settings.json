@@ -158,7 +158,7 @@
     "rust-analyzer.semanticHighlighting.punctuation.specialization.enable": true,
     "rust-analyzer.semanticHighlighting.punctuation.enable": true,
     "rust-analyzer.semanticHighlighting.operator.specialization.enable": true,
-    "workbench.colorTheme": "NetBeans Light Theme",
+    "workbench.colorTheme": "Sublime Material Theme - Dark",
     "editor.autoClosingDelete": "always",
     "editor.autoClosingOvertype": "always",
     "editor.autoClosingComments": "always",
