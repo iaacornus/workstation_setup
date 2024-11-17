@@ -181,5 +181,6 @@
     "editor.suggest.showCustomcolors": false,
     "workbench.cloudChanges.autoResume": "off",
     "workbench.cloudChanges.continueOn": "off",
-    "workbench.localHistory.enabled": false
+    "workbench.localHistory.enabled": false,
+    "editor.inlayHints.enabled": "off"
 }

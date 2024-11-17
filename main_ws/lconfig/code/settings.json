@@ -265,4 +265,5 @@
     "workbench.cloudChanges.continueOn": "off",
     "workbench.localHistory.enabled": false,
     "window.menuBarVisibility": "compact",
+    "editor.inlayHints.enabled": "off",
 }
