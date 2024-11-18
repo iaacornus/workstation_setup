@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technical Documents.md",
-                "mode": "preview",
+                "file": "Poems/Truth.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Technical Documents"
+              "title": "Truth"
             }
           }
         ]
@@ -123,8 +123,8 @@
   },
   "active": "5bc57794a42e2836",
   "lastOpenFiles": [
-    "Casual Reading Books.md",
     "Technical Documents.md",
+    "Casual Reading Books.md",
     "Technical Books.md",
     "Databases.md",
     "Poems",
