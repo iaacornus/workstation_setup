@@ -144,7 +144,7 @@
     "workbench.preferredHighContrastLightColorTheme": "NetBeans Light Theme",
     "workbench.preferredDarkColorTheme": "Sublime Material Theme - Dark",
     "workbench.preferredLightColorTheme": "NetBeans Light Theme",
-    "workbench.colorTheme": "NetBeans Light Theme",
+    "workbench.colorTheme": "Sublime Material Theme - Dark",
     "editor.lineNumbers": "relative",
     "[python]": {
         "diffEditor.ignoreTrimWhitespace": false
@@ -249,7 +249,6 @@
     "terminal.integrated.smoothScrolling": true,
     "editor.tabCompletion": "on",
     "editor.wordWrapColumn": 79,
-    "editor.cursorSmoothCaretAnimation": "on",
     "diffEditor.experimental.showEmptyDecorations": false,
     "multiDiffEditor.experimental.enabled": false,
     "editor.minimap.renderCharacters": false,
