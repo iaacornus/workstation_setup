@@ -158,7 +158,6 @@
     "rust-analyzer.semanticHighlighting.punctuation.specialization.enable": true,
     "rust-analyzer.semanticHighlighting.punctuation.enable": true,
     "rust-analyzer.semanticHighlighting.operator.specialization.enable": true,
-    "workbench.colorTheme": "Sublime Material Theme - Dark",
     "editor.autoClosingDelete": "always",
     "editor.autoClosingOvertype": "always",
     "editor.autoClosingComments": "always",
@@ -178,5 +177,16 @@
     "workbench.cloudChanges.autoResume": "off",
     "workbench.cloudChanges.continueOn": "off",
     "workbench.localHistory.enabled": false,
-    "editor.inlayHints.enabled": "off"
+    "editor.inlayHints.enabled": "off",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "emphasis, storage, comment, entity.other.attribute-name, entity.other.attribute-name.html, entity.other.attribute-name.tag.jade, entity.other.attribute-name.tag.pug, markup.italic, keyword.control, variable.language",
+                "settings": {
+                    "fontStyle": "italic"
+                },
+            }
+        ]
+    },
+    "workbench.colorTheme": "NetBeans Light Theme"
 }

@@ -144,7 +144,7 @@
     "workbench.preferredHighContrastLightColorTheme": "NetBeans Light Theme",
     "workbench.preferredDarkColorTheme": "Sublime Material Theme - Dark",
     "workbench.preferredLightColorTheme": "NetBeans Light Theme",
-    "workbench.colorTheme": "Sublime Material Theme - Dark",
+    "workbench.colorTheme": "NetBeans Light Theme",
     "editor.lineNumbers": "relative",
     "[python]": {
         "diffEditor.ignoreTrimWhitespace": false
@@ -262,4 +262,14 @@
     "workbench.localHistory.enabled": false,
     "window.menuBarVisibility": "compact",
     "editor.inlayHints.enabled": "off",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "emphasis, storage, comment, entity.other.attribute-name, entity.other.attribute-name.html, entity.other.attribute-name.tag.jade, entity.other.attribute-name.tag.pug, markup.italic, keyword.control, variable.language",
+                "settings": {
+                    "fontStyle": "italic"
+                },
+            }
+        ]
+    }
 }
