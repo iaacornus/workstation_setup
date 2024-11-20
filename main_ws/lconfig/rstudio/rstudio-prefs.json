@@ -33,8 +33,8 @@
     "latex_shell_escape": true,
     "panes": {
         "quadrants": [
-            "Console",
             "Source",
+            "Console",
             "TabSet1",
             "TabSet2"
         ],
@@ -45,10 +45,10 @@
         ],
         "tabSet2": [
             "Environment",
-            "History",
             "Presentations"
         ],
         "hiddenTabSet": [
+            "History",
             "Files",
             "Connections",
             "Packages",
@@ -58,11 +58,11 @@
             "Tutorial",
             "Presentations"
         ],
-        "console_left_on_top": true,
+        "console_left_on_top": false,
         "console_right_on_top": true,
         "additional_source_columns": 0
     },
-    "jobs_tab_visibility": "shown",
+    "jobs_tab_visibility": "closed",
     "num_spaces_for_tab": 4,
     "visual_markdown_editing_is_default": true,
     "visual_markdown_editing_show_margin": true,
@@ -79,5 +79,6 @@
     "python_version": "3.12.7",
     "python_path": "/usr/bin/python3.12",
     "code_completion_characters": 2,
-    "code_completion_delay": 25
+    "code_completion_delay": 25,
+    "show_terminal_tab": false
 }
