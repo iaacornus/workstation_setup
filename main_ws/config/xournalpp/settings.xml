@@ -6,7 +6,7 @@
   <property name="pressureMultiplier" value="1.25"/>
   <property name="zoomGesturesEnabled" value="true"/>
   <property name="selectedToolbar" value="Portrait"/>
-  <property name="lastSavePath" value="/var/home/iaacornus/Downloads"/>
+  <property name="lastSavePath" value="/var/home/iaacornus/Documents/articles"/>
   <property name="lastOpenPath" value=""/>
   <property name="lastImagePath" value=""/>
   <property name="edgePanSpeed" value="20"/>
@@ -19,11 +19,11 @@
   <property name="maximized" value="true"/>
   <property name="showToolbar" value="true"/>
   <property name="showSidebar" value="false"/>
-  <property name="sidebarWidth" value="294"/>
+  <property name="sidebarWidth" value="50"/>
   <property name="sidebarNumberingStyle" value="1"/>
   <property name="sidebarOnRight" value="false"/>
   <property name="scrollbarOnLeft" value="false"/>
-  <property name="menubarVisible" value="false"/>
+  <property name="menubarVisible" value="true"/>
   <property name="filepathShownInTitlebar" value="true"/>
   <property name="numColumns" value="1"/>
   <property name="numRows" value="1"/>
@@ -35,7 +35,7 @@
   <property name="numPairsOffset" value="1"/>
   <!--The icon theme, allowed values are "disabled", "onDrawOfLastPage", and "onScrollOfLastPage"-->
   <property name="emptyLastPageAppend" value="disabled"/>
-  <property name="presentationMode" value="true"/>
+  <property name="presentationMode" value="false"/>
   <!--Which GUI elements are shown in default view mode, separated by a colon (,)-->
   <property name="defaultViewModeAttributes" value="showMenubar,showToolbar,showSidebar"/>
   <!--Which GUI elements are shown in fullscreen view mode, separated by a colon (,)-->
@@ -88,9 +88,9 @@
   <property name="pageRerenderThreshold" value="5"/>
   <!--The count of rendered PDF pages which will be cached.-->
   <property name="pdfPageCacheSize" value="10"/>
-  <property name="preloadPagesBefore" value="50"/>
-  <property name="preloadPagesAfter" value="50"/>
-  <property name="eagerPageCleanup" value="false"/>
+  <property name="preloadPagesBefore" value="25"/>
+  <property name="preloadPagesAfter" value="25"/>
+  <property name="eagerPageCleanup" value="true"/>
   <!--Config for new pages-->
   <property name="pageTemplate" value="xoj/template&#10;copyLastPageSize=false&#10;copyLastPageSettings=true&#10;size=595.275591x841.889764&#10;backgroundType=plain&#10;backgroundColor=#ffffff&#10;"/>
   <property name="sizeUnit" value="points"/>
@@ -187,7 +187,7 @@
     </data>
   </data>
   <data name="tools">
-    <attribute name="current" type="string" value="pen"/>
+    <attribute name="current" type="string" value="highlighter"/>
     <data name="drawArrow">
       <attribute name="drawingType" type="string" value="default"/>
     </data>
@@ -215,8 +215,8 @@
       <attribute name="drawingType" type="string" value="default"/>
     </data>
     <data name="highlighter">
-      <attribute name="color" type="hex" value="ffffff00"/>
-      <attribute name="drawingType" type="string" value="default"/>
+      <attribute name="color" type="hex" value="00c0ff"/>
+      <attribute name="drawingType" type="string" value="strokeRecognizer"/>
       <attribute name="fill" type="int" value="0"/>
       <attribute name="fillAlpha" type="int" value="128"/>
       <attribute name="size" type="string" value="MEDIUM"/>
@@ -226,10 +226,10 @@
     </data>
     <data name="pen">
       <attribute name="color" type="hex" value="3333cc"/>
-      <attribute name="drawingType" type="string" value="default"/>
+      <attribute name="drawingType" type="string" value="strokeRecognizer"/>
       <attribute name="fill" type="int" value="0"/>
       <attribute name="fillAlpha" type="int" value="128"/>
-      <attribute name="size" type="string" value="VERY_BIG"/>
+      <attribute name="size" type="string" value="MEDIUM"/>
       <attribute name="style" type="string" value="plain"/>
     </data>
     <data name="playObject">
