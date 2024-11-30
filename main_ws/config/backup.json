@@ -1,0 +1,82 @@
+[
+  {
+    "config_version": 2,
+    "id": "*",
+    "archive_prefix": "15a41d-",
+    "repo_id": "*",
+    "repo": {
+      "type": "Local",
+      "path": "backup-sysmain-iaacornus",
+      "mount_path": "/run/media/iaacornus/One Touch",
+      "uri": "file:///run/media/iaacornus/One%20Touch/backup-sysmain-iaacornus",
+      "drive_name": "Seagate One Touch w/PW",
+      "mount_name": "One Touch",
+      "volume_uuid": "*",
+      "volume_uuid_identifier": "*",
+      "removable": true,
+      "icon": ". GEmblemedIcon .%20GThemedIcon%20drive-harddisk-usb%20drive-harddisk%20drive%20drive-harddisk-usb-symbolic%20drive-harddisk-symbolic%20drive-symbolic .%20GEmblem%20changes-allow%201",
+      "icon_symbolic": ". GThemedIcon drive-harddisk-usb-symbolic drive-harddisk-symbolic drive-symbolic drive-harddisk-usb drive-harddisk drive",
+      "settings": {
+        "command_line_args": []
+      }
+    },
+    "encrypted": true,
+    "encryption_mode": "repokey",
+    "include": [
+      ""
+    ],
+    "exclude": [
+      {
+        "PathPrefix": ".anaconda3"
+      },
+      {
+        "PathPrefix": ".cache"
+      },
+      {
+        "PathPrefix": ".cargo"
+      },
+      {
+        "PathPrefix": ".conda"
+      },
+      {
+        "PathPrefix": ".local/share/Trash"
+      },
+      {
+        "PathPrefix": ".local/share/containers"
+      },
+      {
+        "PathPrefix": ".var"
+      },
+      {
+        "PathPrefix": "R"
+      },
+      "Caches",
+      "Trash",
+      "FlatpakApps",
+      "VmsContainers"
+    ],
+    "schedule": {
+      "enabled": true,
+      "settings": {
+        "run_on_battery": false
+      },
+      "frequency": {
+        "Monthly": {
+          "preferred_day": 28
+        }
+      }
+    },
+    "prune": {
+      "enabled": true,
+      "keep": {
+        "hourly": 24,
+        "daily": 7,
+        "weekly": 2,
+        "monthly": 6,
+        "yearly": 0
+      }
+    },
+    "title": "One Touch",
+    "user_scripts": {}
+  }
+]
