@@ -41,22 +41,21 @@
         "tabSet1": [
             "Plots",
             "Viewer",
+            "Presentations",
             "Presentation"
         ],
         "tabSet2": [
             "Environment",
-            "Presentations"
+            "History"
         ],
         "hiddenTabSet": [
-            "History",
             "Files",
             "Connections",
             "Packages",
             "Help",
             "Build",
             "VCS",
-            "Tutorial",
-            "Presentations"
+            "Tutorial"
         ],
         "console_left_on_top": false,
         "console_right_on_top": true,
