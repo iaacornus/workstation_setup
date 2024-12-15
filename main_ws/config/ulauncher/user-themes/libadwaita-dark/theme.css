@@ -72,6 +72,7 @@
 }
 .item-shortcut {
     color: @item_shortcut_color;
+    opacity: 0.0;
 }
 .selected.item-box .item-shortcut {
     color: @item_shortcut_color_sel;
