@@ -188,5 +188,8 @@
             }
         ]
     },
-    "workbench.colorTheme": "Sublime Material Theme - Dark"
+    "workbench.colorTheme": "Sublime Material Theme - Dark",
+    "editor.experimentalWhitespaceRendering": "off",
+    "editor.smartSelect.selectLeadingAndTrailingWhitespace": false,
+    "editor.stickyTabStops": true
 }

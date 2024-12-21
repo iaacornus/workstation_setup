@@ -76,7 +76,6 @@
     "editor.suggest.showIssues": false,
     "editor.copyWithSyntaxHighlighting": false,
     "editor.comments.ignoreEmptyLines": false,
-    "editor.detectIndentation": false,
     "editor.dragAndDrop": false,
     "editor.lightbulb.enabled": "off",
     "editor.links": false,
@@ -271,5 +270,8 @@
                 },
             }
         ]
-    }
+    },
+    "editor.detectIndentation": false,
+    "editor.experimentalWhitespaceRendering": "off",
+    "editor.stickyTabStops": true
 }
