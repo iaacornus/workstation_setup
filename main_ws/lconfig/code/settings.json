@@ -225,7 +225,6 @@
     "git-graph.keyboardShortcut.scrollToStash": "UNASSIGNED",
     "git-graph.repository.commits.showSignatureStatus": true,
     "gitlens.keymap": "none",
-    "gitlens.plusFeatures.enabled": false,
     "C_Cpp.autocompleteAddParentheses": true,
     "C_Cpp.inlayHints.autoDeclarationTypes.enabled": true,
     "C_Cpp.inlayHints.parameterNames.enabled": true,
