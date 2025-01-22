@@ -5033,11 +5033,6 @@
         "when": "inputFocus && navigableContainerFocused || navigableContainerFocused && treestickyScrollFocused || navigableContainerFocused && !listFocus || navigableContainerFocused && listScrollAtBoundary == 'both' || navigableContainerFocused && listScrollAtBoundary == 'bottom'"
     },
     {
-        "key": "shift+enter",
-        "command": "-dataWrangler.applyOperation",
-        "when": "dataWrangler.canApplyOperation && dataWrangler.dataWranglerActive && dataWrangler.focusedElementAllowsShortcuts && isWorkspaceTrusted && !inputFocus"
-    },
-    {
         "key": "shift+up",
         "command": "jupyter.selectCell",
         "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
@@ -5494,11 +5489,6 @@
         "when": "accessibilityModeEnabled && accessibleViewOnLastLine && terminalHasBeenCreated && accessibleViewCurrentProviderId == 'terminal' || accessibilityModeEnabled && accessibleViewOnLastLine && terminalProcessSupported && accessibleViewCurrentProviderId == 'terminal'"
     },
     {
-        "key": "ctrl+enter",
-        "command": "python.execInTerminal-icon",
-        "when": "editorTextFocus && editorLangId == 'python'"
-    },
-    {
         "key": "shift+alt+d",
         "command": "workbench.view.debug",
         "when": "viewContainer.workbench.view.debug.enabled"
@@ -5659,11 +5649,6 @@
     {
         "key": "ctrl+shift+f5",
         "command": "jupyter.restartkernelandrunallcells"
-    },
-    {
-        "key": "ctrl+enter",
-        "command": "notebook.cell.execute",
-        "when": "notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || !notebookCellExecuting && notebookCellType == 'code' && notebookCellListFocused || inlineChatFocused && notebookCellChatFocused && notebookKernelCount > 0 || !notebookCellExecuting && notebookCellType == 'code' && notebookCellListFocused || inlineChatFocused && notebookCellChatFocused && notebookKernelSourceCount > 0 || inlineChatFocused && notebookCellChatFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code'"
     },
     {
         "key": "down",
@@ -5997,10 +5982,6 @@
         "key": "shift+alt+r",
         "command": "-remote-wsl.revealInExplorer",
         "when": "editorFocus && remoteName == 'wsl'"
-    },
-    {
-        "key": "ctrl+enter",
-        "command": "dataWrangler.applyOperation"
     },
     {
         "key": "ctrl+shift+2",
@@ -6372,5 +6353,15 @@
         "key": "6",
         "command": "-gitlens.views.scm.grouped.worktrees",
         "when": "config.gitlens.views.scm.grouped.views.worktrees && !gitlens:views:scm:grouped:welcome && focusedView == 'gitlens.views.scm.grouped'"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "dataWrangler.applyOperation",
+        "when": "dataWrangler.canApplyOperation && dataWrangler.dataWranglerActive && dataWrangler.focusedElementAllowsShortcuts && isWorkspaceTrusted && !inputFocus"
+    },
+    {
+        "key": "shift+enter",
+        "command": "-dataWrangler.applyOperation",
+        "when": "dataWrangler.canApplyOperation && dataWrangler.dataWranglerActive && dataWrangler.focusedElementAllowsShortcuts && isWorkspaceTrusted && !inputFocus"
     }
 ]
