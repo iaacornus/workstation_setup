@@ -191,5 +191,11 @@
     "workbench.colorTheme": "Sublime Material Theme - Dark",
     "editor.experimentalWhitespaceRendering": "off",
     "editor.smartSelect.selectLeadingAndTrailingWhitespace": false,
-    "editor.stickyTabStops": true
+    "editor.stickyTabStops": true,
+    "chat.commandCenter.enabled": false,
+    "editor.inlineSuggest.edits.experimental.onlyShowWhenCloseToCursor": false,
+    "accessibility.verbosity.inlineChat": false,
+    "chat.detectParticipant.enabled": false,
+    "inlineChat.holdToSpeech": false,
+    "inlineChat.lineNaturalLanguageHint": false
 }

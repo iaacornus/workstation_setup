@@ -272,5 +272,17 @@
     },
     "editor.detectIndentation": false,
     "editor.experimentalWhitespaceRendering": "off",
-    "editor.stickyTabStops": true
+    "editor.stickyTabStops": true,
+    "chat.commandCenter.enabled": false,
+    "chat.experimental.offerSetup": false,
+    "remote.SSH.experimental.enhancedSessionLogs": false,
+    "remote.SSH.experimental.chat": false,
+    "chat.editing.confirmEditRequestRemoval": false,
+    "chat.editing.confirmEditRequestRetry": false,
+    "editor.inlineSuggest.edits.experimental.onlyShowWhenCloseToCursor": false,
+    "accessibility.verbosity.inlineChat": false,
+    "accessibility.verbosity.panelChat": false,
+    "chat.detectParticipant.enabled": false,
+    "inlineChat.holdToSpeech": false,
+    "inlineChat.lineNaturalLanguageHint": false
 }

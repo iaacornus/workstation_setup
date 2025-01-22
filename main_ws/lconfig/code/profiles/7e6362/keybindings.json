@@ -5033,11 +5033,6 @@
         "when": "inputFocus && navigableContainerFocused || navigableContainerFocused && treestickyScrollFocused || navigableContainerFocused && !listFocus || navigableContainerFocused && listScrollAtBoundary == 'both' || navigableContainerFocused && listScrollAtBoundary == 'bottom'"
     },
     {
-        "key": "ctrl+enter",
-        "command": "dataWrangler.applyOperation",
-        "when": "dataWrangler.canApplyOperation && dataWrangler.dataWranglerActive && dataWrangler.focusedElementAllowsShortcuts && isWorkspaceTrusted && !inputFocus"
-    },
-    {
         "key": "shift+enter",
         "command": "-dataWrangler.applyOperation",
         "when": "dataWrangler.canApplyOperation && dataWrangler.dataWranglerActive && dataWrangler.focusedElementAllowsShortcuts && isWorkspaceTrusted && !inputFocus"
@@ -5991,21 +5986,21 @@
         "when": "inDebugRepl || inDebugRepl && focusedView == 'workbench.panel.repl.view'"
     },
     {
-        "key": "ctrl+alt+p",
-        "command": "-presentation-mode.toggle"
-    },
-    {
         "key": "ctrl+alt+r",
         "command": "-presentation-mode.reset"
     },
     {
-        "key": "ctrl+alt+t",
-        "command": "-themeswitch.toggle"
+        "key": "ctrl+alt+p",
+        "command": "-presentation-mode.toggle"
     },
     {
         "key": "shift+alt+r",
         "command": "-remote-wsl.revealInExplorer",
         "when": "editorFocus && remoteName == 'wsl'"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "dataWrangler.applyOperation"
     },
     {
         "key": "ctrl+shift+2",
@@ -6023,11 +6018,6 @@
         "when": "activeEditorHasCommentingRange"
     },
     {
-        "key": "ctrl+k ctrl+k",
-        "command": "-editor.action.defineKeybinding",
-        "when": "resource == 'vscode-userdata:/var/home/iaacornus/.config/Code/User/profiles/4204e19c/keybindings.json'"
-    },
-    {
         "key": "ctrl+k i",
         "command": "-inlineChat.start",
         "when": "editorFocus && inlineChatHasProvider && inlineChatPossible && !editorReadonly"
@@ -6036,6 +6026,11 @@
         "key": "ctrl+i",
         "command": "-inlineChat.start",
         "when": "editorFocus && inlineChatHasProvider && inlineChatPossible && !editorReadonly"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "-notebook.addFindMatchToSelection",
+        "when": "config.notebook.multiCursor.enabled && notebookCellEditorFocused && activeEditor == 'workbench.editor.notebook'"
     },
     {
         "key": "ctrl+up",
@@ -6053,24 +6048,19 @@
         "when": "isCompositeNotebook && notebookEditorFocused"
     },
     {
-        "key": "ctrl+d",
-        "command": "-notebook.addFindMatchToSelection",
-        "when": "config.notebook.multiCursor.enabled && notebookCellEditorFocused && activeEditor == 'workbench.editor.notebook'"
-    },
-    {
         "key": "ctrl+shift+down",
         "command": "-notebook.cell.focusInOutput",
         "when": "notebookCellHasOutputs && notebookEditorFocused"
     },
     {
-        "key": "ctrl+down",
-        "command": "-notebook.cell.focusInOutput",
-        "when": "isWindows && notebookCellHasOutputs && notebookEditorFocused && !isCompositeNotebook"
-    },
-    {
         "key": "ctrl+shift+up",
         "command": "-notebook.cell.focusOutOutput",
         "when": "notebookEditorFocused && notebookOutputFocused"
+    },
+    {
+        "key": "ctrl+down",
+        "command": "-notebook.cell.focusInOutput",
+        "when": "isWindows && notebookCellHasOutputs && notebookEditorFocused && !isCompositeNotebook"
     },
     {
         "key": "shift+end",
@@ -6103,18 +6093,9 @@
         "when": "dataWrangler.canRevealNL2CodeWidget && dataWrangler.dataWranglerActive && dataWrangler.focusedElementAllowsShortcuts && isWorkspaceTrusted && !inputFocus"
     },
     {
-        "key": "ctrl+shift+f ctrl+n",
-        "command": "workbench.action.files.newUntitledFile"
-    },
-    {
         "key": "ctrl+alt+enter",
         "command": "-workbench.action.chat.sendToChatEditing",
         "when": "chatEditingParticipantRegistered && chatInputHasText && chatIsEnabled && !chatInputHasAgent && !chatSessionRequestInProgress && chatLocation != 'editing-session'"
-    },
-    {
-        "key": "shift+alt+enter",
-        "command": "-workbench.action.chat.submitWithoutDispatching",
-        "when": "chatInputHasText && inChatInput && !chatSessionRequestInProgress && chatLocation == 'panel'"
     },
     {
         "key": "ctrl+alt+enter up",
@@ -6125,24 +6106,24 @@
         "command": "notebook.cell.executeCellAndBelow"
     },
     {
-        "key": "shift+alt+f5",
-        "command": "-chatEditor.action.navigatePrevious",
-        "when": "chat.hasEditorModifications && editorFocus"
-    },
-    {
         "key": "alt+f5",
         "command": "-chatEditor.action.navigateNext",
         "when": "chat.hasEditorModifications && editorFocus"
     },
     {
-        "key": "ctrl+shift+alt+i",
-        "command": "-workbench.action.chat.openEditSession",
-        "when": "chatEditingParticipantRegistered && chatIsEnabled && view != 'workbench.panel.chat.view.edits'"
+        "key": "shift+alt+f5",
+        "command": "-chatEditor.action.navigatePrevious",
+        "when": "chat.hasEditorModifications && editorFocus"
     },
     {
         "key": "ctrl+l",
         "command": "-workbench.action.chat.newChat",
         "when": "chatIsEnabled && inChat && chatLocation != 'editing-session'"
+    },
+    {
+        "key": "ctrl+shift+alt+i",
+        "command": "-workbench.action.chat.openEditSession",
+        "when": "chatEditingParticipantRegistered && chatIsEnabled && view != 'workbench.panel.chat.view.edits'"
     },
     {
         "key": "ctrl+alt+i",
@@ -6173,5 +6154,223 @@
         "key": "ctrl+shift+alt+l",
         "command": "-workbench.action.quickchat.toggle",
         "when": "chatIsEnabled"
+    },
+    {
+        "key": "shift+alt+enter",
+        "command": "-workbench.action.chat.submitWithoutDispatching",
+        "when": "chatInputHasText && inChatInput && !chatSessionRequestInProgress && chatLocation == 'panel'"
+    },
+    {
+        "key": "ctrl+alt+t",
+        "command": "-themeswitch.toggle"
+    },
+    {
+        "key": "2",
+        "command": "-gitlens.views.scm.grouped.branches",
+        "when": "config.gitlens.views.scm.grouped.views.branches && !gitlens:views:scm:grouped:welcome && focusedView == 'gitlens.views.scm.grouped'"
+    },
+    {
+        "key": "shift+alt+f5",
+        "command": "-chatEditor.action.navigatePrevious",
+        "when": "chat.hasEditorModifications && editorFocus || chat.hasNotebookEditorModifications && editorFocus"
+    },
+    {
+        "key": "alt+f5",
+        "command": "-chatEditor.action.navigateNext",
+        "when": "chat.hasEditorModifications && editorFocus || chat.hasNotebookEditorModifications && editorFocus"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "-workbench.action.chat.newEditSession",
+        "when": "chatEditingParticipantRegistered && chatIsEnabled && inChat && chatLocation == 'editing-session'"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "-workbench.action.chat.startVoiceChat",
+        "when": "chatIsEnabled && hasSpeechProvider && inChatInput && !chatSessionRequestInProgress && !editorFocus && !notebookEditorFocused && !scopedVoiceChatGettingReady && !speechToTextInProgress || chatIsEnabled && hasSpeechProvider && inlineChatFocused && !chatSessionRequestInProgress && !editorFocus && !notebookEditorFocused && !scopedVoiceChatGettingReady && !speechToTextInProgress"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "-workbench.action.chat.stopListeningAndSubmit",
+        "when": "inChatInput && voiceChatInProgress && scopedVoiceChatInProgress == 'editor' || inChatInput && voiceChatInProgress && scopedVoiceChatInProgress == 'inline' || inChatInput && voiceChatInProgress && scopedVoiceChatInProgress == 'quick' || inChatInput && voiceChatInProgress && scopedVoiceChatInProgress == 'view' || inlineChatFocused && voiceChatInProgress && scopedVoiceChatInProgress == 'editor' || inlineChatFocused && voiceChatInProgress && scopedVoiceChatInProgress == 'inline' || inlineChatFocused && voiceChatInProgress && scopedVoiceChatInProgress == 'quick' || inlineChatFocused && voiceChatInProgress && scopedVoiceChatInProgress == 'view'"
+    },
+    {
+        "key": "escape",
+        "command": "-workbench.action.chat.stopListening",
+        "when": "voiceChatInProgress && scopedVoiceChatInProgress == 'editor' || voiceChatInProgress && scopedVoiceChatInProgress == 'inline' || voiceChatInProgress && scopedVoiceChatInProgress == 'quick' || voiceChatInProgress && scopedVoiceChatInProgress == 'view'"
+    },
+    {
+        "key": "ctrl+shift+backspace",
+        "command": "-chatEditor.action.undoHunk",
+        "when": "editorFocus && hasUndecidedChatEditingResource && !chatSessionRequestInProgress"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-chatEditor.action.accept",
+        "when": "chat.hasEditorModifications && editorFocus && hasUndecidedChatEditingResource && !chat.ctxHasRequestInProgress || chat.hasNotebookEditorModifications && editorFocus && hasUndecidedChatEditingResource && !chat.ctxHasRequestInProgress"
+    },
+    {
+        "key": "ctrl+backspace",
+        "command": "-chatEditor.action.reject",
+        "when": "chat.hasEditorModifications && editorFocus && hasUndecidedChatEditingResource && !chat.ctxHasRequestInProgress || chat.hasNotebookEditorModifications && editorFocus && hasUndecidedChatEditingResource && !chat.ctxHasRequestInProgress"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-jupyter.runByLineStop",
+        "when": "notebookCellResource in 'jupyter.notebookeditor.runByLineCells'"
+    },
+    {
+        "key": "ctrl+c",
+        "command": "editor.action.clipboardCopyAction"
+    },
+    {
+        "key": "1",
+        "command": "-gitlens.views.scm.grouped.commits",
+        "when": "config.gitlens.views.scm.grouped.views.commits && !gitlens:views:scm:grouped:welcome && focusedView == 'gitlens.views.scm.grouped'"
+    },
+    {
+        "key": "7",
+        "command": "-gitlens.views.scm.grouped.contributors",
+        "when": "config.gitlens.views.scm.grouped.views.contributors && !gitlens:views:scm:grouped:welcome && focusedView == 'gitlens.views.scm.grouped'"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "-inlineChat.start",
+        "when": "editorFocus && inlineChatHasProvider && inlineChatPossible && !editorReadonly && !editorSimpleInput"
+    },
+    {
+        "key": "ctrl+k i",
+        "command": "-inlineChat.startWithCurrentLine",
+        "when": "inlineChatHasProvider && !editorReadonly && !inlineChatVisible"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "-inlineChat.startWithCurrentLine",
+        "when": "inlineChatHasProvider && inlineChatShowingHint && !editorReadonly && !inlineChatVisible"
+    },
+    {
+        "key": "ctrl+c",
+        "command": "-chat.inlineResourceAnchor.copyResource",
+        "when": "chatAttachmentResource"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-chat.inlineResourceAnchor.openToSide",
+        "when": "chatAttachmentResource"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-chatEditing.acceptAllFiles",
+        "when": "hasUndecidedChatEditingResource && inChatInput && !chatSessionRequestInProgress && chatLocation == 'editing-session'"
+    },
+    {
+        "key": "ctrl+backspace",
+        "command": "-chatEditing.discardAllFiles",
+        "when": "hasUndecidedChatEditingResource && inChatInput && !chatInputHasText && !chatSessionRequestInProgress && chatLocation == 'editing-session'"
+    },
+    {
+        "key": "ctrl+s",
+        "command": "-chatEditing.saveAllFiles",
+        "when": "hasUndecidedChatEditingResource && inChatInput && !chatSessionRequestInProgress && chatLocation == 'editing-session'"
+    },
+    {
+        "key": "ctrl+down",
+        "command": "-inlineChat.viewInChat",
+        "when": "inChatInput && inlineChatHasProvider && inlineChatVisible"
+    },
+    {
+        "key": "ctrl+down",
+        "command": "-notebook.cell.focusNextChatWidget",
+        "when": "editorTextFocus && inputFocus && isCompositeNotebook && !accessibilityModeEnabled && !isEmbeddedDiffEditor && !notebookCellEditorFocused && notebookEditorCursorAtBoundary != 'none' && notebookEditorCursorAtBoundary != 'top' || editorTextFocus && inputFocus && notebookCellEditorFocused && !accessibilityModeEnabled && !isCompositeNotebook && !isEmbeddedDiffEditor && notebookEditorCursorAtBoundary != 'none' && notebookEditorCursorAtBoundary != 'top'"
+    },
+    {
+        "key": "ctrl+alt+enter",
+        "command": "-workbench.action.chat.sendToChatEditing",
+        "when": "chatEditingParticipantRegistered && chatInputHasText && chatIsEnabled && !chatInputHasAgent && !chatSessionRequestInProgress && chatLocation != 'editing-session' && chatLocation != 'editor'"
+    },
+    {
+        "key": "delete",
+        "command": "-workbench.action.chat.remove",
+        "when": "inChat && !inChatInput && chatLocation != 'editing-session'"
+    },
+    {
+        "key": "enter",
+        "command": "-workbench.action.chat.submit",
+        "when": "chatInputHasText && inChatInput && !chatSessionRequestInProgress && chatLocation != 'editing-session'"
+    },
+    {
+        "key": "shift+alt+enter",
+        "command": "-workbench.action.chat.submitWithoutDispatching",
+        "when": "chatInputHasText && inChatInput && !chatSessionRequestInProgress && chatLocation == 'editor' || chatInputHasText && inChatInput && !chatSessionRequestInProgress && chatLocation == 'panel'"
+    },
+    {
+        "key": "delete",
+        "command": "-workbench.action.chat.undoEdits",
+        "when": "inChat && !inChatInput && chatLocation == 'editing-session'"
+    },
+    {
+        "key": "enter",
+        "command": "-workbench.action.edits.submit",
+        "when": "chatInputHasText && inChatInput && !chatSessionRequestInProgress && !isApplyingChatEdits && chatLocation == 'editing-session'"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "-notebook.selectAllFindMatches",
+        "when": "config.notebook.multiCursor.enabled && notebookFindWidgetFocused || config.notebook.multiCursor.enabled && notebookCellEditorFocused && activeEditor == 'workbench.editor.notebook'"
+    },
+    {
+        "key": "alt+home alt+home",
+        "command": "-repl.input.focus",
+        "when": "mostRecentReplEditor"
+    },
+    {
+        "key": "alt+end alt+end",
+        "command": "-repl.focusLastItemExecuted",
+        "when": "isCompositeNotebook && mostRecentReplEditor || mostRecentReplEditor && !notebookCellListFocused"
+    },
+    {
+        "key": "ctrl+down",
+        "command": "-repl.input.focus",
+        "when": "isCompositeNotebook && notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+shift+alt+i",
+        "command": "-workbench.panel.chatEditing",
+        "when": "workbench.panel.chat.view.edits.active"
+    },
+    {
+        "key": "0",
+        "command": "-gitlens.views.scm.grouped.launchpad",
+        "when": "config.gitlens.views.scm.grouped.views.launchpad && !gitlens:views:scm:grouped:welcome && focusedView == 'gitlens.views.scm.grouped'"
+    },
+    {
+        "key": "3",
+        "command": "-gitlens.views.scm.grouped.remotes",
+        "when": "config.gitlens.views.scm.grouped.views.remotes && !gitlens:views:scm:grouped:welcome && focusedView == 'gitlens.views.scm.grouped'"
+    },
+    {
+        "key": "8",
+        "command": "-gitlens.views.scm.grouped.repositories",
+        "when": "config.gitlens.views.scm.grouped.views.repositories && !gitlens:views:scm:grouped:welcome && focusedView == 'gitlens.views.scm.grouped'"
+    },
+    {
+        "key": "9",
+        "command": "-gitlens.views.scm.grouped.searchAndCompare",
+        "when": "config.gitlens.views.scm.grouped.views.searchAndCompare && !gitlens:views:scm:grouped:welcome && focusedView == 'gitlens.views.scm.grouped'"
+    },
+    {
+        "key": "4",
+        "command": "-gitlens.views.scm.grouped.stashes",
+        "when": "config.gitlens.views.scm.grouped.views.stashes && !gitlens:views:scm:grouped:welcome && focusedView == 'gitlens.views.scm.grouped'"
+    },
+    {
+        "key": "5",
+        "command": "-gitlens.views.scm.grouped.tags",
+        "when": "config.gitlens.views.scm.grouped.views.tags && !gitlens:views:scm:grouped:welcome && focusedView == 'gitlens.views.scm.grouped'"
+    },
+    {
+        "key": "6",
+        "command": "-gitlens.views.scm.grouped.worktrees",
+        "when": "config.gitlens.views.scm.grouped.views.worktrees && !gitlens:views:scm:grouped:welcome && focusedView == 'gitlens.views.scm.grouped'"
     }
 ]
