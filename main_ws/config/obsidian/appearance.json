@@ -6,5 +6,6 @@
   "nativeMenus": true,
   "accentColor": "#3584e4",
   "baseFontSize": 18,
-  "showViewHeader": false
+  "showViewHeader": false,
+  "showRibbon": false
 }
