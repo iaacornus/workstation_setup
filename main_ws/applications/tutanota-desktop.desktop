@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Tuta Mail
+Comment=The desktop client for Tuta Mail, the secure e-mail service.
+GenericName=Mail Client
+Keywords=Email;E-mail
+Exec="/var/home/iaacornus/.local/bin/tutanota.AppImage" --no-sandbox %U
+Terminal=false
+Type=Application
+Icon=tutanota-desktop
+StartupWMClass=tutanota-desktop
+MimeType=x-scheme-handler/mailto;
+Categories=Network;
+X-Tutanota-Version=267.250206.0
+TryExec=/var/home/iaacornus/.local/bin/tutanota.AppImage
