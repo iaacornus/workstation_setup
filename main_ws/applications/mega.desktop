@@ -1,8 +1,10 @@
 [Desktop Entry]
 Version=
+Comment=Statistical analysis of molecular evolution and for constructing phylogenetic trees.
 Encoding=UTF-8
 Name=MEGA
-GenericName=MEGA
+GenericName=MEGA;
+Keywords=Analysis; Phylogenetics; Phylo; Molecular
 Categories=Application;Utility;
 Exec=toolbox -c fedora-toolbox-40 run mega
 Icon=/var/home/iaacornus/.local/share/icons/mega.png

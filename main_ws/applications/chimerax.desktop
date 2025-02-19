@@ -1,10 +1,13 @@
 [Desktop Entry]
 Encoding=UTF-8
+Comment=Next-generation molecular visualization program from the Resource for Biocomputing, Visualization, and Informatics (RBVI).
 Version=1.0
 Type=Application
 Terminal=false
 Exec=toolbox -c fedora-toolbox-40 run chimerax
 Name=UCSF Chimera X
+GenericName=Chimera X
+Keywords=Molecular; Visualization; Molecules; Chimera
 Icon=/var/home/iaacornus/.local/share/icons/UCSF-ChimeraX.svg
 Name[en_US]=UCSF Chimera X
 StartupNotify=true

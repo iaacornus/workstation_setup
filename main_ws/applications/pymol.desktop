@@ -1,9 +1,11 @@
 [Desktop Entry]
 Encoding=UTF-8
+Comment=Molecular visualization system.
 Version=1.0
 Type=Application
 Terminal=false
 Exec=/var/home/iaacornus/.anaconda3/envs/pymol/bin/pymol
 Name=PyMOL
+Keywords=Molecules; Molecular; Python
 Icon=/var/home/iaacornus/.local/share/icons/pymol.svg
 StartupNotify=true
