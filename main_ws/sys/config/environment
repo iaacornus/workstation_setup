@@ -1,3 +1,4 @@
 MUTTER_DEBUG_FORCE_KMS_MODE=simple
 MUTTER_DEBUG_KMS_THREAT_TYPE=user
 GNOME_SHELL_SLOWDOWN_FACTOR=0.9
+FREETYPE_PROPERTIES="cff:no-stem-darkening=0 autofitter:no-stem-darkening=0"
