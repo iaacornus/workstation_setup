@@ -1,0 +1,6 @@
+@import url("resource:///org/gnome/adwaita/gtk.css");
+
+label, entry, button {
+    font-family: 'Inter';
+    font-feature-settings: 'dlig' 1, 'ss02' 1;
+}
