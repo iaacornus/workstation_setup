@@ -1,7 +1,7 @@
 {
   "cssTheme": "Garden Gnome (Adwaita, GTK)",
-  "interfaceFontFamily": "Noto Sans",
-  "textFontFamily": "Noto Sans",
+  "interfaceFontFamily": "Inter",
+  "textFontFamily": "Roboto",
   "monospaceFontFamily": "Cascadia Mono NF",
   "nativeMenus": true,
   "accentColor": "#3584e4",
