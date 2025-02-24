@@ -4943,11 +4943,6 @@
         "when": "accessibleViewContainsCodeBlocks && accessibleViewCurrentProviderId == 'panelChat'"
     },
     {
-        "key": "up",
-        "command": "notebook.focusPreviousEditor",
-        "when": "accessibilityModeEnabled && notebookCellEditorFocused"
-    },
-    {
         "key": "ctrl+pageup",
         "command": "-notebook.focusPreviousEditor",
         "when": "accessibilityModeEnabled && notebookCellEditorFocused"
@@ -5651,19 +5646,9 @@
         "command": "jupyter.restartkernelandrunallcells"
     },
     {
-        "key": "down",
-        "command": "notebook.focusNextEditor",
-        "when": "notebookEditorFocused && notebookOutputFocused"
-    },
-    {
         "key": "ctrl+down",
         "command": "-notebook.focusNextEditor",
         "when": "notebookEditorFocused && notebookOutputFocused"
-    },
-    {
-        "key": "down",
-        "command": "notebook.focusNextEditor",
-        "when": "accessibilityModeEnabled && notebookCellEditorFocused"
     },
     {
         "key": "ctrl+pagedown",
@@ -6363,5 +6348,10 @@
         "key": "shift+enter",
         "command": "-dataWrangler.applyOperation",
         "when": "dataWrangler.canApplyOperation && dataWrangler.dataWranglerActive && dataWrangler.focusedElementAllowsShortcuts && isWorkspaceTrusted && !inputFocus"
+    },
+    {
+        "key": "ctrl+a",
+        "command": "-notebook.cell.output.selectAll",
+        "when": "notebookEditorFocused && notebookOutputFocused"
     }
 ]

@@ -42,6 +42,7 @@
             "Plots",
             "Viewer",
             "Presentations",
+            "Files",
             "Presentation"
         ],
         "tabSet2": [
@@ -49,7 +50,6 @@
             "History"
         ],
         "hiddenTabSet": [
-            "Files",
             "Connections",
             "Packages",
             "Help",
