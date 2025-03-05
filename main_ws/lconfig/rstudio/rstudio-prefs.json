@@ -75,7 +75,7 @@
     "remove_history_duplicates": true,
     "indent_guides": "rainbowlines",
     "python_type": "system",
-    "python_version": "3.12.7",
+    "python_version": "3.12.9",
     "python_path": "/usr/bin/python3.12",
     "code_completion_characters": 2,
     "code_completion_delay": 25,

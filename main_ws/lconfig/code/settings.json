@@ -284,5 +284,6 @@
     "accessibility.verbosity.panelChat": false,
     "chat.detectParticipant.enabled": false,
     "inlineChat.holdToSpeech": false,
-    "inlineChat.lineNaturalLanguageHint": false
+    "inlineChat.lineNaturalLanguageHint": false,
+    "editor.largeFileOptimizations": false
 }
