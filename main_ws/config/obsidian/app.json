@@ -1,6 +1,6 @@
 {
   "showLineNumber": true,
-  "spellcheck": false,
+  "spellcheck": true,
   "useMarkdownLinks": true,
   "showUnsupportedFiles": true,
   "showInlineTitle": true
