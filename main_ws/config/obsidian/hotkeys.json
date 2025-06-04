@@ -59,7 +59,14 @@
   "app:open-settings": [],
   "switcher:open": [],
   "workspace:edit-file-title": [],
-  "editor:open-search-replace": [],
+  "editor:open-search-replace": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "R"
+    }
+  ],
   "global-search:open": [],
   "editor:toggle-checklist-status": [],
   "markdown:toggle-preview": [

@@ -5,7 +5,7 @@
   "monospaceFontFamily": "Cascadia Mono NF",
   "nativeMenus": true,
   "accentColor": "#3584e4",
-  "baseFontSize": 18,
+  "baseFontSize": 20,
   "showViewHeader": false,
   "showRibbon": false
 }

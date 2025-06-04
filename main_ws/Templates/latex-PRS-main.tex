@@ -27,11 +27,16 @@
 \usepackage{csquotes}
 \usepackage{listings}
 \usepackage{multirow}
+\usepackage{tocloft}
 \usepackage[scaled=0.9]{DejaVuSansMono}
 \usepackage[backend=bibtex]{biblatex}
 
 % include the additional imports here:
 % \usepackage{package}
+
+% table of contents settings
+\renewcommand{\cftsecfont}{}% Remove \bfseries from section titles in ToC
+\renewcommand{\cftsecpagefont}{}% Remove \bfseries from section titles' page in ToC
 
 % presentation document format
 \usetheme{Boadilla}

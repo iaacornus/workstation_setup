@@ -10,5 +10,5 @@ Icon=tutanota-desktop
 StartupWMClass=tutanota-desktop
 MimeType=x-scheme-handler/mailto;
 Categories=Network;
-X-Tutanota-Version=284.250513.1
+X-Tutanota-Version=287.250602.0
 TryExec=/var/home/iaacornus/.local/bin/tutanota.AppImage
