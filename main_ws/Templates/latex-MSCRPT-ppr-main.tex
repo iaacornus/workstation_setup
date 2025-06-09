@@ -102,6 +102,15 @@
     {}}
 \makeatother
 
+% config of equations to remove additional space
+\expandafter\def\expandafter\normalsize\expandafter{%
+    \normalsize%
+    \setlength\abovedisplayskip{0pt}%
+    \setlength\belowdisplayskip{8pt}%
+    \setlength\abovedisplayshortskip{-8pt}%
+    \setlength\belowdisplayshortskip{2pt}%
+}
+
 %%% equation
 \newcounter{captioneqset} %numbering
 \newdimen\captionlength
