@@ -1,0 +1,186 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/var/home/iaacornus/Documents/lectures/intro_binfor&chemotherapeutics/PRS/intro_binfor-REF.bib#intro_binfor-REF.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/var/home/iaacornus/Documents/lectures/intro_binfor&chemotherapeutics/PRS/intro_binfor&chemotherapeutics-PRS-main.tex",
+    "labels": [
+    ],
+    "modified": "",
+    "packages": [
+        "#beamerthemeBoadilla",
+        "aspectratio=169, 10pt#class-beamer",
+        "aspectratio=169, 10pt#latex-document",
+        "aspectratio=169, 10pt#tex",
+        "scaled=0.9#DejaVuSansMono",
+        "#listings",
+        "#amsmath",
+        "#gensymb",
+        "#csquotes",
+        "#textcomp",
+        "#setspace",
+        "#caption",
+        "#bigints",
+        "T1#fontenc",
+        "#mlmodern",
+        "backend=bibtex#biblatex",
+        "#graphicx",
+        "#amsfonts",
+        "#mhchem",
+        "#mathtools",
+        "#gensymb",
+        "#footmisc",
+        "#ragged2e",
+        "#booktabs",
+        "#array",
+        "#xcolor",
+        "#relsize",
+        "#subcaption",
+        "#physics",
+        "#systeme",
+        "#beamerfontthemeserif",
+        "#orcidlink"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "7#Fundamentals of Molecular Biology#150",
+        "8#Nucleus as the Control Center of Cell#151",
+        "7#Fundamentals of Molecular Biology#161",
+        "8#Human X Chromosomes and Associated Traits#162",
+        "7#Fundamentals of Molecular Biology#179",
+        "8#Genetic Sequences and Nucleotides#180",
+        "7#Fundametals of Molecular Biology#197",
+        "8#A DNA Repair Mechanism#198",
+        "7#Fundamentals of Molecular Biology#208",
+        "8#Mutation Bias in \\textit{A. thaliana}#209",
+        "7#Fundamentals of Molecular Biology#223",
+        "8#Phylogenetic Tree of Life#224",
+        "7#Fundamentals of Molecular Biology#234",
+        "8#Phylogenetic Tree of Mammals#235",
+        "7#Fundamentals of Molecular Biology#249",
+        "8#Sequence Similarity of Human and Chimpanzee Leptin Gene#250",
+        "7#Fundamentals of Molecular Biology#265",
+        "8#Synteny of Human and Mouse Chromosomes#266",
+        "7#Fundamentals of Molecular Biology#288",
+        "8#The Importance of Genetic Conservation#289",
+        "7#Genome Sizes#299",
+        "8#Some of Encoded Metabolic Pathways#300",
+        "7#Genome Sizes#310",
+        "8#Comparison of Several Genome Sizes#311",
+        "7#Genome Sizes#350",
+        "8#\\textit{Mycoplasmoides genitalium} Genome Size#351",
+        "7#Genome Sizes#363",
+        "8#\\textit{Homo sapiens} Genome Size#364",
+        "7#Case Study of Cancer#383",
+        "8#The Emperor of All Maladies, The King of Terrors#384",
+        "7#Case Study of Cancer#411",
+        "8#Molecular Hallmarks#412",
+        "7#Case Study of Cancer#422",
+        "8#Cancer as a Disease#423",
+        "7#Case Study of Cancer#433",
+        "8#History#434",
+        "7#Case Study of Cancer#455",
+        "8#Humorism and ``\\textit{Cure}''#456",
+        "7#Genome Sizes#482",
+        "8#\\textit{Mycoplasmoides genitalium} Genome Size#483",
+        "7#Genome Sizes#493",
+        "8#Comparison of Several Genomes#494",
+        "7#Genome Sizes#533",
+        "8#Encoded Pathways#534",
+        "7#Genome Sizes#544",
+        "8#\\textit{Homo sapiens} Genome Size#545",
+        "7#Genome Sizes#563",
+        "8#\\textit{Homo sapiens} Genome Size#564",
+        "7#Size of Human gDNA#590",
+        "8#Rapid Approximation of Its Realistic Scale#591",
+        "7#Size of Human gDNA#641",
+        "8#Rapid Approximation of Its Realistic Scale#642",
+        "7#Size of Human gDNA#678",
+        "8#Rapid Approximation of Its Realistic Scale#679",
+        "7#Size of Human gDNA#705",
+        "8#Rapid Approximation of Its Realistic Scale#706",
+        "7#The Good, The Bad and The \\textbf{Ugly}#730",
+        "8#Computational Biology vs Bioinformatics vs ``\\textit{In silico}'' Studies#731",
+        "7#Bioinformatics as a Field#750",
+        "8#DNA Sequencing#751",
+        "7#Bioninformatics as a Field#761",
+        "8#DNA Sequencing#762",
+        "7#Bioinformatics as a Field#780",
+        "8#Differential Gene Expression#781",
+        "7#Bioinformatics as a Field#797",
+        "8#Differential Gene Expression#798",
+        "7#Bioinformatics as a Field#814",
+        "8#\\textit{p53} Signaling Pathway#815",
+        "7#Bioinformatics as a Field#825",
+        "8#Gene Sequence of Tumor Protein \\textit{p53}#826",
+        "7#Bioinformatics as a Field#847",
+        "8#Gene Expression of Tumor Protein \\textit{p53}#848",
+        "7#Bioinformatics as a Field#859",
+        "8#Function of Tumor Protein \\textit{p53}#860",
+        "7#Computational Biology as a Field#893",
+        "8#Resveratrol as Chemotherapeutic Agent Against Human Colorectal Cancer#894",
+        "7#Computational Biology as a Field#926",
+        "8#Resveratrol as Chemotherapeutic Agent Against Human Colorectal Cancer#927",
+        "7#Computational Biology as a Field#946",
+        "8#\\ce{5-HT_{2A}} and \\ce{D_2DR} Receptors Associated with Neuropsychological Disorders#947",
+        "7#Computational Biology as a Field#974",
+        "8#Determination of Drug Activity#975",
+        "7#Computational Biology as a Field#994",
+        "8#Determination of Drug Activity#995",
+        "7#References#1020"
+    ],
+    "usercommands": [
+        [
+            "\\captioneq",
+            "\\captioneq{}"
+        ],
+        [
+            "\\thecaptioneq",
+            "\\thecaptioneq"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "\\lbx@@finallistdelim",
+            "\\lbx@@finallistdelim"
+        ],
+        [
+            "\\fig",
+            "\\fig{}"
+        ],
+        [
+            "\\etl",
+            "\\etl"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "\\eq",
+            "\\eq{}"
+        ],
+        [
+            "\\thecaptioneqset",
+            "\\thecaptioneqset"
+        ],
+        [
+            "\\eqs",
+            "\\eqs{}"
+        ],
+        [
+            "\\lbx@@finalnamedelim",
+            "\\lbx@@finalnamedelim"
+        ],
+        [
+            "\\captioneqset",
+            "\\captioneqset{}"
+        ]
+    ]
+}

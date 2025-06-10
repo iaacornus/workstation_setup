@@ -1,0 +1,73 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/var/home/iaacornus/Documents/astrobio_series/MSCRPT/ref.bib#ref.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/var/home/iaacornus/Documents/astrobio_series/MSCRPT/astrobio_series-MSCRPT-ppr-main_template.tex",
+    "labels": [
+    ],
+    "modified": "Sun Aug 25 18:08:22 2024",
+    "packages": [
+        "#xcolor",
+        "#amsfonts",
+        "#footmisc",
+        "#mlmodern",
+        "#gensymb",
+        "#physics",
+        "#setspace",
+        "#mathtools",
+        "#graphicx",
+        "12pt#latex-document",
+        "12pt#tex",
+        "margin=1in, a4paper#geometry",
+        "affil-it#authblk",
+        "backend=bibtex#biblatex",
+        "#subcaption",
+        "#amsmath",
+        "#caption",
+        "colorlinks,allcolors=blue#hyperref",
+        "colorlinks,allcolors=blue#nameref",
+        "#DejaVuSansMono",
+        "#orcidlink",
+        "T1#fontenc",
+        "#indentfirst",
+        "#mhchem"
+    ],
+    "refs": [
+    ],
+    "toc": [
+    ],
+    "usercommands": [
+        [
+            "\\eq",
+            "\\eq{}"
+        ],
+        [
+            "\\lbx@@finalnamedelim",
+            "\\lbx@@finalnamedelim"
+        ],
+        [
+            "\\etl",
+            "\\etl"
+        ],
+        [
+            "\\thefootnote",
+            "\\thefootnote"
+        ],
+        [
+            "\\lbx@@finallistdelim",
+            "\\lbx@@finallistdelim"
+        ],
+        [
+            "\\keywords",
+            "\\keywords{}"
+        ],
+        [
+            "\\fig",
+            "\\fig{}"
+        ]
+    ]
+}

@@ -1,0 +1,121 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/var/home/iaacornus/Documents/nsaid_social_pain/MSCRPT/acetaminophen-REF.bib#acetaminophen-REF.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/var/home/iaacornus/Documents/nsaid_social_pain/MSCRPT/acetaminophen-MSCRPT-ppr-main.tex",
+    "labels": [
+    ],
+    "modified": "Tue Oct 1 10:46:38 2024",
+    "packages": [
+        "#bigints",
+        "#textcomp",
+        "#array",
+        "#systeme",
+        "#gensymb",
+        "#mhchem",
+        "#subcaption",
+        "#sectsty",
+        "#relsize",
+        "#amsmath",
+        "shortlabels#enumitem",
+        "backend=bibtex#biblatex",
+        "#booktabs",
+        "#mathtools",
+        "#footmisc",
+        "affil-it#authblk",
+        "margin=1in, a4paper#geometry",
+        "#physics",
+        "#caption",
+        "#ragged2e",
+        "#mlmodern",
+        "#setspace",
+        "#orcidlink",
+        "T1#fontenc",
+        "#csquotes",
+        "colorlinks,allcolors=blue#hyperref",
+        "colorlinks,allcolors=blue#nameref",
+        "#xcolor",
+        "scaled=0.9#DejaVuSansMono",
+        "#indentfirst",
+        "12pt#latex-document",
+        "12pt#tex",
+        "#graphicx",
+        "#lscape",
+        "#listings",
+        "#multicol",
+        "#amsfonts"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "2#Introduction#158",
+        "2#Methodology#161",
+        "2#Results and Discussion#164"
+    ],
+    "usercommands": [
+        [
+            "\\lbx@@finalnamedelim",
+            "\\lbx@@finalnamedelim"
+        ],
+        [
+            "\\captioneq",
+            "\\captioneq{}"
+        ],
+        [
+            "\\fig",
+            "\\fig{}"
+        ],
+        [
+            "\\thecaptioneqset",
+            "\\thecaptioneqset"
+        ],
+        [
+            "\\code",
+            "\\code{}"
+        ],
+        [
+            "\\lbx@@finallistdelim",
+            "\\lbx@@finallistdelim"
+        ],
+        [
+            "\\eq",
+            "\\eq{}"
+        ],
+        [
+            "\\keywords",
+            "\\keywords{}"
+        ],
+        [
+            "\\etl",
+            "\\etl"
+        ],
+        [
+            "\\eqs",
+            "\\eqs{}"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "\\thefootnote",
+            "\\thefootnote"
+        ],
+        [
+            "\\thecaptioneq",
+            "\\thecaptioneq"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "\\captioneqset",
+            "\\captioneqset{}"
+        ]
+    ]
+}

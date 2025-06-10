@@ -1,0 +1,117 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/var/home/iaacornus/Documents/algal_growth_media/PROPOSAL-MSCRPT/l_tigrinus-REF.bib#l_tigrinus-REF.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/var/home/iaacornus/Documents/algal_growth_media/PROPOSAL-MSCRPT/algal_growth_media-PROPOSAL-ppr-main.tex",
+    "labels": [
+    ],
+    "modified": "Sun Dec 15 21:08:46 2024",
+    "packages": [
+        "#amsmath",
+        "#array",
+        "affil-it#authblk",
+        "T1#fontenc",
+        "#relsize",
+        "#orcidlink",
+        "#amsfonts",
+        "#subcaption",
+        "#footmisc",
+        "#ragged2e",
+        "#setspace",
+        "#listings",
+        "#booktabs",
+        "#fancyhdr",
+        "colorlinks,allcolors=blue#hyperref",
+        "colorlinks,allcolors=blue#nameref",
+        "#mhchem",
+        "#textcomp",
+        "shortlabels#enumitem",
+        "#indentfirst",
+        "#multicol",
+        "#xcolor",
+        "#bigints",
+        "margin=1in, a4paper#geometry",
+        "backend=bibtex#biblatex",
+        "#gensymb",
+        "#mlmodern",
+        "#sectsty",
+        "#systeme",
+        "#lscape",
+        "#csquotes",
+        "scaled=0.9#DejaVuSansMono",
+        "#caption",
+        "12pt#latex-document",
+        "12pt#tex",
+        "#graphicx",
+        "#mathtools",
+        "#physics"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "2#Introduction#164",
+        "2#Methodology#168"
+    ],
+    "usercommands": [
+        [
+            "\\captioneq",
+            "\\captioneq{}"
+        ],
+        [
+            "\\thecaptioneq",
+            "\\thecaptioneq"
+        ],
+        [
+            "\\etl",
+            "\\etl"
+        ],
+        [
+            "\\keywords",
+            "\\keywords{}"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "\\lbx@@finalnamedelim",
+            "\\lbx@@finalnamedelim"
+        ],
+        [
+            "\\thecaptioneqset",
+            "\\thecaptioneqset"
+        ],
+        [
+            "\\thefootnote",
+            "\\thefootnote"
+        ],
+        [
+            "\\fig",
+            "\\fig{}"
+        ],
+        [
+            "\\code",
+            "\\code{}"
+        ],
+        [
+            "\\captioneqset",
+            "\\captioneqset{}"
+        ],
+        [
+            "\\lbx@@finallistdelim",
+            "\\lbx@@finallistdelim"
+        ],
+        [
+            "\\eqs",
+            "\\eqs{}"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ]
+    ]
+}

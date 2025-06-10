@@ -1,0 +1,164 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/var/home/iaacornus/Documents/lectures/intro_bioinformatics/PRS/intro_bioinformatics-REF.bib#intro_bioinformatics-REF.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/var/home/iaacornus/Documents/lectures/intro_bioinformatics/PRS/intro_bioinformatics-PRS-main.tex",
+    "labels": [
+    ],
+    "modified": "Sun Oct 20 11:37:40 2024",
+    "packages": [
+        "#footmisc",
+        "T1#fontenc",
+        "backend=bibtex#biblatex",
+        "#ragged2e",
+        "#mlmodern",
+        "#textcomp",
+        "scaled=0.9#DejaVuSansMono",
+        "#orcidlink",
+        "#physics",
+        "#systeme",
+        "#beamerfontthemeserif",
+        "#beamerthemeBoadilla",
+        "#bigints",
+        "#mathtools",
+        "#gensymb",
+        "#xcolor",
+        "#gensymb",
+        "#relsize",
+        "#graphicx",
+        "#amsmath",
+        "#booktabs",
+        "#listings",
+        "#caption",
+        "#array",
+        "aspectratio=169, 10pt#class-beamer",
+        "aspectratio=169, 10pt#latex-document",
+        "aspectratio=169, 10pt#tex",
+        "#subcaption",
+        "#mhchem",
+        "#csquotes",
+        "#amsfonts",
+        "#setspace"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "7#Fundamentals of Molecular Biology#150",
+        "8#DNA, Genes and Chromosomes#151",
+        "7#Fundamentals of Molecular Biology#165",
+        "8#Nucleus as the Control Center of Cell#166",
+        "7#Fundamentals of Molecular Biology#176",
+        "8#Human X Chromosomes and Associated Traits#177",
+        "7#Fundamentals of Molecular Biology#194",
+        "8#Genetic Sequences and Nucleotides#195",
+        "7#Fundametals of Molecular Biology#212",
+        "8#A DNA Repair Mechanism#213",
+        "7#Fundamentals of Molecular Biology#223",
+        "8#Mutation Bias in \\textit{A. thaliana}#224",
+        "7#Fundamentals of Molecular Biology#238",
+        "8#Phylogenetic Tree of Life#239",
+        "7#Fundamentals of Molecular Biology#249",
+        "8#Phylogenetic Tree of Mammals#250",
+        "7#Fundamentals of Molecular Biology#264",
+        "8#Sequence Similarity of Human and Chimpanzee Leptin Gene#265",
+        "7#Fundamentals of Molecular Biology#280",
+        "8#Synteny of Human and Mouse Chromosomes#281",
+        "7#Fundamentals of Molecular Biology#303",
+        "8#The Importance of Genetic Conservation#304",
+        "7#Genome Sizes#314",
+        "8#Some of Encoded Metabolic Pathways#315",
+        "7#Genome Sizes#325",
+        "8#Comparison of Several Genome Sizes#326",
+        "7#Genome Sizes#365",
+        "8#\\textit{Mycoplasmoides genitalium} Genome Size#366",
+        "7#Genome Sizes#376",
+        "8#\\textit{Homo sapiens} Genome Size#377",
+        "7#Realistic Scale of Human gDNA#395",
+        "8#The Size of Human gDNA#396",
+        "7#Realistic Scale of Human gDNA#422",
+        "8#Simple, Rapid Approximation of Its Relative Scale#423",
+        "7#Realistic Scale of Human gDNA#473",
+        "8#Simple, Rapid Approximation of Its Relative Scale#474",
+        "7#Realistic Scale of Human gDNA#510",
+        "8#Simple, Rapid Approximation of Its Relative Scale#511",
+        "7#Realistic Scale of Human gDNA#537",
+        "8#Simple, Rapid Approximation of Its Relative Scale#538",
+        "7#The Good, The Bad and The \\textbf{Ugly}#562",
+        "8#Computational Biology vs Bioinformatics vs ``\\textit{In silico}'' Studies#563",
+        "7#Bioinformatics as a Field#582",
+        "8#DNA Mutation and Carcinogenesis#583",
+        "7#Bioinformatics as a Field#593",
+        "8#Carcinogenesis of Human Colorectal Cancer#594",
+        "7#Bioinformatics as a Field#604",
+        "8#Function of Tumor Protein \\textit{p53}#605",
+        "7#Bioinformatics as a Field#638",
+        "8#\\textit{p53} Signaling Pathway#639",
+        "7#Bioinformatics as a Field#649",
+        "8#DNA Sequencing#650",
+        "7#Bioninformatics as a Field#660",
+        "8#DNA Sequencing#661",
+        "7#Bioinformatics as a Field#679",
+        "8#Sequence of Tumor Protein \\textit{p53}#680",
+        "7#Bioinformatics as a Field#699",
+        "8#Differential Gene Expression#700",
+        "7#Bioinformatics as a Field#716",
+        "8#Differential Gene Expression#717",
+        "7#Bioinformatics as a Field#733",
+        "8#Gene Expression of Tumor Protein \\textit{p53}#734",
+        "7#References#745"
+    ],
+    "usercommands": [
+        [
+            "\\eqs",
+            "\\eqs{}"
+        ],
+        [
+            "\\captioneqset",
+            "\\captioneqset{}"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "\\captioneq",
+            "\\captioneq{}"
+        ],
+        [
+            "\\fig",
+            "\\fig{}"
+        ],
+        [
+            "\\eq",
+            "\\eq{}"
+        ],
+        [
+            "\\etl",
+            "\\etl"
+        ],
+        [
+            "\\thecaptioneq",
+            "\\thecaptioneq"
+        ],
+        [
+            "\\thecaptioneqset",
+            "\\thecaptioneqset"
+        ],
+        [
+            "\\lbx@@finallistdelim",
+            "\\lbx@@finallistdelim"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "\\lbx@@finalnamedelim",
+            "\\lbx@@finalnamedelim"
+        ]
+    ]
+}

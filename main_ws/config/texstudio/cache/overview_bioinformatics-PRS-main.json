@@ -1,0 +1,150 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/var/home/iaacornus/Documents/lectures/overview_bioinformatics/overview_bioinformatics-REF.bib#overview_bioinformatics-REF.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/var/home/iaacornus/Documents/lectures/overview_bioinformatics/overview_bioinformatics-PRS-main.tex",
+    "labels": [
+    ],
+    "modified": "Mon Mar 24 05:47:59 2025",
+    "packages": [
+        "#mlmodern",
+        "#footmisc",
+        "#physics",
+        "#ragged2e",
+        "#orcidlink",
+        "#booktabs",
+        "#graphicx",
+        "backend=bibtex#biblatex",
+        "#textcomp",
+        "#caption",
+        "#mhchem",
+        "#setspace",
+        "#csquotes",
+        "#bigints",
+        "#beamerfontthemeserif",
+        "#gensymb",
+        "#array",
+        "#xcolor",
+        "#relsize",
+        "#mathtools",
+        "#amsfonts",
+        "#amsmath",
+        "aspectratio=169, 10pt#class-beamer",
+        "aspectratio=169, 10pt#latex-document",
+        "aspectratio=169, 10pt#tex",
+        "#gensymb",
+        "scaled=0.9#DejaVuSansMono",
+        "#systeme",
+        "T1#fontenc",
+        "#subcaption",
+        "#listings",
+        "#beamerthemeBoadilla"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "7#Case Study of Cancer#151",
+        "8#Humorism and ``\\textit{Cure} for Cancer''#152",
+        "7#Case Study: Cancer#178",
+        "8#Resveratrol and Its Derivatives Against Cancer#179",
+        "7#Case Study: Cancer#212",
+        "8#Binding Site Analysis of Resveratrol Derivatives#213",
+        "7#Case Study: Psychosis, Anxiety and Depression#234",
+        "8#\\ce{5-HT_{2A}} and \\ce{D_2DR} Involved Neuro- Psychological/Biological Disorders#235",
+        "7#Computational Biology as a Field#262",
+        "8#Determination of Drug Activity#263",
+        "7#Genome Sizes#283",
+        "8#\\textit{Mycoplasmoides genitalium} Genome Size#284",
+        "7#Fundamentals of Molecular Biology#294",
+        "8#Human X Chromosomes and Associated Traits#295",
+        "7#Genome Sizes#312",
+        "8#Some of Encoded Metabolic Pathways#313",
+        "7#Bioinformatics as a Field#323",
+        "8#DNA Sequencing#324",
+        "7#Bioninformatics as a Field#334",
+        "8#DNA Sequencing#335",
+        "7#Bioinformatics as a Field#353",
+        "8#Differential Gene Expression#354",
+        "7#Bioinformatics as a Field#370",
+        "8#Differential Gene Expression#371",
+        "7#Bioinformatics as a Field#387",
+        "8#\\textit{p53} Signaling Pathway#388",
+        "7#Bioinformatics as a Field#398",
+        "8#Gene Sequence of Tumor Protein \\textit{p53}#399",
+        "7#Bioinformatics as a Field#420",
+        "8#Gene Expression of Tumor Protein \\textit{p53}#421",
+        "7#Bioinformatics as a Field#432",
+        "8#Function of Tumor Protein \\textit{p53}#433",
+        "7#References#467"
+    ],
+    "usercommands": [
+        [
+            "\\fig",
+            "\\fig{}"
+        ],
+        [
+            "\\thecaptioneq",
+            "\\thecaptioneq"
+        ],
+        [
+            "\\captioneq",
+            "\\captioneq{}"
+        ],
+        [
+            "\\eqs",
+            "\\eqs{}"
+        ],
+        [
+            "\\thecaptioneqset",
+            "\\thecaptioneqset"
+        ],
+        [
+            "\\captioneqset",
+            "\\captioneqset{}"
+        ],
+        [
+            "",
+            "%color%codepurple"
+        ],
+        [
+            "",
+            "%color%codegreen"
+        ],
+        [
+            "\\etl",
+            "\\etl"
+        ],
+        [
+            "\\eq",
+            "\\eq{}"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "",
+            "%color%myblue"
+        ],
+        [
+            "\\lbx@@finalnamedelim",
+            "\\lbx@@finalnamedelim"
+        ],
+        [
+            "\\lbx@@finallistdelim",
+            "\\lbx@@finallistdelim"
+        ],
+        [
+            "",
+            "%color%codegray"
+        ]
+    ]
+}

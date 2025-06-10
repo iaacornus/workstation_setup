@@ -1,0 +1,96 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/var/home/iaacornus/Documents/lectures/signal_transduction_pathway,mol_bio&in_silico_intro/ref.bib#ref.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/var/home/iaacornus/Documents/lectures/signal_transduction_pathway,mol_bio&in_silico_intro/signal_transduction_pathway,mol_bio&in_silico_intro-PRS-main.tex",
+    "labels": [
+    ],
+    "modified": "Tue Nov 21 07:37:36 2023",
+    "packages": [
+        "backend=biber#biblatex",
+        "#beamerthemeBoadilla",
+        "#ragged2e",
+        "#class-beamer",
+        "#latex-document",
+        "#tex",
+        "#graphicx",
+        "charter#mathdesign",
+        "#DejaVuSansMono",
+        "#beamerfontthemeserif",
+        "T1#fontenc",
+        "#subcaption",
+        "#fontspec",
+        "#orcidlink",
+        "#gensymb"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "7#Fundamentals of Cell Biology#81",
+        "8#Cell#82",
+        "7#Fundamentals of Cell Biology#103",
+        "8#Characteristics of Living Things#104",
+        "7#Fundamentals of Cell Biology#138",
+        "8#Signal Transduction#139",
+        "7#Fundamentals of Cell Biology#153",
+        "8#Signal Transduction#154",
+        "7#Fundamentals of Cell Biology#169",
+        "8#Signal Transduction#170",
+        "7#Fundamentals of Cell Biology#192",
+        "8#Reception#193",
+        "7#Fundamentals of Cell Biology#212",
+        "8#Reception#213",
+        "7#Fundamentals of Cell Biology#234",
+        "8#Reception#235",
+        "7#Fundamentals of Cell Biology#253",
+        "8#Intracellular Receptors#254",
+        "7#Fundamentals of Cell Biology#273",
+        "8#Transduction#274",
+        "7#Fundamentals of Cell Biology#291",
+        "8#Transduction#292",
+        "7#Fundamentals of Cell Biology#310",
+        "8#Response#311",
+        "7#Fundamentals of Cell Biology#331",
+        "8#Response#332",
+        "7#Fundamentals of Molecular Biology#356",
+        "8#DNA and Genetic Information Flow#357",
+        "7#Fundamentals of Molecular Biology#366",
+        "8#Parts of Gene#367",
+        "7#Fundamentals of Molecular Biology#380",
+        "8#Promoter and Terminator#381",
+        "7#Fundamentals of Molecular Biology#396",
+        "8#Transcriptional Activators#397",
+        "7#Fundamentals of Molecular Biology#411",
+        "8#Mediators#412",
+        "7#Fundamentals of Molecular Biology#425",
+        "8#Coding and Non-Coding Regions#426",
+        "7#Fundamentals of Molecular Biology#446",
+        "8#RNA Splicing#447",
+        "7#\\textit{In Silico} Analysis#467",
+        "8#Definition#468",
+        "7#\\textit{In Silico} Analysis#481",
+        "8#Bioinformatics#482",
+        "7#Bioinformatics#504",
+        "8#Example of bioinformatics study#505",
+        "7#Bioinformatics#514",
+        "8#Molecular Docking#515"
+    ],
+    "usercommands": [
+        [
+            "\\lbx@@finallistdelim",
+            "\\lbx@@finallistdelim"
+        ],
+        [
+            "\\lbx@@finalnamedelim",
+            "\\lbx@@finalnamedelim"
+        ],
+        [
+            "\\etl",
+            "\\etl"
+        ]
+    ]
+}

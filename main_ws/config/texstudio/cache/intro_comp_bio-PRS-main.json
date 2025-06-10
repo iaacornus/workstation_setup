@@ -1,0 +1,204 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/var/home/iaacornus/Documents/lectures/intro_comp_bio/intro_comp_bio-REF.bib#intro_comp_bio-REF.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/var/home/iaacornus/Documents/lectures/intro_comp_bio/intro_comp_bio-PRS-main.tex",
+    "labels": [
+    ],
+    "modified": "Fri Mar 7 20:51:50 2025",
+    "packages": [
+        "#booktabs",
+        "#csquotes",
+        "aspectratio=169, 10pt#class-beamer",
+        "aspectratio=169, 10pt#latex-document",
+        "aspectratio=169, 10pt#tex",
+        "#setspace",
+        "#gensymb",
+        "#relsize",
+        "T1#fontenc",
+        "scaled=0.9#DejaVuSansMono",
+        "#textcomp",
+        "#xcolor",
+        "#listings",
+        "backend=bibtex#biblatex",
+        "#gensymb",
+        "#physics",
+        "#orcidlink",
+        "#footmisc",
+        "#graphicx",
+        "#amsmath",
+        "#beamerfontthemeserif",
+        "#ragged2e",
+        "#mlmodern",
+        "#mathtools",
+        "#amsfonts",
+        "#mhchem",
+        "#multirow",
+        "#subcaption",
+        "#beamerthemeBoadilla",
+        "#array",
+        "#systeme",
+        "#bigints",
+        "#caption"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "7#Case Study: Cancer#157",
+        "8#Brief Review of Cancer#158",
+        "7#Case Study: Cancer#168",
+        "8#Molecular Hallmarks of Cancer#169",
+        "7#Case Study: Cancer#180",
+        "8#Growth Signal Pathway in Cancer#181",
+        "7#Case Study: Cancer#191",
+        "8#p53 Signaling Pathway#192",
+        "7#Case Study: Cancer#202",
+        "8#Resveratrol and Its Derivatives Against Cancer#203",
+        "7#Case Study: Cancer#236",
+        "8#Binding Site Analysis of Resveratrol Derivatives#237",
+        "7#Case Study: Psychosis, Anxiety and Depression#258",
+        "8#\\ce{5-HT_{2A}} and \\ce{D_2DR} Involved Neuro- Psychological/Biological Disorders#259",
+        "7#Determination of Drug Activity#286",
+        "8#Brief Insight on Molecular Pharmacology#287",
+        "7#Determination of Drug Activity#304",
+        "8#Preview of Computational Biology#305",
+        "7#The Good, The Bad and The \\textbf{Ugly}#329",
+        "8#How to Model a Protein#330",
+        "7#The Good, The Bad and The \\textbf{Ugly}#341",
+        "8#Computational Biology vs Bioinformatics vs ``\\textit{In silico}'' Studies#342",
+        "7#Workshop Contents and Syllabus#360",
+        "8#Description#361",
+        "7#Workshop Contents and Syllabus#375",
+        "8#Prerequisites#376",
+        "7#Workshop Contents and Syllabus#396",
+        "8#Overview of Contents#397",
+        "7#Workshop Contents and Syllabus#426",
+        "8#Overview of Contents#427",
+        "7#Workshop Contents#454",
+        "8#Overview of Contents#455",
+        "7#Workshop Contents#474",
+        "8#Overview of Contents#475",
+        "7#Workshop Contents#491",
+        "8#Overview of Contents#492",
+        "7#Workshop Contents#516",
+        "7#References#535"
+    ],
+    "usercommands": [
+        [
+            "",
+            "%color%myblue"
+        ],
+        [
+            "\\eq",
+            "\\eq{}"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "",
+            "\\sum_{i=1}"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "\\fig",
+            "\\fig{}"
+        ],
+        [
+            "\\captioneq",
+            "\\captioneq{}"
+        ],
+        [
+            "\\thecaptioneq",
+            "\\thecaptioneq"
+        ],
+        [
+            "\\lbx@@finalnamedelim",
+            "\\lbx@@finalnamedelim"
+        ],
+        [
+            "\\captioneqset",
+            "\\captioneqset{}"
+        ],
+        [
+            "",
+            "\\sum_{i=1}"
+        ],
+        [
+            "",
+            "\\sum_{i=1}"
+        ],
+        [
+            "",
+            "\\prod_{j=1}"
+        ],
+        [
+            "",
+            "\\sum_{i=1}"
+        ],
+        [
+            "",
+            "%color%codegreen"
+        ],
+        [
+            "\\code",
+            "\\code{}"
+        ],
+        [
+            "",
+            "%color%codepurple"
+        ],
+        [
+            "\\eqs",
+            "\\eqs{}"
+        ],
+        [
+            "\\etl",
+            "\\etl"
+        ],
+        [
+            "",
+            "%color%codegray"
+        ],
+        [
+            "",
+            "\\boldsymbol{M}"
+        ],
+        [
+            "",
+            "\\mathcal{L}"
+        ],
+        [
+            "\\thecaptioneqset",
+            "\\thecaptioneqset"
+        ],
+        [
+            "\\lbx@@finallistdelim",
+            "\\lbx@@finallistdelim"
+        ],
+        [
+            "",
+            "\\mathcal{L}"
+        ],
+        [
+            "",
+            "\\mathcal{L}"
+        ],
+        [
+            "",
+            "\\mathcal{L}"
+        ],
+        [
+            "",
+            "\\mathcal{L}"
+        ]
+    ]
+}

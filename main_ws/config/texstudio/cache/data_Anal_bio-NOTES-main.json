@@ -1,0 +1,149 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/var/home/iaacornus/Documents/lectures/data_Anal_bio/NOTES/data_Anal_bio-REF.bib#data_Anal_bio-REF"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/var/home/iaacornus/Documents/lectures/data_Anal_bio/NOTES/data_Anal_bio-NOTES-main.tex",
+    "labels": [
+    ],
+    "modified": "Thu Jun 5 02:39:15 2025",
+    "packages": [
+        "#booktabs",
+        "#mlmodern",
+        "T1#fontenc",
+        "#amsfonts",
+        "#caption",
+        "colorlinks,allcolors=blue#hyperref",
+        "colorlinks,allcolors=blue#nameref",
+        "#mathtools",
+        "#lscape",
+        "#orcidlink",
+        "#graphicx",
+        "#footmisc",
+        "#textcomp",
+        "12pt#latex-document",
+        "12pt#tex",
+        "#subcaption",
+        "#indentfirst",
+        "#setspace",
+        "#mhchem",
+        "#relsize",
+        "#physics",
+        "#sectsty",
+        "#array",
+        "#fancyhdr",
+        "#csquotes",
+        "#amsmath",
+        "#xcolor",
+        "shortlabels#enumitem",
+        "#gensymb",
+        "margin=1in, a4paper#geometry",
+        "#bigints",
+        "backend=bibtex#biblatex",
+        "scaled=0.9#DejaVuSansMono",
+        "#multirow",
+        "#tocloft",
+        "#ragged2e",
+        "#multicol",
+        "#systeme",
+        "affil-it#authblk",
+        "#listings"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "2#Summary#176",
+        "2#Data Types#180",
+        "2#Fundamental Data Relationships#184",
+        "2#``Wrong'' Plot: Choosing the Best Plot#188",
+        "2#Components of Plots for Informative Data Representation#192",
+        "2#Common Mistakes in Creating Plots#196",
+        "2#Informative and Compelling Data Visualization#200",
+        "2#Notes for Creating Better Plots#204"
+    ],
+    "usercommands": [
+        [
+            "\\lbx@@finallistdelim",
+            "\\lbx@@finallistdelim"
+        ],
+        [
+            "",
+            "%color%codegreen"
+        ],
+        [
+            "\\thecaptioneq",
+            "\\thecaptioneq"
+        ],
+        [
+            "\\captioneq",
+            "\\captioneq{}"
+        ],
+        [
+            "\\eqs",
+            "\\eqs{}"
+        ],
+        [
+            "\\cftsecfont",
+            "\\cftsecfont"
+        ],
+        [
+            "\\thecaptioneqset",
+            "\\thecaptioneqset"
+        ],
+        [
+            "\\keywords",
+            "\\keywords{}"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "\\etl",
+            "\\etl"
+        ],
+        [
+            "\\eq",
+            "\\eq{}"
+        ],
+        [
+            "",
+            "%color%codegray"
+        ],
+        [
+            "\\fig",
+            "\\fig{}"
+        ],
+        [
+            "\\code",
+            "\\code{}"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "\\thefootnote",
+            "\\thefootnote"
+        ],
+        [
+            "",
+            "%color%codepurple"
+        ],
+        [
+            "\\captioneqset",
+            "\\captioneqset{}"
+        ],
+        [
+            "\\lbx@@finalnamedelim",
+            "\\lbx@@finalnamedelim"
+        ],
+        [
+            "\\cftsecpagefont",
+            "\\cftsecpagefont"
+        ]
+    ]
+}

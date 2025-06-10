@@ -1,0 +1,149 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/var/home/iaacornus/Documents/lectures/intro_cadd/intro_cadd-REF.bib#intro_cadd-REF.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/var/home/iaacornus/Documents/lectures/intro_cadd/intro_cadd-PRS-main.tex",
+    "labels": [
+    ],
+    "modified": "Wed Nov 27 10:27:18 2024",
+    "packages": [
+        "#booktabs",
+        "#multirow",
+        "#orcidlink",
+        "#bigints",
+        "#mhchem",
+        "#mathtools",
+        "#gensymb",
+        "#gensymb",
+        "#mlmodern",
+        "T1#fontenc",
+        "#beamerfontthemeserif",
+        "#amsmath",
+        "#array",
+        "#graphicx",
+        "#setspace",
+        "#ragged2e",
+        "#physics",
+        "#xcolor",
+        "#systeme",
+        "#csquotes",
+        "backend=bibtex#biblatex",
+        "#beamerthemeBoadilla",
+        "#textcomp",
+        "#amsfonts",
+        "scaled=0.9#DejaVuSansMono",
+        "aspectratio=169, 10pt#class-beamer",
+        "aspectratio=169, 10pt#latex-document",
+        "aspectratio=169, 10pt#tex",
+        "#footmisc",
+        "#listings",
+        "#caption",
+        "#relsize",
+        "#subcaption"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "7#Pharmacodynamics: Drug, Receptors, and Effects#156",
+        "8#Mechanism of Drug Permeation#157",
+        "7#Pharmacodynamics: Drug, Receptors, and Effects#168",
+        "8#Drugs and Receptors#169",
+        "7#Pharmacodynamics: Drug, Receptors, and Effects#188",
+        "8#Drug Action and Signal Transduction Pathway#189",
+        "7#Pharmacodynamics: Drug, Receptors, and Effects#207",
+        "8#Drug Action and Signal Transduction Pathway#208",
+        "7#Pharmacodynamics: Drug, Receptors, and Effects#218",
+        "8#Drug and Receptor Interactions#219",
+        "7#Pharmacodynamics: Drug, Receptors, and Effects#237",
+        "8#Drug Molecular Structure and Binding Affinity#238",
+        "7#Pharmacodynamics: Drug, Receptors, and Effects#248",
+        "8#Binding Affinity and Drug Activity#249",
+        "7#Pharmacodynamics: Drug, Receptors, and Effects#268",
+        "8#Receptor Occupancy and Drug Response#269",
+        "7#Computer-Aided Drug Discovery (CADD)#287",
+        "8#CADD Workflow for Large Scale Docking#288",
+        "7#Computer-Aided Drug Discovery (CADD)#298",
+        "8#CADD Workflow for Drug-Like Search#299",
+        "7#First Phase of CADD: Ligand Preparation#309",
+        "8#Ligand Databases and Chemical Library#310",
+        "7#The EMBL-EBI ChEMBL Database#337",
+        "8#Summary of ChEMBL Quantities of Different Entities#338",
+        "7#The EMBL-EBI ChEMBL Database#357",
+        "8#Webservices and Database Schema#358",
+        "7#References#369"
+    ],
+    "usercommands": [
+        [
+            "\\captioneqset",
+            "\\captioneqset{}"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "",
+            "%color%codepurple"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "\\captioneq",
+            "\\captioneq{}"
+        ],
+        [
+            "\\eq",
+            "\\eq{}"
+        ],
+        [
+            "\\lbx@@finallistdelim",
+            "\\lbx@@finallistdelim"
+        ],
+        [
+            "\\thecaptioneqset",
+            "\\thecaptioneqset"
+        ],
+        [
+            "",
+            "%color%codegray"
+        ],
+        [
+            "",
+            "%color%myblue"
+        ],
+        [
+            "",
+            "%color%codegreen"
+        ],
+        [
+            "\\code",
+            "\\code{}"
+        ],
+        [
+            "\\eqs",
+            "\\eqs{}"
+        ],
+        [
+            "\\fig",
+            "\\fig{}"
+        ],
+        [
+            "\\thecaptioneq",
+            "\\thecaptioneq"
+        ],
+        [
+            "\\lbx@@finalnamedelim",
+            "\\lbx@@finalnamedelim"
+        ],
+        [
+            "\\etl",
+            "\\etl"
+        ]
+    ]
+}

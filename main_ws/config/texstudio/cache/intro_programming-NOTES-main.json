@@ -1,0 +1,133 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/var/home/iaacornus/Documents/lectures/intro_programming/NOTES/intro_programming-REF.bib#intro_programming-REF.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/var/home/iaacornus/Documents/lectures/intro_programming/NOTES/intro_programming-NOTES-main.tex",
+    "labels": [
+        "code:4",
+        "code:2",
+        "eqs:1",
+        "code:1",
+        "code:3"
+    ],
+    "modified": "Fri Nov 1 03:11:17 2024",
+    "packages": [
+        "#bigints",
+        "#graphicx",
+        "#amsmath",
+        "#indentfirst",
+        "#relsize",
+        "#lscape",
+        "#amsfonts",
+        "#footmisc",
+        "#systeme",
+        "#sectsty",
+        "#fancyhdr",
+        "#booktabs",
+        "#physics",
+        "#csquotes",
+        "#tikzlibraryarrows.meta",
+        "#ragged2e",
+        "#mlmodern",
+        "colorlinks,allcolors=blue#hyperref",
+        "colorlinks,allcolors=blue#nameref",
+        "#array",
+        "backend=bibtex#biblatex",
+        "#textcomp",
+        "shortlabels#enumitem",
+        "#subcaption",
+        "#setspace",
+        "#mhchem",
+        "#tikz",
+        "#nicematrix",
+        "#mathtools",
+        "T1#fontenc",
+        "#gensymb",
+        "#listings",
+        "#xcolor",
+        "margin=1in, a4paper#geometry",
+        "#multicol",
+        "12pt#latex-document",
+        "12pt#tex",
+        "#orcidlink",
+        "#caption",
+        "affil-it#authblk",
+        "scaled=0.9#DejaVuSansMono"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "2#Programming, Algorithms and Programs#166",
+        "2#Code Equivalence#202",
+        "2#An Example of Algorithm#226",
+        "3#Location of Antimicrobial Peptide MAGAININ1#259",
+        "2#Mathematical Equations in Programming#291",
+        "3#Saturation Function in C#297"
+    ],
+    "usercommands": [
+        [
+            "\\thefootnote",
+            "\\thefootnote"
+        ],
+        [
+            "\\lbx@@finalnamedelim",
+            "\\lbx@@finalnamedelim"
+        ],
+        [
+            "\\thecaptioneqset",
+            "\\thecaptioneqset"
+        ],
+        [
+            "\\captioneqset",
+            "\\captioneqset{}"
+        ],
+        [
+            "\\fig",
+            "\\fig{}"
+        ],
+        [
+            "\\captioneq",
+            "\\captioneq{}"
+        ],
+        [
+            "\\thecaptioneq",
+            "\\thecaptioneq"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "\\lbx@@finallistdelim",
+            "\\lbx@@finallistdelim"
+        ],
+        [
+            "\\eqs",
+            "\\eqs{}"
+        ],
+        [
+            "\\keywords",
+            "\\keywords{}"
+        ],
+        [
+            "\\arraystretch",
+            "\\arraystretch"
+        ],
+        [
+            "\\etl",
+            "\\etl"
+        ],
+        [
+            "\\code",
+            "\\code{}"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ]
+    ]
+}

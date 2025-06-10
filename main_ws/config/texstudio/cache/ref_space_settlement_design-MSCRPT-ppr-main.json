@@ -1,0 +1,115 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+    ],
+    "childdocs": [
+    ],
+    "filename": "/var/home/iaacornus/Documents/assessment_space_settlement_design-RXIV/MSCRPT/ref_draft/ref_space_settlement_design-MSCRPT-ppr-main.tex",
+    "labels": [
+        "eq:1",
+        "eq:7",
+        "eq:3",
+        "eq:2",
+        "fig:1",
+        "fig:1b",
+        "eq:4",
+        "fig:1a",
+        "eq:5",
+        "eq:13"
+    ],
+    "modified": "Wed Nov 27 15:50:44 2024",
+    "packages": [
+        "#multicol",
+        "#xcolor",
+        "#subcaption",
+        "#gensymb",
+        "#enumitem",
+        "#graphicx",
+        "#cuted",
+        "#mathtools",
+        "#textcomp",
+        "#indentfirst",
+        "#tikzlibraryarrows",
+        "#tikzlibrarypositioning",
+        "a4paper, 12pt, twocolumn#latex-document",
+        "a4paper, 12pt, twocolumn#tex",
+        "#DejaVuSansMono",
+        "#csquotes",
+        "#systeme",
+        "#sectsty",
+        "#tikz",
+        "margin=1in#geometry",
+        "#cuted",
+        "bottom, symbol#footmisc",
+        "#listings",
+        "#tikzlibrarydecorations.markings",
+        "#xcolor",
+        "#tikzlibrarydecorations.pathmorphing",
+        "#amsmath",
+        "bitstream-charter#mathdesign",
+        "T1#fontenc"
+    ],
+    "refs": [
+        "eq:6",
+        "eq:7"
+    ],
+    "toc": [
+        "2#Introduction\\centering#89",
+        "2#{Methodology}\\centering#147",
+        "2#\\textit{Materials}\\centering#149",
+        "2#\\textit{Methods}\\centering#159",
+        "3#\\textit{In silico} radiation shielding simulation#164",
+        "4#\\textit{Theoretical background}#168",
+        "4#\\textit{Solution to Bethe-Bloch equation}#192",
+        "3#Plant growth experiment#247",
+        "4#\\textit{Planting of lettuce}#251",
+        "4#\\textit{Planting of tomato}#255",
+        "3#Evaluation of life reaction#259",
+        "4#\\textit{Microbial growth in Winogradsky Column}#261",
+        "4#\\textit{Evaluation of the crop}#267",
+        "3#Data collection#271",
+        "4#\\textit{Observation of the growth rate}#273",
+        "3#Automated calculation and computer simulation#284",
+        "3#Statistical analysis#292",
+        "2#Results and Discussion\\centering#298",
+        "3#Radiation shielding simulation#302",
+        "3#Non relativistic energies, $\\beta < 0.1$#363",
+        "4#\\textit{Candidate materials against protons}#365",
+        "2#References\\centering#387"
+    ],
+    "usercommands": [
+        [
+            "\\reff",
+            "\\reff{}"
+        ],
+        [
+            "\\citee",
+            "\\citee{}"
+        ],
+        [
+            "\\ev",
+            "\\ev"
+        ],
+        [
+            "\\fig",
+            "\\fig{}"
+        ],
+        [
+            "\\lab",
+            "\\lab{}"
+        ],
+        [
+            "\\figurename",
+            "\\figurename"
+        ],
+        [
+            "\\etl",
+            "\\etl"
+        ],
+        [
+            "\\thefootnote",
+            "\\thefootnote"
+        ]
+    ]
+}

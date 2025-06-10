@@ -1,0 +1,152 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/var/home/iaacornus/Documents/journal_article_review/oqs_dna/TCHNL-ppr/oqs_dna-REF.bib#oqs_dna-REF.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/var/home/iaacornus/Documents/journal_article_review/oqs_dna/TCHNL-ppr/oqs_dna-TCHNL-ppr-main.tex",
+    "labels": [
+        "eq:2",
+        "eq:4",
+        "eq:3",
+        "eq:1"
+    ],
+    "modified": "Wed Nov 27 15:53:54 2024",
+    "packages": [
+        "#relsize",
+        "colorlinks,allcolors=blue#hyperref",
+        "colorlinks,allcolors=blue#nameref",
+        "#systeme",
+        "#bigints",
+        "#xcolor",
+        "#ragged2e",
+        "#orcidlink",
+        "#listings",
+        "#mathtools",
+        "#fancyhdr",
+        "#amsfonts",
+        "T1#fontenc",
+        "#cuted",
+        "#footmisc",
+        "#gensymb",
+        "12pt, twocolumn#latex-document",
+        "12pt, twocolumn#tex",
+        "shortlabels#enumitem",
+        "#setspace",
+        "#array",
+        "#sectsty",
+        "#csquotes",
+        "#physics",
+        "#subcaption",
+        "#indentfirst",
+        "#mhchem",
+        "#caption",
+        "backend=bibtex#biblatex",
+        "affil-it#authblk",
+        "#textcomp",
+        "#graphicx",
+        "#multicol",
+        "scaled=0.9#DejaVuSansMono",
+        "#mlmodern",
+        "margin=1in, a4paper#geometry",
+        "#lscape",
+        "#amsmath",
+        "#booktabs"
+    ],
+    "refs": [
+    ],
+    "toc": [
+    ],
+    "usercommands": [
+        [
+            "\\etl",
+            "\\etl"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "",
+            "%color%codepurple"
+        ],
+        [
+            "",
+            "\\mathcal{O}"
+        ],
+        [
+            "",
+            "\\Gamma_{qm}"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "\\lbx@@finalnamedelim",
+            "\\lbx@@finalnamedelim"
+        ],
+        [
+            "",
+            "%color%codegray"
+        ],
+        [
+            "",
+            "\\mathcal{H}"
+        ],
+        [
+            "",
+            "\\hat{h}"
+        ],
+        [
+            "",
+            "\\mathcal{T}"
+        ],
+        [
+            "\\captioneqset",
+            "\\captioneqset{}"
+        ],
+        [
+            "\\keywords",
+            "\\keywords{}"
+        ],
+        [
+            "\\thecaptioneq",
+            "\\thecaptioneq"
+        ],
+        [
+            "",
+            "\\mathcal{H}"
+        ],
+        [
+            "\\thefootnote",
+            "\\thefootnote"
+        ],
+        [
+            "\\fig",
+            "\\fig{}"
+        ],
+        [
+            "\\lbx@@finallistdelim",
+            "\\lbx@@finallistdelim"
+        ],
+        [
+            "\\thecaptioneqset",
+            "\\thecaptioneqset"
+        ],
+        [
+            "\\eqs",
+            "\\eqs{}"
+        ],
+        [
+            "\\captioneq",
+            "\\captioneq{}"
+        ],
+        [
+            "",
+            "%color%codegreen"
+        ]
+    ]
+}

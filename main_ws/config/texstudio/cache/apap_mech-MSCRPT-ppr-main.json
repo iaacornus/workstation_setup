@@ -1,0 +1,142 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/var/home/iaacornus/Documents/apap_mech/MSCRPT/apap_mech-REF.bib#apap_mech-REF.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/var/home/iaacornus/Documents/apap_mech/MSCRPT/apap_mech-MSCRPT-ppr-main.tex",
+    "labels": [
+    ],
+    "modified": "Thu Nov 28 16:44:54 2024",
+    "packages": [
+        "#mathtools",
+        "#array",
+        "margin=1in, a4paper#geometry",
+        "#indentfirst",
+        "#bigints",
+        "#setspace",
+        "#listings",
+        "12pt#latex-document",
+        "12pt#tex",
+        "backend=bibtex#biblatex",
+        "colorlinks,allcolors=blue#hyperref",
+        "colorlinks,allcolors=blue#nameref",
+        "#relsize",
+        "#sectsty",
+        "#footmisc",
+        "#csquotes",
+        "#subcaption",
+        "#amsmath",
+        "#lscape",
+        "#mlmodern",
+        "#gensymb",
+        "#systeme",
+        "#physics",
+        "#amsfonts",
+        "#xcolor",
+        "shortlabels#enumitem",
+        "#multicol",
+        "#caption",
+        "#textcomp",
+        "#mhchem",
+        "T1#fontenc",
+        "#orcidlink",
+        "#graphicx",
+        "#ragged2e",
+        "scaled=0.9#DejaVuSansMono",
+        "affil-it#authblk",
+        "#booktabs",
+        "#multirow"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "2#Introduction#159",
+        "2#Methodology#175",
+        "3#title#183",
+        "3#Molecular Docking#185",
+        "3#Molecular Dynamics Simulation#187",
+        "3#Molecular Fingerprint Similarity#235",
+        "2#Results and Discussion#240"
+    ],
+    "usercommands": [
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "\\lbx@@finallistdelim",
+            "\\lbx@@finallistdelim"
+        ],
+        [
+            "",
+            "%color%codepurple"
+        ],
+        [
+            "\\eq",
+            "\\eq{}"
+        ],
+        [
+            "\\captioneqset",
+            "\\captioneqset{}"
+        ],
+        [
+            "\\code",
+            "\\code{}"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "\\lbx@@finalnamedelim",
+            "\\lbx@@finalnamedelim"
+        ],
+        [
+            "\\etl",
+            "\\etl"
+        ],
+        [
+            "\\captioneq",
+            "\\captioneq{}"
+        ],
+        [
+            "\\eqs",
+            "\\eqs{}"
+        ],
+        [
+            "\\keywords",
+            "\\keywords{}"
+        ],
+        [
+            "\\fig",
+            "\\fig{}"
+        ],
+        [
+            "",
+            "\\sum_{i=0}"
+        ],
+        [
+            "\\thefootnote",
+            "\\thefootnote"
+        ],
+        [
+            "",
+            "%color%codegray"
+        ],
+        [
+            "\\thecaptioneq",
+            "\\thecaptioneq"
+        ],
+        [
+            "",
+            "%color%codegreen"
+        ],
+        [
+            "\\thecaptioneqset",
+            "\\thecaptioneqset"
+        ]
+    ]
+}

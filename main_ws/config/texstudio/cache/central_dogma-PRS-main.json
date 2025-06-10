@@ -1,0 +1,106 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/var/home/iaacornus/Documents/lectures/central_dogma/PRS/central_dogma-REF.bib#central_dogma-REF.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/var/home/iaacornus/Documents/lectures/central_dogma/PRS/central_dogma-PRS-main.tex",
+    "labels": [
+    ],
+    "modified": "Tue Oct 22 00:44:39 2024",
+    "packages": [
+        "#beamerthemeBoadilla",
+        "#physics",
+        "#mlmodern",
+        "#graphicx",
+        "#csquotes",
+        "aspectratio=169, 10pt#class-beamer",
+        "aspectratio=169, 10pt#latex-document",
+        "aspectratio=169, 10pt#tex",
+        "#footmisc",
+        "#array",
+        "#subcaption",
+        "#orcidlink",
+        "#ragged2e",
+        "#beamerfontthemeserif",
+        "#amsfonts",
+        "#gensymb",
+        "#amsmath",
+        "#mathtools",
+        "#setspace",
+        "#xcolor",
+        "#bigints",
+        "#systeme",
+        "#textcomp",
+        "#listings",
+        "#relsize",
+        "#booktabs",
+        "backend=bibtex#biblatex",
+        "#caption",
+        "T1#fontenc",
+        "#mhchem",
+        "#gensymb",
+        "scaled=0.9#DejaVuSansMono"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "7#References#155"
+    ],
+    "usercommands": [
+        [
+            "\\lbx@@finalnamedelim",
+            "\\lbx@@finalnamedelim"
+        ],
+        [
+            "\\eq",
+            "\\eq{}"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "\\lbx@@finallistdelim",
+            "\\lbx@@finallistdelim"
+        ],
+        [
+            "\\captioneq",
+            "\\captioneq{}"
+        ],
+        [
+            "\\thecaptioneq",
+            "\\thecaptioneq"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "\\etl",
+            "\\etl"
+        ],
+        [
+            "\\thecaptioneqset",
+            "\\thecaptioneqset"
+        ],
+        [
+            "\\fig",
+            "\\fig{}"
+        ],
+        [
+            "\\captioneqset",
+            "\\captioneqset{}"
+        ],
+        [
+            "\\eqs",
+            "\\eqs{}"
+        ],
+        [
+            "\\code",
+            "\\code{}"
+        ]
+    ]
+}

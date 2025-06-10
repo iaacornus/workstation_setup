@@ -1,0 +1,56 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+    ],
+    "childdocs": [
+    ],
+    "filename": "/var/home/iaacornus/Documents/space_settlement_design/assessment_space_settlement_design-RXIV/MSCRPT-RXIV/two_column-MSCRPT-RXIV/two_columns_space_settlement_design-MSCRPT-ppr-main-2.tex",
+    "labels": [
+        "eq:1"
+    ],
+    "modified": "Sun Jan 8 02:50:06 2023",
+    "packages": [
+        "#footmisc",
+        "#amsmath",
+        "12pt, a4paper#latex-document",
+        "12pt, a4paper#tex",
+        "#subcaption",
+        "T1#fontenc",
+        "#graphicx",
+        "#xcolor",
+        "bitstream-charter#mathdesign",
+        "left=1.5in,right=1.2in,top=1in,bottom=1in#geometry",
+        "#DejaVuSansMono",
+        "#indentfirst",
+        "#systeme"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "2#Introduction#29",
+        "2#Methodology#37",
+        "3#\\textit{In silico} radiation shielding simulation#38",
+        "4#\\textit{Bethe-Bloch equation}#39",
+        "4#\\textit{Automated calculations}#66",
+        "2#References#71"
+    ],
+    "usercommands": [
+        [
+            "\\ev",
+            "\\ev"
+        ],
+        [
+            "\\etl",
+            "\\etl"
+        ],
+        [
+            "\\citee",
+            "\\citee{}"
+        ],
+        [
+            "\\reff",
+            "\\reff{}"
+        ]
+    ]
+}

@@ -1,0 +1,133 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/var/home/iaacornus/Documents/anticancer_magainin/MSCRPT/anticancer_magainin-REF.bib#anticancer_magainin-REF.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/var/home/iaacornus/Documents/anticancer_magainin/MSCRPT/anticancer_magainin-MSCRPT-ppr-main.tex",
+    "labels": [
+    ],
+    "modified": "Thu Sep 19 19:04:48 2024",
+    "packages": [
+        "scaled=0.9#DejaVuSansMono",
+        "#physics",
+        "#graphicx",
+        "colorlinks,allcolors=blue#hyperref",
+        "colorlinks,allcolors=blue#nameref",
+        "#amsfonts",
+        "#booktabs",
+        "#csquotes",
+        "12pt#latex-document",
+        "12pt#tex",
+        "#subcaption",
+        "#ragged2e",
+        "#relsize",
+        "#textcomp",
+        "#listings",
+        "#array",
+        "affil-it#authblk",
+        "margin=1in, a4paper#geometry",
+        "#indentfirst",
+        "#sectsty",
+        "#multicol",
+        "#xcolor",
+        "#orcidlink",
+        "#mathtools",
+        "shortlabels#enumitem",
+        "T1#fontenc",
+        "#bigints",
+        "#mlmodern",
+        "#gensymb",
+        "#systeme",
+        "#amsmath",
+        "#caption",
+        "#footmisc",
+        "#mhchem",
+        "#setspace",
+        "backend=bibtex#biblatex",
+        "#lscape"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "2#Introduction#158",
+        "2#Methodology#163",
+        "2#Results and Discussion#168"
+    ],
+    "usercommands": [
+        [
+            "\\captioneq",
+            "\\captioneq{}"
+        ],
+        [
+            "\\thecaptioneq",
+            "\\thecaptioneq"
+        ],
+        [
+            "\\eq",
+            "\\eq{}"
+        ],
+        [
+            "\\lbx@@finalnamedelim",
+            "\\lbx@@finalnamedelim"
+        ],
+        [
+            "",
+            "%color%codepurple"
+        ],
+        [
+            "",
+            "%color%codegreen"
+        ],
+        [
+            "\\fig",
+            "\\fig{}"
+        ],
+        [
+            "\\code",
+            "\\code{}"
+        ],
+        [
+            "",
+            "%color%codegray"
+        ],
+        [
+            "\\keywords",
+            "\\keywords{}"
+        ],
+        [
+            "\\lbx@@finallistdelim",
+            "\\lbx@@finallistdelim"
+        ],
+        [
+            "\\thecaptioneqset",
+            "\\thecaptioneqset"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "\\captioneqset",
+            "\\captioneqset{}"
+        ],
+        [
+            "\\eqs",
+            "\\eqs{}"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "\\thefootnote",
+            "\\thefootnote"
+        ],
+        [
+            "\\etl",
+            "\\etl"
+        ]
+    ]
+}

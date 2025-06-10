@@ -1,0 +1,147 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/var/home/iaacornus/Documents/lectures/dna&gene/ref.bib#ref.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/var/home/iaacornus/Documents/lectures/dna&gene/dna&gene-PRS-main.tex",
+    "labels": [
+    ],
+    "modified": "Tue Oct 8 11:40:36 2024",
+    "packages": [
+        "#beamerfontthemeserif",
+        "aspectratio=169#class-beamer",
+        "aspectratio=169#latex-document",
+        "aspectratio=169#tex",
+        "#ragged2e",
+        "#setspace",
+        "#physics",
+        "#mathtools",
+        "#mhchem",
+        "#gensymb",
+        "#amsfonts",
+        "#subcaption",
+        "#indentfirst",
+        "backend=bibtex#biblatex",
+        "#DejaVuSansMono",
+        "#xcolor",
+        "#amsmath",
+        "#beamerthemeBoadilla",
+        "#footmisc",
+        "#graphicx",
+        "#mlmodern",
+        "T1#fontenc",
+        "#caption",
+        "#orcidlink",
+        "#gensymb"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "7#Genome#121",
+        "8#Cell, Nucleus and Genetic Materials#122",
+        "7#Genome#135",
+        "8#Cell, Nucleus and Genetic Materials#136",
+        "7#Genome#163",
+        "8#Cell, Nucleus and Genetic Material#164",
+        "7#Genome#182",
+        "8#Cell, Nucleus and Genetic Material#183",
+        "7#Genome#196",
+        "8#Cell, Nucleus and Genetic Material#197",
+        "7#Deoxyribonucleic acid (DNA)#220",
+        "8#Information Transfer of Organisms#221",
+        "7#Deoxyribonucleic acid (DNA)#241",
+        "8#Structure of DNA#242",
+        "7#Deoxyribonucleic acid (DNA)#266",
+        "8#Structure of DNA#267",
+        "7#Deoxyribonucleic acid (DNA)#285",
+        "8#Structure of DNA#286",
+        "7#Deoxyribonucleic acid (DNA)#308",
+        "8#Structure of DNA#309",
+        "7#Deoxyribonucleic acid (DNA)#321",
+        "8#Structure of DNA#322",
+        "7#Gene#331",
+        "8#DNA and Gene#332",
+        "7#Gene#345",
+        "8#DNA and Gene#346",
+        "7#Gene#359",
+        "8#DNA and Gene#360",
+        "7#Gene#373",
+        "8#Gene Expression#374",
+        "7#Gene#396",
+        "8#Gene Expression#397",
+        "7#Gene#410",
+        "8#Gene Expression#411",
+        "7#Gene#425",
+        "8#Gene Expression#426",
+        "7#Gene#439",
+        "8#Transcriptional Activators#440",
+        "7#Gene#455",
+        "8#Promoters and Terminators#456",
+        "7#Gene#470",
+        "8#Mediators#471",
+        "7#Gene#484",
+        "8#Coding and Non-Coding Regions#485",
+        "7#Gene#498",
+        "8#Introns#499",
+        "7#Fundamentals of Molecular Biology#519",
+        "8#RNA Splicing#520",
+        "7#Gene#533",
+        "8#Exons#534",
+        "7#Gene#547",
+        "8#Translation#548",
+        "7#References#560"
+    ],
+    "usercommands": [
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "\\captioneqset",
+            "\\captioneqset{}"
+        ],
+        [
+            "\\captioneq",
+            "\\captioneq{}"
+        ],
+        [
+            "\\fig",
+            "\\fig{}"
+        ],
+        [
+            "\\eq",
+            "\\eq{}"
+        ],
+        [
+            "\\thecaptioneq",
+            "\\thecaptioneq"
+        ],
+        [
+            "\\lbx@@finalnamedelim",
+            "\\lbx@@finalnamedelim"
+        ],
+        [
+            "\\lbx@@finallistdelim",
+            "\\lbx@@finallistdelim"
+        ],
+        [
+            "",
+            "%color%myblue"
+        ],
+        [
+            "\\thecaptioneqset",
+            "\\thecaptioneqset"
+        ],
+        [
+            "\\etl",
+            "\\etl"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ]
+    ]
+}

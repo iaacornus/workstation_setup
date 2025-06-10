@@ -1,0 +1,103 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+    ],
+    "childdocs": [
+    ],
+    "filename": "/var/home/iaacornus/Documents/astrobio_series/MSCRPT/astrobio_series_main-MSCRPT-ppr-main.tex",
+    "labels": [
+        "fig:1",
+        "eq:1",
+        "eq:3",
+        "eq:4",
+        "eq:2",
+        "ref:1",
+        "eq:5",
+        "fig:2",
+        "ref:4",
+        "ref:2",
+        "ref:3"
+    ],
+    "modified": "Tue Nov 21 07:57:08 2023",
+    "packages": [
+        "charter#mathdesign",
+        "#cite",
+        "#caption",
+        "#footmisc",
+        "#orcidlink",
+        "#chemfig",
+        "12pt#latex-document",
+        "12pt#tex",
+        "#amsmath",
+        "#graphicx",
+        "T1#fontenc",
+        "colorlinks,allcolors=blue#hyperref",
+        "colorlinks,allcolors=blue#nameref",
+        "#xcolor",
+        "margin=1in, a4paper#geometry",
+        "#amsfonts",
+        "#mathtools",
+        "#indentfirst",
+        "#DejaVuSansMono",
+        "#gensymb"
+    ],
+    "refs": [
+        "ref:2",
+        "ref:4",
+        "ref:3",
+        "ref:1",
+        "ref:1"
+    ],
+    "toc": [
+        "2#Introduction#58",
+        "2#Methodology#67",
+        "3#Simulation#71",
+        "4#\\emph{Relationship of variables}#72",
+        "4#\\emph{Formation of complex hydrocarbon molecules}#86",
+        "2#Results and Discussion#121",
+        "2#References#125"
+    ],
+    "usercommands": [
+        [
+            "\\keywords",
+            "\\keywords{}"
+        ],
+        [
+            "\\etl",
+            "\\etl"
+        ],
+        [
+            "",
+            "\\boldsymbol{ln}"
+        ],
+        [
+            "",
+            "\\sum_i"
+        ],
+        [
+            "",
+            "\\boldsymbol{ln}"
+        ],
+        [
+            "x",
+            "x"
+        ],
+        [
+            "n",
+            "n"
+        ],
+        [
+            "\\thefootnote",
+            "\\thefootnote"
+        ],
+        [
+            "\\eq",
+            "\\eq{}"
+        ],
+        [
+            "\\fig",
+            "\\fig{}"
+        ]
+    ]
+}

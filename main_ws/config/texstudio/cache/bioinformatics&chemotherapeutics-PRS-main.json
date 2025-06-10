@@ -1,0 +1,580 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/var/home/iaacornus/Documents/lectures/bioinformatics&chemotherapeutics/intro_binfor-REF.bib#intro_binfor-REF.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/var/home/iaacornus/Documents/lectures/bioinformatics&chemotherapeutics/bioinformatics&chemotherapeutics-PRS-main.tex",
+    "labels": [
+    ],
+    "modified": "Sun Oct 20 20:31:48 2024",
+    "packages": [
+        "T1#fontenc",
+        "#caption",
+        "#gensymb",
+        "#textcomp",
+        "#xcolor",
+        "#subcaption",
+        "#amsfonts",
+        "#mhchem",
+        "#systeme",
+        "#gensymb",
+        "#physics",
+        "#graphicx",
+        "#amsmath",
+        "#mlmodern",
+        "#setspace",
+        "backend=bibtex#biblatex",
+        "#array",
+        "aspectratio=169, 10pt#class-beamer",
+        "aspectratio=169, 10pt#latex-document",
+        "aspectratio=169, 10pt#tex",
+        "#footmisc",
+        "scaled=0.9#DejaVuSansMono",
+        "#ragged2e",
+        "#bigints",
+        "#orcidlink",
+        "#mathtools",
+        "#relsize",
+        "#booktabs",
+        "#beamerthemeBoadilla",
+        "#beamerfontthemeserif",
+        "#csquotes",
+        "#listings"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "7#Fundamentals of Molecular Biology#177",
+        "8#Nucleus as the Control Center of Cell#178",
+        "7#Fundamentals of Molecular Biology#188",
+        "8#Human X Chromosomes and Associated Traits#189",
+        "7#Fundamentals of Molecular Biology#206",
+        "8#Genetic Sequences and Nucleotides#207",
+        "7#Fundametals of Molecular Biology#224",
+        "8#A DNA Repair Mechanism#225",
+        "7#Fundamentals of Molecular Biology#235",
+        "8#Mutation Bias in \\textit{A. thaliana}#236",
+        "7#Fundamentals of Molecular Biology#250",
+        "8#Phylogenetic Tree of Life#251",
+        "7#Fundamentals of Molecular Biology#261",
+        "8#Phylogenetic Tree of Mammals#262",
+        "7#Fundamentals of Molecular Biology#276",
+        "8#Sequence Similarity of Human and Chimpanzee Leptin Gene#277",
+        "7#Fundamentals of Molecular Biology#292",
+        "8#Synteny of Human and Mouse Chromosomes#293",
+        "7#Fundamentals of Molecular Biology#315",
+        "8#The Importance of Genetic Conservation#316",
+        "7#Genome Sizes#326",
+        "8#Some of Encoded Metabolic Pathways#327",
+        "7#Genome Sizes#337",
+        "8#Comparison of Several Genome Sizes#338",
+        "7#Genome Sizes#377",
+        "8#\\textit{Mycoplasmoides genitalium} Genome Size#378",
+        "7#Genome Sizes#388",
+        "8#\\textit{Homo sapiens} Genome Size#389",
+        "7#Case Study of Cancer#407",
+        "8#Molecular Hallmarks#408",
+        "7#Case Study of Cancer#418",
+        "8#Cancer as a Disease#419",
+        "7#Case Study of Cancer#429",
+        "8#History#430",
+        "7#Case Study of Cancer#451",
+        "8#Humorism and ``\\textit{Cure}''#452",
+        "7#Genome Sizes#478",
+        "8#\\textit{Mycoplasmoides genitalium} Genome Size#479",
+        "7#Genome Sizes#489",
+        "8#Comparison of Several Genomes#490",
+        "7#Genome Sizes#529",
+        "8#Encoded Pathways#530",
+        "7#Genome Sizes#540",
+        "8#\\textit{Homo sapiens} Genome Size#541",
+        "7#Genome Sizes#559",
+        "8#\\textit{Homo sapiens} Genome Size#560",
+        "7#Size of Human gDNA#586",
+        "8#Rapid Approximation of Its Realistic Scale#587",
+        "7#Size of Human gDNA#637",
+        "8#Rapid Approximation of Its Realistic Scale#638",
+        "7#Size of Human gDNA#674",
+        "8#Rapid Approximation of Its Realistic Scale#675",
+        "7#Size of Human gDNA#701",
+        "8#Rapid Approximation of Its Realistic Scale#702",
+        "7#The Good, The Bad and The \\textbf{Ugly}#726",
+        "8#Computational Biology vs Bioinformatics vs ``\\textit{In silico}'' Studies#727",
+        "7#Bioinformatics as a Field#746",
+        "8#DNA Sequencing#747",
+        "7#Bioninformatics as a Field#757",
+        "8#DNA Sequencing#758",
+        "7#Bioinformatics as a Field#776",
+        "8#Differential Gene Expression#777",
+        "7#Bioinformatics as a Field#793",
+        "8#Differential Gene Expression#794",
+        "7#Bioinformatics as a Field#810",
+        "8#\\textit{p53} Signaling Pathway#811",
+        "7#Bioinformatics as a Field#821",
+        "8#Gene Sequence of Tumor Protein \\textit{p53}#822",
+        "7#Bioinformatics as a Field#843",
+        "8#Gene Expression of Tumor Protein \\textit{p53}#844",
+        "7#Bioinformatics as a Field#855",
+        "8#Function of Tumor Protein \\textit{p53}#856",
+        "7#Computational Biology as a Field#889",
+        "8#Resveratrol as Chemotherapeutic Agent Against Human Colorectal Cancer#890",
+        "7#Computational Biology as a Field#922",
+        "8#Resveratrol as Chemotherapeutic Agent Against Human Colorectal Cancer#923",
+        "7#Computational Biology as a Field#942",
+        "8#\\ce{5-HT_{2A}} and \\ce{D_2DR} Receptors Associated with Neuropsychological Disorders#943",
+        "7#Computational Biology as a Field#970",
+        "8#Determination of Drug Activity#971",
+        "7#Computational Biology as a Field#990",
+        "8#Determination of Drug Activity#991",
+        "7#References#1016"
+    ],
+    "usercommands": [
+        [
+            "",
+            "\\hat{w}"
+        ],
+        [
+            "",
+            "\\hat{\\ell}"
+        ],
+        [
+            "",
+            "\\hat{w}"
+        ],
+        [
+            "",
+            "\\hat{\\ell}"
+        ],
+        [
+            "\\etl",
+            "\\etl"
+        ],
+        [
+            "",
+            "%color%myblue"
+        ],
+        [
+            "",
+            "\\hat{\\ell}"
+        ],
+        [
+            "",
+            "\\mathcal{L}"
+        ],
+        [
+            "",
+            "\\hat{\\mathcal{L}}"
+        ],
+        [
+            "",
+            "\\mathcal{B}"
+        ],
+        [
+            "",
+            "\\mathcal{N}"
+        ],
+        [
+            "\\lbx@@finalnamedelim",
+            "\\lbx@@finalnamedelim"
+        ],
+        [
+            "",
+            "\\mathcal{B}"
+        ],
+        [
+            "",
+            "\\mathcal{L}"
+        ],
+        [
+            "",
+            "\\hat{\\mathcal{L}}"
+        ],
+        [
+            "",
+            "\\mathcal{L}"
+        ],
+        [
+            "",
+            "\\hat{\\mathcal{L}}"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "",
+            "\\hat{w}"
+        ],
+        [
+            "",
+            "\\hat{\\ell}"
+        ],
+        [
+            "\\eq",
+            "\\eq{}"
+        ],
+        [
+            "",
+            "%color%codegray"
+        ],
+        [
+            "",
+            "\\mathcal{W}"
+        ],
+        [
+            "",
+            "\\hat{\\mathcal{W}}"
+        ],
+        [
+            "",
+            "\\mathcal{L}"
+        ],
+        [
+            "",
+            "\\hat{\\mathcal{L}}"
+        ],
+        [
+            "",
+            "\\mathcal{W}"
+        ],
+        [
+            "",
+            "\\hat{\\mathcal{W}}"
+        ],
+        [
+            "",
+            "\\mathcal{L}"
+        ],
+        [
+            "",
+            "\\hat{\\mathcal{L}}"
+        ],
+        [
+            "",
+            "\\sum_{k=0}"
+        ],
+        [
+            "",
+            "\\mathcal{P}"
+        ],
+        [
+            "",
+            "\\mathcal{W}"
+        ],
+        [
+            "",
+            "\\hat{\\mathcal{W}}"
+        ],
+        [
+            "",
+            "\\mathcal{L}"
+        ],
+        [
+            "",
+            "\\hat{\\mathcal{L}}"
+        ],
+        [
+            "",
+            "\\boldsymbol{M}"
+        ],
+        [
+            "",
+            "\\mathcal{L}"
+        ],
+        [
+            "",
+            "\\mathcal{P}"
+        ],
+        [
+            "",
+            "\\mathcal{B}"
+        ],
+        [
+            "",
+            "\\mathcal{P}"
+        ],
+        [
+            "",
+            "\\mathcal{P}"
+        ],
+        [
+            "\\eqs",
+            "\\eqs{}"
+        ],
+        [
+            "",
+            "\\mathcal{L}"
+        ],
+        [
+            "",
+            "\\hat{\\mathcal{L}}"
+        ],
+        [
+            "",
+            "\\mathcal{L}"
+        ],
+        [
+            "",
+            "\\hat{\\mathcal{L}}"
+        ],
+        [
+            "",
+            "%color%codepurple"
+        ],
+        [
+            "\\thecaptioneq",
+            "\\thecaptioneq"
+        ],
+        [
+            "",
+            "\\hat{w}"
+        ],
+        [
+            "",
+            "\\mathcal{W}"
+        ],
+        [
+            "",
+            "\\hat{\\mathcal{W}}"
+        ],
+        [
+            "",
+            "\\mathcal{W}"
+        ],
+        [
+            "",
+            "\\hat{\\mathcal{W}}"
+        ],
+        [
+            "",
+            "\\hat{\\ell}"
+        ],
+        [
+            "",
+            "\\mathcal{L}"
+        ],
+        [
+            "",
+            "\\hat{\\mathcal{L}}"
+        ],
+        [
+            "",
+            "\\mathcal{L}"
+        ],
+        [
+            "",
+            "\\hat{\\mathcal{L}}"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "",
+            "\\mathcal{W}"
+        ],
+        [
+            "",
+            "\\hat{\\mathcal{W}}"
+        ],
+        [
+            "",
+            "\\mathcal{L}"
+        ],
+        [
+            "",
+            "\\hat{\\mathcal{L}}"
+        ],
+        [
+            "",
+            "\\hat{w}"
+        ],
+        [
+            "",
+            "\\hat{\\ell}"
+        ],
+        [
+            "",
+            "\\mathcal{W}"
+        ],
+        [
+            "",
+            "\\hat{\\mathcal{W}}"
+        ],
+        [
+            "",
+            "\\mathcal{W}"
+        ],
+        [
+            "",
+            "\\hat{\\mathcal{W}}"
+        ],
+        [
+            "",
+            "\\hat{w}"
+        ],
+        [
+            "",
+            "\\hat{\\ell}"
+        ],
+        [
+            "",
+            "\\hat{w}"
+        ],
+        [
+            "",
+            "\\hat{\\ell}"
+        ],
+        [
+            "",
+            "\\mathcal{P}"
+        ],
+        [
+            "",
+            "\\hat{\\ell}"
+        ],
+        [
+            "",
+            "\\hat{w}"
+        ],
+        [
+            "",
+            "\\mathcal{P}"
+        ],
+        [
+            "\\thecaptioneqset",
+            "\\thecaptioneqset"
+        ],
+        [
+            "",
+            "\\hat{w}"
+        ],
+        [
+            "",
+            "\\hat{\\ell}"
+        ],
+        [
+            "\\lbx@@finallistdelim",
+            "\\lbx@@finallistdelim"
+        ],
+        [
+            "\\captioneqset",
+            "\\captioneqset{}"
+        ],
+        [
+            "\\captioneq",
+            "\\captioneq{}"
+        ],
+        [
+            "",
+            "\\mathbf{84,349.09}"
+        ],
+        [
+            "",
+            "\\mathbf{130,741,344}"
+        ],
+        [
+            "",
+            "\\hat{w}"
+        ],
+        [
+            "",
+            "\\hat{\\ell}"
+        ],
+        [
+            "",
+            "\\hat{w}"
+        ],
+        [
+            "",
+            "\\hat{\\ell}"
+        ],
+        [
+            "",
+            "\\hat{w}"
+        ],
+        [
+            "",
+            "\\hat{\\ell}"
+        ],
+        [
+            "",
+            "\\hat{w}"
+        ],
+        [
+            "",
+            "\\mathcal{W}"
+        ],
+        [
+            "",
+            "\\hat{\\mathcal{W}}"
+        ],
+        [
+            "",
+            "\\mathcal{P}"
+        ],
+        [
+            "",
+            "\\mathcal{B}"
+        ],
+        [
+            "",
+            "\\mathcal{B}"
+        ],
+        [
+            "",
+            "\\mathcal{N}"
+        ],
+        [
+            "",
+            "\\mathcal{L}"
+        ],
+        [
+            "",
+            "\\mathcal{L}"
+        ],
+        [
+            "",
+            "\\mathcal{L}"
+        ],
+        [
+            "",
+            "\\mathcal{L}"
+        ],
+        [
+            "",
+            "%color%codegreen"
+        ],
+        [
+            "",
+            "\\mathcal{W}"
+        ],
+        [
+            "",
+            "\\hat{\\mathcal{W}}"
+        ],
+        [
+            "",
+            "\\mathcal{W}"
+        ],
+        [
+            "",
+            "\\hat{\\mathcal{W}}"
+        ],
+        [
+            "\\fig",
+            "\\fig{}"
+        ],
+        [
+            "",
+            "\\hat{\\ell}"
+        ],
+        [
+            "",
+            "\\hat{w}"
+        ]
+    ]
+}

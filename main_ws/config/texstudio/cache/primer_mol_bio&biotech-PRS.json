@@ -1,0 +1,141 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/var/home/iaacornus/Documents/lectures/primer_mol_bio&biotech/primer_mol_bio&biotech-REF.bib#primer_mol_bio&biotech-REF.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/var/home/iaacornus/Documents/lectures/primer_mol_bio&biotech/primer_mol_bio&biotech-PRS.tex",
+    "labels": [
+    ],
+    "modified": "Fri Mar 7 20:55:05 2025",
+    "packages": [
+        "#array",
+        "#xcolor",
+        "#systeme",
+        "#ragged2e",
+        "#mlmodern",
+        "#bigints",
+        "#textcomp",
+        "#gensymb",
+        "#listings",
+        "backend=bibtex#biblatex",
+        "#footmisc",
+        "#amsfonts",
+        "#csquotes",
+        "#beamerthemeBoadilla",
+        "#setspace",
+        "aspectratio=169, 10pt#class-beamer",
+        "aspectratio=169, 10pt#latex-document",
+        "aspectratio=169, 10pt#tex",
+        "#physics",
+        "#amsmath",
+        "#mathtools",
+        "scaled=0.9#DejaVuSansMono",
+        "#multirow",
+        "#booktabs",
+        "#gensymb",
+        "#graphicx",
+        "#caption",
+        "#relsize",
+        "T1#fontenc",
+        "#orcidlink",
+        "#beamerfontthemeserif",
+        "#subcaption",
+        "#mhchem"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "7#The Cell#157",
+        "8#Fundamental Building Blocks of Life#158",
+        "7#The Cell#167",
+        "8#Location of Genetic Materials#168",
+        "7#The Cell#186",
+        "8#Nucleus of Eukaryotic Cells#187",
+        "7#The Cell#204",
+        "8#Nucleus of Eukaryotic Cells#205",
+        "7#The Cell#215",
+        "8#Mitochondria and Chloroplast#216",
+        "7#The Cell#233",
+        "8#Chloroplast#234",
+        "7#Genome, Genes, and DNA#251",
+        "8#Genome of \\textit{E. coli}#252",
+        "7#Genome, Genes, and DNA#270",
+        "8#Unraveling the Chromosome#271",
+        "7#Genome, Genes, and DNA#288",
+        "8#Chromosome and Its Structure#289",
+        "7#References#308"
+    ],
+    "usercommands": [
+        [
+            "\\eqs",
+            "\\eqs{}"
+        ],
+        [
+            "",
+            "%color%myblue"
+        ],
+        [
+            "\\eq",
+            "\\eq{}"
+        ],
+        [
+            "\\lbx@@finalnamedelim",
+            "\\lbx@@finalnamedelim"
+        ],
+        [
+            "\\fig",
+            "\\fig{}"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "\\captioneqset",
+            "\\captioneqset{}"
+        ],
+        [
+            "",
+            "%color%codepurple"
+        ],
+        [
+            "\\etl",
+            "\\etl"
+        ],
+        [
+            "\\code",
+            "\\code{}"
+        ],
+        [
+            "\\lbx@@finallistdelim",
+            "\\lbx@@finallistdelim"
+        ],
+        [
+            "\\captioneq",
+            "\\captioneq{}"
+        ],
+        [
+            "\\thecaptioneqset",
+            "\\thecaptioneqset"
+        ],
+        [
+            "\\thecaptioneq",
+            "\\thecaptioneq"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "",
+            "%color%codegray"
+        ],
+        [
+            "",
+            "%color%codegreen"
+        ]
+    ]
+}

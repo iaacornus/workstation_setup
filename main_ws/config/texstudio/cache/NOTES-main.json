@@ -1,0 +1,116 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/var/home/iaacornus/.var/app/org.texstudio.TeXstudio/config/texstudio/templates/user/ \\makeatletter \\DefineBibliographyExtras{spanish}{    \\setcounter{smartand}{1}    \\let\\lbx@finalnamedelim=\\lbx@es@smartand     \\let\\lbx@finallistdelim=\\lbx@es@smartand .bib# \\makeatletter \\DefineBibliographyExtras{spanish}{    \\setcounter{smartand}{1}    \\let\\lbx@finalnamedelim=\\lbx@es@smartand     \\let\\lbx@finallistdelim=\\lbx@es@smartand "
+    ],
+    "childdocs": [
+    ],
+    "filename": "/var/home/iaacornus/.var/app/org.texstudio.TeXstudio/config/texstudio/templates/user/NOTES-main.tex",
+    "labels": [
+    ],
+    "modified": "Thu Dec 19 17:48:54 2024",
+    "packages": [
+        "affil-it#authblk",
+        "#textcomp",
+        "#indentfirst",
+        "#multirow",
+        "shortlabels#enumitem",
+        "#footmisc",
+        "T1#fontenc",
+        "#setspace",
+        "#xcolor",
+        "#orcidlink",
+        "#sectsty",
+        "scaled=0.9#DejaVuSansMono",
+        "#gensymb",
+        "colorlinks,allcolors=blue#hyperref",
+        "colorlinks,allcolors=blue#nameref",
+        "#csquotes",
+        "#mhchem",
+        "#caption",
+        "#fancyhdr",
+        "#amsfonts",
+        "margin=1in, a4paper#geometry",
+        "#array",
+        "#mlmodern",
+        "#ragged2e",
+        "#physics",
+        "#listings",
+        "#systeme",
+        "#relsize",
+        "#subcaption",
+        "#bigints",
+        "backend=bibtex#biblatex",
+        "#amsmath",
+        "#mathtools",
+        "#multicol",
+        "12pt#latex-document",
+        "12pt#tex",
+        "#lscape",
+        "#graphicx",
+        "#booktabs"
+    ],
+    "refs": [
+    ],
+    "toc": [
+    ],
+    "usercommands": [
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "\\thefootnote",
+            "\\thefootnote"
+        ],
+        [
+            "\\thecaptioneqset",
+            "\\thecaptioneqset"
+        ],
+        [
+            "\\lbx@@finalnamedelim",
+            "\\lbx@@finalnamedelim"
+        ],
+        [
+            "\\lbx@@finallistdelim",
+            "\\lbx@@finallistdelim"
+        ],
+        [
+            "\\thecaptioneq",
+            "\\thecaptioneq"
+        ],
+        [
+            "\\keywords",
+            "\\keywords{}"
+        ],
+        [
+            "\\captioneq",
+            "\\captioneq{}"
+        ],
+        [
+            "\\eqs",
+            "\\eqs{}"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "\\etl",
+            "\\etl"
+        ],
+        [
+            "\\fig",
+            "\\fig{}"
+        ],
+        [
+            "\\code",
+            "\\code{}"
+        ],
+        [
+            "\\captioneqset",
+            "\\captioneqset{}"
+        ]
+    ]
+}

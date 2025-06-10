@@ -1,0 +1,132 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/var/home/iaacornus/Documents/antimicrobial_magainin/MSCRPT/antimicrobial_magainin-REF.bib#antimicrobial_magainin-REF.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/var/home/iaacornus/Documents/antimicrobial_magainin/MSCRPT/antimicrobial_magainin-MSCRPT-ppr-main.tex",
+    "labels": [
+    ],
+    "modified": "Thu Feb 6 22:37:36 2025",
+    "packages": [
+        "#caption",
+        "colorlinks,allcolors=blue#hyperref",
+        "colorlinks,allcolors=blue#nameref",
+        "#lscape",
+        "#mathtools",
+        "#multicol",
+        "#amsmath",
+        "#setspace",
+        "#mhchem",
+        "#booktabs",
+        "12pt#latex-document",
+        "12pt#tex",
+        "#gensymb",
+        "#graphicx",
+        "#indentfirst",
+        "#csquotes",
+        "#array",
+        "shortlabels#enumitem",
+        "#footmisc",
+        "#orcidlink",
+        "T1#fontenc",
+        "#sectsty",
+        "backend=bibtex#biblatex",
+        "margin=1in, a4paper#geometry",
+        "#textcomp",
+        "scaled=0.9#DejaVuSansMono",
+        "affil-it#authblk",
+        "#physics",
+        "#bigints",
+        "#amsfonts",
+        "#subcaption",
+        "#mlmodern",
+        "#listings",
+        "#xcolor",
+        "#ragged2e",
+        "#systeme",
+        "#relsize"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "2#Abstract#155",
+        "2#Introduction#160"
+    ],
+    "usercommands": [
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "\\code",
+            "\\code{}"
+        ],
+        [
+            "\\keywords",
+            "\\keywords{}"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "\\fig",
+            "\\fig{}"
+        ],
+        [
+            "",
+            "%color%codepurple"
+        ],
+        [
+            "",
+            "%color%codegreen"
+        ],
+        [
+            "\\lbx@@finallistdelim",
+            "\\lbx@@finallistdelim"
+        ],
+        [
+            "\\captioneqset",
+            "\\captioneqset{}"
+        ],
+        [
+            "\\eqs",
+            "\\eqs{}"
+        ],
+        [
+            "\\etl",
+            "\\etl"
+        ],
+        [
+            "",
+            "%color%codegray"
+        ],
+        [
+            "\\captioneq",
+            "\\captioneq{}"
+        ],
+        [
+            "\\thefootnote",
+            "\\thefootnote"
+        ],
+        [
+            "\\lbx@@finalnamedelim",
+            "\\lbx@@finalnamedelim"
+        ],
+        [
+            "\\thecaptioneqset",
+            "\\thecaptioneqset"
+        ],
+        [
+            "\\thecaptioneq",
+            "\\thecaptioneq"
+        ],
+        [
+            "\\eq",
+            "\\eq{}"
+        ]
+    ]
+}

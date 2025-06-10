@@ -1,0 +1,30 @@
+{
+    "InternalPDFViewer": {
+        "Embedded": true,
+        "File": "../../../../../Documents/radiodurans_evol/MSCRPT/radiodurans_evol-TCHNL-ppr-main.pdf"
+    },
+    "Session": {
+        "Bookmarks": [
+            {
+                "bookmarkNumber": 1,
+                "fileName": "../../../../../Documents/dna_ffpe/REVIEW_ARTICLE/dna_ffpe_review-MSCRPT-ppr-main.tex",
+                "lineNumber": 59,
+                "text": "dna_ffpe_review-MSCRPT-ppr-main.tex\n}"
+            }
+        ],
+        "CurrentFile": "../../../../../Documents/radiodurans_evol/MSCRPT/radiodurans_evol-TCHNL-ppr-main.tex",
+        "FileVersion": 1,
+        "Files": [
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "../../../../../Documents/radiodurans_evol/MSCRPT/radiodurans_evol-TCHNL-ppr-main.tex",
+                "FirstLine": 65,
+                "FoldedLines": "",
+                "Line": 84
+            }
+        ],
+        "MasterFile": "",
+        "VerticalSplit": false
+    }
+}

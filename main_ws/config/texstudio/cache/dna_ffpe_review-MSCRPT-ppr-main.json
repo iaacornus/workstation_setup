@@ -1,0 +1,137 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/var/home/iaacornus/Documents/dna_ffpe/REVIEW_ARTICLE/dna_ffpe-REF.bib#dna_ffpe-REF.bib"
+    ],
+    "childdocs": [
+        "/var/home/iaacornus/Documents/dna_ffpe/REVIEW_ARTICLE/PARTS/body.tex",
+        "/var/home/iaacornus/Documents/dna_ffpe/REVIEW_ARTICLE/PARTS/introduction.tex"
+    ],
+    "filename": "/var/home/iaacornus/Documents/dna_ffpe/REVIEW_ARTICLE/dna_ffpe_review-MSCRPT-ppr-main.tex",
+    "labels": [
+    ],
+    "modified": "Tue Apr 22 20:18:34 2025",
+    "packages": [
+        "#bigints",
+        "#mhchem",
+        "#array",
+        "#orcidlink",
+        "12pt#latex-document",
+        "12pt#tex",
+        "#multirow",
+        "#chemfig",
+        "#mathtools",
+        "#mlmodern",
+        "#systeme",
+        "shortlabels#enumitem",
+        "#graphicx",
+        "#footmisc",
+        "T1#fontenc",
+        "#ragged2e",
+        "affil-it#authblk",
+        "#booktabs",
+        "#sectsty",
+        "backend=bibtex#biblatex",
+        "#textcomp",
+        "#physics",
+        "#amsmath",
+        "#multicol",
+        "#relsize",
+        "#gensymb",
+        "#amsfonts",
+        "#csquotes",
+        "#listings",
+        "#setspace",
+        "#xcolor",
+        "#subcaption",
+        "#caption",
+        "colorlinks,allcolors=blue#hyperref",
+        "colorlinks,allcolors=blue#nameref",
+        "#physics",
+        "#lscape",
+        "margin=1in, a4paper#geometry",
+        "scaled=0.9#DejaVuSansMono",
+        "#indentfirst"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "-1#PARTS/introduction.tex#162",
+        "-1#PARTS/body.tex#164"
+    ],
+    "usercommands": [
+        [
+            "\\captioneq",
+            "\\captioneq{}"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "\\lbx@@finalnamedelim",
+            "\\lbx@@finalnamedelim"
+        ],
+        [
+            "",
+            "%color%codegreen"
+        ],
+        [
+            "\\code",
+            "\\code{}"
+        ],
+        [
+            "\\thefootnote",
+            "\\thefootnote"
+        ],
+        [
+            "",
+            "%color%codepurple"
+        ],
+        [
+            "\\eqs",
+            "\\eqs{}"
+        ],
+        [
+            "",
+            "%color%codegray"
+        ],
+        [
+            "\\eq",
+            "\\eq{}"
+        ],
+        [
+            "\\keywords",
+            "\\keywords{}"
+        ],
+        [
+            "\\captioneqset",
+            "\\captioneqset{}"
+        ],
+        [
+            "\\thecaptioneq",
+            "\\thecaptioneq"
+        ],
+        [
+            "\\thecaptioneqset",
+            "\\thecaptioneqset"
+        ],
+        [
+            "\\lbx@@finallistdelim",
+            "\\lbx@@finallistdelim"
+        ],
+        [
+            "\\etl",
+            "\\etl"
+        ],
+        [
+            "\\fig",
+            "\\fig{}"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ]
+    ]
+}

@@ -1,0 +1,127 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/var/home/iaacornus/Documents/lectures/rosalind/PRS/rosalind-REF.bib#rosalind-REF.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/var/home/iaacornus/Documents/lectures/rosalind/PRS/rosalind-PRS-main.tex",
+    "labels": [
+    ],
+    "modified": "Tue Oct 15 08:58:32 2024",
+    "packages": [
+        "#systeme",
+        "#subcaption",
+        "#mathtools",
+        "#amsfonts",
+        "#setspace",
+        "#footmisc",
+        "#textcomp",
+        "#caption",
+        "#ragged2e",
+        "#mlmodern",
+        "#graphicx",
+        "#gensymb",
+        "#xcolor",
+        "#listings",
+        "#amsmath",
+        "#booktabs",
+        "#relsize",
+        "#array",
+        "#beamerfontthemeserif",
+        "#gensymb",
+        "#mhchem",
+        "#bigints",
+        "#csquotes",
+        "#physics",
+        "backend=bibtex#biblatex",
+        "#orcidlink",
+        "#beamerthemeBoadilla",
+        "T1#fontenc",
+        "aspectratio=169, 10pt#class-beamer",
+        "aspectratio=169, 10pt#latex-document",
+        "aspectratio=169, 10pt#tex",
+        "scaled=0.9#DejaVuSansMono"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "7#The Rosalind Project#155",
+        "8#Interface of Rosalind Project#156",
+        "7#The Rosalind Project#166",
+        "8#Bioinformatics Platform#167",
+        "7#The Rosalind Project#203",
+        "8#Problem Sets#204",
+        "7#Bioinformatics Stronghold#214",
+        "8#Constraints and Limitations#215",
+        "7#Bioinformatics Stronghold#232",
+        "8#Constraints and Limitations#233",
+        "7#Bioinformatics Stronghold#253",
+        "8#Bad Code Practices#254",
+        "7#Bioinformatics Stronghold#281",
+        "8#Bad Code Practices#282",
+        "7#Bioinformatics Stronghold#298",
+        "8#Good Code Practices#299",
+        "7#Rosalind Problem I#325",
+        "8#Counting DNA Nucleotides#326",
+        "7#Rosalind Problem II#355",
+        "8#Transcribing DNA into RNA#356",
+        "7#Rosalind Problem III#385",
+        "8#Complementing a Strand of DNA#386"
+    ],
+    "usercommands": [
+        [
+            "\\eq",
+            "\\eq{}"
+        ],
+        [
+            "\\lbx@@finallistdelim",
+            "\\lbx@@finallistdelim"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "\\thecaptioneq",
+            "\\thecaptioneq"
+        ],
+        [
+            "\\lbx@@finalnamedelim",
+            "\\lbx@@finalnamedelim"
+        ],
+        [
+            "\\fig",
+            "\\fig{}"
+        ],
+        [
+            "\\code",
+            "\\code{}"
+        ],
+        [
+            "\\thecaptioneqset",
+            "\\thecaptioneqset"
+        ],
+        [
+            "\\etl",
+            "\\etl"
+        ],
+        [
+            "\\captioneq",
+            "\\captioneq{}"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "\\eqs",
+            "\\eqs{}"
+        ],
+        [
+            "\\captioneqset",
+            "\\captioneqset{}"
+        ]
+    ]
+}

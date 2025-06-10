@@ -1,0 +1,162 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/var/home/iaacornus/Documents/journal_article_review/oqs_dna/oqs_dna-REF.bib#oqs_dna-REF.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/var/home/iaacornus/Documents/journal_article_review/oqs_dna/oqs_dna-PRS-main.tex",
+    "labels": [
+        "eq:4"
+    ],
+    "modified": "Wed Nov 27 15:48:02 2024",
+    "packages": [
+        "#fontspec",
+        "#beamerfontthemeserif",
+        "#systeme",
+        "#amsmath",
+        "#textcomp",
+        "#physics",
+        "#beamerthemeBoadilla",
+        "#footmisc",
+        "#xcolor",
+        "#amsfonts",
+        "#csquotes",
+        "#listings",
+        "backend=bibtex#biblatex",
+        "#mhchem",
+        "#caption",
+        "#gensymb",
+        "#subcaption",
+        "#bigints",
+        "#mlmodern",
+        "#orcidlink",
+        "#booktabs",
+        "#setspace",
+        "#graphicx",
+        "#array",
+        "#mathtools",
+        "#relsize",
+        "T1#fontenc",
+        "scaled=0.9#DejaVuSansMono",
+        "#gensymb",
+        "#ragged2e",
+        "aspectratio=169, 10pt#class-beamer",
+        "aspectratio=169, 10pt#latex-document",
+        "aspectratio=169, 10pt#tex"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "7#Deoxyribonucleic Acid (DNA)#155",
+        "8#Components of DNA#156",
+        "7#DNA Review#174",
+        "8#Molecular Structure of DNA#175",
+        "7#Tautomerism#184",
+        "8#Tautomeric Shift#185",
+        "7#Tautomerism#199",
+        "8#Tautomeric Shift in DNA Bases#200",
+        "7#Implications of Wave-Particle Duality#210",
+        "8#Wavefunction Solutions to Linearly Combined Atomic Orbitals#211",
+        "7#Implications of Wave-Particle Duality#230",
+        "8#Quantum Tunneling#231",
+        "7#Results and Discussion#249",
+        "8#The System-Bath Model#250",
+        "7#Results and Discussion#277",
+        "8#Tautomeric State Occupation Probability#278",
+        "7#Results and Discussion#297",
+        "8#The Low-Temperature Limit#298",
+        "7#References#335"
+    ],
+    "usercommands": [
+        [
+            "",
+            "\\hat{h}"
+        ],
+        [
+            "\\etl",
+            "\\etl"
+        ],
+        [
+            "",
+            "\\mathcal{H}"
+        ],
+        [
+            "\\fig",
+            "\\fig{}"
+        ],
+        [
+            "\\eqs",
+            "\\eqs{}"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "\\eq",
+            "\\eq{}"
+        ],
+        [
+            "\\lbx@@finallistdelim",
+            "\\lbx@@finallistdelim"
+        ],
+        [
+            "\\captioneq",
+            "\\captioneq{}"
+        ],
+        [
+            "",
+            "\\hat{h}"
+        ],
+        [
+            "",
+            "%color%myblue"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "\\thecaptioneqset",
+            "\\thecaptioneqset"
+        ],
+        [
+            "",
+            "%color%codegray"
+        ],
+        [
+            "",
+            "%color%codepurple"
+        ],
+        [
+            "",
+            "%color%codegreen"
+        ],
+        [
+            "\\lbx@@finalnamedelim",
+            "\\lbx@@finalnamedelim"
+        ],
+        [
+            "\\captioneqset",
+            "\\captioneqset{}"
+        ],
+        [
+            "\\thecaptioneq",
+            "\\thecaptioneq"
+        ],
+        [
+            "",
+            "\\mathcal{O}"
+        ],
+        [
+            "",
+            "\\hat{h}"
+        ],
+        [
+            "",
+            "\\mathcal{T}"
+        ]
+    ]
+}

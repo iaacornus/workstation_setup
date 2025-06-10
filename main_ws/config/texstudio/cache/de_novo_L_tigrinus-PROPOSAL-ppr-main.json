@@ -1,0 +1,128 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/var/home/iaacornus/Documents/de_novo_L_tigrinus/MSCRPT/l_tigrinus-REF.bib#l_tigrinus-REF.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/var/home/iaacornus/Documents/de_novo_L_tigrinus/MSCRPT/de_novo_L_tigrinus-PROPOSAL-ppr-main.tex",
+    "labels": [
+    ],
+    "modified": "Mon Dec 16 17:59:00 2024",
+    "packages": [
+        "scaled=0.9#DejaVuSansMono",
+        "#mhchem",
+        "#gensymb",
+        "#mlmodern",
+        "12pt#latex-document",
+        "12pt#tex",
+        "#setspace",
+        "#lscape",
+        "colorlinks,allcolors=blue#hyperref",
+        "colorlinks,allcolors=blue#nameref",
+        "#orcidlink",
+        "#booktabs",
+        "#amsmath",
+        "#indentfirst",
+        "#xcolor",
+        "#caption",
+        "shortlabels#enumitem",
+        "#relsize",
+        "#array",
+        "#amsfonts",
+        "affil-it#authblk",
+        "#fancyhdr",
+        "margin=1in, a4paper#geometry",
+        "#textcomp",
+        "#graphicx",
+        "#bigints",
+        "#ragged2e",
+        "T1#fontenc",
+        "#subcaption",
+        "#multicol",
+        "#csquotes",
+        "#systeme",
+        "#listings",
+        "#mathtools",
+        "#footmisc",
+        "#physics",
+        "#sectsty",
+        "backend=bibtex#biblatex"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "2#Methodology#164"
+    ],
+    "usercommands": [
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "\\thefootnote",
+            "\\thefootnote"
+        ],
+        [
+            "\\captioneq",
+            "\\captioneq{}"
+        ],
+        [
+            "\\fig",
+            "\\fig{}"
+        ],
+        [
+            "\\etl",
+            "\\etl"
+        ],
+        [
+            "\\eqs",
+            "\\eqs{}"
+        ],
+        [
+            "\\thecaptioneqset",
+            "\\thecaptioneqset"
+        ],
+        [
+            "",
+            "%color%codegray"
+        ],
+        [
+            "\\code",
+            "\\code{}"
+        ],
+        [
+            "",
+            "%color%codegreen"
+        ],
+        [
+            "\\lbx@@finalnamedelim",
+            "\\lbx@@finalnamedelim"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "",
+            "%color%codepurple"
+        ],
+        [
+            "\\lbx@@finallistdelim",
+            "\\lbx@@finallistdelim"
+        ],
+        [
+            "\\thecaptioneq",
+            "\\thecaptioneq"
+        ],
+        [
+            "\\keywords",
+            "\\keywords{}"
+        ],
+        [
+            "\\captioneqset",
+            "\\captioneqset{}"
+        ]
+    ]
+}

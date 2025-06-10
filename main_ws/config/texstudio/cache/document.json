@@ -1,0 +1,28 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+    ],
+    "childdocs": [
+    ],
+    "filename": "/var/home/iaacornus/Downloads/document.tex",
+    "labels": [
+    ],
+    "modified": "Tue Mar 11 11:53:54 2025",
+    "packages": [
+        "12pt#latex-document",
+        "12pt#tex",
+        "a4paper, showframe, left=1.5in, top=1in, bottom=1in, foot=0.75in, head=1in, right=1in#geometry",
+        "#afterpackage"
+    ],
+    "refs": [
+    ],
+    "toc": [
+    ],
+    "usercommands": [
+        [
+            "\\blankpage",
+            "\\blankpage"
+        ]
+    ]
+}

@@ -1,0 +1,139 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/var/home/iaacornus/Documents/lectures/intro_comp_bio/comp_bio_workshop_intro-REF.bib#comp_bio_workshop_intro-REF.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/var/home/iaacornus/Documents/lectures/intro_comp_bio/comp_bio_workshop_intro-PRS-main.tex",
+    "labels": [
+    ],
+    "modified": "Sat Oct 5 20:16:18 2024",
+    "packages": [
+        "#gensymb",
+        "#mhchem",
+        "#csquotes",
+        "#textcomp",
+        "#graphicx",
+        "#physics",
+        "#mathtools",
+        "T1#fontenc",
+        "#relsize",
+        "backend=bibtex#biblatex",
+        "#amsfonts",
+        "#caption",
+        "#listings",
+        "#beamerthemeBoadilla",
+        "#booktabs",
+        "aspectratio=169, 10pt#class-beamer",
+        "aspectratio=169, 10pt#latex-document",
+        "aspectratio=169, 10pt#tex",
+        "#gensymb",
+        "scaled=0.9#DejaVuSansMono",
+        "#subcaption",
+        "#array",
+        "#bigints",
+        "#footmisc",
+        "#xcolor",
+        "#systeme",
+        "#beamerfontthemeserif",
+        "#mlmodern",
+        "#amsmath",
+        "#orcidlink",
+        "#setspace",
+        "#ragged2e"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "7#Case Study: Cancer#150",
+        "8#Brief Review of Cancer#151",
+        "7#Case Study: Cancer#161",
+        "8#Molecular Hallmarks of Cancer#162",
+        "7#Case Study: Cancer#173",
+        "8#Growth Signal Pathway in Cancer#174",
+        "7#Case Study: Cancer#184",
+        "8#p53 Signaling Pathway#185",
+        "7#Case Study: Cancer#195",
+        "8#Resveratrol and Its Derivatives Against Cancer#196",
+        "7#Case Study: Cancer#229",
+        "8#Binding Site Analysis of Resveratrol Derivatives#230",
+        "7#Case Study: Psychosis, Anxiety and Depression#251",
+        "8#\\ce{5-HT_{2A}} and \\ce{D_2DR} Involved Neuro- Psychological/Biological Disorders#252",
+        "7#Determination of Drug Activity#279",
+        "8#Brief Insight on Molecular Pharmacology#280",
+        "7#Determination of Drug Activity#297",
+        "8#Preview of Computational Biology#298",
+        "7#The Good, The Bad and The \\textbf{Ugly}#322",
+        "8#How to Model a Protein#323",
+        "7#The Good, The Bad and The \\textbf{Ugly}#334",
+        "8#Computational Biology vs Bioinformatics vs ``\\textit{In silico}'' Studies#335",
+        "7#Workshop Contents and Syllabus#353",
+        "8#Description#354",
+        "7#Workshop Contents and Syllabus#368",
+        "8#Prerequisites#369",
+        "7#Workshop Contents and Syllabus#389",
+        "8#Overview of Contents#390",
+        "7#Workshop Contents and Syllabus#419",
+        "8#Overview of Contents#420",
+        "7#Workshop Contents#447",
+        "8#Overview of Contents#448",
+        "7#Workshop Contents#467",
+        "8#Overview of Contents#468",
+        "7#Workshop Contents#484",
+        "8#Overview of Contents#485",
+        "7#Workshop Contents#509",
+        "7#References#529"
+    ],
+    "usercommands": [
+        [
+            "\\eq",
+            "\\eq{}"
+        ],
+        [
+            "\\thecaptioneqset",
+            "\\thecaptioneqset"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "\\fig",
+            "\\fig{}"
+        ],
+        [
+            "\\etl",
+            "\\etl"
+        ],
+        [
+            "\\captionlength",
+            "\\captionlength"
+        ],
+        [
+            "\\eqs",
+            "\\eqs{}"
+        ],
+        [
+            "\\lbx@@finallistdelim",
+            "\\lbx@@finallistdelim"
+        ],
+        [
+            "\\lbx@@finalnamedelim",
+            "\\lbx@@finalnamedelim"
+        ],
+        [
+            "\\captioneq",
+            "\\captioneq{}"
+        ],
+        [
+            "\\thecaptioneq",
+            "\\thecaptioneq"
+        ],
+        [
+            "\\captioneqset",
+            "\\captioneqset{}"
+        ]
+    ]
+}
