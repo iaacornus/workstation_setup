@@ -197,5 +197,17 @@
     "accessibility.verbosity.inlineChat": false,
     "chat.detectParticipant.enabled": false,
     "inlineChat.holdToSpeech": false,
-    "inlineChat.lineNaturalLanguageHint": false
+    "inlineChat.lineNaturalLanguageHint": false,
+    "accessibility.verbosity.panelChat": false,
+    "chat.agent.enabled": false,
+    "chat.edits2.enabled": false,
+    "chat.extensionTools.enabled": false,
+    "chat.focusWindowOnConfirmation": false,
+    "chat.mcp.enabled": false,
+    "chat.promptFiles": false,
+    "chat.sendElementsToChat.attachCSS": false,
+    "chat.sendElementsToChat.attachImages": false,
+    "chat.sendElementsToChat.enabled": false,
+    "chat.useFileStorage": false,
+    "telemetry.feedback.enabled": false
 }
