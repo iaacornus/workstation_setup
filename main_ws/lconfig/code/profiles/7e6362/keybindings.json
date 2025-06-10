@@ -6653,5 +6653,9 @@
         "key": "ctrl+alt+space",
         "command": "-workbench.action.terminal.suggestToggleDetailsFocus",
         "when": "!textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+f t",
+        "command": "workbench.action.files.newUntitledFile"
     }
 ]

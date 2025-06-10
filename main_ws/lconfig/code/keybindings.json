@@ -6713,5 +6713,9 @@
         "key": "enter",
         "command": "-keybindings.editor.defineKeybinding",
         "when": "inKeybindings && keybindingFocus && !whenFocus"
+    },
+    {
+        "key": "ctrl+shift+f t",
+        "command": "workbench.action.files.newUntitledFile"
     }
 ]
