@@ -108,6 +108,28 @@
     {}}
 \makeatother
 
+% references icons
+\renewbibmacro*{begentry}{%
+    \makebox[1.5em][l]{%
+        \ifboolexpr{
+            test {\ifentrytype{book}} 
+            or test {\ifentrytype{mvbook}}
+            or test {\ifentrytype{collection}} 
+            or test {\ifentrytype{mvcollection}}
+            or test {\ifentrytype{reference}} 
+            or test {\ifentrytype{mvreference}} 
+        }{%
+            \includegraphics[width=1em]{beamericonbook}%
+        }{%
+            \ifentrytype{online}{%
+                \raisebox{-0.3ex}{\includegraphics[width=1em]{beamericononline}}%
+            }{%
+                \raisebox{-0.5ex}{\includegraphics[width=1em]{beamericonarticle}}%
+            }%
+        }%
+    }%
+}
+
 % config of equations to remove additional space
 \expandafter\def\expandafter\normalsize\expandafter{%
     \normalsize%
