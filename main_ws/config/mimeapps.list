@@ -147,6 +147,7 @@ text/javascript=code.desktop
 audio/x-m4b=org.gnome.Decibels.desktop
 audio/x-opus+ogg=org.gnome.Decibels.desktop
 application/x-ipynb+json=code.desktop
+application/octet-stream=io.github.labsquare.CutePeaks.desktop
 
 [Added Associations]
 application/pdf=org.gnome.Papers.desktop
@@ -173,3 +174,4 @@ audio/x-speex=org.gnome.Decibels.desktop;
 audio/x-vorbis=org.gnome.Decibels.desktop;
 audio/x-wavpack=org.gnome.Decibels.desktop;
 application/x-ipynb+json=code.desktop;
+application/octet-stream=io.github.labsquare.CutePeaks.desktop;
