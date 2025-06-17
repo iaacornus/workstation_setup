@@ -110,7 +110,7 @@
         "when": "debugState == 'running'"
     },
     {
-        "key": "ctrl+shift+r",
+        "key": "ctrl+f5",
         "command": "workbench.action.debug.restart",
         "when": "inDebugMode"
     },
@@ -950,11 +950,6 @@
         "key": "ctrl+shift+r",
         "command": "-editor.action.refactor",
         "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "shift+alt+f12",
-        "command": "-references-view.findReferences",
-        "when": "editorHasReferenceProvider"
     },
     {
         "key": "enter",
@@ -1870,7 +1865,7 @@
         "when": "referenceSearchVisible && !config.editor.stablePeek"
     },
     {
-        "key": "ctrl+end",
+        "key": "ctrl+alt+end",
         "command": "cursorBottom",
         "when": "textInputFocus"
     },
@@ -1880,7 +1875,7 @@
         "when": "textInputFocus"
     },
     {
-        "key": "ctrl+shift+end",
+        "key": "shift+alt+end",
         "command": "cursorBottomSelect",
         "when": "textInputFocus"
     },
@@ -1905,7 +1900,7 @@
         "when": "textInputFocus"
     },
     {
-        "key": "ctrl+home",
+        "key": "ctrl+alt+home",
         "command": "cursorTop",
         "when": "textInputFocus"
     },
@@ -1915,7 +1910,7 @@
         "when": "textInputFocus"
     },
     {
-        "key": "ctrl+shift+home",
+        "key": "shift+alt+home",
         "command": "cursorTopSelect",
         "when": "textInputFocus"
     },
@@ -5352,7 +5347,7 @@
         "when": "notebookEditable && !editorTextFocus && activeEditor == 'workbench.editor.notebook'"
     },
     {
-        "key": "ctrl+shift+r",
+        "key": "ctrl+f5",
         "command": "jupyter.restartkernel"
     },
     {
@@ -6500,11 +6495,6 @@
         "when": "inlineChatHasEditsAgent && inlineChatVisible && !chatEdits.isRequestInProgress && chatEdits.requestCount == '0' || inlineChatHasEditsAgent && inlineChatVisible && !chatEdits.hasEditorModifications && !chatEdits.isRequestInProgress && chatEdits.requestCount == '0'"
     },
     {
-        "key": "ctrl+escape",
-        "command": "inlineChat2.close",
-        "when": "inlineChatHasEditsAgent && inlineChatVisible && !chatEdits.isRequestInProgress && chatEdits.requestCount == '0' || inlineChatHasEditsAgent && inlineChatVisible && !chatEdits.hasEditorModifications && !chatEdits.isRequestInProgress && chatEdits.requestCount == '0'"
-    },
-    {
         "key": "ctrl+i",
         "command": "-inlineChat.start",
         "when": "editorFocus && inlineChatHasEditsAgent && inlineChatPossible && !editorReadonly && !editorSimpleInput || editorFocus && inlineChatHasProvider && inlineChatPossible && !editorReadonly && !editorSimpleInput"
@@ -6717,5 +6707,90 @@
     {
         "key": "ctrl+shift+f t",
         "command": "workbench.action.files.newUntitledFile"
+    },
+    {
+        "key": "ctrl+alt+/",
+        "command": "-workbench.action.chat.attach.instructions",
+        "when": "chatIsEnabled && config.chat.promptFiles"
+    },
+    {
+        "key": "ctrl+shift+y",
+        "command": "-chatEditor.action.accept",
+        "when": "chatEdits.hasEditorModifications && editorFocus && !chatEdits.isRequestInProgress || chatEdits.hasEditorModifications && notebookEditorFocused && !chatEdits.isRequestInProgress"
+    },
+    {
+        "key": "ctrl+y",
+        "command": "-chatEditor.action.acceptHunk",
+        "when": "chatEdits.hasEditorModifications && editorFocus && !chatEdits.isRequestInProgress || chatEdits.hasEditorModifications && notebookCellListFocused && !chatEdits.isRequestInProgress"
+    },
+    {
+        "key": "ctrl+shift+alt+i",
+        "command": "-workbench.action.chat.openAgent",
+        "when": "config.chat.agent.enabled && !chatSetupDisabled && !chatSetupHidden"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "-chatEditor.action.reject",
+        "when": "chatEdits.hasEditorModifications && editorFocus && !chatEdits.isRequestInProgress || chatEdits.hasEditorModifications && notebookEditorFocused && !chatEdits.isRequestInProgress"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "-chatEditor.action.undoHunk",
+        "when": "chatEdits.hasEditorModifications && editorFocus && !chatEdits.isRequestInProgress || chatEdits.hasEditorModifications && notebookCellListFocused && !chatEdits.isRequestInProgress"
+    },
+    {
+        "key": "escape",
+        "command": "-inlineChat2.close",
+        "when": "inlineChatHasEditsAgent && inlineChatVisible && !chatEdits.hasEditorModifications && !chatEdits.isRequestInProgress || inlineChatHasEditsAgent && inlineChatVisible && !chatEdits.isRequestInProgress && chatEdits.requestCount == '0'"
+    },
+    {
+        "key": "escape",
+        "command": "-workbench.action.terminal.chat.close",
+        "when": "chatIsEnabled && terminalChatFocus && terminalChatVisible || chatIsEnabled && terminalChatVisible && terminalFocus"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "-settings.action.toggleAiSearch",
+        "when": "inSettingsEditor"
+    },
+    {
+        "key": "ctrl+shift+r",
+        "command": "references-view.findReferences",
+        "when": "editorHasReferenceProvider"
+    },
+    {
+        "key": "shift+alt+f12",
+        "command": "-references-view.findReferences",
+        "when": "editorHasReferenceProvider"
+    },
+    {
+        "key": "ctrl+shift+r",
+        "command": "-workbench.action.tasks.rerunForActiveTerminal",
+        "when": "taskTerminalActive && terminalFocus"
+    },
+    {
+        "key": "shift+alt+f5",
+        "command": "-workbench.action.editor.previousChange",
+        "when": "editorTextFocus && !textCompareEditorActive && quickDiffDecorationCount != '0'"
+    },
+    {
+        "key": "ctrl+shift+t",
+        "command": "jupyter.openOutlineView"
+    },
+    {
+        "key": "ctrl+home",
+        "command": "cursorLineStart"
+    },
+    {
+        "key": "ctrl+end",
+        "command": "cursorLineEnd"
+    },
+    {
+        "key": "ctrl+shift+end",
+        "command": "cursorLineEndSelect"
+    },
+    {
+        "key": "ctrl+shift+home",
+        "command": "cursorLineStartSelect"
     }
 ]
