@@ -11,6 +11,7 @@ rpm-ostree kargs --append=rd.luks.options=UID=discard # trim support
 AUTOMAX FALSE
 
 gsettings set org.gnome.mutter auto-maximize false
+gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffer', 'xwayland-native-scaling']"
 
 CONDA MODS
 
