@@ -1,0 +1,8 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Name=Jalview
+Exec="/var/home/iaacornus/.jalview/jalviewg"  %U
+Comment=Jalview
+Icon=/var/home/iaacornus/.jalview/.install4j/i4j_extf_7_n49iio_1uyqg13.png
+StartupWMClass=install4j-com-threerings-getdown-launcher-GetdownApp
