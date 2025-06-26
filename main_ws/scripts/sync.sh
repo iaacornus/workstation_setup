@@ -9,14 +9,12 @@ cp -r $HOME/.config/rstudio/* $HOME/.local/share/config/rstudio/ # rstudio pref 
 cp -r $HOME/.local/share/config/* $HOME/Code/workstation_setup/main_ws/lconfig/ # .local/share/config -> workstation_setup
 cp -r $HOME/.local/share/icons/* $HOME/Code/workstation_setup/main_ws/icons/ # icons
 cp -r $HOME/.local/share/applications/* $HOME/Code/workstation_setup/main_ws/applications/ # .desktop
-cp -r $HOME/.mozilla/firefox/37v99699.default-release/user.js* $HOME/Code/workstation_setup/main_ws/config/firefox  # user.js
 cp -r $HOME/Documents/Notes/.obsidian/* $HOME/Code/workstation_setup/main_ws/config/obsidian/ # obsidian
 cp $HOME/.config/starship.toml $HOME/Code/workstation_setup/main_ws/config/starship.toml # starship
 cp $HOME/.local/bin/*.sh $HOME/Code/workstation_setup/main_ws/scripts/ # scripts
 cp $HOME/.var/app/org.texstudio.TeXstudio/config/texstudio/texstudio.ini $HOME/Code/workstation_setup/main_ws/config/ # texstudio
 cp $HOME/.var/app/com.github.xournalpp.xournalpp/config/xournalpp/settings.xml $HOME/Code/workstation_setup/main_ws/config/xournalpp/settings.xml # xournal settings.xml
 cp $HOME/.var/app/com.github.xournalpp.xournalpp/config/xournalpp/palette.gpl $HOME/Code/workstation_setup/main_ws/config/xournalpp/palette.gpl # xournal palette.gpl
-cp $HOME/.mozilla/firefox/37v99699.default-release/user.js $HOME/.var/app/org.mozilla.firefox/.mozilla/firefox/37v99699.default-release/user.js # sync firefox flatpak to firefox local
 cp $HOME/.var/app/org.mozilla.Thunderbird/.thunderbird/clxeo831.default-esr/prefs.js $HOME/Code/workstation_setup/main_ws/config/thunderbird/
 cp -r $HOME/.config/ulauncher/* $HOME/Code/workstation_setup/main_ws/config/ulauncher/ # ulauncher
 rm -rf $HOME/Code/workstation_setup/main_ws/config/ulauncher/user-themes/libadwaita-ulauncher/.git/ # remove git dir
