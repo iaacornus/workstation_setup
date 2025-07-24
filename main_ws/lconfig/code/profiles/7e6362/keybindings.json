@@ -1,7 +1,7 @@
 // Place your key bindings in this file to override the defaults
 [
     {
-        "key": "ctrl+shift+down",
+        "key": "shift+alt+down",
         "command": "editor.action.copyLinesDownAction",
         "when": "editorTextFocus && !editorReadonly"
     },
@@ -11,7 +11,7 @@
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+shift+up",
+        "key": "shift+alt+up",
         "command": "editor.action.copyLinesUpAction",
         "when": "editorTextFocus && !editorReadonly"
     },
@@ -110,7 +110,7 @@
         "when": "debugState == 'running'"
     },
     {
-        "key": "ctrl+f5",
+        "key": "f5",
         "command": "workbench.action.debug.restart",
         "when": "inDebugMode"
     },
@@ -594,11 +594,6 @@
         "key": "ctrl+; b",
         "command": "-jupyter.insertCellBelow",
         "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
-    },
-    {
-        "key": "ctrl+; s",
-        "command": "-jupyter.insertCellBelowPosition",
-        "when": "editorTextFocus && isWorkspaceTrusted && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
     },
     {
         "key": "f10",
@@ -3944,11 +3939,6 @@
         "when": "inlineChatHasProvider && inlineChatVisible && interactiveEditorHasProvider && interactiveEditorVisible && !inlineChatDocumentChanged && !interactiveEditorDocumentChanged || inlineChatHasProvider && inlineChatVisible && interactiveEditorHasProvider && interactiveEditorVisible && !inlineChatDocumentChanged && config.interactiveEditor.editMode != 'preview' || inlineChatHasProvider && inlineChatVisible && interactiveEditorHasProvider && interactiveEditorVisible && !interactiveEditorDocumentChanged && config.inlineChat.editMode != 'preview' || inlineChatHasProvider && inlineChatVisible && interactiveEditorHasProvider && interactiveEditorVisible && config.inlineChat.editMode != 'preview' && config.interactiveEditor.editMode != 'preview'"
     },
     {
-        "key": "shift+enter",
-        "command": "-notebook.cell.executeAndSelectBelow",
-        "when": "notebookCellListFocused && !interactiveEditorFocused && notebookCellType == 'code' || editorTextFocus && inputFocus && notebookEditorFocused && !interactiveEditorFocused"
-    },
-    {
         "key": "alt+o",
         "command": "-C_Cpp.SwitchHeaderSource",
         "when": "editorTextFocus && editorLangId =~ /^(c|(cuda-)?cpp)$/ && !(config.C_Cpp.intelliSenseEngine =~ /^[dD]isabled$/)"
@@ -4733,21 +4723,6 @@
         "when": "listFocus && listSupportsFind"
     },
     {
-        "key": "alt+enter",
-        "command": "notebook.cell.executeAndInsertBelow",
-        "when": "notebookCellListFocused && notebookCellType == 'markup' || notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
-    },
-    {
-        "key": "alt+enter",
-        "command": "-notebook.cell.executeAndInsertBelow",
-        "when": "notebookCellListFocused && notebookCellType == 'markup' || notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
-    },
-    {
-        "key": "shift+enter",
-        "command": "-notebook.cell.executeAndSelectBelow",
-        "when": "notebookCellListFocused && !inlineChatFocused && notebookCellType == 'markup' || notebookCellListFocused && notebookMissingKernelExtension && !inlineChatFocused && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !inlineChatFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !inlineChatFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
-    },
-    {
         "key": "ctrl+shift+v",
         "command": "-r.rmarkdown.showPreview",
         "when": "editorTextFocus && editorLangId == 'rmd'"
@@ -4936,11 +4911,6 @@
         "key": "ctrl+alt+pagedown",
         "command": "-editor.action.accessibleViewNextCodeBlock",
         "when": "accessibleViewContainsCodeBlocks && accessibleViewCurrentProviderId == 'panelChat'"
-    },
-    {
-        "key": "up",
-        "command": "notebook.focusPreviousEditor",
-        "when": "accessibilityModeEnabled && notebookCellEditorFocused"
     },
     {
         "key": "ctrl+pageup",
@@ -5352,12 +5322,8 @@
         "when": "notebookEditable && !editorTextFocus && activeEditor == 'workbench.editor.notebook'"
     },
     {
-        "key": "ctrl+f5",
+        "key": "f5",
         "command": "jupyter.restartkernel"
-    },
-    {
-        "key": "ctrl+shift+enter",
-        "command": "jupyter.runallcells"
     },
     {
         "key": "shift+alt+v",
@@ -5366,10 +5332,6 @@
     {
         "key": "ctrl+shift+c",
         "command": "notebook.clearAllCellsOutputs"
-    },
-    {
-        "key": "ctrl+shift+enter",
-        "command": "notebook.execute"
     },
     {
         "key": "ctrl+m up",
@@ -5623,10 +5585,6 @@
         "command": "notebook.cell.changeLanguage"
     },
     {
-        "key": "shift+enter",
-        "command": "notebook.cell.executeAndSelectBelow"
-    },
-    {
         "key": "delete",
         "command": "jupyter.deleteCells",
         "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
@@ -5642,23 +5600,13 @@
         "when": "isWorkspaceTrusted && jupyter.ispythonnotebook && !notebookKernel && notebookCellType == 'code' || isWorkspaceTrusted && jupyter.ispythonnotebook && notebookCellType == 'code' && notebookKernel =~ /^ms-toolsai.jupyter\\// && resource not in 'jupyter.notebookeditor.debugDocuments'"
     },
     {
-        "key": "ctrl+shift+f5",
+        "key": "ctrl+f5",
         "command": "jupyter.restartkernelandrunallcells"
-    },
-    {
-        "key": "down",
-        "command": "notebook.focusNextEditor",
-        "when": "notebookEditorFocused && notebookOutputFocused"
     },
     {
         "key": "ctrl+down",
         "command": "-notebook.focusNextEditor",
         "when": "notebookEditorFocused && notebookOutputFocused"
-    },
-    {
-        "key": "down",
-        "command": "notebook.focusNextEditor",
-        "when": "accessibilityModeEnabled && notebookCellEditorFocused"
     },
     {
         "key": "ctrl+pagedown",
@@ -6074,14 +6022,6 @@
         "when": "chatEditingParticipantRegistered && chatInputHasText && chatIsEnabled && !chatInputHasAgent && !chatSessionRequestInProgress && chatLocation != 'editing-session'"
     },
     {
-        "key": "ctrl+alt+enter up",
-        "command": "notebook.cell.executeCellsAbove"
-    },
-    {
-        "key": "ctrl+alt+enter down",
-        "command": "notebook.cell.executeCellAndBelow"
-    },
-    {
         "key": "alt+f5",
         "command": "-chatEditor.action.navigateNext",
         "when": "chat.hasEditorModifications && editorFocus"
@@ -6360,6 +6300,21 @@
         "when": "dataWrangler.canApplyOperation && dataWrangler.dataWranglerActive && dataWrangler.focusedElementAllowsShortcuts && isWorkspaceTrusted && !inputFocus"
     },
     {
+        "key": "ctrl+a",
+        "command": "-notebook.cell.output.selectAll",
+        "when": "notebookEditorFocused && notebookOutputFocused"
+    },
+    {
+        "key": "3",
+        "command": "-gitlens.views.scm.grouped.branches",
+        "when": "config.gitlens.views.scm.grouped.views.branches && !gitlens:views:scm:grouped:welcome && focusedView == 'gitlens.views.scm.grouped'"
+    },
+    {
+        "key": "8",
+        "command": "-gitlens.views.scm.grouped.fileHistory",
+        "when": "config.gitlens.views.scm.grouped.views.fileHistory && !gitlens:views:scm:grouped:welcome && focusedView == 'gitlens.views.scm.grouped'"
+    },
+    {
         "key": "ctrl+k ctrl+r",
         "command": "-git.revertSelectedRanges",
         "when": "editorTextFocus && !operationInProgress && resourceScheme == 'file'"
@@ -6373,6 +6328,56 @@
         "key": "ctrl+k ctrl+n",
         "command": "-git.unstageSelectedRanges",
         "when": "editorTextFocus && isInDiffEditor && isInDiffRightEditor && !operationInProgress && resourceScheme == 'git'"
+    },
+    {
+        "key": "alt+.",
+        "command": "-gitlens.diffWithNext",
+        "when": "editorTextFocus && gitlens:enabled && config.gitlens.keymap == 'alternate' && resourceScheme =~ /^(gitlens|git|pr)$/"
+    },
+    {
+        "key": "ctrl+shift+g .",
+        "command": "-gitlens.diffWithNext",
+        "when": "editorTextFocus && gitlens:enabled && config.gitlens.keymap == 'chorded' && resourceScheme =~ /^(gitlens|git|pr)$/"
+    },
+    {
+        "key": "alt+,",
+        "command": "-gitlens.diffWithPrevious",
+        "when": "editorTextFocus && config.gitlens.keymap == 'alternate' && resource in 'gitlens:tabs:tracked'"
+    },
+    {
+        "key": "ctrl+shift+g ,",
+        "command": "-gitlens.diffWithPrevious",
+        "when": "editorTextFocus && config.gitlens.keymap == 'chorded' && resource in 'gitlens:tabs:tracked'"
+    },
+    {
+        "key": "9",
+        "command": "-gitlens.views.scm.grouped.launchpad",
+        "when": "config.gitlens.views.scm.grouped.views.launchpad && !gitlens:views:scm:grouped:welcome && focusedView == 'gitlens.views.scm.grouped'"
+    },
+    {
+        "key": "4",
+        "command": "-gitlens.views.scm.grouped.remotes",
+        "when": "config.gitlens.views.scm.grouped.views.remotes && !gitlens:views:scm:grouped:welcome && focusedView == 'gitlens.views.scm.grouped'"
+    },
+    {
+        "key": "0",
+        "command": "-gitlens.views.scm.grouped.searchAndCompare",
+        "when": "config.gitlens.views.scm.grouped.views.searchAndCompare && !gitlens:views:scm:grouped:welcome && focusedView == 'gitlens.views.scm.grouped'"
+    },
+    {
+        "key": "5",
+        "command": "-gitlens.views.scm.grouped.stashes",
+        "when": "config.gitlens.views.scm.grouped.views.stashes && !gitlens:views:scm:grouped:welcome && focusedView == 'gitlens.views.scm.grouped'"
+    },
+    {
+        "key": "6",
+        "command": "-gitlens.views.scm.grouped.tags",
+        "when": "config.gitlens.views.scm.grouped.views.tags && !gitlens:views:scm:grouped:welcome && focusedView == 'gitlens.views.scm.grouped'"
+    },
+    {
+        "key": "2",
+        "command": "-gitlens.views.scm.grouped.worktrees",
+        "when": "config.gitlens.views.scm.grouped.views.worktrees && !gitlens:views:scm:grouped:welcome && focusedView == 'gitlens.views.scm.grouped'"
     },
     {
         "key": "ctrl+alt+/",
@@ -6440,11 +6445,6 @@
         "when": "chatEdits.hasEditorModifications && editorFocus && !chatEdits.isRequestInProgress || chatEdits.hasEditorModifications && notebookCellListFocused && !chatEdits.isRequestInProgress"
     },
     {
-        "key": "ctrl+enter",
-        "command": "-inlineChat.acceptChanges",
-        "when": "inlineChatHasProvider && inlineChatVisible"
-    },
-    {
         "key": "ctrl+i",
         "command": "-inlineChat2.close",
         "when": "inlineChatHasEditsAgent && inlineChatVisible && !chatEdits.isRequestInProgress && chatEdits.requestCount == '0' || inlineChatHasEditsAgent && inlineChatVisible && !chatEdits.hasEditorModifications && !chatEdits.isRequestInProgress && chatEdits.requestCount == '0'"
@@ -6505,6 +6505,26 @@
         "when": "inlineChatHasEditsAgent && inlineChatVisible && !chatEdits.isRequestInProgress"
     },
     {
+        "key": "ctrl+shift+t",
+        "command": "-mergeEditor.toggleBetweenInputs",
+        "when": "isMergeEditor"
+    },
+    {
+        "key": "ctrl+k m",
+        "command": "-notebook.cell.changeLanguage",
+        "when": "notebookCellEditable && notebookEditable && notebookEditorFocused"
+    },
+    {
+        "key": "meta+enter",
+        "command": "-notebook.cell.execute",
+        "when": "notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "-search.action.searchWithAI",
+        "when": "hasAIResultProviderKey && searchViewletFocus"
+    },
+    {
         "key": "ctrl+enter",
         "command": "-chatEditing.acceptAllFiles",
         "when": "hasUndecidedChatEditingResource && inChatInput && !chatSessionRequestInProgress"
@@ -6518,11 +6538,6 @@
         "key": "shift+alt+f7",
         "command": "-chatEditor.action.toggleDiff",
         "when": "chatEdits.hasEditorModifications && editorFocus"
-    },
-    {
-        "key": "escape",
-        "command": "-inlineChat.hideHint",
-        "when": "inlineChatShowingHint"
     },
     {
         "key": "ctrl+i",
@@ -6585,6 +6600,16 @@
         "when": "inChat && !textInputFocus"
     },
     {
+        "key": "ctrl+enter",
+        "command": "-inlineChat.acceptChanges",
+        "when": "inlineChatHasProvider && inlineChatVisible"
+    },
+    {
+        "key": "escape",
+        "command": "-inlineChat.hideHint",
+        "when": "inlineChatShowingHint"
+    },
+    {
         "key": "enter",
         "command": "-workbench.action.edits.submit",
         "when": "inChatInput && chatMode != 'ask'"
@@ -6593,26 +6618,6 @@
         "key": "ctrl+r",
         "command": "-workbench.action.terminal.chat.rerunRequest",
         "when": "chatIsEnabled && terminalChatFocus && terminalHasBeenCreated && !terminalChatActiveRequest || chatIsEnabled && terminalChatFocus && terminalProcessSupported && !terminalChatActiveRequest"
-    },
-    {
-        "key": "ctrl+k ctrl+k",
-        "command": "-editor.action.defineKeybinding",
-        "when": "resource == 'vscode-userdata:/var/home/iaacornus/.config/Code/User/profiles/7e6362/keybindings.json'"
-    },
-    {
-        "key": "ctrl+shift+t",
-        "command": "-mergeEditor.toggleBetweenInputs",
-        "when": "isMergeEditor"
-    },
-    {
-        "key": "ctrl+k m",
-        "command": "-notebook.cell.changeLanguage",
-        "when": "notebookCellEditable && notebookEditable && notebookEditorFocused"
-    },
-    {
-        "key": "ctrl+i",
-        "command": "-search.action.searchWithAI",
-        "when": "hasAIResultProviderKey && searchViewletFocus"
     },
     {
         "key": "ctrl+alt+c",
@@ -6650,22 +6655,13 @@
         "when": "!textInputFocus"
     },
     {
+        "key": "enter",
+        "command": "-keybindings.editor.defineKeybinding",
+        "when": "inKeybindings && keybindingFocus && !whenFocus"
+    },
+    {
         "key": "ctrl+shift+f t",
         "command": "workbench.action.files.newUntitledFile"
-    },
-    {
-        "key": "ctrl+shift+t",
-        "command": "jupyter.openOutlineView"
-    },
-    {
-        "key": "ctrl+shift+n",
-        "command": "-chatEditor.action.reject",
-        "when": "chatEdits.hasEditorModifications && editorFocus && !chatEdits.isRequestInProgress || chatEdits.hasEditorModifications && notebookEditorFocused && !chatEdits.isRequestInProgress"
-    },
-    {
-        "key": "ctrl+n",
-        "command": "-chatEditor.action.undoHunk",
-        "when": "chatEdits.hasEditorModifications && editorFocus && !chatEdits.isRequestInProgress || chatEdits.hasEditorModifications && notebookCellListFocused && !chatEdits.isRequestInProgress"
     },
     {
         "key": "ctrl+alt+/",
@@ -6688,6 +6684,16 @@
         "when": "config.chat.agent.enabled && !chatSetupDisabled && !chatSetupHidden"
     },
     {
+        "key": "ctrl+shift+n",
+        "command": "-chatEditor.action.reject",
+        "when": "chatEdits.hasEditorModifications && editorFocus && !chatEdits.isRequestInProgress || chatEdits.hasEditorModifications && notebookEditorFocused && !chatEdits.isRequestInProgress"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "-chatEditor.action.undoHunk",
+        "when": "chatEdits.hasEditorModifications && editorFocus && !chatEdits.isRequestInProgress || chatEdits.hasEditorModifications && notebookCellListFocused && !chatEdits.isRequestInProgress"
+    },
+    {
         "key": "escape",
         "command": "-inlineChat2.close",
         "when": "inlineChatHasEditsAgent && inlineChatVisible && !chatEdits.hasEditorModifications && !chatEdits.isRequestInProgress || inlineChatHasEditsAgent && inlineChatVisible && !chatEdits.isRequestInProgress && chatEdits.requestCount == '0'"
@@ -6703,21 +6709,6 @@
         "when": "inSettingsEditor"
     },
     {
-        "key": "alt+f5",
-        "command": "-workbench.action.editor.nextChange",
-        "when": "editorTextFocus && !textCompareEditorActive && quickDiffDecorationCount != '0'"
-    },
-    {
-        "key": "shift+alt+f5",
-        "command": "-workbench.action.editor.previousChange",
-        "when": "editorTextFocus && !textCompareEditorActive && quickDiffDecorationCount != '0'"
-    },
-    {
-        "key": "ctrl+shift+r",
-        "command": "-workbench.action.tasks.rerunForActiveTerminal",
-        "when": "taskTerminalActive && terminalFocus"
-    },
-    {
         "key": "ctrl+shift+r",
         "command": "references-view.findReferences",
         "when": "editorHasReferenceProvider"
@@ -6728,12 +6719,26 @@
         "when": "editorHasReferenceProvider"
     },
     {
-        "key": "ctrl+end",
-        "command": "cursorLineEnd"
+        "key": "ctrl+shift+r",
+        "command": "-workbench.action.tasks.rerunForActiveTerminal",
+        "when": "taskTerminalActive && terminalFocus"
+    },
+    {
+        "key": "shift+alt+f5",
+        "command": "-workbench.action.editor.previousChange",
+        "when": "editorTextFocus && !textCompareEditorActive && quickDiffDecorationCount != '0'"
+    },
+    {
+        "key": "ctrl+shift+t",
+        "command": "jupyter.openOutlineView"
     },
     {
         "key": "ctrl+home",
         "command": "cursorLineStart"
+    },
+    {
+        "key": "ctrl+end",
+        "command": "cursorLineEnd"
     },
     {
         "key": "ctrl+shift+end",
@@ -6742,5 +6747,47 @@
     {
         "key": "ctrl+shift+home",
         "command": "cursorLineStartSelect"
+    },
+    {
+        "key": "alt+f5",
+        "command": "-workbench.action.editor.nextChange",
+        "when": "editorTextFocus && !textCompareEditorActive && quickDiffDecorationCount != '0'"
+    },
+    {
+        "key": "f5",
+        "command": "cmake.launchTarget",
+        "when": "cmake:enableFullFeatureSet && !cmake:hideDebugCommand && !inDebugMode"
+    },
+    {
+        "key": "ctrl+shift+f5",
+        "command": "-cmake.launchTarget",
+        "when": "cmake:enableFullFeatureSet && !cmake:hideDebugCommand && !inDebugMode"
+    },
+    {
+        "key": "ctrl+; s",
+        "command": "-jupyter.insertCellBelowPosition",
+        "when": "editorTextFocus && isWorkspaceTrusted && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+shift+f5",
+        "command": "jupyter.runallcells"
+    },
+    {
+        "key": "ctrl+shift+f5",
+        "command": "notebook.execute"
+    },
+    {
+        "key": "shift+alt+enter",
+        "command": "notebook.revealRunningCell"
+    },
+    {
+        "key": "ctrl+shift+enter",
+        "command": "notebook.cell.executeAndInsertBelow",
+        "when": "notebookCellListFocused && notebookCellType == 'markup' || notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
+    },
+    {
+        "key": "alt+enter",
+        "command": "-notebook.cell.executeAndInsertBelow",
+        "when": "notebookCellListFocused && notebookCellType == 'markup' || notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
     }
 ]
