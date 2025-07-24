@@ -596,11 +596,6 @@
         "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
     },
     {
-        "key": "ctrl+; s",
-        "command": "-jupyter.insertCellBelowPosition",
-        "when": "editorTextFocus && isWorkspaceTrusted && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
-    },
-    {
         "key": "f10",
         "command": "-jupyter.runByLineNext",
         "when": "jupyter.notebookeditor.runByLineInProgress"
@@ -3944,11 +3939,6 @@
         "when": "inlineChatHasProvider && inlineChatVisible && interactiveEditorHasProvider && interactiveEditorVisible && !inlineChatDocumentChanged && !interactiveEditorDocumentChanged || inlineChatHasProvider && inlineChatVisible && interactiveEditorHasProvider && interactiveEditorVisible && !inlineChatDocumentChanged && config.interactiveEditor.editMode != 'preview' || inlineChatHasProvider && inlineChatVisible && interactiveEditorHasProvider && interactiveEditorVisible && !interactiveEditorDocumentChanged && config.inlineChat.editMode != 'preview' || inlineChatHasProvider && inlineChatVisible && interactiveEditorHasProvider && interactiveEditorVisible && config.inlineChat.editMode != 'preview' && config.interactiveEditor.editMode != 'preview'"
     },
     {
-        "key": "shift+enter",
-        "command": "-notebook.cell.executeAndSelectBelow",
-        "when": "notebookCellListFocused && !interactiveEditorFocused && notebookCellType == 'code' || editorTextFocus && inputFocus && notebookEditorFocused && !interactiveEditorFocused"
-    },
-    {
         "key": "alt+o",
         "command": "-C_Cpp.SwitchHeaderSource",
         "when": "editorTextFocus && editorLangId =~ /^(c|(cuda-)?cpp)$/ && !(config.C_Cpp.intelliSenseEngine =~ /^[dD]isabled$/)"
@@ -4733,21 +4723,6 @@
         "when": "listFocus && listSupportsFind"
     },
     {
-        "key": "alt+enter",
-        "command": "notebook.cell.executeAndInsertBelow",
-        "when": "notebookCellListFocused && notebookCellType == 'markup' || notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
-    },
-    {
-        "key": "alt+enter",
-        "command": "-notebook.cell.executeAndInsertBelow",
-        "when": "notebookCellListFocused && notebookCellType == 'markup' || notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
-    },
-    {
-        "key": "shift+enter",
-        "command": "-notebook.cell.executeAndSelectBelow",
-        "when": "notebookCellListFocused && !inlineChatFocused && notebookCellType == 'markup' || notebookCellListFocused && notebookMissingKernelExtension && !inlineChatFocused && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !inlineChatFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !inlineChatFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
-    },
-    {
         "key": "ctrl+shift+v",
         "command": "-r.rmarkdown.showPreview",
         "when": "editorTextFocus && editorLangId == 'rmd'"
@@ -5351,20 +5326,12 @@
         "command": "jupyter.restartkernel"
     },
     {
-        "key": "ctrl+shift+enter",
-        "command": "jupyter.runallcells"
-    },
-    {
         "key": "shift+alt+v",
         "command": "jupyter.openVariableView"
     },
     {
         "key": "ctrl+shift+c",
         "command": "notebook.clearAllCellsOutputs"
-    },
-    {
-        "key": "ctrl+shift+enter",
-        "command": "notebook.execute"
     },
     {
         "key": "ctrl+m up",
@@ -5616,10 +5583,6 @@
     {
         "key": "ctrl+shift+l",
         "command": "notebook.cell.changeLanguage"
-    },
-    {
-        "key": "shift+enter",
-        "command": "notebook.cell.executeAndSelectBelow"
     },
     {
         "key": "delete",
@@ -6057,14 +6020,6 @@
         "key": "ctrl+alt+enter",
         "command": "-workbench.action.chat.sendToChatEditing",
         "when": "chatEditingParticipantRegistered && chatInputHasText && chatIsEnabled && !chatInputHasAgent && !chatSessionRequestInProgress && chatLocation != 'editing-session'"
-    },
-    {
-        "key": "ctrl+alt+enter up",
-        "command": "notebook.cell.executeCellsAbove"
-    },
-    {
-        "key": "ctrl+alt+enter down",
-        "command": "notebook.cell.executeCellAndBelow"
     },
     {
         "key": "alt+f5",
@@ -6807,5 +6762,32 @@
         "key": "ctrl+shift+f5",
         "command": "-cmake.launchTarget",
         "when": "cmake:enableFullFeatureSet && !cmake:hideDebugCommand && !inDebugMode"
+    },
+    {
+        "key": "ctrl+; s",
+        "command": "-jupyter.insertCellBelowPosition",
+        "when": "editorTextFocus && isWorkspaceTrusted && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+shift+f5",
+        "command": "jupyter.runallcells"
+    },
+    {
+        "key": "ctrl+shift+f5",
+        "command": "notebook.execute"
+    },
+    {
+        "key": "shift+alt+enter",
+        "command": "notebook.revealRunningCell"
+    },
+    {
+        "key": "ctrl+shift+enter",
+        "command": "notebook.cell.executeAndInsertBelow",
+        "when": "notebookCellListFocused && notebookCellType == 'markup' || notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
+    },
+    {
+        "key": "alt+enter",
+        "command": "-notebook.cell.executeAndInsertBelow",
+        "when": "notebookCellListFocused && notebookCellType == 'markup' || notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
     }
 ]
