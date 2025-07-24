@@ -18,3 +18,4 @@ cp $HOME/.var/app/com.github.xournalpp.xournalpp/config/xournalpp/palette.gpl $H
 cp $HOME/.var/app/org.mozilla.Thunderbird/.thunderbird/clxeo831.default-esr/prefs.js $HOME/Code/workstation_setup/main_ws/config/thunderbird/
 cp -r $HOME/.config/ulauncher/* $HOME/Code/workstation_setup/main_ws/config/ulauncher/ # ulauncher
 rm -rf $HOME/Code/workstation_setup/main_ws/config/ulauncher/user-themes/libadwaita-ulauncher/.git/ # remove git dir
+cp $HOME/.config/Code/User/keybindings.json $HOME/.config/Code/User/profiles/7e6362/keybindings.json
