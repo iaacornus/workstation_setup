@@ -1835,21 +1835,6 @@
         "when": "textInputFocus"
     },
     {
-        "key": "shift+alt+end",
-        "command": "cursorBottomSelect",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "ctrl+shift+end",
-        "command": "-cursorBottomSelect",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "shift+pageup",
-        "command": "-cursorColumnSelectPageUp",
-        "when": "editorColumnSelection && textInputFocus"
-    },
-    {
         "key": "end",
         "command": "-cursorEnd",
         "when": "textInputFocus"
@@ -1867,16 +1852,6 @@
     {
         "key": "ctrl+home",
         "command": "-cursorTop",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "shift+alt+home",
-        "command": "cursorTopSelect",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "ctrl+shift+home",
-        "command": "-cursorTopSelect",
         "when": "textInputFocus"
     },
     {
@@ -2681,11 +2656,6 @@
         "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
     },
     {
-        "key": "ctrl+shift+right",
-        "command": "cursorWordRightSelect",
-        "when": "textInputFocus"
-    },
-    {
         "key": "ctrl+right",
         "command": "cursorWordRight",
         "when": "textInputFocus"
@@ -3062,11 +3032,6 @@
         "when": "textInputFocus"
     },
     {
-        "key": "shift+home",
-        "command": "-cursorHomeSelect",
-        "when": "textInputFocus"
-    },
-    {
         "key": "pagedown",
         "command": "-cursorPageDown",
         "when": "textInputFocus"
@@ -3080,16 +3045,6 @@
         "key": "ctrl+right",
         "command": "-cursorWordEndRight",
         "when": "textInputFocus"
-    },
-    {
-        "key": "ctrl+shift+right",
-        "command": "-cursorWordEndRightSelect",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "shift+left",
-        "command": "-cursorColumnSelectLeft",
-        "when": "editorColumnSelection && textInputFocus"
     },
     {
         "key": "pageup",
@@ -3300,21 +3255,6 @@
         "key": "ctrl+f",
         "command": "-list.find",
         "when": "listFocus && listSupportsFind"
-    },
-    {
-        "key": "shift+pagedown",
-        "command": "-cursorColumnSelectPageDown",
-        "when": "editorColumnSelection && textInputFocus"
-    },
-    {
-        "key": "shift+pagedown",
-        "command": "-cursorPageDownSelect",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "shift+pageup",
-        "command": "-cursorPageUpSelect",
-        "when": "textInputFocus"
     },
     {
         "key": "pagedown",
@@ -4959,14 +4899,6 @@
     {
         "key": "ctrl+pageup",
         "command": "cursorPageUp"
-    },
-    {
-        "key": "ctrl+shift+pagedown",
-        "command": "cursorPageDownSelect"
-    },
-    {
-        "key": "ctrl+shift+pageup",
-        "command": "cursorPageUpSelect"
     },
     {
         "key": "alt+home",
@@ -6627,14 +6559,6 @@
         "command": "cursorLineEnd"
     },
     {
-        "key": "ctrl+shift+end",
-        "command": "cursorLineEndSelect"
-    },
-    {
-        "key": "ctrl+shift+home",
-        "command": "cursorLineStartSelect"
-    },
-    {
         "key": "alt+f5",
         "command": "-workbench.action.editor.nextChange",
         "when": "editorTextFocus && !textCompareEditorActive && quickDiffDecorationCount != '0'"
@@ -6697,11 +6621,6 @@
         "when": "chatIsEnabled && hasSpeechProvider && !chatSessionRequestInProgress && !editorFocus && !inChatInput && !inSettingsEditor && !inlineChatFocused && !notebookEditorFocused && !searchViewletFocus"
     },
     {
-        "key": "ctrl+]",
-        "command": "inlineChat2.close",
-        "when": "inlineChatHasEditsAgent && inlineChatVisible && !chatEdits.isRequestInProgress && chatEdits.requestCount == '0' || inlineChatHasEditsAgent && inlineChatVisible && !chatEdits.hasEditorModifications && !chatEdits.isRequestInProgress && chatEdits.requestCount == '0'"
-    },
-    {
         "key": "ctrl+alt+enter",
         "command": "notebook.cell.executeCellsAbove",
         "when": "notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
@@ -6724,5 +6643,48 @@
         "key": "meta+enter",
         "command": "-notebook.cell.quitEdit",
         "when": "inputFocus && notebookEditorFocused && !inlineChatFocused && notebookCellType == 'markup'"
+    },
+    {
+        "key": "ctrl+alt+y",
+        "command": "-chatEditor.action.acceptAllEdits",
+        "when": "chatEdits.hasEditorModifications && editorFocus && !chatEdits.isRequestInProgress || chatEdits.hasEditorModifications && notebookEditorFocused && !chatEdits.isRequestInProgress"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "-workbench.action.chat.newChat",
+        "when": "chatEditingParticipantRegistered && chatIsEnabled && inChat"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "-workbench.action.openChat",
+        "when": "chatIsEnabled && inChat && inChatEditor"
+    },
+    {
+        "key": "ctrl+shift+y",
+        "command": "-inlineChat2.keep",
+        "when": "inlineChatHasEditsAgent && inlineChatVisible && !chatEdits.isRequestInProgress"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "-inlineChat2.undo",
+        "when": "inlineChatHasEditsAgent && inlineChatVisible && !chatEdits.isRequestInProgress"
+    },
+    {
+        "key": "enter",
+        "command": "-workbench.action.chat.editRequests",
+        "when": "inChat && !textInputFocus"
+    },
+    {
+        "key": "escape",
+        "command": "-workbench.edit.chat.cancel",
+        "when": "chatSessionCurrentlyEditing && inChatInput && !editorHasMultipleSelections && !editorHasSelection && !editorHoverVisible || chatSessionCurrentlyEditingInput && inChatInput && !editorHasMultipleSelections && !editorHasSelection && !editorHoverVisible"
+    },
+    {
+        "key": "shift+end",
+        "command": "cursorLineEndSelect"
+    },
+    {
+        "key": "shift+home",
+        "command": "cursorLineStartSelect"
     }
 ]
