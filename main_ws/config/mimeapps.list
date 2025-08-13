@@ -161,7 +161,7 @@ application/x-clustal+txt=install4j_18mhpzv-jalviewg.desktop
 application/x-fasta+txt=snapgene.desktop
 application/x-jalview-features+text=install4j_18mhpzv-jalviewg.desktop
 application/x-featuresettings+txt=install4j_18mhpzv-jalviewg.desktop
-application/x-genbank+txt=install4j_18mhpzv-jalviewg.desktop
+application/x-genbank+txt=snapgene.desktop
 application/x-gff2+txt=install4j_18mhpzv-jalviewg.desktop
 application/x-gff3+txt=install4j_18mhpzv-jalviewg.desktop
 application/x-jalview-jnet+text=install4j_18mhpzv-jalviewg.desktop
@@ -178,6 +178,8 @@ x-scheme-handler/jalviews=install4j_18mhpzv-jalviewg.desktop
 x-scheme-handler/jalviewhttp=install4j_18mhpzv-jalviewg.desktop
 x-scheme-handler/jalviewhttps=install4j_18mhpzv-jalviewg.desktop
 x-scheme-handler/jalviewx=install4j_18mhpzv-jalviewg.desktop
+text/markdown=org.gnome.TextEditor.desktop
+application/json=org.gnome.TextEditor.desktop
 
 [Added Associations]
 application/pdf=org.gnome.Papers.desktop
@@ -206,3 +208,6 @@ audio/x-wavpack=org.gnome.Decibels.desktop;
 application/x-ipynb+json=code.desktop;
 application/octet-stream=io.github.labsquare.CutePeaks.desktop;
 application/x-fasta+txt=io.github.labsquare.CutePeaks.desktop;Jalview.desktop;snapgene.desktop;
+application/x-genbank+txt=snapgene.desktop;
+text/markdown=org.gnome.TextEditor.desktop;
+application/json=org.gnome.TextEditor.desktop;
